@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.1.4">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="ptb" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="End Message" updates="None" val="" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1536, 864]" valType="list"/>
+    <Param name="backgroundFit" updates="None" val="none" valType="str"/>
+    <Param name="backgroundImg" updates="None" val="" valType="str"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[-1,-1,-1]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="stroop" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="keyboardBackend" updates="None" val="ioHub" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="plConfidenceThreshold" updates="None" val="0.6" valType="num"/>
+    <Param name="plPupilCaptureRecordingEnabled" updates="None" val="True" valType="bool"/>
+    <Param name="plPupilCaptureRecordingLocation" updates="None" val="" valType="str"/>
+    <Param name="plPupilRemoteAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="plPupilRemotePort" updates="None" val="50020" valType="num"/>
+    <Param name="plPupilRemoteTimeoutMs" updates="None" val="1000" valType="num"/>
+    <Param name="plPupillometryOnly" updates="None" val="False" valType="bool"/>
+    <Param name="plSurfaceName" updates="None" val="psychopy_iohub_surface" valType="str"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+    <Param name="winBackend" updates="None" val="pyglet" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="instruct">
+      <CodeComponent name="choose_trials">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="# Choosing trials for each condition&amp;#10;useRows = []&amp;#10;&amp;#10;rows1 = np.arange(4)&amp;#10;cond1 = np.random.choice(rows1,20)&amp;#10;useRows.append(cond1)&amp;#10;&amp;#10;rows2 = np.arange(12)+4&amp;#10;cond2 = np.random.choice(rows2,20)&amp;#10;useRows.append(cond2)&amp;#10;&amp;#10;rows3 = np.arange(12)+16&amp;#10;cond3 = np.random.choice(rows3,20)&amp;#10;useRows.append(cond3)&amp;#10;&amp;#10;rows4 = np.arange(36)+28&amp;#10;cond4 = np.random.choice(rows4,20)&amp;#10;useRows.append(cond4)&amp;#10;&amp;#10;# Shuffling trials&amp;#10;useRows = np.concatenate(useRows)&amp;#10;np.random.shuffle(useRows)&amp;#10;print(useRows)&amp;#10;print(type(useRows))&amp;#10;&amp;#10;# ISI for each trial&amp;#10;import pandas as pd&amp;#10;timings = pd.read_excel('timings_stroop.xlsx')&amp;#10;timings = timings['Timings'].tolist()" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="import * as pd from 'pandas';&amp;#10;var cond1, cond2, cond3, cond4, rows1, rows2, rows3, rows4, timings, useRows;&amp;#10;useRows = [];&amp;#10;rows1 = np.arange(4);&amp;#10;cond1 = np.random.choice(rows1, 20);&amp;#10;useRows.append(cond1);&amp;#10;rows2 = (np.arange(12) + 4);&amp;#10;cond2 = np.random.choice(rows2, 20);&amp;#10;useRows.append(cond2);&amp;#10;rows3 = (np.arange(12) + 16);&amp;#10;cond3 = np.random.choice(rows3, 20);&amp;#10;useRows.append(cond3);&amp;#10;rows4 = (np.arange(36) + 28);&amp;#10;cond4 = np.random.choice(rows4, 20);&amp;#10;useRows.append(cond4);&amp;#10;useRows = np.concatenate(useRows);&amp;#10;np.random.shuffle(useRows);&amp;#10;timings = pd.read_excel(&quot;timings_stroop.xlsx&quot;);&amp;#10;timings = timings[&quot;Timings&quot;].tolist();&amp;#10;np.random.shuffle(timings);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="choose_trials" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="instrText">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="constant" val="instrText" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="你將會在熒幕上看到兩個字。&amp;#10;&amp;#10;如果上方的字的顔色與下方的字的意思吻合，&amp;#10;請按左鍵。&amp;#10;如果上方的字的顔色與下方的字的意思不吻合，&amp;#10;請按右鍵。&amp;#10;&amp;#10;準備好請按左鍵" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="ready">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="thisTrial.corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="ready" valType="code"/>
+        <Param name="registerOn" updates="constant" val="press" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <CodeComponent name="this_trial">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="thisExp.addData('useRows', useRows[trials.thisN])" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="this_trial" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="topTxt">
+        <Param name="color" updates="set every repeat" val="$topColour" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.15" valType="code"/>
+        <Param name="name" updates="constant" val="topTxt" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$topText" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="bottomTxt">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.15" valType="num"/>
+        <Param name="name" updates="None" val="bottomTxt" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$bottomText" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="resp">
+        <Param name="allowedKeys" updates="constant" val="'1','2'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="resp" valType="code"/>
+        <Param name="registerOn" updates="constant" val="press" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="thanksText">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="constant" val="thanksText" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="實驗完畢，感謝您的參與！" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="ISI">
+      <TextComponent name="fixation">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="jitter">
+      <CodeComponent name="vary_ITI">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="iti = timings[trials.thisN]&amp;#10;thisExp.addData('ITI', iti)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="vary_ITI" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="fixation_jitter">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="fixation_jitter" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="iti" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruct"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="$useRows" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'left'}, {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 'left'}, {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 'left'}, {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '紅', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '紅', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '藍', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '黃', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '黃', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '黃', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '綠', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '綠', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 2, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'left'}, {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '紅', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '藍', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'red', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'red', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '黃', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'red', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'red', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'right'}, {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'right'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trialTypes.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="jitter"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>

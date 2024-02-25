@@ -1,0 +1,332 @@
+2.5369 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.5376 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+11.1288 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CFD1E14280>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CFD1E14220>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CFD1E09D30>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D05BCF55B0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.1290 	EXP 	window1: mouseVisible = True
+11.1290 	EXP 	window1: backgroundImage = ''
+11.1290 	EXP 	window1: backgroundFit = 'none'
+11.1291 	EXP 	window1: mouseVisible = False
+11.1292 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.1292 	EXP 	window1: recordFrameIntervals = False
+11.2948 	EXP 	window1: recordFrameIntervals = True
+11.4786 	EXP 	Screen (0) actual frame rate measured at 59.93Hz
+11.4787 	EXP 	window1: recordFrameIntervals = False
+15.0207 	EXP 	Created trigger_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trigger_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗即將開始', units='height', win=Window(...), wrapWidth=1)
+15.1029 	EXP 	Created instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="PREP INSTRUCTIONS \n\n準備好請按 '1' ", units='height', win=Window(...), wrapWidth=1)
+15.1049 	EXP 	Created prep_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='prep_instr', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.1201 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.1317 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.1377 	EXP 	Created trial_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.1389 	EXP 	Created prep_instr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='prep_instr_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.1505 	EXP 	Created target_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='target_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.1646 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.1680 	EXP 	Created trial_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.1735 	EXP 	Created rest_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rest_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='休息', units='height', win=Window(...), wrapWidth=1)
+15.1792 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完成', units='height', win=Window(...), wrapWidth=1)
+15.1879 	EXP 	trigger_txt: autoDraw = True
+15.6498 	EXP 	trigger_txt: autoDraw = False
+15.6498 	EXP 	instr_txt: autoDraw = True
+16.8020 	EXP 	Created sequence: random, trialTypes=1, nReps=8, seed=None
+16.8022 	EXP 	New trial (rep=0, index=0): None
+16.8252 	EXP 	instr_txt: autoDraw = False
+16.8252 	EXP 	prep_instr: height = 0.1
+16.8252 	EXP 	prep_instr: height = 0.1
+16.8252 	EXP 	prep_instr: height = 0.1
+16.8252 	EXP 	prep_instr: text = '0-Back'
+16.8252 	EXP 	target: image = 'nback_stimuli/BP_074_BODY_13_BA.png'
+16.8252 	EXP 	prep_instr: autoDraw = True
+16.8252 	EXP 	target: autoDraw = True
+19.4331 	EXP 	Imported trialTypes.xlsx as conditions, 10 conditions, 8 params
+19.4336 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+19.4338 	EXP 	New trial (rep=0, index=0): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_078_BODY_17_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+19.4464 	EXP 	prep_instr: autoDraw = False
+19.4464 	EXP 	target: autoDraw = False
+19.4464 	EXP 	image: image = 'nback_stimuli/BP_078_BODY_17_BA.png'
+19.4464 	EXP 	image: autoDraw = True
+21.3227 	EXP 	image: autoDraw = False
+21.3227 	EXP 	trial_fixation: autoDraw = True
+21.8069 	EXP 	New trial (rep=0, index=1): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_074_BODY_13_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}
+21.8232 	EXP 	trial_fixation: autoDraw = False
+21.8232 	EXP 	image: image = 'nback_stimuli/BP_074_BODY_13_BA.png'
+21.8232 	EXP 	image: autoDraw = True
+23.8255 	EXP 	image: autoDraw = False
+23.8255 	EXP 	trial_fixation: autoDraw = True
+24.3099 	EXP 	New trial (rep=0, index=2): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_075_BODY_14_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+24.3263 	EXP 	trial_fixation: autoDraw = False
+24.3263 	EXP 	image: image = 'nback_stimuli/BP_075_BODY_14_BA.png'
+24.3263 	EXP 	image: autoDraw = True
+26.3284 	EXP 	image: autoDraw = False
+26.3284 	EXP 	trial_fixation: autoDraw = True
+26.8127 	EXP 	New trial (rep=0, index=3): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_076_BODY_15_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+26.8291 	EXP 	trial_fixation: autoDraw = False
+26.8291 	EXP 	image: image = 'nback_stimuli/BP_076_BODY_15_BA.png'
+26.8291 	EXP 	image: autoDraw = True
+28.8316 	EXP 	image: autoDraw = False
+28.8316 	EXP 	trial_fixation: autoDraw = True
+29.3155 	EXP 	New trial (rep=0, index=4): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_078_BODY_17_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+29.3319 	EXP 	trial_fixation: autoDraw = False
+29.3319 	EXP 	image: image = 'nback_stimuli/BP_078_BODY_17_BA.png'
+29.3319 	EXP 	image: autoDraw = True
+31.3342 	EXP 	image: autoDraw = False
+31.3342 	EXP 	trial_fixation: autoDraw = True
+31.8020 	EXP 	New trial (rep=0, index=5): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_079_BODY_18_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+31.8181 	EXP 	trial_fixation: autoDraw = False
+31.8181 	EXP 	image: image = 'nback_stimuli/BP_079_BODY_18_BA.png'
+31.8181 	EXP 	image: autoDraw = True
+33.8203 	EXP 	image: autoDraw = False
+33.8203 	EXP 	trial_fixation: autoDraw = True
+34.3045 	EXP 	New trial (rep=0, index=6): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_079_BODY_18_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+34.3208 	EXP 	trial_fixation: autoDraw = False
+34.3208 	EXP 	image: image = 'nback_stimuli/BP_079_BODY_18_BA.png'
+34.3208 	EXP 	image: autoDraw = True
+36.3232 	EXP 	image: autoDraw = False
+36.3232 	EXP 	trial_fixation: autoDraw = True
+36.8074 	EXP 	New trial (rep=0, index=7): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_077_BODY_16_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+36.8240 	EXP 	trial_fixation: autoDraw = False
+36.8240 	EXP 	image: image = 'nback_stimuli/BP_077_BODY_16_BA.png'
+36.8240 	EXP 	image: autoDraw = True
+38.8261 	EXP 	image: autoDraw = False
+38.8261 	EXP 	trial_fixation: autoDraw = True
+39.3106 	EXP 	New trial (rep=0, index=8): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_074_BODY_13_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}
+39.3293 	EXP 	trial_fixation: autoDraw = False
+39.3293 	EXP 	image: image = 'nback_stimuli/BP_074_BODY_13_BA.png'
+39.3293 	EXP 	image: autoDraw = True
+41.3292 	EXP 	image: autoDraw = False
+41.3292 	EXP 	trial_fixation: autoDraw = True
+41.8134 	EXP 	New trial (rep=0, index=9): {'Run': 7, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_075_BODY_14_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}
+41.8298 	EXP 	trial_fixation: autoDraw = False
+41.8298 	EXP 	image: image = 'nback_stimuli/BP_075_BODY_14_BA.png'
+41.8298 	EXP 	image: autoDraw = True
+43.8320 	EXP 	image: autoDraw = False
+43.8320 	EXP 	trial_fixation: autoDraw = True
+44.3376 	EXP 	trial_fixation: autoDraw = False
+44.3376 	EXP 	prep_instr_2: height = 0.1
+44.3376 	EXP 	prep_instr_2: height = 0.1
+44.3376 	EXP 	prep_instr_2: height = 0.1
+44.3376 	EXP 	prep_instr_2: text = '2-Back'
+44.3376 	EXP 	target_2: image = 'nback_stimuli/PL_081_O10.1.png'
+44.3376 	EXP 	prep_instr_2: autoDraw = True
+44.3376 	EXP 	target_2: autoDraw = True
+46.9395 	EXP 	Imported trialTypes.xlsx as conditions, 10 conditions, 8 params
+46.9399 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+46.9402 	EXP 	New trial (rep=0, index=0): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_081_O10.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+46.9522 	EXP 	prep_instr_2: autoDraw = False
+46.9522 	EXP 	target_2: autoDraw = False
+46.9522 	EXP 	image: image = 'nback_stimuli/PL_081_O10.1.png'
+46.9522 	EXP 	image: autoDraw = True
+48.8209 	EXP 	image: autoDraw = False
+48.8209 	EXP 	trial_fixation: autoDraw = True
+49.3051 	EXP 	New trial (rep=0, index=1): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_081_O10.1.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+49.3216 	EXP 	trial_fixation: autoDraw = False
+49.3216 	EXP 	image: image = 'nback_stimuli/PL_081_O10.1.png'
+49.3216 	EXP 	image: autoDraw = True
+51.3239 	EXP 	image: autoDraw = False
+51.3239 	EXP 	trial_fixation: autoDraw = True
+51.8080 	EXP 	New trial (rep=0, index=2): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_082_O11.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+51.8246 	EXP 	trial_fixation: autoDraw = False
+51.8246 	EXP 	image: image = 'nback_stimuli/PL_082_O11.1.png'
+51.8246 	EXP 	image: autoDraw = True
+53.8267 	EXP 	image: autoDraw = False
+53.8267 	EXP 	trial_fixation: autoDraw = True
+54.3111 	EXP 	New trial (rep=0, index=3): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_077_P70.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+54.3272 	EXP 	trial_fixation: autoDraw = False
+54.3272 	EXP 	image: image = 'nback_stimuli/PL_077_P70.1.png'
+54.3272 	EXP 	image: autoDraw = True
+56.3296 	EXP 	image: autoDraw = False
+56.3296 	EXP 	trial_fixation: autoDraw = True
+56.8138 	EXP 	New trial (rep=0, index=4): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_082_O11.1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}
+56.8302 	EXP 	trial_fixation: autoDraw = False
+56.8302 	EXP 	image: image = 'nback_stimuli/PL_082_O11.1.png'
+56.8302 	EXP 	image: autoDraw = True
+58.8329 	EXP 	image: autoDraw = False
+58.8329 	EXP 	trial_fixation: autoDraw = True
+59.3168 	EXP 	New trial (rep=0, index=5): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_078_P71.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+59.3331 	EXP 	trial_fixation: autoDraw = False
+59.3331 	EXP 	image: image = 'nback_stimuli/PL_078_P71.1.png'
+59.3331 	EXP 	image: autoDraw = True
+61.3189 	EXP 	image: autoDraw = False
+61.3189 	EXP 	trial_fixation: autoDraw = True
+61.8030 	EXP 	New trial (rep=0, index=6): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_079_P72.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+61.8192 	EXP 	trial_fixation: autoDraw = False
+61.8192 	EXP 	image: image = 'nback_stimuli/PL_079_P72.1.png'
+61.8192 	EXP 	image: autoDraw = True
+63.8216 	EXP 	image: autoDraw = False
+63.8216 	EXP 	trial_fixation: autoDraw = True
+64.3059 	EXP 	New trial (rep=0, index=7): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_077_P70.1.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+64.3223 	EXP 	trial_fixation: autoDraw = False
+64.3223 	EXP 	image: image = 'nback_stimuli/PL_077_P70.1.png'
+64.3223 	EXP 	image: autoDraw = True
+66.3245 	EXP 	image: autoDraw = False
+66.3245 	EXP 	trial_fixation: autoDraw = True
+66.8088 	EXP 	New trial (rep=0, index=8): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_079_P72.1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}
+66.8253 	EXP 	trial_fixation: autoDraw = False
+66.8253 	EXP 	image: image = 'nback_stimuli/PL_079_P72.1.png'
+66.8253 	EXP 	image: autoDraw = True
+68.8275 	EXP 	image: autoDraw = False
+68.8275 	EXP 	trial_fixation: autoDraw = True
+69.3118 	EXP 	New trial (rep=0, index=9): {'Run': 7, 'Block': 2, 'Weight': 1, 'Stimulus': 'PL_080_O1.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}
+69.3284 	EXP 	trial_fixation: autoDraw = False
+69.3284 	EXP 	image: image = 'nback_stimuli/PL_080_O1.1.png'
+69.3284 	EXP 	image: autoDraw = True
+71.3306 	EXP 	image: autoDraw = False
+71.3306 	EXP 	trial_fixation: autoDraw = True
+71.8308 	EXP 	trial_fixation: autoDraw = False
+71.8308 	EXP 	rest_txt: autoDraw = True
+86.8154 	EXP 	New trial (rep=1, index=0): None
+86.8334 	EXP 	rest_txt: autoDraw = False
+86.8334 	EXP 	prep_instr: height = 0.1
+86.8334 	EXP 	prep_instr: height = 0.1
+86.8334 	EXP 	prep_instr: height = 0.1
+86.8334 	EXP 	prep_instr: text = '2-Back'
+86.8334 	EXP 	target: image = 'nback_stimuli/BP_080_BODY_19_BA.png'
+86.8334 	EXP 	prep_instr: autoDraw = True
+86.8334 	EXP 	target: autoDraw = True
+89.5162 	EXP 	Imported trialTypes.xlsx as conditions, 10 conditions, 8 params
+89.5167 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+89.5170 	EXP 	New trial (rep=0, index=0): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_080_BODY_19_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+89.5300 	EXP 	prep_instr: autoDraw = False
+89.5300 	EXP 	target: autoDraw = False
+89.5300 	EXP 	image: image = 'nback_stimuli/BP_080_BODY_19_BA.png'
+89.5300 	EXP 	image: autoDraw = True
+91.3200 	EXP 	image: autoDraw = False
+91.3200 	EXP 	trial_fixation: autoDraw = True
+91.8041 	EXP 	New trial (rep=0, index=1): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_084_BODY_23_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+91.8206 	EXP 	trial_fixation: autoDraw = False
+91.8206 	EXP 	image: image = 'nback_stimuli/BP_084_BODY_23_BA.png'
+91.8206 	EXP 	image: autoDraw = True
+93.8230 	EXP 	image: autoDraw = False
+93.8230 	EXP 	trial_fixation: autoDraw = True
+94.3070 	EXP 	New trial (rep=0, index=2): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_080_BODY_19_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}
+94.3234 	EXP 	trial_fixation: autoDraw = False
+94.3234 	EXP 	image: image = 'nback_stimuli/BP_080_BODY_19_BA.png'
+94.3234 	EXP 	image: autoDraw = True
+96.3258 	EXP 	image: autoDraw = False
+96.3258 	EXP 	trial_fixation: autoDraw = True
+96.8099 	EXP 	New trial (rep=0, index=3): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_085_BODY_24_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+96.8263 	EXP 	trial_fixation: autoDraw = False
+96.8263 	EXP 	image: image = 'nback_stimuli/BP_085_BODY_24_BA.png'
+96.8263 	EXP 	image: autoDraw = True
+98.8287 	EXP 	image: autoDraw = False
+98.8287 	EXP 	trial_fixation: autoDraw = True
+99.3128 	EXP 	New trial (rep=0, index=4): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_085_BODY_24_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+99.3293 	EXP 	trial_fixation: autoDraw = False
+99.3293 	EXP 	image: image = 'nback_stimuli/BP_085_BODY_24_BA.png'
+99.3293 	EXP 	image: autoDraw = True
+101.3318 	EXP 	image: autoDraw = False
+101.3318 	EXP 	trial_fixation: autoDraw = True
+101.8164 	EXP 	New trial (rep=0, index=5): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_084_BODY_23_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+101.8362 	EXP 	trial_fixation: autoDraw = False
+101.8362 	EXP 	image: image = 'nback_stimuli/BP_084_BODY_23_BA.png'
+101.8362 	EXP 	image: autoDraw = True
+103.8354 	EXP 	image: autoDraw = False
+103.8354 	EXP 	trial_fixation: autoDraw = True
+104.3024 	EXP 	New trial (rep=0, index=6): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_082_BODY_21_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+104.3193 	EXP 	trial_fixation: autoDraw = False
+104.3193 	EXP 	image: image = 'nback_stimuli/BP_082_BODY_21_BA.png'
+104.3193 	EXP 	image: autoDraw = True
+106.3207 	EXP 	image: autoDraw = False
+106.3207 	EXP 	trial_fixation: autoDraw = True
+106.8047 	EXP 	New trial (rep=0, index=7): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_081_BODY_20_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+106.8212 	EXP 	trial_fixation: autoDraw = False
+106.8212 	EXP 	image: image = 'nback_stimuli/BP_081_BODY_20_BA.png'
+106.8212 	EXP 	image: autoDraw = True
+108.8235 	EXP 	image: autoDraw = False
+108.8235 	EXP 	trial_fixation: autoDraw = True
+109.3077 	EXP 	New trial (rep=0, index=8): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_083_BODY_22_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}
+109.3242 	EXP 	trial_fixation: autoDraw = False
+109.3242 	EXP 	image: image = 'nback_stimuli/BP_083_BODY_22_BA.png'
+109.3242 	EXP 	image: autoDraw = True
+111.3264 	EXP 	image: autoDraw = False
+111.3264 	EXP 	trial_fixation: autoDraw = True
+111.8112 	EXP 	New trial (rep=0, index=9): {'Run': 7, 'Block': 3, 'Weight': 1, 'Stimulus': 'BP_081_BODY_20_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}
+111.8271 	EXP 	trial_fixation: autoDraw = False
+111.8271 	EXP 	image: image = 'nback_stimuli/BP_081_BODY_20_BA.png'
+111.8271 	EXP 	image: autoDraw = True
+113.8294 	EXP 	image: autoDraw = False
+113.8294 	EXP 	trial_fixation: autoDraw = True
+114.3319 	EXP 	trial_fixation: autoDraw = False
+114.3319 	EXP 	prep_instr_2: height = 0.1
+114.3319 	EXP 	prep_instr_2: height = 0.1
+114.3319 	EXP 	prep_instr_2: height = 0.1
+114.3319 	EXP 	prep_instr_2: text = '0-Back'
+114.3319 	EXP 	target_2: image = 'nback_stimuli/PL_083_O12.1.png'
+114.3319 	EXP 	prep_instr_2: autoDraw = True
+114.3319 	EXP 	target_2: autoDraw = True
+116.9426 	EXP 	Imported trialTypes.xlsx as conditions, 10 conditions, 8 params
+116.9431 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+116.9434 	EXP 	New trial (rep=0, index=0): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_086_O37.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+116.9562 	EXP 	prep_instr_2: autoDraw = False
+116.9562 	EXP 	target_2: autoDraw = False
+116.9562 	EXP 	image: image = 'nback_stimuli/PL_086_O37.1.png'
+116.9562 	EXP 	image: autoDraw = True
+118.8183 	EXP 	image: autoDraw = False
+118.8183 	EXP 	trial_fixation: autoDraw = True
+119.3024 	EXP 	New trial (rep=0, index=1): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_085_O3.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+119.3189 	EXP 	trial_fixation: autoDraw = False
+119.3189 	EXP 	image: image = 'nback_stimuli/PL_085_O3.1.png'
+119.3189 	EXP 	image: autoDraw = True
+121.3213 	EXP 	image: autoDraw = False
+121.3213 	EXP 	trial_fixation: autoDraw = True
+121.8054 	EXP 	New trial (rep=0, index=2): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_083_O12.1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}
+121.8219 	EXP 	trial_fixation: autoDraw = False
+121.8219 	EXP 	image: image = 'nback_stimuli/PL_083_O12.1.png'
+121.8219 	EXP 	image: autoDraw = True
+123.8241 	EXP 	image: autoDraw = False
+123.8241 	EXP 	trial_fixation: autoDraw = True
+124.3083 	EXP 	New trial (rep=0, index=3): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_083_O12.1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}
+124.3248 	EXP 	trial_fixation: autoDraw = False
+124.3248 	EXP 	image: image = 'nback_stimuli/PL_083_O12.1.png'
+124.3248 	EXP 	image: autoDraw = True
+126.3269 	EXP 	image: autoDraw = False
+126.3269 	EXP 	trial_fixation: autoDraw = True
+126.8111 	EXP 	New trial (rep=0, index=4): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_088_O42.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+126.8277 	EXP 	trial_fixation: autoDraw = False
+126.8277 	EXP 	image: image = 'nback_stimuli/PL_088_O42.1.png'
+126.8277 	EXP 	image: autoDraw = True
+128.8301 	EXP 	image: autoDraw = False
+128.8301 	EXP 	trial_fixation: autoDraw = True
+129.3141 	EXP 	New trial (rep=0, index=5): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_088_O42.1.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+129.3317 	EXP 	trial_fixation: autoDraw = False
+129.3317 	EXP 	image: image = 'nback_stimuli/PL_088_O42.1.png'
+129.3317 	EXP 	image: autoDraw = True
+131.3333 	EXP 	image: autoDraw = False
+131.3333 	EXP 	trial_fixation: autoDraw = True
+131.8175 	EXP 	New trial (rep=0, index=6): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_085_O3.1.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+131.8360 	EXP 	trial_fixation: autoDraw = False
+131.8360 	EXP 	image: image = 'nback_stimuli/PL_085_O3.1.png'
+131.8360 	EXP 	image: autoDraw = True
+133.8192 	EXP 	image: autoDraw = False
+133.8192 	EXP 	trial_fixation: autoDraw = True
+134.3035 	EXP 	New trial (rep=0, index=7): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_087_O38.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+134.3202 	EXP 	trial_fixation: autoDraw = False
+134.3202 	EXP 	image: image = 'nback_stimuli/PL_087_O38.1.png'
+134.3202 	EXP 	image: autoDraw = True
+136.3218 	EXP 	image: autoDraw = False
+136.3218 	EXP 	trial_fixation: autoDraw = True
+136.8061 	EXP 	New trial (rep=0, index=8): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_084_O2.1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+136.8227 	EXP 	trial_fixation: autoDraw = False
+136.8227 	EXP 	image: image = 'nback_stimuli/PL_084_O2.1.png'
+136.8227 	EXP 	image: autoDraw = True
+138.8252 	EXP 	image: autoDraw = False
+138.8252 	EXP 	trial_fixation: autoDraw = True
+139.3093 	EXP 	New trial (rep=0, index=9): {'Run': 7, 'Block': 4, 'Weight': 1, 'Stimulus': 'PL_087_O38.1.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}
+139.3276 	EXP 	trial_fixation: autoDraw = False
+139.3276 	EXP 	image: image = 'nback_stimuli/PL_087_O38.1.png'
+139.3276 	EXP 	image: autoDraw = True
+141.3279 	EXP 	image: autoDraw = False
+141.3279 	EXP 	trial_fixation: autoDraw = True
+141.8287 	EXP 	trial_fixation: autoDraw = False
+141.8287 	EXP 	rest_txt: autoDraw = True
+156.8126 	EXP 	New trial (rep=2, index=0): None
+156.8424 	EXP 	rest_txt: autoDraw = False
+156.8424 	EXP 	prep_instr: text = '2-Back'
+156.8424 	EXP 	target: image = 'nback_stimuli/FC_073_M37.png'
+156.8424 	EXP 	prep_instr: autoDraw = True
+156.8424 	EXP 	target: autoDraw = True
+159.4470 	EXP 	Imported trialTypes.xlsx as conditions, 10 conditions, 8 params
+159.4474 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+159.4477 	EXP 	New trial (rep=0, index=0): {'Run': 7, 'Block': 5, 'Weight': 1, 'Stimulus': 'FC_073_M37.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}
+159.4632 	EXP 	prep_instr: autoDraw = False
+159.4632 	EXP 	target: autoDraw = False
+159.4632 	EXP 	image: image = 'nback_stimuli/FC_073_M37.png'
+159.4632 	EXP 	image: autoDraw = True
+161.1931 	EXP 	window1: mouseVisible = True

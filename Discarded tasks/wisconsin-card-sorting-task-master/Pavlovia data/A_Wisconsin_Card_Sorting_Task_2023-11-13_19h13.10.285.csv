@@ -1,0 +1,12 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+0,3990,-0.341145833,0.239583333,1,0,0,one_red_dot,0,0,0,25,1,number,images/2redDots.jpg,two_yellow_triangles,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,4682,-0.33203125,0.2578125,1,0,0,one_red_dot,0,1,1,5,1,number,images/1greenDot.jpg,one_red_dot,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,2371,0.337239583,0.223958333,1,0,0,four_blue_stars,0,2,2,59,1,number,images/4redTriangles.jpg,four_blue_stars,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,2232,-0.427083333,0.265625,1,0,0,one_red_dot,0,3,3,11,1,number,images/1redTriangle.jpg,one_red_dot,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,2614,-0.38671875,0.233072917,1,0,0,one_red_dot,0,4,4,3,1,number,images/1blueTriangle.jpg,one_red_dot,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,6862,-0.38671875,0.233072917,1,0,0,one_red_dot,0,5,5,12,1,number,images/1yellowCross.jpg,one_red_dot,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,5263,0.29296875,0.252604167,1,0,0,four_blue_stars,0,6,6,60,1,number,images/4yellowCrosses.jpg,four_blue_stars,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+,,,,,,,,,,,,,,,,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,0,0,0,1,1,64:128
+0,1925,0.40234375,0.272135417,1,0,0,four_blue_stars,0,0,0,57,1,shape,images/4redDots.jpg,one_red_dot,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+0,6643,-0.127604167,0.240885417,1,0,0,two_yellow_triangles,0,1,1,28,1,shape,images/2yellowCrosses.jpg,three_green_crosses,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,
+1,2422,-0.34765625,0.28125,1,0,0,one_red_dot,0,2,2,33,1,shape,images/3blueDots.jpg,one_red_dot,A,001,2023-11-13_19h13.10.285,Wisconsin Card Sorting Task,2022.1.2,Win32,59.97361161,,,,,,

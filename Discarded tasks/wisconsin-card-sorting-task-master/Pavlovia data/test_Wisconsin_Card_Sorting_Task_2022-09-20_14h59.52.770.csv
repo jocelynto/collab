@@ -1,0 +1,14 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+1,5316,-0.120833333,0.303472222,1,0,0,two_yellow_triangles,0,0,0,31,1,number,images/2yellowTriangles.jpg,two_yellow_triangles,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+1,4030,0.372916667,0.236805556,1,0,0,four_blue_stars,0,1,1,48,1,number,images/4blueCrosses.jpg,four_blue_stars,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+0,2545,-0.116666667,0.231944444,1,0,0,two_yellow_triangles,0,2,2,62,1,number,images/4yellowStars.jpg,four_blue_stars,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+0,2027,0.345833333,0.218055556,1,0,0,four_blue_stars,0,3,3,2,1,number,images/1blueStar.jpg,one_red_dot,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+1,1860,-0.359027778,0.21875,1,0,0,one_red_dot,0,4,4,9,1,number,images/1redDot.jpg,one_red_dot,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+1,2161,0.327777778,0.227777778,1,0,0,four_blue_stars,0,5,5,53,1,number,images/4greenDots.jpg,four_blue_stars,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+1,3371,-0.106944444,0.210416667,1,0,0,two_yellow_triangles,0,6,6,19,1,number,images/2blueTriangles.jpg,two_yellow_triangles,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+,,,,,,,,,,,,,,,,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,0,0,0,1,1,64:128
+0,2237,-0.16875,0.263194444,1,0,0,two_yellow_triangles,0,0,0,25,1,shape,images/2redDots.jpg,one_red_dot,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+0,3821,-0.095833333,0.201388889,1,0,0,two_yellow_triangles,0,1,1,28,1,shape,images/2yellowCrosses.jpg,three_green_crosses,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+1,3863,0.373611111,0.236805556,1,0,0,four_blue_stars,0,2,2,62,1,shape,images/4yellowStars.jpg,four_blue_stars,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+1,2186,-0.093055556,0.209722222,1,0,0,two_yellow_triangles,0,3,3,23,1,shape,images/2greenTriangles.jpg,two_yellow_triangles,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,
+0,2228,0.329861111,0.245138889,1,0,0,four_blue_stars,0,4,4,57,1,shape,images/4redDots.jpg,one_red_dot,test,001,2022-09-20_14h59.52.770,Wisconsin Card Sorting Task,2022.1.2,Win32,119.9040767,,,,,,

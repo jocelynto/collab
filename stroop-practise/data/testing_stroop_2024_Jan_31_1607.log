@@ -1,0 +1,162 @@
+2059.0620 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+2060.5541 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023EFF435B00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023EFF388208>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+2060.5543 	EXP 	window1: mouseVisible = True
+2060.5544 	EXP 	window1: recordFrameIntervals = False
+2060.7199 	EXP 	window1: recordFrameIntervals = True
+2060.9034 	EXP 	window1: recordFrameIntervals = False
+2061.3302 	EXP 	Created instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_txt', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2061.3314 	EXP 	Created top_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='top_txt', opacity=1, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+2061.3321 	EXP 	Created bottom_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='bottom_txt', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+2061.3376 	EXP 	Created trial_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trial_fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+2061.3435 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完成', units='height', win=Window(...), wrapWidth=1)
+2061.3746 	EXP 	instr_txt: autoDraw = True
+2066.8393 	EXP 	Imported trialTypes_practise.xlsx as conditions, 12 conditions, 7 params
+2066.8396 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+2066.8399 	EXP 	New trial (rep=0, index=0): {'cond': 5, 'topText': '到', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+2066.8536 	DATA 	Keypress: s
+2066.8573 	EXP 	instr_txt: autoDraw = False
+2066.8573 	EXP 	top_txt: text = '到'
+2066.8573 	EXP 	bottom_txt: text = '黃'
+2066.8573 	EXP 	top_txt: autoDraw = True
+2066.8573 	EXP 	bottom_txt: autoDraw = True
+2068.0248 	DATA 	Keypress: 1
+2068.0322 	EXP 	top_txt: autoDraw = False
+2068.0322 	EXP 	bottom_txt: autoDraw = False
+2068.0322 	EXP 	trial_fixation: autoDraw = True
+2068.5188 	EXP 	New trial (rep=0, index=1): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+2068.5339 	EXP 	trial_fixation: autoDraw = False
+2068.5339 	EXP 	trial_fixation: autoDraw = False
+2068.5339 	EXP 	top_txt: text = '紅'
+2068.5339 	EXP 	bottom_txt: text = '紅'
+2068.5339 	EXP 	top_txt: autoDraw = True
+2068.5339 	EXP 	bottom_txt: autoDraw = True
+2069.2230 	DATA 	Keypress: 1
+2069.2319 	EXP 	top_txt: autoDraw = False
+2069.2319 	EXP 	bottom_txt: autoDraw = False
+2069.2319 	EXP 	trial_fixation: autoDraw = True
+2069.7179 	EXP 	New trial (rep=0, index=2): {'cond': 6, 'topText': '個', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+2069.7464 	EXP 	trial_fixation: autoDraw = False
+2069.7464 	EXP 	trial_fixation: autoDraw = False
+2069.7464 	EXP 	top_txt: text = '個'
+2069.7464 	EXP 	bottom_txt: text = '藍'
+2069.7464 	EXP 	top_txt: autoDraw = True
+2069.7464 	EXP 	bottom_txt: autoDraw = True
+2071.7469 	EXP 	top_txt: autoDraw = False
+2071.7469 	EXP 	bottom_txt: autoDraw = False
+2071.7469 	EXP 	top_txt: autoDraw = False
+2071.7469 	EXP 	bottom_txt: autoDraw = False
+2071.7469 	EXP 	trial_fixation: autoDraw = True
+2072.2330 	EXP 	New trial (rep=0, index=3): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+2072.2482 	EXP 	trial_fixation: autoDraw = False
+2072.2482 	EXP 	trial_fixation: autoDraw = False
+2072.2482 	EXP 	top_txt: text = '綠'
+2072.2482 	EXP 	bottom_txt: text = '紅'
+2072.2482 	EXP 	top_txt: autoDraw = True
+2072.2482 	EXP 	bottom_txt: autoDraw = True
+2074.2625 	EXP 	top_txt: autoDraw = False
+2074.2625 	EXP 	bottom_txt: autoDraw = False
+2074.2625 	EXP 	top_txt: autoDraw = False
+2074.2625 	EXP 	bottom_txt: autoDraw = False
+2074.2625 	EXP 	trial_fixation: autoDraw = True
+2074.7478 	EXP 	New trial (rep=0, index=4): {'cond': 5, 'topText': '並', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+2074.7636 	EXP 	trial_fixation: autoDraw = False
+2074.7636 	EXP 	trial_fixation: autoDraw = False
+2074.7636 	EXP 	top_txt: text = '並'
+2074.7636 	EXP 	bottom_txt: text = '綠'
+2074.7636 	EXP 	top_txt: autoDraw = True
+2074.7636 	EXP 	bottom_txt: autoDraw = True
+2076.7779 	EXP 	top_txt: autoDraw = False
+2076.7779 	EXP 	bottom_txt: autoDraw = False
+2076.7779 	EXP 	top_txt: autoDraw = False
+2076.7779 	EXP 	bottom_txt: autoDraw = False
+2076.7779 	EXP 	trial_fixation: autoDraw = True
+2077.2636 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+2077.2774 	EXP 	trial_fixation: autoDraw = False
+2077.2774 	EXP 	trial_fixation: autoDraw = False
+2077.2774 	EXP 	top_txt: text = '藍'
+2077.2774 	EXP 	bottom_txt: text = '紅'
+2077.2774 	EXP 	top_txt: autoDraw = True
+2077.2774 	EXP 	bottom_txt: autoDraw = True
+2079.2926 	EXP 	top_txt: autoDraw = False
+2079.2926 	EXP 	bottom_txt: autoDraw = False
+2079.2926 	EXP 	top_txt: autoDraw = False
+2079.2926 	EXP 	bottom_txt: autoDraw = False
+2079.2926 	EXP 	trial_fixation: autoDraw = True
+2079.7788 	EXP 	New trial (rep=0, index=6): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 2}
+2079.7927 	EXP 	trial_fixation: autoDraw = False
+2079.7927 	EXP 	trial_fixation: autoDraw = False
+2079.7927 	EXP 	top_txt: text = '藍'
+2079.7927 	EXP 	bottom_txt: text = '綠'
+2079.7927 	EXP 	top_txt: autoDraw = True
+2079.7927 	EXP 	bottom_txt: autoDraw = True
+2081.8083 	EXP 	top_txt: autoDraw = False
+2081.8083 	EXP 	bottom_txt: autoDraw = False
+2081.8083 	EXP 	top_txt: autoDraw = False
+2081.8083 	EXP 	bottom_txt: autoDraw = False
+2081.8083 	EXP 	trial_fixation: autoDraw = True
+2082.2939 	EXP 	New trial (rep=0, index=7): {'cond': 2, 'topText': '黃', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+2082.3079 	EXP 	trial_fixation: autoDraw = False
+2082.3079 	EXP 	trial_fixation: autoDraw = False
+2082.3079 	EXP 	top_txt: text = '黃'
+2082.3079 	EXP 	bottom_txt: text = '藍'
+2082.3079 	EXP 	top_txt: autoDraw = True
+2082.3079 	EXP 	bottom_txt: autoDraw = True
+2084.3235 	EXP 	top_txt: autoDraw = False
+2084.3235 	EXP 	bottom_txt: autoDraw = False
+2084.3235 	EXP 	top_txt: autoDraw = False
+2084.3235 	EXP 	bottom_txt: autoDraw = False
+2084.3235 	EXP 	trial_fixation: autoDraw = True
+2084.8094 	EXP 	New trial (rep=0, index=8): {'cond': 4, 'topText': '紅', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+2084.8232 	EXP 	trial_fixation: autoDraw = False
+2084.8232 	EXP 	trial_fixation: autoDraw = False
+2084.8232 	EXP 	top_txt: text = '紅'
+2084.8232 	EXP 	bottom_txt: text = '藍'
+2084.8232 	EXP 	top_txt: autoDraw = True
+2084.8232 	EXP 	bottom_txt: autoDraw = True
+2086.8391 	EXP 	top_txt: autoDraw = False
+2086.8391 	EXP 	bottom_txt: autoDraw = False
+2086.8391 	EXP 	top_txt: autoDraw = False
+2086.8391 	EXP 	bottom_txt: autoDraw = False
+2086.8391 	EXP 	trial_fixation: autoDraw = True
+2087.3245 	EXP 	New trial (rep=0, index=9): {'cond': 6, 'topText': '的', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+2087.3399 	EXP 	trial_fixation: autoDraw = False
+2087.3399 	EXP 	trial_fixation: autoDraw = False
+2087.3399 	EXP 	top_txt: text = '的'
+2087.3399 	EXP 	bottom_txt: text = '藍'
+2087.3399 	EXP 	top_txt: autoDraw = True
+2087.3399 	EXP 	bottom_txt: autoDraw = True
+2089.3543 	EXP 	top_txt: autoDraw = False
+2089.3543 	EXP 	bottom_txt: autoDraw = False
+2089.3543 	EXP 	top_txt: autoDraw = False
+2089.3543 	EXP 	bottom_txt: autoDraw = False
+2089.3543 	EXP 	trial_fixation: autoDraw = True
+2089.8399 	EXP 	New trial (rep=0, index=10): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 1}
+2089.8536 	EXP 	trial_fixation: autoDraw = False
+2089.8536 	EXP 	trial_fixation: autoDraw = False
+2089.8536 	EXP 	top_txt: text = '綠'
+2089.8536 	EXP 	bottom_txt: text = '綠'
+2089.8536 	EXP 	top_txt: autoDraw = True
+2089.8536 	EXP 	bottom_txt: autoDraw = True
+2091.8528 	EXP 	top_txt: autoDraw = False
+2091.8528 	EXP 	bottom_txt: autoDraw = False
+2091.8528 	EXP 	top_txt: autoDraw = False
+2091.8528 	EXP 	bottom_txt: autoDraw = False
+2091.8528 	EXP 	trial_fixation: autoDraw = True
+2092.3387 	EXP 	New trial (rep=0, index=11): {'cond': 4, 'topText': '黃', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+2092.3522 	EXP 	trial_fixation: autoDraw = False
+2092.3522 	EXP 	trial_fixation: autoDraw = False
+2092.3522 	EXP 	top_txt: text = '黃'
+2092.3522 	EXP 	bottom_txt: text = '紅'
+2092.3522 	EXP 	top_txt: autoDraw = True
+2092.3522 	EXP 	bottom_txt: autoDraw = True
+2094.3684 	EXP 	top_txt: autoDraw = False
+2094.3684 	EXP 	bottom_txt: autoDraw = False
+2094.3684 	EXP 	top_txt: autoDraw = False
+2094.3684 	EXP 	bottom_txt: autoDraw = False
+2094.3684 	EXP 	trial_fixation: autoDraw = True
+2094.8678 	EXP 	trial_fixation: autoDraw = False
+2094.8678 	EXP 	trial_fixation: autoDraw = False
+2094.8678 	EXP 	end_txt: autoDraw = True
+2111.9616 	DATA 	Keypress: q
+2111.9746 	EXP 	end_txt: autoDraw = False
+2112.0081 	EXP 	window1: mouseVisible = True

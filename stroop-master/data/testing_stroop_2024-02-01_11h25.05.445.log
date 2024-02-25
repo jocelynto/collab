@@ -1,0 +1,1784 @@
+2.4293 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.4300 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+8.4526 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1680, 1050]. Using actual size
+9.0486 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A9F12589A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A9F1258940>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A9F1258670>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AA3B155CD0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.0487 	EXP 	window1: mouseVisible = True
+9.0487 	EXP 	window1: backgroundImage = ''
+9.0487 	EXP 	window1: backgroundFit = 'none'
+9.0488 	EXP 	window1: mouseVisible = False
+9.0488 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.0488 	EXP 	window1: recordFrameIntervals = False
+9.2150 	EXP 	window1: recordFrameIntervals = True
+9.3985 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+9.3985 	EXP 	window1: recordFrameIntervals = False
+12.9005 	EXP 	Created instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_txt', opacity=1.0, ori=0, pos=array([-0.05,  0.  ]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9074 	EXP 	Created prep_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prep_instr', opacity=1.0, ori=0.0, pos=array([-0.1,  0. ]), rgb=UNKNOWN, text='請判斷上方的字的顔色與下方的字的意思是否吻合', units='height', win=Window(...), wrapWidth=1)
+12.9125 	EXP 	Created instr_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.9141 	EXP 	Created top_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='top_txt', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.9152 	EXP 	Created bottom_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='bottom_txt', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.9217 	EXP 	Created trial_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.9260 	EXP 	Created rest_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='休息', units='height', win=Window(...), wrapWidth=1)
+12.9309 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完成', units='height', win=Window(...), wrapWidth=1)
+12.9409 	EXP 	instr_txt: autoDraw = True
+14.7898 	EXP 	Created sequence: random, trialTypes=1, nReps=9, seed=None
+14.7900 	EXP 	New trial (rep=0, index=0): None
+14.8055 	EXP 	instr_txt: autoDraw = False
+14.8055 	EXP 	prep_instr: autoDraw = True
+16.7909 	EXP 	instr_fixation: autoDraw = True
+16.8077 	EXP 	prep_instr: autoDraw = False
+17.3725 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+17.3730 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+17.3732 	EXP 	New trial (rep=0, index=0): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+17.3931 	EXP 	instr_fixation: autoDraw = False
+17.3931 	EXP 	prep_instr: autoDraw = False
+17.3931 	EXP 	instr_fixation: autoDraw = False
+17.3931 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+17.3931 	EXP 	top_txt: height = 0.15
+17.3931 	EXP 	top_txt: height = 0.15
+17.3931 	EXP 	top_txt: height = 0.15
+17.3931 	EXP 	top_txt: text = '黃'
+17.3931 	EXP 	bottom_txt: height = 0.15
+17.3931 	EXP 	bottom_txt: height = 0.15
+17.3931 	EXP 	bottom_txt: height = 0.15
+17.3931 	EXP 	bottom_txt: text = '藍'
+17.3931 	EXP 	top_txt: autoDraw = True
+17.3931 	EXP 	bottom_txt: autoDraw = True
+19.2939 	EXP 	bottom_txt: autoDraw = False
+19.3106 	EXP 	top_txt: autoDraw = False
+19.3106 	EXP 	bottom_txt: autoDraw = False
+19.3106 	EXP 	trial_fixation: autoDraw = True
+19.7966 	EXP 	New trial (rep=0, index=1): {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+19.8138 	EXP 	trial_fixation: autoDraw = False
+19.8138 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+19.8138 	EXP 	top_txt: height = 0.15
+19.8138 	EXP 	top_txt: height = 0.15
+19.8138 	EXP 	top_txt: height = 0.15
+19.8138 	EXP 	top_txt: text = '紅'
+19.8138 	EXP 	bottom_txt: text = '藍'
+19.8138 	EXP 	top_txt: autoDraw = True
+19.8946 	EXP 	bottom_txt: autoDraw = True
+21.7966 	EXP 	bottom_txt: autoDraw = False
+21.8137 	EXP 	top_txt: autoDraw = False
+21.8137 	EXP 	bottom_txt: autoDraw = False
+21.8137 	EXP 	trial_fixation: autoDraw = True
+22.2974 	EXP 	New trial (rep=0, index=2): {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 2}
+22.3140 	EXP 	trial_fixation: autoDraw = False
+22.3140 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+22.3140 	EXP 	top_txt: text = '紅'
+22.3140 	EXP 	bottom_txt: height = 0.15
+22.3140 	EXP 	bottom_txt: height = 0.15
+22.3140 	EXP 	bottom_txt: height = 0.15
+22.3140 	EXP 	bottom_txt: text = '黃'
+22.3140 	EXP 	top_txt: autoDraw = True
+22.3974 	EXP 	bottom_txt: autoDraw = True
+24.2997 	EXP 	bottom_txt: autoDraw = False
+24.3163 	EXP 	top_txt: autoDraw = False
+24.3163 	EXP 	bottom_txt: autoDraw = False
+24.3163 	EXP 	trial_fixation: autoDraw = True
+24.8007 	EXP 	New trial (rep=0, index=3): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+24.8192 	EXP 	trial_fixation: autoDraw = False
+24.8192 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+24.8192 	EXP 	top_txt: height = 0.15
+24.8192 	EXP 	top_txt: height = 0.15
+24.8192 	EXP 	top_txt: height = 0.15
+24.8192 	EXP 	top_txt: text = '綠'
+24.8192 	EXP 	bottom_txt: height = 0.15
+24.8192 	EXP 	bottom_txt: height = 0.15
+24.8192 	EXP 	bottom_txt: height = 0.15
+24.8192 	EXP 	bottom_txt: text = '紅'
+24.8192 	EXP 	top_txt: autoDraw = True
+24.9002 	EXP 	bottom_txt: autoDraw = True
+26.8025 	EXP 	bottom_txt: autoDraw = False
+26.8193 	EXP 	top_txt: autoDraw = False
+26.8193 	EXP 	bottom_txt: autoDraw = False
+26.8193 	EXP 	trial_fixation: autoDraw = True
+27.3033 	EXP 	New trial (rep=0, index=4): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+27.3200 	EXP 	trial_fixation: autoDraw = False
+27.3200 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+27.3200 	EXP 	top_txt: height = 0.15
+27.3200 	EXP 	top_txt: height = 0.15
+27.3200 	EXP 	top_txt: height = 0.15
+27.3200 	EXP 	top_txt: text = '紅'
+27.3200 	EXP 	bottom_txt: text = '紅'
+27.3200 	EXP 	top_txt: autoDraw = True
+27.4032 	EXP 	bottom_txt: autoDraw = True
+29.3053 	EXP 	bottom_txt: autoDraw = False
+29.3221 	EXP 	top_txt: autoDraw = False
+29.3221 	EXP 	bottom_txt: autoDraw = False
+29.3221 	EXP 	trial_fixation: autoDraw = True
+29.7898 	EXP 	New trial (rep=0, index=5): {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 1}
+29.8061 	EXP 	trial_fixation: autoDraw = False
+29.8061 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+29.8061 	EXP 	top_txt: height = 0.15
+29.8061 	EXP 	top_txt: height = 0.15
+29.8061 	EXP 	top_txt: height = 0.15
+29.8061 	EXP 	top_txt: text = '黃'
+29.8061 	EXP 	bottom_txt: height = 0.15
+29.8061 	EXP 	bottom_txt: height = 0.15
+29.8061 	EXP 	bottom_txt: height = 0.15
+29.8061 	EXP 	bottom_txt: text = '黃'
+29.8061 	EXP 	top_txt: autoDraw = True
+29.8893 	EXP 	bottom_txt: autoDraw = True
+31.7920 	EXP 	bottom_txt: autoDraw = False
+31.8088 	EXP 	top_txt: autoDraw = False
+31.8088 	EXP 	bottom_txt: autoDraw = False
+31.8088 	EXP 	trial_fixation: autoDraw = True
+32.2934 	EXP 	New trial (rep=0, index=6): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+32.3112 	EXP 	trial_fixation: autoDraw = False
+32.3112 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+32.3112 	EXP 	top_txt: height = 0.15
+32.3112 	EXP 	top_txt: height = 0.15
+32.3112 	EXP 	top_txt: height = 0.15
+32.3112 	EXP 	top_txt: text = '紅'
+32.3112 	EXP 	bottom_txt: height = 0.15
+32.3112 	EXP 	bottom_txt: height = 0.15
+32.3112 	EXP 	bottom_txt: height = 0.15
+32.3112 	EXP 	bottom_txt: text = '紅'
+32.3112 	EXP 	top_txt: autoDraw = True
+32.3927 	EXP 	bottom_txt: autoDraw = True
+34.2950 	EXP 	bottom_txt: autoDraw = False
+34.3116 	EXP 	top_txt: autoDraw = False
+34.3116 	EXP 	bottom_txt: autoDraw = False
+34.3116 	EXP 	trial_fixation: autoDraw = True
+34.7962 	EXP 	New trial (rep=0, index=7): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 1}
+34.8137 	EXP 	trial_fixation: autoDraw = False
+34.8137 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+34.8137 	EXP 	top_txt: height = 0.15
+34.8137 	EXP 	top_txt: height = 0.15
+34.8137 	EXP 	top_txt: height = 0.15
+34.8137 	EXP 	top_txt: text = '綠'
+34.8137 	EXP 	bottom_txt: height = 0.15
+34.8137 	EXP 	bottom_txt: height = 0.15
+34.8137 	EXP 	bottom_txt: height = 0.15
+34.8137 	EXP 	bottom_txt: text = '綠'
+34.8137 	EXP 	top_txt: autoDraw = True
+34.8956 	EXP 	bottom_txt: autoDraw = True
+36.7979 	EXP 	bottom_txt: autoDraw = False
+36.8146 	EXP 	top_txt: autoDraw = False
+36.8146 	EXP 	bottom_txt: autoDraw = False
+36.8146 	EXP 	trial_fixation: autoDraw = True
+37.2991 	EXP 	New trial (rep=0, index=8): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+37.3151 	EXP 	trial_fixation: autoDraw = False
+37.3151 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+37.3151 	EXP 	top_txt: text = '綠'
+37.3151 	EXP 	bottom_txt: height = 0.15
+37.3151 	EXP 	bottom_txt: height = 0.15
+37.3151 	EXP 	bottom_txt: height = 0.15
+37.3151 	EXP 	bottom_txt: text = '藍'
+37.3151 	EXP 	top_txt: autoDraw = True
+37.3986 	EXP 	bottom_txt: autoDraw = True
+39.3007 	EXP 	bottom_txt: autoDraw = False
+39.3173 	EXP 	top_txt: autoDraw = False
+39.3173 	EXP 	bottom_txt: autoDraw = False
+39.3173 	EXP 	trial_fixation: autoDraw = True
+39.8010 	EXP 	New trial (rep=0, index=9): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 1}
+39.8174 	EXP 	trial_fixation: autoDraw = False
+39.8174 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+39.8174 	EXP 	top_txt: height = 0.15
+39.8174 	EXP 	top_txt: height = 0.15
+39.8174 	EXP 	top_txt: height = 0.15
+39.8174 	EXP 	top_txt: text = '藍'
+39.8174 	EXP 	bottom_txt: text = '藍'
+39.8174 	EXP 	top_txt: autoDraw = True
+39.9009 	EXP 	bottom_txt: autoDraw = True
+41.8031 	EXP 	bottom_txt: autoDraw = False
+41.8199 	EXP 	top_txt: autoDraw = False
+41.8199 	EXP 	bottom_txt: autoDraw = False
+41.8199 	EXP 	trial_fixation: autoDraw = True
+42.3040 	EXP 	New trial (rep=0, index=10): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 2}
+42.3207 	EXP 	trial_fixation: autoDraw = False
+42.3207 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+42.3207 	EXP 	top_txt: text = '藍'
+42.3207 	EXP 	bottom_txt: height = 0.15
+42.3207 	EXP 	bottom_txt: height = 0.15
+42.3207 	EXP 	bottom_txt: height = 0.15
+42.3207 	EXP 	bottom_txt: text = '黃'
+42.3207 	EXP 	top_txt: autoDraw = True
+42.4040 	EXP 	bottom_txt: autoDraw = True
+44.3061 	EXP 	bottom_txt: autoDraw = False
+44.3227 	EXP 	top_txt: autoDraw = False
+44.3227 	EXP 	bottom_txt: autoDraw = False
+44.3227 	EXP 	trial_fixation: autoDraw = True
+44.7904 	EXP 	New trial (rep=0, index=11): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 1}
+44.8064 	EXP 	trial_fixation: autoDraw = False
+44.8064 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+44.8064 	EXP 	top_txt: height = 0.15
+44.8064 	EXP 	top_txt: height = 0.15
+44.8064 	EXP 	top_txt: height = 0.15
+44.8064 	EXP 	top_txt: text = '綠'
+44.8064 	EXP 	bottom_txt: height = 0.15
+44.8064 	EXP 	bottom_txt: height = 0.15
+44.8064 	EXP 	bottom_txt: height = 0.15
+44.8064 	EXP 	bottom_txt: text = '綠'
+44.8064 	EXP 	top_txt: autoDraw = True
+44.8901 	EXP 	bottom_txt: autoDraw = True
+46.7922 	EXP 	bottom_txt: autoDraw = False
+46.8090 	EXP 	top_txt: autoDraw = False
+46.8090 	EXP 	bottom_txt: autoDraw = False
+46.8090 	EXP 	trial_fixation: autoDraw = True
+47.3097 	EXP 	trial_fixation: autoDraw = False
+47.3097 	EXP 	rest_txt: autoDraw = True
+77.2947 	EXP 	New trial (rep=1, index=0): None
+77.3109 	EXP 	rest_txt: autoDraw = False
+77.3109 	EXP 	prep_instr: autoDraw = True
+79.2961 	EXP 	instr_fixation: autoDraw = True
+79.3132 	EXP 	prep_instr: autoDraw = False
+79.8166 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+79.8170 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+79.8173 	EXP 	New trial (rep=0, index=0): {'cond': 6, 'topText': '到', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+79.8314 	EXP 	instr_fixation: autoDraw = False
+79.8314 	EXP 	prep_instr: autoDraw = False
+79.8314 	EXP 	instr_fixation: autoDraw = False
+79.8314 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+79.8314 	EXP 	top_txt: height = 0.15
+79.8314 	EXP 	top_txt: height = 0.15
+79.8314 	EXP 	top_txt: height = 0.15
+79.8314 	EXP 	top_txt: text = '到'
+79.8314 	EXP 	bottom_txt: height = 0.15
+79.8314 	EXP 	bottom_txt: height = 0.15
+79.8314 	EXP 	bottom_txt: height = 0.15
+79.8314 	EXP 	bottom_txt: text = '紅'
+79.8314 	EXP 	top_txt: autoDraw = True
+79.8975 	EXP 	bottom_txt: autoDraw = True
+81.7992 	EXP 	bottom_txt: autoDraw = False
+81.8156 	EXP 	top_txt: autoDraw = False
+81.8156 	EXP 	bottom_txt: autoDraw = False
+81.8156 	EXP 	trial_fixation: autoDraw = True
+82.3001 	EXP 	New trial (rep=0, index=1): {'cond': 5, 'topText': '到', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+82.3164 	EXP 	trial_fixation: autoDraw = False
+82.3164 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+82.3164 	EXP 	top_txt: text = '到'
+82.3164 	EXP 	bottom_txt: height = 0.15
+82.3164 	EXP 	bottom_txt: height = 0.15
+82.3164 	EXP 	bottom_txt: height = 0.15
+82.3164 	EXP 	bottom_txt: text = '黃'
+82.3164 	EXP 	top_txt: autoDraw = True
+82.3999 	EXP 	bottom_txt: autoDraw = True
+84.3024 	EXP 	bottom_txt: autoDraw = False
+84.3188 	EXP 	top_txt: autoDraw = False
+84.3188 	EXP 	bottom_txt: autoDraw = False
+84.3188 	EXP 	trial_fixation: autoDraw = True
+84.8029 	EXP 	New trial (rep=0, index=2): {'cond': 6, 'topText': '並', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+84.8195 	EXP 	trial_fixation: autoDraw = False
+84.8195 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+84.8195 	EXP 	top_txt: height = 0.15
+84.8195 	EXP 	top_txt: height = 0.15
+84.8195 	EXP 	top_txt: height = 0.15
+84.8195 	EXP 	top_txt: text = '並'
+84.8195 	EXP 	bottom_txt: height = 0.15
+84.8195 	EXP 	bottom_txt: height = 0.15
+84.8195 	EXP 	bottom_txt: height = 0.15
+84.8195 	EXP 	bottom_txt: text = '藍'
+84.8195 	EXP 	top_txt: autoDraw = True
+84.9027 	EXP 	bottom_txt: autoDraw = True
+86.8048 	EXP 	bottom_txt: autoDraw = False
+86.8218 	EXP 	top_txt: autoDraw = False
+86.8218 	EXP 	bottom_txt: autoDraw = False
+86.8218 	EXP 	trial_fixation: autoDraw = True
+87.3058 	EXP 	New trial (rep=0, index=3): {'cond': 5, 'topText': '到', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+87.3223 	EXP 	trial_fixation: autoDraw = False
+87.3223 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+87.3223 	EXP 	top_txt: height = 0.15
+87.3223 	EXP 	top_txt: height = 0.15
+87.3223 	EXP 	top_txt: height = 0.15
+87.3223 	EXP 	top_txt: text = '到'
+87.3223 	EXP 	bottom_txt: height = 0.15
+87.3223 	EXP 	bottom_txt: height = 0.15
+87.3223 	EXP 	bottom_txt: height = 0.15
+87.3223 	EXP 	bottom_txt: text = '黃'
+87.3223 	EXP 	top_txt: autoDraw = True
+87.3891 	EXP 	bottom_txt: autoDraw = True
+89.2912 	EXP 	bottom_txt: autoDraw = False
+89.3079 	EXP 	top_txt: autoDraw = False
+89.3079 	EXP 	bottom_txt: autoDraw = False
+89.3079 	EXP 	trial_fixation: autoDraw = True
+89.7919 	EXP 	New trial (rep=0, index=4): {'cond': 5, 'topText': '到', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+89.8086 	EXP 	trial_fixation: autoDraw = False
+89.8086 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+89.8086 	EXP 	top_txt: text = '到'
+89.8086 	EXP 	bottom_txt: height = 0.15
+89.8086 	EXP 	bottom_txt: height = 0.15
+89.8086 	EXP 	bottom_txt: height = 0.15
+89.8086 	EXP 	bottom_txt: text = '紅'
+89.8086 	EXP 	top_txt: autoDraw = True
+89.8917 	EXP 	bottom_txt: autoDraw = True
+91.7942 	EXP 	bottom_txt: autoDraw = False
+91.8107 	EXP 	top_txt: autoDraw = False
+91.8107 	EXP 	bottom_txt: autoDraw = False
+91.8107 	EXP 	trial_fixation: autoDraw = True
+92.2952 	EXP 	New trial (rep=0, index=5): {'cond': 6, 'topText': '個', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+92.3113 	EXP 	trial_fixation: autoDraw = False
+92.3113 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+92.3113 	EXP 	top_txt: height = 0.15
+92.3113 	EXP 	top_txt: height = 0.15
+92.3113 	EXP 	top_txt: height = 0.15
+92.3113 	EXP 	top_txt: text = '個'
+92.3113 	EXP 	bottom_txt: height = 0.15
+92.3113 	EXP 	bottom_txt: height = 0.15
+92.3113 	EXP 	bottom_txt: height = 0.15
+92.3113 	EXP 	bottom_txt: text = '藍'
+92.3113 	EXP 	top_txt: autoDraw = True
+92.3947 	EXP 	bottom_txt: autoDraw = True
+94.2969 	EXP 	bottom_txt: autoDraw = False
+94.3138 	EXP 	top_txt: autoDraw = False
+94.3138 	EXP 	bottom_txt: autoDraw = False
+94.3138 	EXP 	trial_fixation: autoDraw = True
+94.7977 	EXP 	New trial (rep=0, index=6): {'cond': 5, 'topText': '到', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+94.8141 	EXP 	trial_fixation: autoDraw = False
+94.8141 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+94.8141 	EXP 	top_txt: height = 0.15
+94.8141 	EXP 	top_txt: height = 0.15
+94.8141 	EXP 	top_txt: height = 0.15
+94.8141 	EXP 	top_txt: text = '到'
+94.8141 	EXP 	bottom_txt: height = 0.15
+94.8141 	EXP 	bottom_txt: height = 0.15
+94.8141 	EXP 	bottom_txt: height = 0.15
+94.8141 	EXP 	bottom_txt: text = '黃'
+94.8141 	EXP 	top_txt: autoDraw = True
+94.8977 	EXP 	bottom_txt: autoDraw = True
+96.7998 	EXP 	bottom_txt: autoDraw = False
+96.8165 	EXP 	top_txt: autoDraw = False
+96.8165 	EXP 	bottom_txt: autoDraw = False
+96.8165 	EXP 	trial_fixation: autoDraw = True
+97.3008 	EXP 	New trial (rep=0, index=7): {'cond': 5, 'topText': '個', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+97.3170 	EXP 	trial_fixation: autoDraw = False
+97.3170 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+97.3170 	EXP 	top_txt: height = 0.15
+97.3170 	EXP 	top_txt: height = 0.15
+97.3170 	EXP 	top_txt: height = 0.15
+97.3170 	EXP 	top_txt: text = '個'
+97.3170 	EXP 	bottom_txt: height = 0.15
+97.3170 	EXP 	bottom_txt: height = 0.15
+97.3170 	EXP 	bottom_txt: height = 0.15
+97.3170 	EXP 	bottom_txt: text = '綠'
+97.3170 	EXP 	top_txt: autoDraw = True
+97.4007 	EXP 	bottom_txt: autoDraw = True
+99.3027 	EXP 	bottom_txt: autoDraw = False
+99.3193 	EXP 	top_txt: autoDraw = False
+99.3193 	EXP 	bottom_txt: autoDraw = False
+99.3193 	EXP 	trial_fixation: autoDraw = True
+99.8036 	EXP 	New trial (rep=0, index=8): {'cond': 6, 'topText': '並', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+99.8200 	EXP 	trial_fixation: autoDraw = False
+99.8200 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+99.8200 	EXP 	top_txt: height = 0.15
+99.8200 	EXP 	top_txt: height = 0.15
+99.8200 	EXP 	top_txt: height = 0.15
+99.8200 	EXP 	top_txt: text = '並'
+99.8200 	EXP 	bottom_txt: height = 0.15
+99.8200 	EXP 	bottom_txt: height = 0.15
+99.8200 	EXP 	bottom_txt: height = 0.15
+99.8200 	EXP 	bottom_txt: text = '紅'
+99.8200 	EXP 	top_txt: autoDraw = True
+99.9033 	EXP 	bottom_txt: autoDraw = True
+101.8056 	EXP 	bottom_txt: autoDraw = False
+101.8223 	EXP 	top_txt: autoDraw = False
+101.8223 	EXP 	bottom_txt: autoDraw = False
+101.8223 	EXP 	trial_fixation: autoDraw = True
+102.2897 	EXP 	New trial (rep=0, index=9): {'cond': 6, 'topText': '個', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+102.3062 	EXP 	trial_fixation: autoDraw = False
+102.3062 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+102.3062 	EXP 	top_txt: height = 0.15
+102.3062 	EXP 	top_txt: height = 0.15
+102.3062 	EXP 	top_txt: height = 0.15
+102.3062 	EXP 	top_txt: text = '個'
+102.3062 	EXP 	bottom_txt: text = '紅'
+102.3062 	EXP 	top_txt: autoDraw = True
+102.3896 	EXP 	bottom_txt: autoDraw = True
+104.2918 	EXP 	bottom_txt: autoDraw = False
+104.3087 	EXP 	top_txt: autoDraw = False
+104.3087 	EXP 	bottom_txt: autoDraw = False
+104.3087 	EXP 	trial_fixation: autoDraw = True
+104.7926 	EXP 	New trial (rep=0, index=10): {'cond': 5, 'topText': '個', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+104.8089 	EXP 	trial_fixation: autoDraw = False
+104.8089 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+104.8089 	EXP 	top_txt: text = '個'
+104.8089 	EXP 	bottom_txt: text = '紅'
+104.8089 	EXP 	top_txt: autoDraw = True
+104.8927 	EXP 	bottom_txt: autoDraw = True
+106.7949 	EXP 	bottom_txt: autoDraw = False
+106.8113 	EXP 	top_txt: autoDraw = False
+106.8113 	EXP 	bottom_txt: autoDraw = False
+106.8113 	EXP 	trial_fixation: autoDraw = True
+107.2957 	EXP 	New trial (rep=0, index=11): {'cond': 6, 'topText': '個', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+107.3120 	EXP 	trial_fixation: autoDraw = False
+107.3120 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+107.3120 	EXP 	top_txt: text = '個'
+107.3120 	EXP 	bottom_txt: height = 0.15
+107.3120 	EXP 	bottom_txt: height = 0.15
+107.3120 	EXP 	bottom_txt: height = 0.15
+107.3120 	EXP 	bottom_txt: text = '綠'
+107.3120 	EXP 	top_txt: autoDraw = True
+107.3954 	EXP 	bottom_txt: autoDraw = True
+109.2976 	EXP 	bottom_txt: autoDraw = False
+109.3142 	EXP 	top_txt: autoDraw = False
+109.3142 	EXP 	bottom_txt: autoDraw = False
+109.3142 	EXP 	trial_fixation: autoDraw = True
+109.8147 	EXP 	trial_fixation: autoDraw = False
+109.8147 	EXP 	rest_txt: autoDraw = True
+139.7996 	EXP 	New trial (rep=2, index=0): None
+139.8163 	EXP 	rest_txt: autoDraw = False
+139.8163 	EXP 	prep_instr: autoDraw = True
+141.8017 	EXP 	instr_fixation: autoDraw = True
+141.8185 	EXP 	prep_instr: autoDraw = False
+142.3211 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+142.3215 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+142.3218 	EXP 	New trial (rep=0, index=0): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+142.3324 	EXP 	instr_fixation: autoDraw = False
+142.3324 	EXP 	prep_instr: autoDraw = False
+142.3324 	EXP 	instr_fixation: autoDraw = False
+142.3324 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+142.3324 	EXP 	top_txt: height = 0.15
+142.3324 	EXP 	top_txt: height = 0.15
+142.3324 	EXP 	top_txt: height = 0.15
+142.3324 	EXP 	top_txt: text = '藍'
+142.3324 	EXP 	bottom_txt: height = 0.15
+142.3324 	EXP 	bottom_txt: height = 0.15
+142.3324 	EXP 	bottom_txt: height = 0.15
+142.3324 	EXP 	bottom_txt: text = '紅'
+142.3324 	EXP 	top_txt: autoDraw = True
+142.4024 	EXP 	bottom_txt: autoDraw = True
+144.3047 	EXP 	bottom_txt: autoDraw = False
+144.3212 	EXP 	top_txt: autoDraw = False
+144.3212 	EXP 	bottom_txt: autoDraw = False
+144.3212 	EXP 	trial_fixation: autoDraw = True
+144.8054 	EXP 	New trial (rep=0, index=1): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 1}
+144.8219 	EXP 	trial_fixation: autoDraw = False
+144.8219 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+144.8219 	EXP 	top_txt: height = 0.15
+144.8219 	EXP 	top_txt: height = 0.15
+144.8219 	EXP 	top_txt: height = 0.15
+144.8219 	EXP 	top_txt: text = '綠'
+144.8219 	EXP 	bottom_txt: height = 0.15
+144.8219 	EXP 	bottom_txt: height = 0.15
+144.8219 	EXP 	bottom_txt: height = 0.15
+144.8219 	EXP 	bottom_txt: text = '綠'
+144.8219 	EXP 	top_txt: autoDraw = True
+144.8886 	EXP 	bottom_txt: autoDraw = True
+146.7908 	EXP 	bottom_txt: autoDraw = False
+146.8074 	EXP 	top_txt: autoDraw = False
+146.8074 	EXP 	bottom_txt: autoDraw = False
+146.8074 	EXP 	trial_fixation: autoDraw = True
+147.2917 	EXP 	New trial (rep=0, index=2): {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 1}
+147.3080 	EXP 	trial_fixation: autoDraw = False
+147.3080 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+147.3080 	EXP 	top_txt: height = 0.15
+147.3080 	EXP 	top_txt: height = 0.15
+147.3080 	EXP 	top_txt: height = 0.15
+147.3080 	EXP 	top_txt: text = '黃'
+147.3080 	EXP 	bottom_txt: height = 0.15
+147.3080 	EXP 	bottom_txt: height = 0.15
+147.3080 	EXP 	bottom_txt: height = 0.15
+147.3080 	EXP 	bottom_txt: text = '黃'
+147.3080 	EXP 	top_txt: autoDraw = True
+147.3916 	EXP 	bottom_txt: autoDraw = True
+149.2938 	EXP 	bottom_txt: autoDraw = False
+149.3102 	EXP 	top_txt: autoDraw = False
+149.3102 	EXP 	bottom_txt: autoDraw = False
+149.3102 	EXP 	trial_fixation: autoDraw = True
+149.7944 	EXP 	New trial (rep=0, index=3): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+149.8110 	EXP 	trial_fixation: autoDraw = False
+149.8110 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+149.8110 	EXP 	top_txt: height = 0.15
+149.8110 	EXP 	top_txt: height = 0.15
+149.8110 	EXP 	top_txt: height = 0.15
+149.8110 	EXP 	top_txt: text = '紅'
+149.8110 	EXP 	bottom_txt: height = 0.15
+149.8110 	EXP 	bottom_txt: height = 0.15
+149.8110 	EXP 	bottom_txt: height = 0.15
+149.8110 	EXP 	bottom_txt: text = '紅'
+149.8110 	EXP 	top_txt: autoDraw = True
+149.8943 	EXP 	bottom_txt: autoDraw = True
+151.7964 	EXP 	bottom_txt: autoDraw = False
+151.8133 	EXP 	top_txt: autoDraw = False
+151.8133 	EXP 	bottom_txt: autoDraw = False
+151.8133 	EXP 	trial_fixation: autoDraw = True
+152.2974 	EXP 	New trial (rep=0, index=4): {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 1}
+152.3140 	EXP 	trial_fixation: autoDraw = False
+152.3140 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+152.3140 	EXP 	top_txt: height = 0.15
+152.3140 	EXP 	top_txt: height = 0.15
+152.3140 	EXP 	top_txt: height = 0.15
+152.3140 	EXP 	top_txt: text = '黃'
+152.3140 	EXP 	bottom_txt: height = 0.15
+152.3140 	EXP 	bottom_txt: height = 0.15
+152.3140 	EXP 	bottom_txt: height = 0.15
+152.3140 	EXP 	bottom_txt: text = '黃'
+152.3140 	EXP 	top_txt: autoDraw = True
+152.3972 	EXP 	bottom_txt: autoDraw = True
+154.2993 	EXP 	bottom_txt: autoDraw = False
+154.3162 	EXP 	top_txt: autoDraw = False
+154.3162 	EXP 	bottom_txt: autoDraw = False
+154.3162 	EXP 	trial_fixation: autoDraw = True
+154.8002 	EXP 	New trial (rep=0, index=5): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+154.8167 	EXP 	trial_fixation: autoDraw = False
+154.8167 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+154.8167 	EXP 	top_txt: height = 0.15
+154.8167 	EXP 	top_txt: height = 0.15
+154.8167 	EXP 	top_txt: height = 0.15
+154.8167 	EXP 	top_txt: text = '綠'
+154.8167 	EXP 	bottom_txt: height = 0.15
+154.8167 	EXP 	bottom_txt: height = 0.15
+154.8167 	EXP 	bottom_txt: height = 0.15
+154.8167 	EXP 	bottom_txt: text = '紅'
+154.8167 	EXP 	top_txt: autoDraw = True
+154.9001 	EXP 	bottom_txt: autoDraw = True
+156.8024 	EXP 	bottom_txt: autoDraw = False
+156.8189 	EXP 	top_txt: autoDraw = False
+156.8189 	EXP 	bottom_txt: autoDraw = False
+156.8189 	EXP 	trial_fixation: autoDraw = True
+157.3032 	EXP 	New trial (rep=0, index=6): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+157.3196 	EXP 	trial_fixation: autoDraw = False
+157.3196 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+157.3196 	EXP 	top_txt: height = 0.15
+157.3196 	EXP 	top_txt: height = 0.15
+157.3196 	EXP 	top_txt: height = 0.15
+157.3196 	EXP 	top_txt: text = '紅'
+157.3196 	EXP 	bottom_txt: text = '紅'
+157.3196 	EXP 	top_txt: autoDraw = True
+157.4032 	EXP 	bottom_txt: autoDraw = True
+159.3050 	EXP 	bottom_txt: autoDraw = False
+159.3220 	EXP 	top_txt: autoDraw = False
+159.3220 	EXP 	bottom_txt: autoDraw = False
+159.3220 	EXP 	trial_fixation: autoDraw = True
+159.8059 	EXP 	New trial (rep=0, index=7): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+159.8225 	EXP 	trial_fixation: autoDraw = False
+159.8225 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+159.8225 	EXP 	top_txt: height = 0.15
+159.8225 	EXP 	top_txt: height = 0.15
+159.8225 	EXP 	top_txt: height = 0.15
+159.8225 	EXP 	top_txt: text = '綠'
+159.8225 	EXP 	bottom_txt: height = 0.15
+159.8225 	EXP 	bottom_txt: height = 0.15
+159.8225 	EXP 	bottom_txt: height = 0.15
+159.8225 	EXP 	bottom_txt: text = '藍'
+159.8225 	EXP 	top_txt: autoDraw = True
+159.8892 	EXP 	bottom_txt: autoDraw = True
+161.7914 	EXP 	bottom_txt: autoDraw = False
+161.8080 	EXP 	top_txt: autoDraw = False
+161.8080 	EXP 	bottom_txt: autoDraw = False
+161.8080 	EXP 	trial_fixation: autoDraw = True
+162.2924 	EXP 	New trial (rep=0, index=8): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+162.3086 	EXP 	trial_fixation: autoDraw = False
+162.3086 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+162.3086 	EXP 	top_txt: height = 0.15
+162.3086 	EXP 	top_txt: height = 0.15
+162.3086 	EXP 	top_txt: height = 0.15
+162.3086 	EXP 	top_txt: text = '藍'
+162.3086 	EXP 	bottom_txt: height = 0.15
+162.3086 	EXP 	bottom_txt: height = 0.15
+162.3086 	EXP 	bottom_txt: height = 0.15
+162.3086 	EXP 	bottom_txt: text = '紅'
+162.3086 	EXP 	top_txt: autoDraw = True
+162.3920 	EXP 	bottom_txt: autoDraw = True
+164.2941 	EXP 	bottom_txt: autoDraw = False
+164.3110 	EXP 	top_txt: autoDraw = False
+164.3110 	EXP 	bottom_txt: autoDraw = False
+164.3110 	EXP 	trial_fixation: autoDraw = True
+164.7952 	EXP 	New trial (rep=0, index=9): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+164.8116 	EXP 	trial_fixation: autoDraw = False
+164.8116 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+164.8116 	EXP 	top_txt: height = 0.15
+164.8116 	EXP 	top_txt: height = 0.15
+164.8116 	EXP 	top_txt: height = 0.15
+164.8116 	EXP 	top_txt: text = '紅'
+164.8116 	EXP 	bottom_txt: text = '紅'
+164.8116 	EXP 	top_txt: autoDraw = True
+164.8950 	EXP 	bottom_txt: autoDraw = True
+166.7972 	EXP 	bottom_txt: autoDraw = False
+166.8138 	EXP 	top_txt: autoDraw = False
+166.8138 	EXP 	bottom_txt: autoDraw = False
+166.8138 	EXP 	trial_fixation: autoDraw = True
+167.2982 	EXP 	New trial (rep=0, index=10): {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+167.3147 	EXP 	trial_fixation: autoDraw = False
+167.3147 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+167.3147 	EXP 	top_txt: text = '紅'
+167.3147 	EXP 	bottom_txt: height = 0.15
+167.3147 	EXP 	bottom_txt: height = 0.15
+167.3147 	EXP 	bottom_txt: height = 0.15
+167.3147 	EXP 	bottom_txt: text = '藍'
+167.3147 	EXP 	top_txt: autoDraw = True
+167.3980 	EXP 	bottom_txt: autoDraw = True
+169.3000 	EXP 	bottom_txt: autoDraw = False
+169.3168 	EXP 	top_txt: autoDraw = False
+169.3168 	EXP 	bottom_txt: autoDraw = False
+169.3168 	EXP 	trial_fixation: autoDraw = True
+169.8009 	EXP 	New trial (rep=0, index=11): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 2}
+169.8174 	EXP 	trial_fixation: autoDraw = False
+169.8174 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+169.8174 	EXP 	top_txt: height = 0.15
+169.8174 	EXP 	top_txt: height = 0.15
+169.8174 	EXP 	top_txt: height = 0.15
+169.8174 	EXP 	top_txt: text = '綠'
+169.8174 	EXP 	bottom_txt: height = 0.15
+169.8174 	EXP 	bottom_txt: height = 0.15
+169.8174 	EXP 	bottom_txt: height = 0.15
+169.8174 	EXP 	bottom_txt: text = '黃'
+169.8174 	EXP 	top_txt: autoDraw = True
+169.9007 	EXP 	bottom_txt: autoDraw = True
+171.8031 	EXP 	bottom_txt: autoDraw = False
+171.8199 	EXP 	top_txt: autoDraw = False
+171.8199 	EXP 	bottom_txt: autoDraw = False
+171.8199 	EXP 	trial_fixation: autoDraw = True
+172.3202 	EXP 	trial_fixation: autoDraw = False
+172.3202 	EXP 	rest_txt: autoDraw = True
+202.3051 	EXP 	New trial (rep=3, index=0): None
+202.3216 	EXP 	rest_txt: autoDraw = False
+202.3216 	EXP 	prep_instr: autoDraw = True
+204.2902 	EXP 	instr_fixation: autoDraw = True
+204.3240 	EXP 	prep_instr: autoDraw = False
+204.8101 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+204.8105 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+204.8108 	EXP 	New trial (rep=0, index=0): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 2}
+204.8208 	EXP 	instr_fixation: autoDraw = False
+204.8208 	EXP 	prep_instr: autoDraw = False
+204.8208 	EXP 	instr_fixation: autoDraw = False
+204.8208 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+204.8208 	EXP 	top_txt: height = 0.15
+204.8208 	EXP 	top_txt: height = 0.15
+204.8208 	EXP 	top_txt: height = 0.15
+204.8208 	EXP 	top_txt: text = '藍'
+204.8208 	EXP 	bottom_txt: height = 0.15
+204.8208 	EXP 	bottom_txt: height = 0.15
+204.8208 	EXP 	bottom_txt: height = 0.15
+204.8208 	EXP 	bottom_txt: text = '綠'
+204.8208 	EXP 	top_txt: autoDraw = True
+204.8910 	EXP 	bottom_txt: autoDraw = True
+206.7931 	EXP 	bottom_txt: autoDraw = False
+206.8099 	EXP 	top_txt: autoDraw = False
+206.8099 	EXP 	bottom_txt: autoDraw = False
+206.8099 	EXP 	trial_fixation: autoDraw = True
+207.2943 	EXP 	New trial (rep=0, index=1): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+207.3104 	EXP 	trial_fixation: autoDraw = False
+207.3104 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+207.3104 	EXP 	top_txt: text = '藍'
+207.3104 	EXP 	bottom_txt: height = 0.15
+207.3104 	EXP 	bottom_txt: height = 0.15
+207.3104 	EXP 	bottom_txt: height = 0.15
+207.3104 	EXP 	bottom_txt: text = '紅'
+207.3104 	EXP 	top_txt: autoDraw = True
+207.3946 	EXP 	bottom_txt: autoDraw = True
+209.2962 	EXP 	bottom_txt: autoDraw = False
+209.3128 	EXP 	top_txt: autoDraw = False
+209.3128 	EXP 	bottom_txt: autoDraw = False
+209.3128 	EXP 	trial_fixation: autoDraw = True
+209.7971 	EXP 	New trial (rep=0, index=2): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+209.8136 	EXP 	trial_fixation: autoDraw = False
+209.8136 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+209.8136 	EXP 	top_txt: height = 0.15
+209.8136 	EXP 	top_txt: height = 0.15
+209.8136 	EXP 	top_txt: height = 0.15
+209.8136 	EXP 	top_txt: text = '紅'
+209.8136 	EXP 	bottom_txt: text = '紅'
+209.8136 	EXP 	top_txt: autoDraw = True
+209.8967 	EXP 	bottom_txt: autoDraw = True
+211.7989 	EXP 	bottom_txt: autoDraw = False
+211.8157 	EXP 	top_txt: autoDraw = False
+211.8157 	EXP 	bottom_txt: autoDraw = False
+211.8157 	EXP 	trial_fixation: autoDraw = True
+212.2998 	EXP 	New trial (rep=0, index=3): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+212.3164 	EXP 	trial_fixation: autoDraw = False
+212.3164 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+212.3164 	EXP 	top_txt: text = '紅'
+212.3164 	EXP 	bottom_txt: text = '紅'
+212.3164 	EXP 	top_txt: autoDraw = True
+212.3997 	EXP 	bottom_txt: autoDraw = True
+214.3020 	EXP 	bottom_txt: autoDraw = False
+214.3187 	EXP 	top_txt: autoDraw = False
+214.3187 	EXP 	bottom_txt: autoDraw = False
+214.3187 	EXP 	trial_fixation: autoDraw = True
+214.8029 	EXP 	New trial (rep=0, index=4): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 1}
+214.8192 	EXP 	trial_fixation: autoDraw = False
+214.8192 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+214.8192 	EXP 	top_txt: text = '紅'
+214.8192 	EXP 	bottom_txt: text = '紅'
+214.8192 	EXP 	top_txt: autoDraw = True
+214.9027 	EXP 	bottom_txt: autoDraw = True
+216.8046 	EXP 	bottom_txt: autoDraw = False
+216.8216 	EXP 	top_txt: autoDraw = False
+216.8216 	EXP 	bottom_txt: autoDraw = False
+216.8216 	EXP 	trial_fixation: autoDraw = True
+217.3057 	EXP 	New trial (rep=0, index=5): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 1}
+217.3222 	EXP 	trial_fixation: autoDraw = False
+217.3222 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+217.3222 	EXP 	top_txt: height = 0.15
+217.3222 	EXP 	top_txt: height = 0.15
+217.3222 	EXP 	top_txt: height = 0.15
+217.3222 	EXP 	top_txt: text = '綠'
+217.3222 	EXP 	bottom_txt: height = 0.15
+217.3222 	EXP 	bottom_txt: height = 0.15
+217.3222 	EXP 	bottom_txt: height = 0.15
+217.3222 	EXP 	bottom_txt: text = '綠'
+217.3222 	EXP 	top_txt: autoDraw = True
+217.3887 	EXP 	bottom_txt: autoDraw = True
+219.2912 	EXP 	bottom_txt: autoDraw = False
+219.3076 	EXP 	top_txt: autoDraw = False
+219.3076 	EXP 	bottom_txt: autoDraw = False
+219.3076 	EXP 	trial_fixation: autoDraw = True
+219.7918 	EXP 	New trial (rep=0, index=6): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 2}
+219.8085 	EXP 	trial_fixation: autoDraw = False
+219.8085 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+219.8085 	EXP 	top_txt: text = '綠'
+219.8085 	EXP 	bottom_txt: height = 0.15
+219.8085 	EXP 	bottom_txt: height = 0.15
+219.8085 	EXP 	bottom_txt: height = 0.15
+219.8085 	EXP 	bottom_txt: text = '黃'
+219.8085 	EXP 	top_txt: autoDraw = True
+219.8916 	EXP 	bottom_txt: autoDraw = True
+221.7938 	EXP 	bottom_txt: autoDraw = False
+221.8106 	EXP 	top_txt: autoDraw = False
+221.8106 	EXP 	bottom_txt: autoDraw = False
+221.8106 	EXP 	trial_fixation: autoDraw = True
+222.2947 	EXP 	New trial (rep=0, index=7): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+222.3113 	EXP 	trial_fixation: autoDraw = False
+222.3113 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+222.3113 	EXP 	top_txt: text = '綠'
+222.3113 	EXP 	bottom_txt: height = 0.15
+222.3113 	EXP 	bottom_txt: height = 0.15
+222.3113 	EXP 	bottom_txt: height = 0.15
+222.3113 	EXP 	bottom_txt: text = '藍'
+222.3113 	EXP 	top_txt: autoDraw = True
+222.3946 	EXP 	bottom_txt: autoDraw = True
+224.2966 	EXP 	bottom_txt: autoDraw = False
+224.3134 	EXP 	top_txt: autoDraw = False
+224.3134 	EXP 	bottom_txt: autoDraw = False
+224.3134 	EXP 	trial_fixation: autoDraw = True
+224.7978 	EXP 	New trial (rep=0, index=8): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 2}
+224.8139 	EXP 	trial_fixation: autoDraw = False
+224.8139 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+224.8139 	EXP 	top_txt: text = '綠'
+224.8139 	EXP 	bottom_txt: text = '藍'
+224.8139 	EXP 	top_txt: autoDraw = True
+224.8976 	EXP 	bottom_txt: autoDraw = True
+226.7996 	EXP 	bottom_txt: autoDraw = False
+226.8164 	EXP 	top_txt: autoDraw = False
+226.8164 	EXP 	bottom_txt: autoDraw = False
+226.8164 	EXP 	trial_fixation: autoDraw = True
+227.3004 	EXP 	New trial (rep=0, index=9): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 1}
+227.3169 	EXP 	trial_fixation: autoDraw = False
+227.3169 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+227.3169 	EXP 	top_txt: height = 0.15
+227.3169 	EXP 	top_txt: height = 0.15
+227.3169 	EXP 	top_txt: height = 0.15
+227.3169 	EXP 	top_txt: text = '藍'
+227.3169 	EXP 	bottom_txt: text = '藍'
+227.3169 	EXP 	top_txt: autoDraw = True
+227.4003 	EXP 	bottom_txt: autoDraw = True
+229.3030 	EXP 	bottom_txt: autoDraw = False
+229.3197 	EXP 	top_txt: autoDraw = False
+229.3197 	EXP 	bottom_txt: autoDraw = False
+229.3197 	EXP 	trial_fixation: autoDraw = True
+229.8042 	EXP 	New trial (rep=0, index=10): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 2}
+229.8231 	EXP 	trial_fixation: autoDraw = False
+229.8231 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+229.8231 	EXP 	top_txt: height = 0.15
+229.8231 	EXP 	top_txt: height = 0.15
+229.8231 	EXP 	top_txt: height = 0.15
+229.8231 	EXP 	top_txt: text = '黃'
+229.8231 	EXP 	bottom_txt: height = 0.15
+229.8231 	EXP 	bottom_txt: height = 0.15
+229.8231 	EXP 	bottom_txt: height = 0.15
+229.8231 	EXP 	bottom_txt: text = '紅'
+229.8231 	EXP 	top_txt: autoDraw = True
+229.9036 	EXP 	bottom_txt: autoDraw = True
+231.8059 	EXP 	top_txt: autoDraw = False
+231.8059 	EXP 	bottom_txt: autoDraw = False
+231.8059 	EXP 	trial_fixation: autoDraw = True
+232.2905 	EXP 	New trial (rep=0, index=11): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 1}
+232.3085 	EXP 	trial_fixation: autoDraw = False
+232.3085 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+232.3085 	EXP 	top_txt: height = 0.15
+232.3085 	EXP 	top_txt: height = 0.15
+232.3085 	EXP 	top_txt: height = 0.15
+232.3085 	EXP 	top_txt: text = '綠'
+232.3085 	EXP 	bottom_txt: height = 0.15
+232.3085 	EXP 	bottom_txt: height = 0.15
+232.3085 	EXP 	bottom_txt: height = 0.15
+232.3085 	EXP 	bottom_txt: text = '綠'
+232.3085 	EXP 	top_txt: autoDraw = True
+232.3896 	EXP 	bottom_txt: autoDraw = True
+234.2917 	EXP 	bottom_txt: autoDraw = False
+234.3082 	EXP 	top_txt: autoDraw = False
+234.3082 	EXP 	bottom_txt: autoDraw = False
+234.3082 	EXP 	trial_fixation: autoDraw = True
+234.8088 	EXP 	trial_fixation: autoDraw = False
+234.8088 	EXP 	rest_txt: autoDraw = True
+264.7936 	EXP 	New trial (rep=4, index=0): None
+264.8102 	EXP 	rest_txt: autoDraw = False
+264.8102 	EXP 	prep_instr: autoDraw = True
+266.7958 	EXP 	instr_fixation: autoDraw = True
+266.8125 	EXP 	prep_instr: autoDraw = False
+267.3152 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+267.3156 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+267.3158 	EXP 	New trial (rep=0, index=0): {'cond': 5, 'topText': '的', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+267.3299 	EXP 	instr_fixation: autoDraw = False
+267.3299 	EXP 	prep_instr: autoDraw = False
+267.3299 	EXP 	instr_fixation: autoDraw = False
+267.3299 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+267.3299 	EXP 	top_txt: height = 0.15
+267.3299 	EXP 	top_txt: height = 0.15
+267.3299 	EXP 	top_txt: height = 0.15
+267.3299 	EXP 	top_txt: text = '的'
+267.3299 	EXP 	bottom_txt: height = 0.15
+267.3299 	EXP 	bottom_txt: height = 0.15
+267.3299 	EXP 	bottom_txt: height = 0.15
+267.3299 	EXP 	bottom_txt: text = '藍'
+267.3299 	EXP 	top_txt: autoDraw = True
+267.3965 	EXP 	bottom_txt: autoDraw = True
+269.2985 	EXP 	bottom_txt: autoDraw = False
+269.3153 	EXP 	top_txt: autoDraw = False
+269.3153 	EXP 	bottom_txt: autoDraw = False
+269.3153 	EXP 	trial_fixation: autoDraw = True
+269.7996 	EXP 	New trial (rep=0, index=1): {'cond': 6, 'topText': '到', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+269.8157 	EXP 	trial_fixation: autoDraw = False
+269.8157 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+269.8157 	EXP 	top_txt: height = 0.15
+269.8157 	EXP 	top_txt: height = 0.15
+269.8157 	EXP 	top_txt: height = 0.15
+269.8157 	EXP 	top_txt: text = '到'
+269.8157 	EXP 	bottom_txt: height = 0.15
+269.8157 	EXP 	bottom_txt: height = 0.15
+269.8157 	EXP 	bottom_txt: height = 0.15
+269.8157 	EXP 	bottom_txt: text = '黃'
+269.8157 	EXP 	top_txt: autoDraw = True
+269.8992 	EXP 	bottom_txt: autoDraw = True
+271.8014 	EXP 	bottom_txt: autoDraw = False
+271.8182 	EXP 	top_txt: autoDraw = False
+271.8182 	EXP 	bottom_txt: autoDraw = False
+271.8182 	EXP 	trial_fixation: autoDraw = True
+272.3025 	EXP 	New trial (rep=0, index=2): {'cond': 5, 'topText': '並', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+272.3187 	EXP 	trial_fixation: autoDraw = False
+272.3187 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+272.3187 	EXP 	top_txt: height = 0.15
+272.3187 	EXP 	top_txt: height = 0.15
+272.3187 	EXP 	top_txt: height = 0.15
+272.3187 	EXP 	top_txt: text = '並'
+272.3187 	EXP 	bottom_txt: height = 0.15
+272.3187 	EXP 	bottom_txt: height = 0.15
+272.3187 	EXP 	bottom_txt: height = 0.15
+272.3187 	EXP 	bottom_txt: text = '藍'
+272.3187 	EXP 	top_txt: autoDraw = True
+272.4022 	EXP 	bottom_txt: autoDraw = True
+274.3043 	EXP 	bottom_txt: autoDraw = False
+274.3210 	EXP 	top_txt: autoDraw = False
+274.3210 	EXP 	bottom_txt: autoDraw = False
+274.3210 	EXP 	trial_fixation: autoDraw = True
+274.8051 	EXP 	New trial (rep=0, index=3): {'cond': 6, 'topText': '的', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+274.8217 	EXP 	trial_fixation: autoDraw = False
+274.8217 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+274.8217 	EXP 	top_txt: height = 0.15
+274.8217 	EXP 	top_txt: height = 0.15
+274.8217 	EXP 	top_txt: height = 0.15
+274.8217 	EXP 	top_txt: text = '的'
+274.8217 	EXP 	bottom_txt: text = '藍'
+274.8217 	EXP 	top_txt: autoDraw = True
+274.9051 	EXP 	bottom_txt: autoDraw = True
+276.8074 	EXP 	top_txt: autoDraw = False
+276.8074 	EXP 	bottom_txt: autoDraw = False
+276.8074 	EXP 	trial_fixation: autoDraw = True
+277.2914 	EXP 	New trial (rep=0, index=4): {'cond': 5, 'topText': '的', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+277.3078 	EXP 	trial_fixation: autoDraw = False
+277.3078 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+277.3078 	EXP 	top_txt: text = '的'
+277.3078 	EXP 	bottom_txt: height = 0.15
+277.3078 	EXP 	bottom_txt: height = 0.15
+277.3078 	EXP 	bottom_txt: height = 0.15
+277.3078 	EXP 	bottom_txt: text = '綠'
+277.3078 	EXP 	top_txt: autoDraw = True
+277.3913 	EXP 	bottom_txt: autoDraw = True
+279.2935 	EXP 	bottom_txt: autoDraw = False
+279.3102 	EXP 	top_txt: autoDraw = False
+279.3102 	EXP 	bottom_txt: autoDraw = False
+279.3102 	EXP 	trial_fixation: autoDraw = True
+279.7945 	EXP 	New trial (rep=0, index=5): {'cond': 6, 'topText': '並', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+279.8106 	EXP 	trial_fixation: autoDraw = False
+279.8106 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+279.8106 	EXP 	top_txt: height = 0.15
+279.8106 	EXP 	top_txt: height = 0.15
+279.8106 	EXP 	top_txt: height = 0.15
+279.8106 	EXP 	top_txt: text = '並'
+279.8106 	EXP 	bottom_txt: height = 0.15
+279.8106 	EXP 	bottom_txt: height = 0.15
+279.8106 	EXP 	bottom_txt: height = 0.15
+279.8106 	EXP 	bottom_txt: text = '黃'
+279.8106 	EXP 	top_txt: autoDraw = True
+279.8942 	EXP 	bottom_txt: autoDraw = True
+281.7962 	EXP 	bottom_txt: autoDraw = False
+281.8130 	EXP 	top_txt: autoDraw = False
+281.8130 	EXP 	bottom_txt: autoDraw = False
+281.8130 	EXP 	trial_fixation: autoDraw = True
+282.2970 	EXP 	New trial (rep=0, index=6): {'cond': 5, 'topText': '個', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+282.3136 	EXP 	trial_fixation: autoDraw = False
+282.3136 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+282.3136 	EXP 	top_txt: height = 0.15
+282.3136 	EXP 	top_txt: height = 0.15
+282.3136 	EXP 	top_txt: height = 0.15
+282.3136 	EXP 	top_txt: text = '個'
+282.3136 	EXP 	bottom_txt: height = 0.15
+282.3136 	EXP 	bottom_txt: height = 0.15
+282.3136 	EXP 	bottom_txt: height = 0.15
+282.3136 	EXP 	bottom_txt: text = '藍'
+282.3136 	EXP 	top_txt: autoDraw = True
+282.3970 	EXP 	bottom_txt: autoDraw = True
+284.2993 	EXP 	bottom_txt: autoDraw = False
+284.3158 	EXP 	top_txt: autoDraw = False
+284.3158 	EXP 	bottom_txt: autoDraw = False
+284.3158 	EXP 	trial_fixation: autoDraw = True
+284.8000 	EXP 	New trial (rep=0, index=7): {'cond': 6, 'topText': '並', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+284.8165 	EXP 	trial_fixation: autoDraw = False
+284.8165 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+284.8165 	EXP 	top_txt: height = 0.15
+284.8165 	EXP 	top_txt: height = 0.15
+284.8165 	EXP 	top_txt: height = 0.15
+284.8165 	EXP 	top_txt: text = '並'
+284.8165 	EXP 	bottom_txt: text = '藍'
+284.8165 	EXP 	top_txt: autoDraw = True
+284.8998 	EXP 	bottom_txt: autoDraw = True
+286.8021 	EXP 	bottom_txt: autoDraw = False
+286.8186 	EXP 	top_txt: autoDraw = False
+286.8186 	EXP 	bottom_txt: autoDraw = False
+286.8186 	EXP 	trial_fixation: autoDraw = True
+287.3031 	EXP 	New trial (rep=0, index=8): {'cond': 5, 'topText': '到', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+287.3194 	EXP 	trial_fixation: autoDraw = False
+287.3194 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+287.3194 	EXP 	top_txt: height = 0.15
+287.3194 	EXP 	top_txt: height = 0.15
+287.3194 	EXP 	top_txt: height = 0.15
+287.3194 	EXP 	top_txt: text = '到'
+287.3194 	EXP 	bottom_txt: height = 0.15
+287.3194 	EXP 	bottom_txt: height = 0.15
+287.3194 	EXP 	bottom_txt: height = 0.15
+287.3194 	EXP 	bottom_txt: text = '紅'
+287.3194 	EXP 	top_txt: autoDraw = True
+287.4027 	EXP 	bottom_txt: autoDraw = True
+289.3049 	EXP 	bottom_txt: autoDraw = False
+289.3216 	EXP 	top_txt: autoDraw = False
+289.3216 	EXP 	bottom_txt: autoDraw = False
+289.3216 	EXP 	trial_fixation: autoDraw = True
+289.8061 	EXP 	New trial (rep=0, index=9): {'cond': 5, 'topText': '的', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+289.8223 	EXP 	trial_fixation: autoDraw = False
+289.8223 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+289.8223 	EXP 	top_txt: height = 0.15
+289.8223 	EXP 	top_txt: height = 0.15
+289.8223 	EXP 	top_txt: height = 0.15
+289.8223 	EXP 	top_txt: text = '的'
+289.8223 	EXP 	bottom_txt: text = '紅'
+289.8223 	EXP 	top_txt: autoDraw = True
+289.8890 	EXP 	bottom_txt: autoDraw = True
+291.7919 	EXP 	bottom_txt: autoDraw = False
+291.8086 	EXP 	top_txt: autoDraw = False
+291.8086 	EXP 	bottom_txt: autoDraw = False
+291.8086 	EXP 	trial_fixation: autoDraw = True
+292.2933 	EXP 	New trial (rep=0, index=10): {'cond': 6, 'topText': '到', 'topColour': 'red', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+292.3133 	EXP 	trial_fixation: autoDraw = False
+292.3133 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+292.3133 	EXP 	top_txt: height = 0.15
+292.3133 	EXP 	top_txt: height = 0.15
+292.3133 	EXP 	top_txt: height = 0.15
+292.3133 	EXP 	top_txt: text = '到'
+292.3133 	EXP 	bottom_txt: height = 0.15
+292.3133 	EXP 	bottom_txt: height = 0.15
+292.3133 	EXP 	bottom_txt: height = 0.15
+292.3133 	EXP 	bottom_txt: text = '黃'
+292.3133 	EXP 	top_txt: autoDraw = True
+292.3926 	EXP 	bottom_txt: autoDraw = True
+294.2948 	EXP 	bottom_txt: autoDraw = False
+294.3114 	EXP 	top_txt: autoDraw = False
+294.3114 	EXP 	bottom_txt: autoDraw = False
+294.3114 	EXP 	trial_fixation: autoDraw = True
+294.7963 	EXP 	New trial (rep=0, index=11): {'cond': 6, 'topText': '個', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+294.8159 	EXP 	trial_fixation: autoDraw = False
+294.8159 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+294.8159 	EXP 	top_txt: height = 0.15
+294.8159 	EXP 	top_txt: height = 0.15
+294.8159 	EXP 	top_txt: height = 0.15
+294.8159 	EXP 	top_txt: text = '個'
+294.8159 	EXP 	bottom_txt: height = 0.15
+294.8159 	EXP 	bottom_txt: height = 0.15
+294.8159 	EXP 	bottom_txt: height = 0.15
+294.8159 	EXP 	bottom_txt: text = '藍'
+294.8159 	EXP 	top_txt: autoDraw = True
+294.8955 	EXP 	bottom_txt: autoDraw = True
+296.7969 	EXP 	bottom_txt: autoDraw = False
+296.8136 	EXP 	top_txt: autoDraw = False
+296.8136 	EXP 	bottom_txt: autoDraw = False
+296.8136 	EXP 	trial_fixation: autoDraw = True
+297.3143 	EXP 	trial_fixation: autoDraw = False
+297.3143 	EXP 	rest_txt: autoDraw = True
+327.2989 	EXP 	New trial (rep=5, index=0): None
+327.3155 	EXP 	rest_txt: autoDraw = False
+327.3155 	EXP 	prep_instr: autoDraw = True
+329.3013 	EXP 	instr_fixation: autoDraw = True
+329.3176 	EXP 	prep_instr: autoDraw = False
+329.8209 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+329.8213 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+329.8215 	EXP 	New trial (rep=0, index=0): {'cond': 4, 'topText': '綠', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+329.8306 	EXP 	instr_fixation: autoDraw = False
+329.8306 	EXP 	prep_instr: autoDraw = False
+329.8306 	EXP 	instr_fixation: autoDraw = False
+329.8306 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+329.8306 	EXP 	top_txt: height = 0.15
+329.8306 	EXP 	top_txt: height = 0.15
+329.8306 	EXP 	top_txt: height = 0.15
+329.8306 	EXP 	top_txt: text = '綠'
+329.8306 	EXP 	bottom_txt: text = '藍'
+329.8306 	EXP 	top_txt: autoDraw = True
+329.9017 	EXP 	bottom_txt: autoDraw = True
+331.8039 	EXP 	bottom_txt: autoDraw = False
+331.8207 	EXP 	top_txt: autoDraw = False
+331.8207 	EXP 	bottom_txt: autoDraw = False
+331.8207 	EXP 	trial_fixation: autoDraw = True
+332.3048 	EXP 	New trial (rep=0, index=1): {'cond': 2, 'topText': '黃', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+332.3214 	EXP 	trial_fixation: autoDraw = False
+332.3214 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+332.3214 	EXP 	top_txt: height = 0.15
+332.3214 	EXP 	top_txt: height = 0.15
+332.3214 	EXP 	top_txt: height = 0.15
+332.3214 	EXP 	top_txt: text = '黃'
+332.3214 	EXP 	bottom_txt: height = 0.15
+332.3214 	EXP 	bottom_txt: height = 0.15
+332.3214 	EXP 	bottom_txt: height = 0.15
+332.3214 	EXP 	bottom_txt: text = '紅'
+332.3214 	EXP 	top_txt: autoDraw = True
+332.4046 	EXP 	bottom_txt: autoDraw = True
+334.3067 	EXP 	top_txt: autoDraw = False
+334.3067 	EXP 	bottom_txt: autoDraw = False
+334.3067 	EXP 	trial_fixation: autoDraw = True
+334.7910 	EXP 	New trial (rep=0, index=2): {'cond': 2, 'topText': '黃', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+334.8073 	EXP 	trial_fixation: autoDraw = False
+334.8073 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+334.8073 	EXP 	top_txt: text = '黃'
+334.8073 	EXP 	bottom_txt: height = 0.15
+334.8073 	EXP 	bottom_txt: height = 0.15
+334.8073 	EXP 	bottom_txt: height = 0.15
+334.8073 	EXP 	bottom_txt: text = '綠'
+334.8073 	EXP 	top_txt: autoDraw = True
+334.8909 	EXP 	bottom_txt: autoDraw = True
+336.7930 	EXP 	bottom_txt: autoDraw = False
+336.8096 	EXP 	top_txt: autoDraw = False
+336.8096 	EXP 	bottom_txt: autoDraw = False
+336.8096 	EXP 	trial_fixation: autoDraw = True
+337.2938 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+337.3101 	EXP 	trial_fixation: autoDraw = False
+337.3101 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+337.3101 	EXP 	top_txt: height = 0.15
+337.3101 	EXP 	top_txt: height = 0.15
+337.3101 	EXP 	top_txt: height = 0.15
+337.3101 	EXP 	top_txt: text = '綠'
+337.3101 	EXP 	bottom_txt: height = 0.15
+337.3101 	EXP 	bottom_txt: height = 0.15
+337.3101 	EXP 	bottom_txt: height = 0.15
+337.3101 	EXP 	bottom_txt: text = '黃'
+337.3101 	EXP 	top_txt: autoDraw = True
+337.3938 	EXP 	bottom_txt: autoDraw = True
+339.2958 	EXP 	bottom_txt: autoDraw = False
+339.3127 	EXP 	top_txt: autoDraw = False
+339.3127 	EXP 	bottom_txt: autoDraw = False
+339.3127 	EXP 	trial_fixation: autoDraw = True
+339.7969 	EXP 	New trial (rep=0, index=4): {'cond': 4, 'topText': '藍', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+339.8132 	EXP 	trial_fixation: autoDraw = False
+339.8132 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+339.8132 	EXP 	top_txt: height = 0.15
+339.8132 	EXP 	top_txt: height = 0.15
+339.8132 	EXP 	top_txt: height = 0.15
+339.8132 	EXP 	top_txt: text = '藍'
+339.8132 	EXP 	bottom_txt: text = '黃'
+339.8132 	EXP 	top_txt: autoDraw = True
+339.8968 	EXP 	bottom_txt: autoDraw = True
+341.7987 	EXP 	bottom_txt: autoDraw = False
+341.8156 	EXP 	top_txt: autoDraw = False
+341.8156 	EXP 	bottom_txt: autoDraw = False
+341.8156 	EXP 	trial_fixation: autoDraw = True
+342.2998 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'topText': '黃', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+342.3160 	EXP 	trial_fixation: autoDraw = False
+342.3160 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+342.3160 	EXP 	top_txt: height = 0.15
+342.3160 	EXP 	top_txt: height = 0.15
+342.3160 	EXP 	top_txt: height = 0.15
+342.3160 	EXP 	top_txt: text = '黃'
+342.3160 	EXP 	bottom_txt: height = 0.15
+342.3160 	EXP 	bottom_txt: height = 0.15
+342.3160 	EXP 	bottom_txt: height = 0.15
+342.3160 	EXP 	bottom_txt: text = '藍'
+342.3160 	EXP 	top_txt: autoDraw = True
+342.3995 	EXP 	bottom_txt: autoDraw = True
+344.3018 	EXP 	bottom_txt: autoDraw = False
+344.3182 	EXP 	top_txt: autoDraw = False
+344.3182 	EXP 	bottom_txt: autoDraw = False
+344.3182 	EXP 	trial_fixation: autoDraw = True
+344.8026 	EXP 	New trial (rep=0, index=6): {'cond': 2, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+344.8193 	EXP 	trial_fixation: autoDraw = False
+344.8193 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+344.8193 	EXP 	top_txt: height = 0.15
+344.8193 	EXP 	top_txt: height = 0.15
+344.8193 	EXP 	top_txt: height = 0.15
+344.8193 	EXP 	top_txt: text = '紅'
+344.8193 	EXP 	bottom_txt: height = 0.15
+344.8193 	EXP 	bottom_txt: height = 0.15
+344.8193 	EXP 	bottom_txt: height = 0.15
+344.8193 	EXP 	bottom_txt: text = '黃'
+344.8193 	EXP 	top_txt: autoDraw = True
+344.9024 	EXP 	bottom_txt: autoDraw = True
+346.8047 	EXP 	bottom_txt: autoDraw = False
+346.8213 	EXP 	top_txt: autoDraw = False
+346.8213 	EXP 	bottom_txt: autoDraw = False
+346.8213 	EXP 	trial_fixation: autoDraw = True
+347.3055 	EXP 	New trial (rep=0, index=7): {'cond': 4, 'topText': '黃', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+347.3216 	EXP 	trial_fixation: autoDraw = False
+347.3216 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+347.3216 	EXP 	top_txt: height = 0.15
+347.3216 	EXP 	top_txt: height = 0.15
+347.3216 	EXP 	top_txt: height = 0.15
+347.3216 	EXP 	top_txt: text = '黃'
+347.3216 	EXP 	bottom_txt: height = 0.15
+347.3216 	EXP 	bottom_txt: height = 0.15
+347.3216 	EXP 	bottom_txt: height = 0.15
+347.3216 	EXP 	bottom_txt: text = '藍'
+347.3216 	EXP 	top_txt: autoDraw = True
+347.3884 	EXP 	bottom_txt: autoDraw = True
+349.2911 	EXP 	bottom_txt: autoDraw = False
+349.3076 	EXP 	top_txt: autoDraw = False
+349.3076 	EXP 	bottom_txt: autoDraw = False
+349.3076 	EXP 	trial_fixation: autoDraw = True
+349.7918 	EXP 	New trial (rep=0, index=8): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+349.8080 	EXP 	trial_fixation: autoDraw = False
+349.8080 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+349.8080 	EXP 	top_txt: height = 0.15
+349.8080 	EXP 	top_txt: height = 0.15
+349.8080 	EXP 	top_txt: height = 0.15
+349.8080 	EXP 	top_txt: text = '綠'
+349.8080 	EXP 	bottom_txt: text = '藍'
+349.8080 	EXP 	top_txt: autoDraw = True
+349.8916 	EXP 	bottom_txt: autoDraw = True
+351.7936 	EXP 	bottom_txt: autoDraw = False
+351.8105 	EXP 	top_txt: autoDraw = False
+351.8105 	EXP 	bottom_txt: autoDraw = False
+351.8105 	EXP 	trial_fixation: autoDraw = True
+352.2946 	EXP 	New trial (rep=0, index=9): {'cond': 2, 'topText': '黃', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+352.3110 	EXP 	trial_fixation: autoDraw = False
+352.3110 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+352.3110 	EXP 	top_txt: height = 0.15
+352.3110 	EXP 	top_txt: height = 0.15
+352.3110 	EXP 	top_txt: height = 0.15
+352.3110 	EXP 	top_txt: text = '黃'
+352.3110 	EXP 	bottom_txt: height = 0.15
+352.3110 	EXP 	bottom_txt: height = 0.15
+352.3110 	EXP 	bottom_txt: height = 0.15
+352.3110 	EXP 	bottom_txt: text = '紅'
+352.3110 	EXP 	top_txt: autoDraw = True
+352.3946 	EXP 	bottom_txt: autoDraw = True
+354.2966 	EXP 	bottom_txt: autoDraw = False
+354.3132 	EXP 	top_txt: autoDraw = False
+354.3132 	EXP 	bottom_txt: autoDraw = False
+354.3132 	EXP 	trial_fixation: autoDraw = True
+354.7974 	EXP 	New trial (rep=0, index=10): {'cond': 4, 'topText': '黃', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+354.8138 	EXP 	trial_fixation: autoDraw = False
+354.8138 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+354.8138 	EXP 	top_txt: text = '黃'
+354.8138 	EXP 	bottom_txt: height = 0.15
+354.8138 	EXP 	bottom_txt: height = 0.15
+354.8138 	EXP 	bottom_txt: height = 0.15
+354.8138 	EXP 	bottom_txt: text = '黃'
+354.8138 	EXP 	top_txt: autoDraw = True
+354.8973 	EXP 	bottom_txt: autoDraw = True
+356.7997 	EXP 	bottom_txt: autoDraw = False
+356.8161 	EXP 	top_txt: autoDraw = False
+356.8161 	EXP 	bottom_txt: autoDraw = False
+356.8161 	EXP 	trial_fixation: autoDraw = True
+357.3004 	EXP 	New trial (rep=0, index=11): {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+357.3165 	EXP 	trial_fixation: autoDraw = False
+357.3165 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+357.3165 	EXP 	top_txt: height = 0.15
+357.3165 	EXP 	top_txt: height = 0.15
+357.3165 	EXP 	top_txt: height = 0.15
+357.3165 	EXP 	top_txt: text = '藍'
+357.3165 	EXP 	bottom_txt: height = 0.15
+357.3165 	EXP 	bottom_txt: height = 0.15
+357.3165 	EXP 	bottom_txt: height = 0.15
+357.3165 	EXP 	bottom_txt: text = '綠'
+357.3165 	EXP 	top_txt: autoDraw = True
+357.4003 	EXP 	bottom_txt: autoDraw = True
+359.3023 	EXP 	bottom_txt: autoDraw = False
+359.3189 	EXP 	top_txt: autoDraw = False
+359.3189 	EXP 	bottom_txt: autoDraw = False
+359.3189 	EXP 	trial_fixation: autoDraw = True
+359.8196 	EXP 	trial_fixation: autoDraw = False
+359.8196 	EXP 	rest_txt: autoDraw = True
+389.8046 	EXP 	New trial (rep=6, index=0): None
+389.8207 	EXP 	rest_txt: autoDraw = False
+389.8207 	EXP 	prep_instr: autoDraw = True
+391.7897 	EXP 	instr_fixation: autoDraw = True
+391.8232 	EXP 	prep_instr: autoDraw = False
+392.3386 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+392.3392 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+392.3396 	EXP 	New trial (rep=0, index=0): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+392.3490 	EXP 	instr_fixation: autoDraw = False
+392.3490 	EXP 	prep_instr: autoDraw = False
+392.3490 	EXP 	instr_fixation: autoDraw = False
+392.3490 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+392.3490 	EXP 	top_txt: text = '藍'
+392.3490 	EXP 	bottom_txt: height = 0.15
+392.3490 	EXP 	bottom_txt: height = 0.15
+392.3490 	EXP 	bottom_txt: height = 0.15
+392.3490 	EXP 	bottom_txt: text = '藍'
+392.3490 	EXP 	top_txt: autoDraw = True
+392.3903 	EXP 	bottom_txt: autoDraw = True
+394.2930 	EXP 	bottom_txt: autoDraw = False
+394.3098 	EXP 	top_txt: autoDraw = False
+394.3098 	EXP 	bottom_txt: autoDraw = False
+394.3098 	EXP 	trial_fixation: autoDraw = True
+394.7944 	EXP 	New trial (rep=0, index=1): {'cond': 2, 'topText': '綠', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+394.8105 	EXP 	trial_fixation: autoDraw = False
+394.8105 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+394.8105 	EXP 	top_txt: height = 0.15
+394.8105 	EXP 	top_txt: height = 0.15
+394.8105 	EXP 	top_txt: height = 0.15
+394.8105 	EXP 	top_txt: text = '綠'
+394.8105 	EXP 	bottom_txt: text = '藍'
+394.8105 	EXP 	top_txt: autoDraw = True
+394.8942 	EXP 	bottom_txt: autoDraw = True
+396.7959 	EXP 	bottom_txt: autoDraw = False
+396.8126 	EXP 	top_txt: autoDraw = False
+396.8126 	EXP 	bottom_txt: autoDraw = False
+396.8126 	EXP 	trial_fixation: autoDraw = True
+397.2973 	EXP 	New trial (rep=0, index=2): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+397.3132 	EXP 	trial_fixation: autoDraw = False
+397.3132 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+397.3132 	EXP 	top_txt: text = '綠'
+397.3132 	EXP 	bottom_txt: height = 0.15
+397.3132 	EXP 	bottom_txt: height = 0.15
+397.3132 	EXP 	bottom_txt: height = 0.15
+397.3132 	EXP 	bottom_txt: text = '綠'
+397.3132 	EXP 	top_txt: autoDraw = True
+397.3967 	EXP 	bottom_txt: autoDraw = True
+399.2988 	EXP 	bottom_txt: autoDraw = False
+399.3156 	EXP 	top_txt: autoDraw = False
+399.3156 	EXP 	bottom_txt: autoDraw = False
+399.3156 	EXP 	trial_fixation: autoDraw = True
+399.8001 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'topText': '藍', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+399.8163 	EXP 	trial_fixation: autoDraw = False
+399.8163 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+399.8163 	EXP 	top_txt: height = 0.15
+399.8163 	EXP 	top_txt: height = 0.15
+399.8163 	EXP 	top_txt: height = 0.15
+399.8163 	EXP 	top_txt: text = '藍'
+399.8163 	EXP 	bottom_txt: text = '綠'
+399.8163 	EXP 	top_txt: autoDraw = True
+399.8995 	EXP 	bottom_txt: autoDraw = True
+401.8018 	EXP 	bottom_txt: autoDraw = False
+401.8186 	EXP 	top_txt: autoDraw = False
+401.8186 	EXP 	bottom_txt: autoDraw = False
+401.8186 	EXP 	trial_fixation: autoDraw = True
+402.3031 	EXP 	New trial (rep=0, index=4): {'cond': 2, 'topText': '紅', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+402.3211 	EXP 	trial_fixation: autoDraw = False
+402.3211 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+402.3211 	EXP 	top_txt: height = 0.15
+402.3211 	EXP 	top_txt: height = 0.15
+402.3211 	EXP 	top_txt: height = 0.15
+402.3211 	EXP 	top_txt: text = '紅'
+402.3211 	EXP 	bottom_txt: height = 0.15
+402.3211 	EXP 	bottom_txt: height = 0.15
+402.3211 	EXP 	bottom_txt: height = 0.15
+402.3211 	EXP 	bottom_txt: text = '藍'
+402.3211 	EXP 	top_txt: autoDraw = True
+402.4026 	EXP 	bottom_txt: autoDraw = True
+404.3046 	EXP 	bottom_txt: autoDraw = False
+404.3213 	EXP 	top_txt: autoDraw = False
+404.3213 	EXP 	bottom_txt: autoDraw = False
+404.3213 	EXP 	trial_fixation: autoDraw = True
+404.8059 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+404.8249 	EXP 	trial_fixation: autoDraw = False
+404.8249 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+404.8249 	EXP 	top_txt: height = 0.15
+404.8249 	EXP 	top_txt: height = 0.15
+404.8249 	EXP 	top_txt: height = 0.15
+404.8249 	EXP 	top_txt: text = '藍'
+404.8249 	EXP 	bottom_txt: height = 0.15
+404.8249 	EXP 	bottom_txt: height = 0.15
+404.8249 	EXP 	bottom_txt: height = 0.15
+404.8249 	EXP 	bottom_txt: text = '紅'
+404.8249 	EXP 	top_txt: autoDraw = True
+404.8888 	EXP 	bottom_txt: autoDraw = True
+406.7908 	EXP 	bottom_txt: autoDraw = False
+406.8075 	EXP 	top_txt: autoDraw = False
+406.8075 	EXP 	bottom_txt: autoDraw = False
+406.8075 	EXP 	trial_fixation: autoDraw = True
+407.2921 	EXP 	New trial (rep=0, index=6): {'cond': 2, 'topText': '黃', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+407.3097 	EXP 	trial_fixation: autoDraw = False
+407.3097 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+407.3097 	EXP 	top_txt: height = 0.15
+407.3097 	EXP 	top_txt: height = 0.15
+407.3097 	EXP 	top_txt: height = 0.15
+407.3097 	EXP 	top_txt: text = '黃'
+407.3097 	EXP 	bottom_txt: height = 0.15
+407.3097 	EXP 	bottom_txt: height = 0.15
+407.3097 	EXP 	bottom_txt: height = 0.15
+407.3097 	EXP 	bottom_txt: text = '綠'
+407.3097 	EXP 	top_txt: autoDraw = True
+407.3919 	EXP 	bottom_txt: autoDraw = True
+409.2937 	EXP 	bottom_txt: autoDraw = False
+409.3104 	EXP 	top_txt: autoDraw = False
+409.3104 	EXP 	bottom_txt: autoDraw = False
+409.3104 	EXP 	trial_fixation: autoDraw = True
+409.7950 	EXP 	New trial (rep=0, index=7): {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+409.8109 	EXP 	trial_fixation: autoDraw = False
+409.8109 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+409.8109 	EXP 	top_txt: text = '黃'
+409.8109 	EXP 	bottom_txt: height = 0.15
+409.8109 	EXP 	bottom_txt: height = 0.15
+409.8109 	EXP 	bottom_txt: height = 0.15
+409.8109 	EXP 	bottom_txt: text = '黃'
+409.8109 	EXP 	top_txt: autoDraw = True
+409.8943 	EXP 	bottom_txt: autoDraw = True
+411.7966 	EXP 	bottom_txt: autoDraw = False
+411.8133 	EXP 	top_txt: autoDraw = False
+411.8133 	EXP 	bottom_txt: autoDraw = False
+411.8133 	EXP 	trial_fixation: autoDraw = True
+412.2980 	EXP 	New trial (rep=0, index=8): {'cond': 4, 'topText': '綠', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+412.3139 	EXP 	trial_fixation: autoDraw = False
+412.3139 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+412.3139 	EXP 	top_txt: height = 0.15
+412.3139 	EXP 	top_txt: height = 0.15
+412.3139 	EXP 	top_txt: height = 0.15
+412.3139 	EXP 	top_txt: text = '綠'
+412.3139 	EXP 	bottom_txt: text = '黃'
+412.3139 	EXP 	top_txt: autoDraw = True
+412.3974 	EXP 	bottom_txt: autoDraw = True
+414.2992 	EXP 	bottom_txt: autoDraw = False
+414.3156 	EXP 	top_txt: autoDraw = False
+414.3156 	EXP 	bottom_txt: autoDraw = False
+414.3156 	EXP 	trial_fixation: autoDraw = True
+414.8000 	EXP 	New trial (rep=0, index=9): {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+414.8164 	EXP 	trial_fixation: autoDraw = False
+414.8164 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+414.8164 	EXP 	top_txt: height = 0.15
+414.8164 	EXP 	top_txt: height = 0.15
+414.8164 	EXP 	top_txt: height = 0.15
+414.8164 	EXP 	top_txt: text = '黃'
+414.8164 	EXP 	bottom_txt: height = 0.15
+414.8164 	EXP 	bottom_txt: height = 0.15
+414.8164 	EXP 	bottom_txt: height = 0.15
+414.8164 	EXP 	bottom_txt: text = '綠'
+414.8164 	EXP 	top_txt: autoDraw = True
+414.8998 	EXP 	bottom_txt: autoDraw = True
+416.8024 	EXP 	bottom_txt: autoDraw = False
+416.8187 	EXP 	top_txt: autoDraw = False
+416.8187 	EXP 	bottom_txt: autoDraw = False
+416.8187 	EXP 	trial_fixation: autoDraw = True
+417.3028 	EXP 	New trial (rep=0, index=10): {'cond': 2, 'topText': '黃', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 1}
+417.3193 	EXP 	trial_fixation: autoDraw = False
+417.3193 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+417.3193 	EXP 	top_txt: text = '黃'
+417.3193 	EXP 	bottom_txt: height = 0.15
+417.3193 	EXP 	bottom_txt: height = 0.15
+417.3193 	EXP 	bottom_txt: height = 0.15
+417.3193 	EXP 	bottom_txt: text = '藍'
+417.3193 	EXP 	top_txt: autoDraw = True
+417.4026 	EXP 	bottom_txt: autoDraw = True
+419.3049 	EXP 	bottom_txt: autoDraw = False
+419.3213 	EXP 	top_txt: autoDraw = False
+419.3213 	EXP 	bottom_txt: autoDraw = False
+419.3213 	EXP 	trial_fixation: autoDraw = True
+419.8057 	EXP 	New trial (rep=0, index=11): {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+419.8221 	EXP 	trial_fixation: autoDraw = False
+419.8221 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+419.8221 	EXP 	top_txt: height = 0.15
+419.8221 	EXP 	top_txt: height = 0.15
+419.8221 	EXP 	top_txt: height = 0.15
+419.8221 	EXP 	top_txt: text = '藍'
+419.8221 	EXP 	bottom_txt: text = '藍'
+419.8221 	EXP 	top_txt: autoDraw = True
+419.8889 	EXP 	bottom_txt: autoDraw = True
+421.7910 	EXP 	bottom_txt: autoDraw = False
+421.8078 	EXP 	top_txt: autoDraw = False
+421.8078 	EXP 	bottom_txt: autoDraw = False
+421.8078 	EXP 	trial_fixation: autoDraw = True
+422.3084 	EXP 	trial_fixation: autoDraw = False
+422.3084 	EXP 	rest_txt: autoDraw = True
+452.2931 	EXP 	New trial (rep=7, index=0): None
+452.3095 	EXP 	rest_txt: autoDraw = False
+452.3095 	EXP 	prep_instr: autoDraw = True
+454.2952 	EXP 	instr_fixation: autoDraw = True
+454.3117 	EXP 	prep_instr: autoDraw = False
+454.8150 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+454.8154 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+454.8156 	EXP 	New trial (rep=0, index=0): {'cond': 5, 'topText': '並', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+454.8258 	EXP 	instr_fixation: autoDraw = False
+454.8258 	EXP 	prep_instr: autoDraw = False
+454.8258 	EXP 	instr_fixation: autoDraw = False
+454.8258 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+454.8258 	EXP 	top_txt: height = 0.15
+454.8258 	EXP 	top_txt: height = 0.15
+454.8258 	EXP 	top_txt: height = 0.15
+454.8258 	EXP 	top_txt: text = '並'
+454.8258 	EXP 	bottom_txt: height = 0.15
+454.8258 	EXP 	bottom_txt: height = 0.15
+454.8258 	EXP 	bottom_txt: height = 0.15
+454.8258 	EXP 	bottom_txt: text = '綠'
+454.8258 	EXP 	top_txt: autoDraw = True
+454.8962 	EXP 	bottom_txt: autoDraw = True
+456.7980 	EXP 	bottom_txt: autoDraw = False
+456.8148 	EXP 	top_txt: autoDraw = False
+456.8148 	EXP 	bottom_txt: autoDraw = False
+456.8148 	EXP 	trial_fixation: autoDraw = True
+457.2989 	EXP 	New trial (rep=0, index=1): {'cond': 6, 'topText': '並', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+457.3154 	EXP 	trial_fixation: autoDraw = False
+457.3154 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+457.3154 	EXP 	top_txt: text = '並'
+457.3154 	EXP 	bottom_txt: height = 0.15
+457.3154 	EXP 	bottom_txt: height = 0.15
+457.3154 	EXP 	bottom_txt: height = 0.15
+457.3154 	EXP 	bottom_txt: text = '紅'
+457.3154 	EXP 	top_txt: autoDraw = True
+457.3987 	EXP 	bottom_txt: autoDraw = True
+459.3011 	EXP 	bottom_txt: autoDraw = False
+459.3175 	EXP 	top_txt: autoDraw = False
+459.3175 	EXP 	bottom_txt: autoDraw = False
+459.3175 	EXP 	trial_fixation: autoDraw = True
+459.8016 	EXP 	New trial (rep=0, index=2): {'cond': 6, 'topText': '的', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+459.8182 	EXP 	trial_fixation: autoDraw = False
+459.8182 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+459.8182 	EXP 	top_txt: height = 0.15
+459.8182 	EXP 	top_txt: height = 0.15
+459.8182 	EXP 	top_txt: height = 0.15
+459.8182 	EXP 	top_txt: text = '的'
+459.8182 	EXP 	bottom_txt: height = 0.15
+459.8182 	EXP 	bottom_txt: height = 0.15
+459.8182 	EXP 	bottom_txt: height = 0.15
+459.8182 	EXP 	bottom_txt: text = '綠'
+459.8182 	EXP 	top_txt: autoDraw = True
+459.9015 	EXP 	bottom_txt: autoDraw = True
+461.8040 	EXP 	bottom_txt: autoDraw = False
+461.8206 	EXP 	top_txt: autoDraw = False
+461.8206 	EXP 	bottom_txt: autoDraw = False
+461.8206 	EXP 	trial_fixation: autoDraw = True
+462.3046 	EXP 	New trial (rep=0, index=3): {'cond': 5, 'topText': '的', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+462.3211 	EXP 	trial_fixation: autoDraw = False
+462.3211 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+462.3211 	EXP 	top_txt: text = '的'
+462.3211 	EXP 	bottom_txt: text = '綠'
+462.3211 	EXP 	top_txt: autoDraw = True
+462.4045 	EXP 	bottom_txt: autoDraw = True
+464.3064 	EXP 	top_txt: autoDraw = False
+464.3064 	EXP 	bottom_txt: autoDraw = False
+464.3064 	EXP 	trial_fixation: autoDraw = True
+464.7909 	EXP 	New trial (rep=0, index=4): {'cond': 6, 'topText': '的', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+464.8073 	EXP 	trial_fixation: autoDraw = False
+464.8073 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+464.8073 	EXP 	top_txt: text = '的'
+464.8073 	EXP 	bottom_txt: height = 0.15
+464.8073 	EXP 	bottom_txt: height = 0.15
+464.8073 	EXP 	bottom_txt: height = 0.15
+464.8073 	EXP 	bottom_txt: text = '藍'
+464.8073 	EXP 	top_txt: autoDraw = True
+464.8905 	EXP 	bottom_txt: autoDraw = True
+466.7929 	EXP 	bottom_txt: autoDraw = False
+466.8096 	EXP 	top_txt: autoDraw = False
+466.8096 	EXP 	bottom_txt: autoDraw = False
+466.8096 	EXP 	trial_fixation: autoDraw = True
+467.2937 	EXP 	New trial (rep=0, index=5): {'cond': 5, 'topText': '個', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+467.3102 	EXP 	trial_fixation: autoDraw = False
+467.3102 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+467.3102 	EXP 	top_txt: height = 0.15
+467.3102 	EXP 	top_txt: height = 0.15
+467.3102 	EXP 	top_txt: height = 0.15
+467.3102 	EXP 	top_txt: text = '個'
+467.3102 	EXP 	bottom_txt: height = 0.15
+467.3102 	EXP 	bottom_txt: height = 0.15
+467.3102 	EXP 	bottom_txt: height = 0.15
+467.3102 	EXP 	bottom_txt: text = '黃'
+467.3102 	EXP 	top_txt: autoDraw = True
+467.3936 	EXP 	bottom_txt: autoDraw = True
+469.2955 	EXP 	bottom_txt: autoDraw = False
+469.3124 	EXP 	top_txt: autoDraw = False
+469.3124 	EXP 	bottom_txt: autoDraw = False
+469.3124 	EXP 	trial_fixation: autoDraw = True
+469.7965 	EXP 	New trial (rep=0, index=6): {'cond': 5, 'topText': '的', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+469.8130 	EXP 	trial_fixation: autoDraw = False
+469.8130 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+469.8130 	EXP 	top_txt: height = 0.15
+469.8130 	EXP 	top_txt: height = 0.15
+469.8130 	EXP 	top_txt: height = 0.15
+469.8130 	EXP 	top_txt: text = '的'
+469.8130 	EXP 	bottom_txt: height = 0.15
+469.8130 	EXP 	bottom_txt: height = 0.15
+469.8130 	EXP 	bottom_txt: height = 0.15
+469.8130 	EXP 	bottom_txt: text = '綠'
+469.8130 	EXP 	top_txt: autoDraw = True
+469.8964 	EXP 	bottom_txt: autoDraw = True
+471.7986 	EXP 	bottom_txt: autoDraw = False
+471.8154 	EXP 	top_txt: autoDraw = False
+471.8154 	EXP 	bottom_txt: autoDraw = False
+471.8154 	EXP 	trial_fixation: autoDraw = True
+472.2995 	EXP 	New trial (rep=0, index=7): {'cond': 6, 'topText': '的', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+472.3160 	EXP 	trial_fixation: autoDraw = False
+472.3160 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+472.3160 	EXP 	top_txt: text = '的'
+472.3160 	EXP 	bottom_txt: text = '綠'
+472.3160 	EXP 	top_txt: autoDraw = True
+472.3996 	EXP 	bottom_txt: autoDraw = True
+474.3015 	EXP 	bottom_txt: autoDraw = False
+474.3184 	EXP 	top_txt: autoDraw = False
+474.3184 	EXP 	bottom_txt: autoDraw = False
+474.3184 	EXP 	trial_fixation: autoDraw = True
+474.8024 	EXP 	New trial (rep=0, index=8): {'cond': 5, 'topText': '的', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+474.8188 	EXP 	trial_fixation: autoDraw = False
+474.8188 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+474.8188 	EXP 	top_txt: text = '的'
+474.8188 	EXP 	bottom_txt: height = 0.15
+474.8188 	EXP 	bottom_txt: height = 0.15
+474.8188 	EXP 	bottom_txt: height = 0.15
+474.8188 	EXP 	bottom_txt: text = '紅'
+474.8188 	EXP 	top_txt: autoDraw = True
+474.9021 	EXP 	bottom_txt: autoDraw = True
+476.8043 	EXP 	bottom_txt: autoDraw = False
+476.8212 	EXP 	top_txt: autoDraw = False
+476.8212 	EXP 	bottom_txt: autoDraw = False
+476.8212 	EXP 	trial_fixation: autoDraw = True
+477.3052 	EXP 	New trial (rep=0, index=9): {'cond': 5, 'topText': '並', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+477.3220 	EXP 	trial_fixation: autoDraw = False
+477.3220 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+477.3220 	EXP 	top_txt: height = 0.15
+477.3220 	EXP 	top_txt: height = 0.15
+477.3220 	EXP 	top_txt: height = 0.15
+477.3220 	EXP 	top_txt: text = '並'
+477.3220 	EXP 	bottom_txt: height = 0.15
+477.3220 	EXP 	bottom_txt: height = 0.15
+477.3220 	EXP 	bottom_txt: height = 0.15
+477.3220 	EXP 	bottom_txt: text = '綠'
+477.3220 	EXP 	top_txt: autoDraw = True
+477.4051 	EXP 	bottom_txt: autoDraw = True
+479.3072 	EXP 	top_txt: autoDraw = False
+479.3072 	EXP 	bottom_txt: autoDraw = False
+479.3072 	EXP 	trial_fixation: autoDraw = True
+479.7914 	EXP 	New trial (rep=0, index=10): {'cond': 6, 'topText': '並', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+479.8080 	EXP 	trial_fixation: autoDraw = False
+479.8080 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+479.8080 	EXP 	top_txt: text = '並'
+479.8080 	EXP 	bottom_txt: height = 0.15
+479.8080 	EXP 	bottom_txt: height = 0.15
+479.8080 	EXP 	bottom_txt: height = 0.15
+479.8080 	EXP 	bottom_txt: text = '紅'
+479.8080 	EXP 	top_txt: autoDraw = True
+479.8913 	EXP 	bottom_txt: autoDraw = True
+481.7934 	EXP 	bottom_txt: autoDraw = False
+481.8101 	EXP 	top_txt: autoDraw = False
+481.8101 	EXP 	bottom_txt: autoDraw = False
+481.8101 	EXP 	trial_fixation: autoDraw = True
+482.2942 	EXP 	New trial (rep=0, index=11): {'cond': 6, 'topText': '的', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 2}
+482.3109 	EXP 	trial_fixation: autoDraw = False
+482.3109 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+482.3109 	EXP 	top_txt: height = 0.15
+482.3109 	EXP 	top_txt: height = 0.15
+482.3109 	EXP 	top_txt: height = 0.15
+482.3109 	EXP 	top_txt: text = '的'
+482.3109 	EXP 	bottom_txt: height = 0.15
+482.3109 	EXP 	bottom_txt: height = 0.15
+482.3109 	EXP 	bottom_txt: height = 0.15
+482.3109 	EXP 	bottom_txt: text = '黃'
+482.3109 	EXP 	top_txt: autoDraw = True
+482.3942 	EXP 	bottom_txt: autoDraw = True
+484.2965 	EXP 	bottom_txt: autoDraw = False
+484.3132 	EXP 	top_txt: autoDraw = False
+484.3132 	EXP 	bottom_txt: autoDraw = False
+484.3132 	EXP 	trial_fixation: autoDraw = True
+484.8138 	EXP 	trial_fixation: autoDraw = False
+484.8138 	EXP 	rest_txt: autoDraw = True
+514.7987 	EXP 	New trial (rep=8, index=0): None
+514.8148 	EXP 	rest_txt: autoDraw = False
+514.8148 	EXP 	prep_instr: autoDraw = True
+516.8006 	EXP 	instr_fixation: autoDraw = True
+516.8170 	EXP 	prep_instr: autoDraw = False
+517.3203 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+517.3207 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+517.3210 	EXP 	New trial (rep=0, index=0): {'cond': 4, 'topText': '黃', 'topColour': 'red', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+517.3318 	EXP 	instr_fixation: autoDraw = False
+517.3318 	EXP 	prep_instr: autoDraw = False
+517.3318 	EXP 	instr_fixation: autoDraw = False
+517.3318 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+517.3318 	EXP 	top_txt: height = 0.15
+517.3318 	EXP 	top_txt: height = 0.15
+517.3318 	EXP 	top_txt: height = 0.15
+517.3318 	EXP 	top_txt: text = '黃'
+517.3318 	EXP 	bottom_txt: height = 0.15
+517.3318 	EXP 	bottom_txt: height = 0.15
+517.3318 	EXP 	bottom_txt: height = 0.15
+517.3318 	EXP 	bottom_txt: text = '綠'
+517.3318 	EXP 	top_txt: autoDraw = True
+517.4013 	EXP 	bottom_txt: autoDraw = True
+519.3034 	EXP 	bottom_txt: autoDraw = False
+519.3202 	EXP 	top_txt: autoDraw = False
+519.3202 	EXP 	bottom_txt: autoDraw = False
+519.3202 	EXP 	trial_fixation: autoDraw = True
+519.8045 	EXP 	New trial (rep=0, index=1): {'cond': 2, 'topText': '紅', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+519.8207 	EXP 	trial_fixation: autoDraw = False
+519.8207 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+519.8207 	EXP 	top_txt: height = 0.15
+519.8207 	EXP 	top_txt: height = 0.15
+519.8207 	EXP 	top_txt: height = 0.15
+519.8207 	EXP 	top_txt: text = '紅'
+519.8207 	EXP 	bottom_txt: text = '綠'
+519.8207 	EXP 	top_txt: autoDraw = True
+519.9040 	EXP 	bottom_txt: autoDraw = True
+521.8064 	EXP 	top_txt: autoDraw = False
+521.8064 	EXP 	bottom_txt: autoDraw = False
+521.8064 	EXP 	trial_fixation: autoDraw = True
+522.2906 	EXP 	New trial (rep=0, index=2): {'cond': 2, 'topText': '黃', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 1}
+522.3068 	EXP 	trial_fixation: autoDraw = False
+522.3068 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+522.3068 	EXP 	top_txt: height = 0.15
+522.3068 	EXP 	top_txt: height = 0.15
+522.3068 	EXP 	top_txt: height = 0.15
+522.3068 	EXP 	top_txt: text = '黃'
+522.3068 	EXP 	bottom_txt: text = '綠'
+522.3068 	EXP 	top_txt: autoDraw = True
+522.3904 	EXP 	bottom_txt: autoDraw = True
+524.2926 	EXP 	bottom_txt: autoDraw = False
+524.3091 	EXP 	top_txt: autoDraw = False
+524.3091 	EXP 	bottom_txt: autoDraw = False
+524.3091 	EXP 	trial_fixation: autoDraw = True
+524.7934 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+524.8097 	EXP 	trial_fixation: autoDraw = False
+524.8097 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+524.8097 	EXP 	top_txt: height = 0.15
+524.8097 	EXP 	top_txt: height = 0.15
+524.8097 	EXP 	top_txt: height = 0.15
+524.8097 	EXP 	top_txt: text = '藍'
+524.8097 	EXP 	bottom_txt: height = 0.15
+524.8097 	EXP 	bottom_txt: height = 0.15
+524.8097 	EXP 	bottom_txt: height = 0.15
+524.8097 	EXP 	bottom_txt: text = '紅'
+524.8097 	EXP 	top_txt: autoDraw = True
+524.8932 	EXP 	bottom_txt: autoDraw = True
+526.7953 	EXP 	bottom_txt: autoDraw = False
+526.8120 	EXP 	top_txt: autoDraw = False
+526.8120 	EXP 	bottom_txt: autoDraw = False
+526.8120 	EXP 	trial_fixation: autoDraw = True
+527.2962 	EXP 	New trial (rep=0, index=4): {'cond': 4, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+527.3128 	EXP 	trial_fixation: autoDraw = False
+527.3128 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+527.3128 	EXP 	top_txt: height = 0.15
+527.3128 	EXP 	top_txt: height = 0.15
+527.3128 	EXP 	top_txt: height = 0.15
+527.3128 	EXP 	top_txt: text = '紅'
+527.3128 	EXP 	bottom_txt: text = '紅'
+527.3128 	EXP 	top_txt: autoDraw = True
+527.3966 	EXP 	bottom_txt: autoDraw = True
+529.2982 	EXP 	bottom_txt: autoDraw = False
+529.3150 	EXP 	top_txt: autoDraw = False
+529.3150 	EXP 	bottom_txt: autoDraw = False
+529.3150 	EXP 	trial_fixation: autoDraw = True
+529.7991 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+529.8157 	EXP 	trial_fixation: autoDraw = False
+529.8157 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+529.8157 	EXP 	top_txt: height = 0.15
+529.8157 	EXP 	top_txt: height = 0.15
+529.8157 	EXP 	top_txt: height = 0.15
+529.8157 	EXP 	top_txt: text = '綠'
+529.8157 	EXP 	bottom_txt: height = 0.15
+529.8157 	EXP 	bottom_txt: height = 0.15
+529.8157 	EXP 	bottom_txt: height = 0.15
+529.8157 	EXP 	bottom_txt: text = '黃'
+529.8157 	EXP 	top_txt: autoDraw = True
+529.8990 	EXP 	bottom_txt: autoDraw = True
+531.8012 	EXP 	bottom_txt: autoDraw = False
+531.8177 	EXP 	top_txt: autoDraw = False
+531.8177 	EXP 	bottom_txt: autoDraw = False
+531.8177 	EXP 	trial_fixation: autoDraw = True
+532.3021 	EXP 	New trial (rep=0, index=6): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+532.3185 	EXP 	trial_fixation: autoDraw = False
+532.3185 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+532.3185 	EXP 	top_txt: text = '綠'
+532.3185 	EXP 	bottom_txt: height = 0.15
+532.3185 	EXP 	bottom_txt: height = 0.15
+532.3185 	EXP 	bottom_txt: height = 0.15
+532.3185 	EXP 	bottom_txt: text = '紅'
+532.3185 	EXP 	top_txt: autoDraw = True
+532.4020 	EXP 	bottom_txt: autoDraw = True
+534.3040 	EXP 	bottom_txt: autoDraw = False
+534.3205 	EXP 	top_txt: autoDraw = False
+534.3205 	EXP 	bottom_txt: autoDraw = False
+534.3205 	EXP 	trial_fixation: autoDraw = True
+534.8048 	EXP 	New trial (rep=0, index=7): {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+534.8212 	EXP 	trial_fixation: autoDraw = False
+534.8212 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+534.8212 	EXP 	top_txt: height = 0.15
+534.8212 	EXP 	top_txt: height = 0.15
+534.8212 	EXP 	top_txt: height = 0.15
+534.8212 	EXP 	top_txt: text = '藍'
+534.8212 	EXP 	bottom_txt: text = '紅'
+534.8212 	EXP 	top_txt: autoDraw = True
+534.9045 	EXP 	bottom_txt: autoDraw = True
+536.8069 	EXP 	top_txt: autoDraw = False
+536.8069 	EXP 	bottom_txt: autoDraw = False
+536.8069 	EXP 	trial_fixation: autoDraw = True
+537.2910 	EXP 	New trial (rep=0, index=8): {'cond': 2, 'topText': '黃', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 1}
+537.3076 	EXP 	trial_fixation: autoDraw = False
+537.3076 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+537.3076 	EXP 	top_txt: height = 0.15
+537.3076 	EXP 	top_txt: height = 0.15
+537.3076 	EXP 	top_txt: height = 0.15
+537.3076 	EXP 	top_txt: text = '黃'
+537.3076 	EXP 	bottom_txt: text = '紅'
+537.3076 	EXP 	top_txt: autoDraw = True
+537.3910 	EXP 	bottom_txt: autoDraw = True
+539.2929 	EXP 	bottom_txt: autoDraw = False
+539.3099 	EXP 	top_txt: autoDraw = False
+539.3099 	EXP 	bottom_txt: autoDraw = False
+539.3099 	EXP 	trial_fixation: autoDraw = True
+539.7941 	EXP 	New trial (rep=0, index=9): {'cond': 4, 'topText': '綠', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+539.8104 	EXP 	trial_fixation: autoDraw = False
+539.8104 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+539.8104 	EXP 	top_txt: height = 0.15
+539.8104 	EXP 	top_txt: height = 0.15
+539.8104 	EXP 	top_txt: height = 0.15
+539.8104 	EXP 	top_txt: text = '綠'
+539.8104 	EXP 	bottom_txt: height = 0.15
+539.8104 	EXP 	bottom_txt: height = 0.15
+539.8104 	EXP 	bottom_txt: height = 0.15
+539.8104 	EXP 	bottom_txt: text = '綠'
+539.8104 	EXP 	top_txt: autoDraw = True
+539.8939 	EXP 	bottom_txt: autoDraw = True
+541.7961 	EXP 	bottom_txt: autoDraw = False
+541.8125 	EXP 	top_txt: autoDraw = False
+541.8125 	EXP 	bottom_txt: autoDraw = False
+541.8125 	EXP 	trial_fixation: autoDraw = True
+542.2969 	EXP 	New trial (rep=0, index=10): {'cond': 4, 'topText': '紅', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 2}
+542.3134 	EXP 	trial_fixation: autoDraw = False
+542.3134 	EXP 	top_txt: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+542.3134 	EXP 	top_txt: height = 0.15
+542.3134 	EXP 	top_txt: height = 0.15
+542.3134 	EXP 	top_txt: height = 0.15
+542.3134 	EXP 	top_txt: text = '紅'
+542.3134 	EXP 	bottom_txt: height = 0.15
+542.3134 	EXP 	bottom_txt: height = 0.15
+542.3134 	EXP 	bottom_txt: height = 0.15
+542.3134 	EXP 	bottom_txt: text = '紅'
+542.3134 	EXP 	top_txt: autoDraw = True
+542.3967 	EXP 	bottom_txt: autoDraw = True
+544.2988 	EXP 	bottom_txt: autoDraw = False
+544.3154 	EXP 	top_txt: autoDraw = False
+544.3154 	EXP 	bottom_txt: autoDraw = False
+544.3154 	EXP 	trial_fixation: autoDraw = True
+544.7997 	EXP 	New trial (rep=0, index=11): {'cond': 2, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 1}
+544.8163 	EXP 	trial_fixation: autoDraw = False
+544.8163 	EXP 	top_txt: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+544.8163 	EXP 	top_txt: height = 0.15
+544.8163 	EXP 	top_txt: height = 0.15
+544.8163 	EXP 	top_txt: height = 0.15
+544.8163 	EXP 	top_txt: text = '藍'
+544.8163 	EXP 	bottom_txt: height = 0.15
+544.8163 	EXP 	bottom_txt: height = 0.15
+544.8163 	EXP 	bottom_txt: height = 0.15
+544.8163 	EXP 	bottom_txt: text = '黃'
+544.8163 	EXP 	top_txt: autoDraw = True
+544.8995 	EXP 	bottom_txt: autoDraw = True
+546.8015 	EXP 	bottom_txt: autoDraw = False
+546.8183 	EXP 	top_txt: autoDraw = False
+546.8183 	EXP 	bottom_txt: autoDraw = False
+546.8183 	EXP 	trial_fixation: autoDraw = True
+547.3188 	EXP 	trial_fixation: autoDraw = False
+547.3188 	EXP 	rest_txt: autoDraw = True
+577.3207 	EXP 	rest_txt: autoDraw = False
+577.3207 	EXP 	end_txt: autoDraw = True
+582.9104 	EXP 	end_txt: autoDraw = False
+583.0524 	EXP 	window1: mouseVisible = True

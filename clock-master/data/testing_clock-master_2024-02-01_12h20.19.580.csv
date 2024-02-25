@@ -1,0 +1,3 @@
+﻿trigger_txt.started,trigger_resp.started,trigger_resp.keys,trigger_resp.rt,trigger_resp.duration,instr_txt.started,instr_resp.started,prepared_resp.started,participant,session,date,expName,psychopyVersion,frameRate,
+12.645392900099978,12.645392900099978,s,1.2953425999730825,None,,,,testing,001,2024-02-01_12h20.19.580,clock-master,2023.1.3,60.09355362908909,
+,,,,,13.960416099987924,13.960416099987924,13.960416099987924,,,,,,,

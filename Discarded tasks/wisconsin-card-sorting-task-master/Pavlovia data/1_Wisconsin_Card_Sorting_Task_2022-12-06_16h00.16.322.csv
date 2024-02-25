@@ -1,0 +1,5 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate
+0,1876,-0.332390873,0.295143022,1,0,0,one_red_dot,0,0,0,25,1,number,images/2redDots.jpg,two_yellow_triangles,1,001,2022-12-06_16h00.16.322,Wisconsin Card Sorting Task,2022.1.2,MacIntel,120.0048002
+0,3798,-0.10296379,0.207146991,1,0,0,two_yellow_triangles,0,1,1,45,1,number,images/3yellowDots.jpg,three_green_crosses,1,001,2022-12-06_16h00.16.322,Wisconsin Card Sorting Task,2022.1.2,MacIntel,120.0048002
+1,1904,-0.293431713,0.238004299,1,0,0,one_red_dot,0,2,2,10,1,number,images/1redStar.jpg,one_red_dot,1,001,2022-12-06_16h00.16.322,Wisconsin Card Sorting Task,2022.1.2,MacIntel,120.0048002
+1,1992,0.413773148,0.248511905,1,0,0,four_blue_stars,0,3,3,57,1,number,images/4redDots.jpg,four_blue_stars,1,001,2022-12-06_16h00.16.322,Wisconsin Card Sorting Task,2022.1.2,MacIntel,120.0048002

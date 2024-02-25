@@ -1,0 +1,48 @@
+0.9988 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.6974 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+9.1927 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002C131231390>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002C1313409E8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.1931 	EXP 	window1: mouseVisible = True
+9.1931 	EXP 	window1: recordFrameIntervals = False
+9.3589 	EXP 	window1: recordFrameIntervals = True
+9.5413 	EXP 	window1: recordFrameIntervals = False
+10.0237 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.9)
+10.0462 	EXP 	Created example_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='example_text', opacity=1, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='For example, you may see a screen like this:', units='height', win=Window(...), wrapWidth=1)
+10.1802 	EXP 	Created example_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='example.jpg', interpolate=True, mask=None, maskParams=None, name='example_image', opacity=1, ori=0.0, pos=array([0.  , 0.15]), size=array([0.7, 0.4]), texRes=128, units='height', win=Window(...))
+10.2066 	EXP 	Created example_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='example_text_2', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.9)
+10.2142 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.2918 	EXP 	Created one_red_dot = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/1redDot.jpg', interpolate=True, mask=None, maskParams=None, name='one_red_dot', opacity=1, ori=0.0, pos=array([-0.375,  0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+10.3700 	EXP 	Created two_yellow_triangles = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/2yellowTriangles.jpg', interpolate=True, mask=None, maskParams=None, name='two_yellow_triangles', opacity=1, ori=0.0, pos=array([-0.125,  0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+10.4452 	EXP 	Created three_green_crosses = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/3greenCrosses.jpg', interpolate=True, mask=None, maskParams=None, name='three_green_crosses', opacity=1, ori=0.0, pos=array([0.125, 0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+10.5266 	EXP 	Created four_blue_stars = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/4blueStars.jpg', interpolate=True, mask=None, maskParams=None, name='four_blue_stars', opacity=1, ori=0.0, pos=array([0.375, 0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+10.5314 	EXP 	Created trial_card = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='trial_card', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.5323 	EXP 	Created feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.5518 	EXP 	Created thank_you = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5906 	EXP 	instructions: autoDraw = True
+10.9555 	DATA 	Keypress: s
+10.9610 	EXP 	instructions: autoDraw = False
+10.9610 	EXP 	example_text: autoDraw = True
+10.9610 	EXP 	example_image: autoDraw = True
+10.9610 	EXP 	example_text_2: autoDraw = True
+11.9967 	DATA 	Keypress: s
+12.0125 	EXP 	Created sequence: random, trialTypes=1, nReps=80, seed=None
+12.0132 	EXP 	New trial (rep=0, index=0): None
+12.0586 	EXP 	Imported cards.xlsx as conditions, 64 conditions, 4 params
+12.0590 	EXP 	Created sequence: random, trialTypes=64, nReps=1, seed=None
+12.0592 	EXP 	New trial (rep=0, index=0): {'cond': 2, 'rule': 'number', 'card': 'images/1blueDot.jpg', 'corrAns': 1}
+12.0663 	EXP 	example_text: autoDraw = False
+12.0663 	EXP 	example_image: autoDraw = False
+12.0663 	EXP 	example_text_2: autoDraw = False
+12.0663 	EXP 	fixation: autoDraw = True
+15.6980 	EXP 	fixation: autoDraw = False
+15.6980 	EXP 	fixation: autoDraw = False
+15.6980 	EXP 	trial_card: image = 'images/1blueDot.jpg'
+15.6980 	EXP 	one_red_dot: autoDraw = True
+15.6980 	EXP 	two_yellow_triangles: autoDraw = True
+15.6980 	EXP 	three_green_crosses: autoDraw = True
+15.6980 	EXP 	four_blue_stars: autoDraw = True
+15.6980 	EXP 	trial_card: autoDraw = True
+18.2088 	WARNING 	Got keycode {} but that code isn't yet known
+18.2089 	WARNING 	Keypress was given unknown key code (44)
+18.2572 	DATA 	Keypress: lwindows
+18.6800 	DATA 	Keypress: lwindows
+19.1976 	EXP 	window1: mouseVisible = True

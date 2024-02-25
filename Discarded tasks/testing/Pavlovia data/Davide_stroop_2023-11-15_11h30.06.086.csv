@@ -1,0 +1,3 @@
+﻿participant,session,date,expName,psychopyVersion,OS,frameRate,resp.keys,resp.corr,resp.rt,resp.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,text,letterColor,corrAns,congruent
+Davide,001,2023-11-15_11h30.06.086,stroop,2023.1.3,Win32,60.08532116,,,,,,,,,,,,,
+Davide,001,2023-11-15_11h30.06.086,stroop,2023.1.3,Win32,60.08532116,right,0,0.9051,,0,0,0,1,1,red,green,down,0

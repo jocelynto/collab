@@ -1,0 +1,264 @@
+2.6975 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.0036 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+14.1288 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022896D6A1D0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022896E2F860>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.1294 	EXP 	window1: mouseVisible = True
+14.1295 	EXP 	window1: recordFrameIntervals = False
+14.2949 	EXP 	window1: recordFrameIntervals = True
+14.4778 	EXP 	window1: recordFrameIntervals = False
+15.7890 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.9)
+15.8562 	EXP 	Created example_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='example_text', opacity=1, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='For example, you may see a screen like this:', units='height', win=Window(...), wrapWidth=1)
+16.0865 	EXP 	Created example_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='example.jpg', interpolate=True, mask=None, maskParams=None, name='example_image', opacity=1, ori=0.0, pos=array([0.  , 0.15]), size=array([0.7, 0.4]), texRes=128, units='height', win=Window(...))
+16.1221 	EXP 	Created example_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='example_text_2', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.9)
+16.1319 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.2576 	EXP 	Created one_red_dot = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/1redDot.jpg', interpolate=True, mask=None, maskParams=None, name='one_red_dot', opacity=1, ori=0.0, pos=array([-0.375,  0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+16.3593 	EXP 	Created two_yellow_triangles = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/2yellowTriangles.jpg', interpolate=True, mask=None, maskParams=None, name='two_yellow_triangles', opacity=1, ori=0.0, pos=array([-0.125,  0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+16.4676 	EXP 	Created three_green_crosses = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/3greenCrosses.jpg', interpolate=True, mask=None, maskParams=None, name='three_green_crosses', opacity=1, ori=0.0, pos=array([0.125, 0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+16.5810 	EXP 	Created four_blue_stars = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/4blueStars.jpg', interpolate=True, mask=None, maskParams=None, name='four_blue_stars', opacity=1, ori=0.0, pos=array([0.375, 0.25 ]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+16.5915 	EXP 	Created trial_card = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='trial_card', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+16.5928 	EXP 	Created feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.6170 	EXP 	Created thank_you = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.6628 	EXP 	instructions: autoDraw = True
+24.7129 	DATA 	Keypress: f
+24.8331 	EXP 	instructions: autoDraw = False
+24.8331 	EXP 	example_text: autoDraw = True
+24.8331 	EXP 	example_image: autoDraw = True
+24.8331 	EXP 	example_text_2: autoDraw = True
+59.8934 	EXP 	Created sequence: random, trialTypes=1, nReps=80, seed=None
+59.8951 	EXP 	New trial (rep=0, index=0): None
+60.0260 	EXP 	Imported cards.xlsx as conditions, 64 conditions, 4 params
+60.0277 	EXP 	Created sequence: random, trialTypes=64, nReps=1, seed=None
+60.0286 	EXP 	New trial (rep=0, index=0): {'cond': 2, 'rule': 'number', 'card': 'images/2redCrosses.jpg', 'corrAns': 'g'}
+60.0359 	DATA 	Keypress: f
+60.0401 	EXP 	example_text: autoDraw = False
+60.0401 	EXP 	example_image: autoDraw = False
+60.0401 	EXP 	example_text_2: autoDraw = False
+60.0401 	EXP 	fixation: autoDraw = True
+63.7240 	EXP 	fixation: autoDraw = False
+63.7240 	EXP 	fixation: autoDraw = False
+63.7240 	EXP 	trial_card: image = 'images/2redCrosses.jpg'
+63.7240 	EXP 	one_red_dot: autoDraw = True
+63.7240 	EXP 	two_yellow_triangles: autoDraw = True
+63.7240 	EXP 	three_green_crosses: autoDraw = True
+63.7240 	EXP 	four_blue_stars: autoDraw = True
+63.7240 	EXP 	trial_card: autoDraw = True
+67.1899 	EXP 	one_red_dot: autoDraw = False
+67.1899 	EXP 	two_yellow_triangles: autoDraw = False
+67.1899 	EXP 	three_green_crosses: autoDraw = False
+67.1899 	EXP 	four_blue_stars: autoDraw = False
+67.1899 	EXP 	trial_card: autoDraw = False
+67.1899 	EXP 	feedback_text: text = '錯誤'
+67.1899 	EXP 	feedback_text: autoDraw = True
+68.1492 	EXP 	New trial (rep=0, index=1): {'cond': 2, 'rule': 'number', 'card': 'images/4greenTriangles.jpg', 'corrAns': 'j'}
+68.1640 	EXP 	feedback_text: autoDraw = False
+68.1640 	EXP 	fixation: autoDraw = True
+71.8329 	EXP 	fixation: autoDraw = False
+71.8329 	EXP 	fixation: autoDraw = False
+71.8329 	EXP 	trial_card: image = 'images/4greenTriangles.jpg'
+71.8329 	EXP 	one_red_dot: autoDraw = True
+71.8329 	EXP 	two_yellow_triangles: autoDraw = True
+71.8329 	EXP 	three_green_crosses: autoDraw = True
+71.8329 	EXP 	four_blue_stars: autoDraw = True
+71.8329 	EXP 	trial_card: autoDraw = True
+73.0255 	DATA 	Keypress: h
+73.0296 	EXP 	one_red_dot: autoDraw = False
+73.0296 	EXP 	two_yellow_triangles: autoDraw = False
+73.0296 	EXP 	three_green_crosses: autoDraw = False
+73.0296 	EXP 	four_blue_stars: autoDraw = False
+73.0296 	EXP 	trial_card: autoDraw = False
+73.0296 	EXP 	feedback_text: text = '錯誤'
+73.0296 	EXP 	feedback_text: autoDraw = True
+74.0308 	EXP 	New trial (rep=0, index=2): {'cond': 2, 'rule': 'number', 'card': 'images/2yellowStars.jpg', 'corrAns': 'g'}
+74.0438 	EXP 	feedback_text: autoDraw = False
+74.0438 	EXP 	feedback_text: autoDraw = False
+74.0438 	EXP 	fixation: autoDraw = True
+76.6126 	EXP 	fixation: autoDraw = False
+76.6126 	EXP 	fixation: autoDraw = False
+76.6126 	EXP 	trial_card: image = 'images/2yellowStars.jpg'
+76.6126 	EXP 	one_red_dot: autoDraw = True
+76.6126 	EXP 	two_yellow_triangles: autoDraw = True
+76.6126 	EXP 	three_green_crosses: autoDraw = True
+76.6126 	EXP 	four_blue_stars: autoDraw = True
+76.6126 	EXP 	trial_card: autoDraw = True
+77.1666 	DATA 	Keypress: g
+77.2155 	EXP 	one_red_dot: autoDraw = False
+77.2155 	EXP 	two_yellow_triangles: autoDraw = False
+77.2155 	EXP 	three_green_crosses: autoDraw = False
+77.2155 	EXP 	four_blue_stars: autoDraw = False
+77.2155 	EXP 	trial_card: autoDraw = False
+77.2155 	EXP 	feedback_text: text = '正確'
+77.2155 	EXP 	feedback_text: autoDraw = True
+78.2112 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'rule': 'number', 'card': 'images/2yellowCrosses.jpg', 'corrAns': 'g'}
+78.2249 	EXP 	feedback_text: autoDraw = False
+78.2249 	EXP 	feedback_text: autoDraw = False
+78.2249 	EXP 	fixation: autoDraw = True
+81.7914 	EXP 	fixation: autoDraw = False
+81.7914 	EXP 	fixation: autoDraw = False
+81.7914 	EXP 	trial_card: image = 'images/2yellowCrosses.jpg'
+81.7914 	EXP 	one_red_dot: autoDraw = True
+81.7914 	EXP 	two_yellow_triangles: autoDraw = True
+81.7914 	EXP 	three_green_crosses: autoDraw = True
+81.7914 	EXP 	four_blue_stars: autoDraw = True
+81.7914 	EXP 	trial_card: autoDraw = True
+82.5208 	DATA 	Keypress: g
+82.5247 	EXP 	one_red_dot: autoDraw = False
+82.5247 	EXP 	two_yellow_triangles: autoDraw = False
+82.5247 	EXP 	three_green_crosses: autoDraw = False
+82.5247 	EXP 	four_blue_stars: autoDraw = False
+82.5247 	EXP 	trial_card: autoDraw = False
+82.5247 	EXP 	feedback_text: text = '正確'
+82.5247 	EXP 	feedback_text: autoDraw = True
+83.5259 	EXP 	New trial (rep=0, index=4): {'cond': 2, 'rule': 'number', 'card': 'images/3redStars.jpg', 'corrAns': 'h'}
+83.5385 	EXP 	feedback_text: autoDraw = False
+83.5385 	EXP 	feedback_text: autoDraw = False
+83.5385 	EXP 	fixation: autoDraw = True
+85.8073 	EXP 	fixation: autoDraw = False
+85.8073 	EXP 	fixation: autoDraw = False
+85.8073 	EXP 	trial_card: image = 'images/3redStars.jpg'
+85.8073 	EXP 	one_red_dot: autoDraw = True
+85.8073 	EXP 	two_yellow_triangles: autoDraw = True
+85.8073 	EXP 	three_green_crosses: autoDraw = True
+85.8073 	EXP 	four_blue_stars: autoDraw = True
+85.8073 	EXP 	trial_card: autoDraw = True
+87.0850 	DATA 	Keypress: h
+87.0891 	EXP 	one_red_dot: autoDraw = False
+87.0891 	EXP 	two_yellow_triangles: autoDraw = False
+87.0891 	EXP 	three_green_crosses: autoDraw = False
+87.0891 	EXP 	four_blue_stars: autoDraw = False
+87.0891 	EXP 	trial_card: autoDraw = False
+87.0891 	EXP 	feedback_text: text = '正確'
+87.0891 	EXP 	feedback_text: autoDraw = True
+88.0899 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'rule': 'number', 'card': 'images/1redDot.jpg', 'corrAns': 'f'}
+88.1027 	EXP 	feedback_text: autoDraw = False
+88.1027 	EXP 	feedback_text: autoDraw = False
+88.1027 	EXP 	fixation: autoDraw = True
+90.9372 	EXP 	fixation: autoDraw = False
+90.9372 	EXP 	fixation: autoDraw = False
+90.9372 	EXP 	trial_card: image = 'images/1redDot.jpg'
+90.9372 	EXP 	one_red_dot: autoDraw = True
+90.9372 	EXP 	two_yellow_triangles: autoDraw = True
+90.9372 	EXP 	three_green_crosses: autoDraw = True
+90.9372 	EXP 	four_blue_stars: autoDraw = True
+90.9372 	EXP 	trial_card: autoDraw = True
+91.6965 	DATA 	Keypress: f
+91.7026 	EXP 	one_red_dot: autoDraw = False
+91.7026 	EXP 	two_yellow_triangles: autoDraw = False
+91.7026 	EXP 	three_green_crosses: autoDraw = False
+91.7026 	EXP 	four_blue_stars: autoDraw = False
+91.7026 	EXP 	trial_card: autoDraw = False
+91.7026 	EXP 	feedback_text: text = '正確'
+91.7026 	EXP 	feedback_text: autoDraw = True
+92.7040 	EXP 	New trial (rep=0, index=6): {'cond': 2, 'rule': 'number', 'card': 'images/1greenTriangle.jpg', 'corrAns': 'f'}
+92.7168 	EXP 	feedback_text: autoDraw = False
+92.7168 	EXP 	feedback_text: autoDraw = False
+92.7168 	EXP 	fixation: autoDraw = True
+96.5884 	EXP 	fixation: autoDraw = False
+96.5884 	EXP 	fixation: autoDraw = False
+96.5884 	EXP 	trial_card: image = 'images/1greenTriangle.jpg'
+96.5884 	EXP 	one_red_dot: autoDraw = True
+96.5884 	EXP 	two_yellow_triangles: autoDraw = True
+96.5884 	EXP 	three_green_crosses: autoDraw = True
+96.5884 	EXP 	four_blue_stars: autoDraw = True
+96.5884 	EXP 	trial_card: autoDraw = True
+97.3396 	DATA 	Keypress: f
+97.3673 	EXP 	one_red_dot: autoDraw = False
+97.3673 	EXP 	two_yellow_triangles: autoDraw = False
+97.3673 	EXP 	three_green_crosses: autoDraw = False
+97.3673 	EXP 	four_blue_stars: autoDraw = False
+97.3673 	EXP 	trial_card: autoDraw = False
+97.3673 	EXP 	feedback_text: text = '正確'
+97.3673 	EXP 	feedback_text: autoDraw = True
+98.3686 	EXP 	New trial (rep=1, index=0): None
+98.4886 	EXP 	Imported cards.xlsx as conditions, 64 conditions, 4 params
+98.4900 	EXP 	Created sequence: random, trialTypes=64, nReps=1, seed=None
+98.4909 	EXP 	New trial (rep=0, index=0): {'cond': 3, 'rule': 'shape', 'card': 'images/1redCross.jpg', 'corrAns': 'h'}
+98.5006 	EXP 	feedback_text: autoDraw = False
+98.5006 	EXP 	feedback_text: autoDraw = False
+98.5006 	EXP 	fixation: autoDraw = True
+103.0650 	EXP 	fixation: autoDraw = False
+103.0650 	EXP 	fixation: autoDraw = False
+103.0650 	EXP 	trial_card: image = 'images/1redCross.jpg'
+103.0650 	EXP 	one_red_dot: autoDraw = True
+103.0650 	EXP 	two_yellow_triangles: autoDraw = True
+103.0650 	EXP 	three_green_crosses: autoDraw = True
+103.0650 	EXP 	four_blue_stars: autoDraw = True
+103.0650 	EXP 	trial_card: autoDraw = True
+103.7844 	DATA 	Keypress: f
+103.8247 	EXP 	one_red_dot: autoDraw = False
+103.8247 	EXP 	two_yellow_triangles: autoDraw = False
+103.8247 	EXP 	three_green_crosses: autoDraw = False
+103.8247 	EXP 	four_blue_stars: autoDraw = False
+103.8247 	EXP 	trial_card: autoDraw = False
+103.8247 	EXP 	feedback_text: text = '錯誤'
+103.8247 	EXP 	feedback_text: autoDraw = True
+104.8135 	EXP 	New trial (rep=0, index=1): {'cond': 3, 'rule': 'shape', 'card': 'images/1yellowCross.jpg', 'corrAns': 'h'}
+104.8266 	EXP 	feedback_text: autoDraw = False
+104.8266 	EXP 	feedback_text: autoDraw = False
+104.8266 	EXP 	fixation: autoDraw = True
+108.0947 	EXP 	fixation: autoDraw = False
+108.0947 	EXP 	fixation: autoDraw = False
+108.0947 	EXP 	trial_card: image = 'images/1yellowCross.jpg'
+108.0947 	EXP 	one_red_dot: autoDraw = True
+108.0947 	EXP 	two_yellow_triangles: autoDraw = True
+108.0947 	EXP 	three_green_crosses: autoDraw = True
+108.0947 	EXP 	four_blue_stars: autoDraw = True
+108.0947 	EXP 	trial_card: autoDraw = True
+109.2711 	DATA 	Keypress: g
+109.2772 	EXP 	one_red_dot: autoDraw = False
+109.2772 	EXP 	two_yellow_triangles: autoDraw = False
+109.2772 	EXP 	three_green_crosses: autoDraw = False
+109.2772 	EXP 	four_blue_stars: autoDraw = False
+109.2772 	EXP 	trial_card: autoDraw = False
+109.2772 	EXP 	feedback_text: text = '錯誤'
+109.2772 	EXP 	feedback_text: autoDraw = True
+110.2773 	EXP 	New trial (rep=0, index=2): {'cond': 3, 'rule': 'shape', 'card': 'images/4yellowStars.jpg', 'corrAns': 'j'}
+110.2911 	EXP 	feedback_text: autoDraw = False
+110.2911 	EXP 	feedback_text: autoDraw = False
+110.2911 	EXP 	fixation: autoDraw = True
+113.7592 	EXP 	fixation: autoDraw = False
+113.7592 	EXP 	fixation: autoDraw = False
+113.7592 	EXP 	trial_card: image = 'images/4yellowStars.jpg'
+113.7592 	EXP 	one_red_dot: autoDraw = True
+113.7592 	EXP 	two_yellow_triangles: autoDraw = True
+113.7592 	EXP 	three_green_crosses: autoDraw = True
+113.7592 	EXP 	four_blue_stars: autoDraw = True
+113.7592 	EXP 	trial_card: autoDraw = True
+114.7748 	DATA 	Keypress: j
+114.7791 	EXP 	one_red_dot: autoDraw = False
+114.7791 	EXP 	two_yellow_triangles: autoDraw = False
+114.7791 	EXP 	three_green_crosses: autoDraw = False
+114.7791 	EXP 	four_blue_stars: autoDraw = False
+114.7791 	EXP 	trial_card: autoDraw = False
+114.7791 	EXP 	feedback_text: text = '正確'
+114.7791 	EXP 	feedback_text: autoDraw = True
+115.7741 	EXP 	New trial (rep=0, index=3): {'cond': 3, 'rule': 'shape', 'card': 'images/3blueDots.jpg', 'corrAns': 'f'}
+115.7871 	EXP 	feedback_text: autoDraw = False
+115.7871 	EXP 	feedback_text: autoDraw = False
+115.7871 	EXP 	fixation: autoDraw = True
+118.9570 	EXP 	fixation: autoDraw = False
+118.9570 	EXP 	fixation: autoDraw = False
+118.9570 	EXP 	trial_card: image = 'images/3blueDots.jpg'
+118.9570 	EXP 	one_red_dot: autoDraw = True
+118.9570 	EXP 	two_yellow_triangles: autoDraw = True
+118.9570 	EXP 	three_green_crosses: autoDraw = True
+118.9570 	EXP 	four_blue_stars: autoDraw = True
+118.9570 	EXP 	trial_card: autoDraw = True
+122.4185 	EXP 	one_red_dot: autoDraw = False
+122.4185 	EXP 	two_yellow_triangles: autoDraw = False
+122.4185 	EXP 	three_green_crosses: autoDraw = False
+122.4185 	EXP 	four_blue_stars: autoDraw = False
+122.4185 	EXP 	trial_card: autoDraw = False
+122.4185 	EXP 	feedback_text: text = '錯誤'
+122.4185 	EXP 	feedback_text: autoDraw = True
+123.4010 	EXP 	New trial (rep=0, index=4): {'cond': 3, 'rule': 'shape', 'card': 'images/1blueStar.jpg', 'corrAns': 'j'}
+123.4164 	EXP 	feedback_text: autoDraw = False
+123.4164 	EXP 	fixation: autoDraw = True
+127.4839 	EXP 	fixation: autoDraw = False
+127.4839 	EXP 	fixation: autoDraw = False
+127.4839 	EXP 	trial_card: image = 'images/1blueStar.jpg'
+127.4839 	EXP 	one_red_dot: autoDraw = True
+127.4839 	EXP 	two_yellow_triangles: autoDraw = True
+127.4839 	EXP 	three_green_crosses: autoDraw = True
+127.4839 	EXP 	four_blue_stars: autoDraw = True
+127.4839 	EXP 	trial_card: autoDraw = True
+129.5372 	DATA 	Keypress: escape
+129.7408 	EXP 	window1: mouseVisible = True

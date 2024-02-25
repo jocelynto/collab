@@ -1,0 +1,903 @@
+9.0387 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+10.6701 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A33ABC3BA8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A33AA0EA90>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.6703 	EXP 	window1: mouseVisible = True
+10.6704 	EXP 	window1: recordFrameIntervals = False
+10.8382 	EXP 	window1: recordFrameIntervals = True
+11.0222 	EXP 	window1: recordFrameIntervals = False
+11.5521 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.5580 	EXP 	Created fixation_jitter = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation_jitter', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.5591 	EXP 	Created topTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='topTxt', opacity=1, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.5597 	EXP 	Created bottomTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='bottomTxt', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.5721 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanksText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完畢，感謝您的參與！', units='height', win=Window(...), wrapWidth=1)
+11.6113 	EXP 	instrText: autoDraw = True
+50.6111 	EXP 	Imported trialTypes.xlsx as conditions, 80 conditions, 7 params
+50.6115 	EXP 	Created sequence: random, trialTypes=80, nReps=1, seed=None
+50.6118 	EXP 	New trial (rep=0, index=0): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+50.6156 	DATA 	Keypress: f
+50.6197 	EXP 	instrText: autoDraw = False
+50.6197 	EXP 	fixation_jitter: autoDraw = True
+52.6340 	EXP 	fixation_jitter: autoDraw = False
+52.6340 	EXP 	fixation_jitter: autoDraw = False
+52.6340 	EXP 	topTxt: text = '黃'
+52.6340 	EXP 	bottomTxt: text = '紅'
+52.6340 	EXP 	topTxt: autoDraw = True
+52.6340 	EXP 	bottomTxt: autoDraw = True
+53.8502 	EXP 	New trial (rep=0, index=1): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+53.8539 	DATA 	Keypress: j
+53.8622 	EXP 	topTxt: autoDraw = False
+53.8622 	EXP 	bottomTxt: autoDraw = False
+53.8622 	EXP 	fixation_jitter: autoDraw = True
+57.6807 	EXP 	fixation_jitter: autoDraw = False
+57.6807 	EXP 	fixation_jitter: autoDraw = False
+57.6807 	EXP 	topTxt: text = '紅'
+57.6807 	EXP 	bottomTxt: text = '紅'
+57.6807 	EXP 	topTxt: autoDraw = True
+57.6807 	EXP 	bottomTxt: autoDraw = True
+58.4665 	DATA 	Keypress: f
+58.4810 	EXP 	New trial (rep=0, index=2): {'cond': 2, 'topText': '紅', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+58.4927 	EXP 	topTxt: autoDraw = False
+58.4927 	EXP 	bottomTxt: autoDraw = False
+58.4927 	EXP 	fixation_jitter: autoDraw = True
+62.4003 	EXP 	fixation_jitter: autoDraw = False
+62.4003 	EXP 	fixation_jitter: autoDraw = False
+62.4003 	EXP 	topTxt: text = '紅'
+62.4003 	EXP 	bottomTxt: text = '藍'
+62.4003 	EXP 	topTxt: autoDraw = True
+62.4003 	EXP 	bottomTxt: autoDraw = True
+63.7946 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'topText': '綠', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+63.7982 	DATA 	Keypress: j
+63.8066 	EXP 	topTxt: autoDraw = False
+63.8066 	EXP 	bottomTxt: autoDraw = False
+63.8066 	EXP 	fixation_jitter: autoDraw = True
+67.4309 	EXP 	fixation_jitter: autoDraw = False
+67.4309 	EXP 	fixation_jitter: autoDraw = False
+67.4309 	EXP 	topTxt: text = '綠'
+67.4309 	EXP 	bottomTxt: text = '紅'
+67.4309 	EXP 	topTxt: autoDraw = True
+67.4309 	EXP 	bottomTxt: autoDraw = True
+68.6919 	EXP 	New trial (rep=0, index=4): {'cond': 2, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+68.6954 	DATA 	Keypress: j
+68.7036 	EXP 	topTxt: autoDraw = False
+68.7036 	EXP 	bottomTxt: autoDraw = False
+68.7036 	EXP 	fixation_jitter: autoDraw = True
+70.9075 	EXP 	fixation_jitter: autoDraw = False
+70.9075 	EXP 	fixation_jitter: autoDraw = False
+70.9075 	EXP 	topTxt: text = '紅'
+70.9075 	EXP 	bottomTxt: text = '黃'
+70.9075 	EXP 	topTxt: autoDraw = True
+70.9075 	EXP 	bottomTxt: autoDraw = True
+71.7740 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'topText': '綠', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+71.7775 	DATA 	Keypress: f
+71.7850 	EXP 	topTxt: autoDraw = False
+71.7850 	EXP 	bottomTxt: autoDraw = False
+71.7850 	EXP 	fixation_jitter: autoDraw = True
+74.3006 	EXP 	fixation_jitter: autoDraw = False
+74.3006 	EXP 	fixation_jitter: autoDraw = False
+74.3006 	EXP 	topTxt: text = '綠'
+74.3006 	EXP 	bottomTxt: text = '藍'
+74.3006 	EXP 	topTxt: autoDraw = True
+74.3006 	EXP 	bottomTxt: autoDraw = True
+75.2710 	EXP 	New trial (rep=0, index=6): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+75.2747 	DATA 	Keypress: f
+75.2835 	EXP 	topTxt: autoDraw = False
+75.2835 	EXP 	bottomTxt: autoDraw = False
+75.2835 	EXP 	fixation_jitter: autoDraw = True
+77.9985 	EXP 	fixation_jitter: autoDraw = False
+77.9985 	EXP 	fixation_jitter: autoDraw = False
+77.9985 	EXP 	topTxt: text = '黃'
+77.9985 	EXP 	bottomTxt: text = '紅'
+77.9985 	EXP 	topTxt: autoDraw = True
+77.9985 	EXP 	bottomTxt: autoDraw = True
+79.0855 	EXP 	New trial (rep=0, index=7): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+79.0883 	DATA 	Keypress: j
+79.0976 	EXP 	topTxt: autoDraw = False
+79.0976 	EXP 	bottomTxt: autoDraw = False
+79.0976 	EXP 	fixation_jitter: autoDraw = True
+82.4986 	EXP 	fixation_jitter: autoDraw = False
+82.4986 	EXP 	fixation_jitter: autoDraw = False
+82.4986 	EXP 	topTxt: text = '綠'
+82.4986 	EXP 	bottomTxt: text = '紅'
+82.4986 	EXP 	topTxt: autoDraw = True
+82.4986 	EXP 	bottomTxt: autoDraw = True
+83.7332 	EXP 	New trial (rep=0, index=8): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+83.7368 	DATA 	Keypress: j
+83.7456 	EXP 	topTxt: autoDraw = False
+83.7456 	EXP 	bottomTxt: autoDraw = False
+83.7456 	EXP 	fixation_jitter: autoDraw = True
+85.9464 	EXP 	fixation_jitter: autoDraw = False
+85.9464 	EXP 	fixation_jitter: autoDraw = False
+85.9464 	EXP 	topTxt: text = '紅'
+85.9464 	EXP 	bottomTxt: text = '紅'
+85.9464 	EXP 	topTxt: autoDraw = True
+85.9464 	EXP 	bottomTxt: autoDraw = True
+86.5976 	EXP 	New trial (rep=0, index=9): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+86.6010 	DATA 	Keypress: f
+86.6101 	EXP 	topTxt: autoDraw = False
+86.6101 	EXP 	bottomTxt: autoDraw = False
+86.6101 	EXP 	fixation_jitter: autoDraw = True
+90.1244 	EXP 	fixation_jitter: autoDraw = False
+90.1244 	EXP 	fixation_jitter: autoDraw = False
+90.1244 	EXP 	topTxt: text = '藍'
+90.1244 	EXP 	bottomTxt: text = '藍'
+90.1244 	EXP 	topTxt: autoDraw = True
+90.1244 	EXP 	bottomTxt: autoDraw = True
+90.4975 	EXP 	New trial (rep=0, index=10): {'cond': 2, 'topText': '紅', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+90.5009 	DATA 	Keypress: j
+90.5083 	EXP 	topTxt: autoDraw = False
+90.5083 	EXP 	bottomTxt: autoDraw = False
+90.5083 	EXP 	fixation_jitter: autoDraw = True
+92.7268 	EXP 	fixation_jitter: autoDraw = False
+92.7268 	EXP 	fixation_jitter: autoDraw = False
+92.7268 	EXP 	topTxt: text = '紅'
+92.7268 	EXP 	bottomTxt: text = '綠'
+92.7268 	EXP 	topTxt: autoDraw = True
+92.7268 	EXP 	bottomTxt: autoDraw = True
+93.1125 	EXP 	New trial (rep=0, index=11): {'cond': 2, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+93.1163 	DATA 	Keypress: f
+93.1233 	EXP 	topTxt: autoDraw = False
+93.1233 	EXP 	bottomTxt: autoDraw = False
+93.1233 	EXP 	fixation_jitter: autoDraw = True
+93.2933 	DATA 	Keypress: j
+93.5460 	DATA 	Keypress: j
+93.6292 	DATA 	Keypress: f
+93.7464 	DATA 	Keypress: j
+93.8462 	DATA 	Keypress: f
+96.4388 	EXP 	fixation_jitter: autoDraw = False
+96.4388 	EXP 	fixation_jitter: autoDraw = False
+96.4388 	EXP 	topTxt: text = '綠'
+96.4388 	EXP 	bottomTxt: text = '黃'
+96.4388 	EXP 	topTxt: autoDraw = True
+96.4388 	EXP 	bottomTxt: autoDraw = True
+96.7120 	DATA 	Keypress: j
+96.7255 	EXP 	New trial (rep=0, index=12): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+96.7382 	EXP 	topTxt: autoDraw = False
+96.7382 	EXP 	bottomTxt: autoDraw = False
+96.7382 	EXP 	fixation_jitter: autoDraw = True
+99.7556 	EXP 	fixation_jitter: autoDraw = False
+99.7556 	EXP 	fixation_jitter: autoDraw = False
+99.7556 	EXP 	topTxt: text = '綠'
+99.7556 	EXP 	bottomTxt: text = '紅'
+99.7556 	EXP 	topTxt: autoDraw = True
+99.7556 	EXP 	bottomTxt: autoDraw = True
+100.1566 	EXP 	New trial (rep=0, index=13): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+100.1596 	DATA 	Keypress: f
+100.1690 	EXP 	topTxt: autoDraw = False
+100.1690 	EXP 	bottomTxt: autoDraw = False
+100.1690 	EXP 	fixation_jitter: autoDraw = True
+103.7713 	EXP 	fixation_jitter: autoDraw = False
+103.7713 	EXP 	fixation_jitter: autoDraw = False
+103.7713 	EXP 	topTxt: text = '綠'
+103.7713 	EXP 	bottomTxt: text = '黃'
+103.7713 	EXP 	topTxt: autoDraw = True
+103.7713 	EXP 	bottomTxt: autoDraw = True
+104.4872 	EXP 	New trial (rep=0, index=14): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+104.4905 	DATA 	Keypress: f
+104.5003 	EXP 	topTxt: autoDraw = False
+104.5003 	EXP 	bottomTxt: autoDraw = False
+104.5003 	EXP 	fixation_jitter: autoDraw = True
+108.0182 	EXP 	fixation_jitter: autoDraw = False
+108.0182 	EXP 	fixation_jitter: autoDraw = False
+108.0182 	EXP 	topTxt: text = '綠'
+108.0182 	EXP 	bottomTxt: text = '綠'
+108.0182 	EXP 	topTxt: autoDraw = True
+108.0182 	EXP 	bottomTxt: autoDraw = True
+108.6853 	EXP 	New trial (rep=0, index=15): {'cond': 4, 'topText': '藍', 'topColour': 'green', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+108.6892 	DATA 	Keypress: f
+108.6985 	EXP 	topTxt: autoDraw = False
+108.6985 	EXP 	bottomTxt: autoDraw = False
+108.6985 	EXP 	fixation_jitter: autoDraw = True
+112.5124 	EXP 	fixation_jitter: autoDraw = False
+112.5124 	EXP 	fixation_jitter: autoDraw = False
+112.5124 	EXP 	topTxt: text = '藍'
+112.5124 	EXP 	bottomTxt: text = '紅'
+112.5124 	EXP 	topTxt: autoDraw = True
+112.5124 	EXP 	bottomTxt: autoDraw = True
+113.2364 	EXP 	New trial (rep=0, index=16): {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+113.2422 	DATA 	Keypress: j
+113.2482 	EXP 	topTxt: autoDraw = False
+113.2482 	EXP 	bottomTxt: autoDraw = False
+113.2482 	EXP 	fixation_jitter: autoDraw = True
+117.0642 	EXP 	fixation_jitter: autoDraw = False
+117.0642 	EXP 	fixation_jitter: autoDraw = False
+117.0642 	EXP 	topTxt: text = '紅'
+117.0642 	EXP 	bottomTxt: text = '綠'
+117.0642 	EXP 	topTxt: autoDraw = True
+117.0642 	EXP 	bottomTxt: autoDraw = True
+117.8139 	EXP 	New trial (rep=0, index=17): {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+117.8173 	DATA 	Keypress: f
+117.8262 	EXP 	topTxt: autoDraw = False
+117.8262 	EXP 	bottomTxt: autoDraw = False
+117.8262 	EXP 	fixation_jitter: autoDraw = True
+120.5410 	EXP 	fixation_jitter: autoDraw = False
+120.5410 	EXP 	fixation_jitter: autoDraw = False
+120.5410 	EXP 	topTxt: text = '黃'
+120.5410 	EXP 	bottomTxt: text = '黃'
+120.5410 	EXP 	topTxt: autoDraw = True
+120.5410 	EXP 	bottomTxt: autoDraw = True
+121.6818 	DATA 	Keypress: f
+121.6942 	EXP 	New trial (rep=0, index=18): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+121.7069 	EXP 	topTxt: autoDraw = False
+121.7069 	EXP 	bottomTxt: autoDraw = False
+121.7069 	EXP 	fixation_jitter: autoDraw = True
+125.1214 	EXP 	fixation_jitter: autoDraw = False
+125.1214 	EXP 	fixation_jitter: autoDraw = False
+125.1214 	EXP 	topTxt: text = '紅'
+125.1214 	EXP 	bottomTxt: text = '紅'
+125.1214 	EXP 	topTxt: autoDraw = True
+125.1214 	EXP 	bottomTxt: autoDraw = True
+125.9097 	EXP 	New trial (rep=0, index=19): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+125.9142 	DATA 	Keypress: f
+125.9219 	EXP 	topTxt: autoDraw = False
+125.9219 	EXP 	bottomTxt: autoDraw = False
+125.9219 	EXP 	fixation_jitter: autoDraw = True
+128.3210 	EXP 	fixation_jitter: autoDraw = False
+128.3210 	EXP 	fixation_jitter: autoDraw = False
+128.3210 	EXP 	topTxt: text = '紅'
+128.3210 	EXP 	bottomTxt: text = '紅'
+128.3210 	EXP 	topTxt: autoDraw = True
+128.3210 	EXP 	bottomTxt: autoDraw = True
+128.8760 	DATA 	Keypress: f
+128.8914 	EXP 	New trial (rep=0, index=20): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+128.9034 	EXP 	topTxt: autoDraw = False
+128.9034 	EXP 	bottomTxt: autoDraw = False
+128.9034 	EXP 	fixation_jitter: autoDraw = True
+130.9068 	EXP 	fixation_jitter: autoDraw = False
+130.9068 	EXP 	fixation_jitter: autoDraw = False
+130.9068 	EXP 	topTxt: text = '綠'
+130.9068 	EXP 	bottomTxt: text = '黃'
+130.9068 	EXP 	topTxt: autoDraw = True
+130.9068 	EXP 	bottomTxt: autoDraw = True
+132.3557 	EXP 	New trial (rep=0, index=21): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+132.3591 	DATA 	Keypress: j
+132.3681 	EXP 	topTxt: autoDraw = False
+132.3681 	EXP 	bottomTxt: autoDraw = False
+132.3681 	EXP 	fixation_jitter: autoDraw = True
+135.8835 	EXP 	fixation_jitter: autoDraw = False
+135.8835 	EXP 	fixation_jitter: autoDraw = False
+135.8835 	EXP 	topTxt: text = '綠'
+135.8835 	EXP 	bottomTxt: text = '黃'
+135.8835 	EXP 	topTxt: autoDraw = True
+135.8835 	EXP 	bottomTxt: autoDraw = True
+136.6554 	EXP 	New trial (rep=0, index=22): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+136.6602 	DATA 	Keypress: j
+136.6662 	EXP 	topTxt: autoDraw = False
+136.6662 	EXP 	bottomTxt: autoDraw = False
+136.6662 	EXP 	fixation_jitter: autoDraw = True
+139.6801 	EXP 	fixation_jitter: autoDraw = False
+139.6801 	EXP 	fixation_jitter: autoDraw = False
+139.6801 	EXP 	topTxt: text = '藍'
+139.6801 	EXP 	bottomTxt: text = '藍'
+139.6801 	EXP 	topTxt: autoDraw = True
+139.6801 	EXP 	bottomTxt: autoDraw = True
+140.5349 	EXP 	New trial (rep=0, index=23): {'cond': 2, 'topText': '綠', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+140.5384 	DATA 	Keypress: f
+140.5470 	EXP 	topTxt: autoDraw = False
+140.5470 	EXP 	bottomTxt: autoDraw = False
+140.5470 	EXP 	fixation_jitter: autoDraw = True
+143.5650 	EXP 	fixation_jitter: autoDraw = False
+143.5650 	EXP 	fixation_jitter: autoDraw = False
+143.5650 	EXP 	topTxt: text = '綠'
+143.5650 	EXP 	bottomTxt: text = '紅'
+143.5650 	EXP 	topTxt: autoDraw = True
+143.5650 	EXP 	bottomTxt: autoDraw = True
+144.4816 	EXP 	New trial (rep=0, index=24): {'cond': 2, 'topText': '綠', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+144.4850 	DATA 	Keypress: j
+144.4946 	EXP 	topTxt: autoDraw = False
+144.4946 	EXP 	bottomTxt: autoDraw = False
+144.4946 	EXP 	fixation_jitter: autoDraw = True
+148.3095 	EXP 	fixation_jitter: autoDraw = False
+148.3095 	EXP 	fixation_jitter: autoDraw = False
+148.3095 	EXP 	topTxt: text = '綠'
+148.3095 	EXP 	bottomTxt: text = '紅'
+148.3095 	EXP 	topTxt: autoDraw = True
+148.3095 	EXP 	bottomTxt: autoDraw = True
+150.3092 	EXP 	New trial (rep=0, index=25): {'cond': 2, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+150.3247 	EXP 	topTxt: autoDraw = False
+150.3247 	EXP 	bottomTxt: autoDraw = False
+150.3247 	EXP 	fixation_jitter: autoDraw = True
+153.5394 	EXP 	fixation_jitter: autoDraw = False
+153.5394 	EXP 	fixation_jitter: autoDraw = False
+153.5394 	EXP 	topTxt: text = '紅'
+153.5394 	EXP 	bottomTxt: text = '黃'
+153.5394 	EXP 	topTxt: autoDraw = True
+153.5394 	EXP 	bottomTxt: autoDraw = True
+153.9095 	EXP 	New trial (rep=0, index=26): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+153.9129 	DATA 	Keypress: f
+153.9227 	EXP 	topTxt: autoDraw = False
+153.9227 	EXP 	bottomTxt: autoDraw = False
+153.9227 	EXP 	fixation_jitter: autoDraw = True
+157.1388 	EXP 	fixation_jitter: autoDraw = False
+157.1388 	EXP 	fixation_jitter: autoDraw = False
+157.1388 	EXP 	topTxt: text = '紅'
+157.1388 	EXP 	bottomTxt: text = '紅'
+157.1388 	EXP 	topTxt: autoDraw = True
+157.1388 	EXP 	bottomTxt: autoDraw = True
+158.1249 	DATA 	Keypress: f
+158.1410 	EXP 	New trial (rep=0, index=27): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+158.1535 	EXP 	topTxt: autoDraw = False
+158.1535 	EXP 	bottomTxt: autoDraw = False
+158.1535 	EXP 	fixation_jitter: autoDraw = True
+161.9686 	EXP 	fixation_jitter: autoDraw = False
+161.9686 	EXP 	fixation_jitter: autoDraw = False
+161.9686 	EXP 	topTxt: text = '綠'
+161.9686 	EXP 	bottomTxt: text = '綠'
+161.9686 	EXP 	topTxt: autoDraw = True
+161.9686 	EXP 	bottomTxt: autoDraw = True
+163.0385 	EXP 	New trial (rep=0, index=28): {'cond': 4, 'topText': '紅', 'topColour': 'green', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+163.0422 	DATA 	Keypress: f
+163.0506 	EXP 	topTxt: autoDraw = False
+163.0506 	EXP 	bottomTxt: autoDraw = False
+163.0506 	EXP 	fixation_jitter: autoDraw = True
+166.6564 	EXP 	fixation_jitter: autoDraw = False
+166.6564 	EXP 	fixation_jitter: autoDraw = False
+166.6564 	EXP 	topTxt: text = '紅'
+166.6564 	EXP 	bottomTxt: text = '黃'
+166.6564 	EXP 	topTxt: autoDraw = True
+166.6564 	EXP 	bottomTxt: autoDraw = True
+167.8693 	EXP 	New trial (rep=0, index=29): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+167.8726 	DATA 	Keypress: j
+167.8815 	EXP 	topTxt: autoDraw = False
+167.8815 	EXP 	bottomTxt: autoDraw = False
+167.8815 	EXP 	fixation_jitter: autoDraw = True
+171.0994 	EXP 	fixation_jitter: autoDraw = False
+171.0994 	EXP 	fixation_jitter: autoDraw = False
+171.0994 	EXP 	topTxt: text = '綠'
+171.0994 	EXP 	bottomTxt: text = '紅'
+171.0994 	EXP 	topTxt: autoDraw = True
+171.0994 	EXP 	bottomTxt: autoDraw = True
+173.0964 	EXP 	New trial (rep=0, index=30): {'cond': 2, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+173.1117 	EXP 	topTxt: autoDraw = False
+173.1117 	EXP 	bottomTxt: autoDraw = False
+173.1117 	EXP 	fixation_jitter: autoDraw = True
+175.4172 	EXP 	fixation_jitter: autoDraw = False
+175.4172 	EXP 	fixation_jitter: autoDraw = False
+175.4172 	EXP 	topTxt: text = '綠'
+175.4172 	EXP 	bottomTxt: text = '黃'
+175.4172 	EXP 	topTxt: autoDraw = True
+175.4172 	EXP 	bottomTxt: autoDraw = True
+175.7989 	DATA 	Keypress: j
+175.8149 	EXP 	New trial (rep=0, index=31): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+175.8270 	EXP 	topTxt: autoDraw = False
+175.8270 	EXP 	bottomTxt: autoDraw = False
+175.8270 	EXP 	fixation_jitter: autoDraw = True
+178.3305 	EXP 	fixation_jitter: autoDraw = False
+178.3305 	EXP 	fixation_jitter: autoDraw = False
+178.3305 	EXP 	topTxt: text = '藍'
+178.3305 	EXP 	bottomTxt: text = '藍'
+178.3305 	EXP 	topTxt: autoDraw = True
+178.3305 	EXP 	bottomTxt: autoDraw = True
+180.3264 	EXP 	New trial (rep=0, index=32): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+180.3416 	EXP 	topTxt: autoDraw = False
+180.3416 	EXP 	bottomTxt: autoDraw = False
+180.3416 	EXP 	fixation_jitter: autoDraw = True
+180.7809 	DATA 	Keypress: j
+184.1555 	EXP 	fixation_jitter: autoDraw = False
+184.1555 	EXP 	fixation_jitter: autoDraw = False
+184.1555 	EXP 	topTxt: text = '紅'
+184.1555 	EXP 	bottomTxt: text = '紅'
+184.1555 	EXP 	topTxt: autoDraw = True
+184.1555 	EXP 	bottomTxt: autoDraw = True
+184.5760 	EXP 	New trial (rep=0, index=33): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+184.5795 	DATA 	Keypress: f
+184.5889 	EXP 	topTxt: autoDraw = False
+184.5889 	EXP 	bottomTxt: autoDraw = False
+184.5889 	EXP 	fixation_jitter: autoDraw = True
+186.6084 	EXP 	fixation_jitter: autoDraw = False
+186.6084 	EXP 	fixation_jitter: autoDraw = False
+186.6084 	EXP 	topTxt: text = '黃'
+186.6084 	EXP 	bottomTxt: text = '綠'
+186.6084 	EXP 	topTxt: autoDraw = True
+186.6084 	EXP 	bottomTxt: autoDraw = True
+187.4084 	EXP 	New trial (rep=0, index=34): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+187.4118 	DATA 	Keypress: j
+187.4205 	EXP 	topTxt: autoDraw = False
+187.4205 	EXP 	bottomTxt: autoDraw = False
+187.4205 	EXP 	fixation_jitter: autoDraw = True
+190.4384 	EXP 	fixation_jitter: autoDraw = False
+190.4384 	EXP 	fixation_jitter: autoDraw = False
+190.4384 	EXP 	topTxt: text = '黃'
+190.4384 	EXP 	bottomTxt: text = '紅'
+190.4384 	EXP 	topTxt: autoDraw = True
+190.4384 	EXP 	bottomTxt: autoDraw = True
+191.4385 	EXP 	New trial (rep=0, index=35): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+191.4420 	DATA 	Keypress: j
+191.4516 	EXP 	topTxt: autoDraw = False
+191.4516 	EXP 	bottomTxt: autoDraw = False
+191.4516 	EXP 	fixation_jitter: autoDraw = True
+193.7526 	EXP 	fixation_jitter: autoDraw = False
+193.7526 	EXP 	fixation_jitter: autoDraw = False
+193.7526 	EXP 	topTxt: text = '綠'
+193.7526 	EXP 	bottomTxt: text = '紅'
+193.7526 	EXP 	topTxt: autoDraw = True
+193.7526 	EXP 	bottomTxt: autoDraw = True
+194.6052 	EXP 	New trial (rep=0, index=36): {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+194.6089 	DATA 	Keypress: j
+194.6163 	EXP 	topTxt: autoDraw = False
+194.6163 	EXP 	bottomTxt: autoDraw = False
+194.6163 	EXP 	fixation_jitter: autoDraw = True
+198.6470 	EXP 	fixation_jitter: autoDraw = False
+198.6470 	EXP 	fixation_jitter: autoDraw = False
+198.6470 	EXP 	topTxt: text = '藍'
+198.6470 	EXP 	bottomTxt: text = '紅'
+198.6470 	EXP 	topTxt: autoDraw = True
+198.6470 	EXP 	bottomTxt: autoDraw = True
+199.3046 	DATA 	Keypress: f
+199.3180 	EXP 	New trial (rep=0, index=37): {'cond': 2, 'topText': '綠', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+199.3308 	EXP 	topTxt: autoDraw = False
+199.3308 	EXP 	bottomTxt: autoDraw = False
+199.3308 	EXP 	fixation_jitter: autoDraw = True
+202.7454 	EXP 	fixation_jitter: autoDraw = False
+202.7454 	EXP 	fixation_jitter: autoDraw = False
+202.7454 	EXP 	topTxt: text = '綠'
+202.7454 	EXP 	bottomTxt: text = '紅'
+202.7454 	EXP 	topTxt: autoDraw = True
+202.7454 	EXP 	bottomTxt: autoDraw = True
+203.7511 	DATA 	Keypress: f
+203.7648 	EXP 	New trial (rep=0, index=38): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+203.7779 	EXP 	topTxt: autoDraw = False
+203.7779 	EXP 	bottomTxt: autoDraw = False
+203.7779 	EXP 	fixation_jitter: autoDraw = True
+206.7945 	EXP 	fixation_jitter: autoDraw = False
+206.7945 	EXP 	fixation_jitter: autoDraw = False
+206.7945 	EXP 	topTxt: text = '黃'
+206.7945 	EXP 	bottomTxt: text = '藍'
+206.7945 	EXP 	topTxt: autoDraw = True
+206.7945 	EXP 	bottomTxt: autoDraw = True
+207.5821 	EXP 	New trial (rep=0, index=39): {'cond': 2, 'topText': '黃', 'topColour': 'green', 'bottomText': '綠', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+207.5868 	DATA 	Keypress: j
+207.5929 	EXP 	topTxt: autoDraw = False
+207.5929 	EXP 	bottomTxt: autoDraw = False
+207.5929 	EXP 	fixation_jitter: autoDraw = True
+210.5072 	EXP 	fixation_jitter: autoDraw = False
+210.5072 	EXP 	fixation_jitter: autoDraw = False
+210.5072 	EXP 	topTxt: text = '黃'
+210.5072 	EXP 	bottomTxt: text = '綠'
+210.5072 	EXP 	topTxt: autoDraw = True
+210.5072 	EXP 	bottomTxt: autoDraw = True
+211.2774 	EXP 	New trial (rep=0, index=40): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+211.2808 	DATA 	Keypress: f
+211.2904 	EXP 	topTxt: autoDraw = False
+211.2904 	EXP 	bottomTxt: autoDraw = False
+211.2904 	EXP 	fixation_jitter: autoDraw = True
+213.4040 	EXP 	fixation_jitter: autoDraw = False
+213.4040 	EXP 	fixation_jitter: autoDraw = False
+213.4040 	EXP 	topTxt: text = '綠'
+213.4040 	EXP 	bottomTxt: text = '綠'
+213.4040 	EXP 	topTxt: autoDraw = True
+213.4040 	EXP 	bottomTxt: autoDraw = True
+214.2787 	EXP 	New trial (rep=0, index=41): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+214.2833 	DATA 	Keypress: f
+214.2891 	EXP 	topTxt: autoDraw = False
+214.2891 	EXP 	bottomTxt: autoDraw = False
+214.2891 	EXP 	fixation_jitter: autoDraw = True
+217.7074 	EXP 	fixation_jitter: autoDraw = False
+217.7074 	EXP 	fixation_jitter: autoDraw = False
+217.7074 	EXP 	topTxt: text = '藍'
+217.7074 	EXP 	bottomTxt: text = '藍'
+217.7074 	EXP 	topTxt: autoDraw = True
+217.7074 	EXP 	bottomTxt: autoDraw = True
+218.3429 	DATA 	Keypress: f
+218.3587 	EXP 	New trial (rep=0, index=42): {'cond': 2, 'topText': '黃', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+218.3698 	EXP 	topTxt: autoDraw = False
+218.3698 	EXP 	bottomTxt: autoDraw = False
+218.3698 	EXP 	fixation_jitter: autoDraw = True
+220.3685 	EXP 	fixation_jitter: autoDraw = False
+220.3685 	EXP 	fixation_jitter: autoDraw = False
+220.3685 	EXP 	topTxt: text = '黃'
+220.3685 	EXP 	bottomTxt: text = '紅'
+220.3685 	EXP 	topTxt: autoDraw = True
+220.3685 	EXP 	bottomTxt: autoDraw = True
+221.2228 	DATA 	Keypress: f
+221.2386 	EXP 	New trial (rep=0, index=43): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '綠', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+221.2514 	EXP 	topTxt: autoDraw = False
+221.2514 	EXP 	bottomTxt: autoDraw = False
+221.2514 	EXP 	fixation_jitter: autoDraw = True
+223.3536 	EXP 	fixation_jitter: autoDraw = False
+223.3536 	EXP 	fixation_jitter: autoDraw = False
+223.3536 	EXP 	topTxt: text = '黃'
+223.3536 	EXP 	bottomTxt: text = '綠'
+223.3536 	EXP 	topTxt: autoDraw = True
+223.3536 	EXP 	bottomTxt: autoDraw = True
+224.1880 	EXP 	New trial (rep=0, index=44): {'cond': 1, 'topText': '綠', 'topColour': 'green', 'bottomText': '綠', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+224.1914 	DATA 	Keypress: j
+224.1999 	EXP 	topTxt: autoDraw = False
+224.1999 	EXP 	bottomTxt: autoDraw = False
+224.1999 	EXP 	fixation_jitter: autoDraw = True
+227.2170 	EXP 	fixation_jitter: autoDraw = False
+227.2170 	EXP 	fixation_jitter: autoDraw = False
+227.2170 	EXP 	topTxt: text = '綠'
+227.2170 	EXP 	bottomTxt: text = '綠'
+227.2170 	EXP 	topTxt: autoDraw = True
+227.2170 	EXP 	bottomTxt: autoDraw = True
+227.9689 	EXP 	New trial (rep=0, index=45): {'cond': 4, 'topText': '紅', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+227.9724 	DATA 	Keypress: f
+227.9811 	EXP 	topTxt: autoDraw = False
+227.9811 	EXP 	bottomTxt: autoDraw = False
+227.9811 	EXP 	fixation_jitter: autoDraw = True
+230.1966 	EXP 	fixation_jitter: autoDraw = False
+230.1966 	EXP 	fixation_jitter: autoDraw = False
+230.1966 	EXP 	topTxt: text = '紅'
+230.1966 	EXP 	bottomTxt: text = '黃'
+230.1966 	EXP 	topTxt: autoDraw = True
+230.1966 	EXP 	bottomTxt: autoDraw = True
+231.1210 	DATA 	Keypress: j
+231.1339 	EXP 	New trial (rep=0, index=46): {'cond': 4, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+231.1459 	EXP 	topTxt: autoDraw = False
+231.1459 	EXP 	bottomTxt: autoDraw = False
+231.1459 	EXP 	fixation_jitter: autoDraw = True
+234.8584 	EXP 	fixation_jitter: autoDraw = False
+234.8584 	EXP 	fixation_jitter: autoDraw = False
+234.8584 	EXP 	topTxt: text = '藍'
+234.8584 	EXP 	bottomTxt: text = '紅'
+234.8584 	EXP 	topTxt: autoDraw = True
+234.8584 	EXP 	bottomTxt: autoDraw = True
+236.0821 	EXP 	New trial (rep=0, index=47): {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+236.0859 	DATA 	Keypress: j
+236.0930 	EXP 	topTxt: autoDraw = False
+236.0930 	EXP 	bottomTxt: autoDraw = False
+236.0930 	EXP 	fixation_jitter: autoDraw = True
+239.7922 	EXP 	fixation_jitter: autoDraw = False
+239.7922 	EXP 	fixation_jitter: autoDraw = False
+239.7922 	EXP 	topTxt: text = '藍'
+239.7922 	EXP 	bottomTxt: text = '紅'
+239.7922 	EXP 	topTxt: autoDraw = True
+239.7922 	EXP 	bottomTxt: autoDraw = True
+240.5478 	DATA 	Keypress: f
+240.5622 	EXP 	New trial (rep=0, index=48): {'cond': 4, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+240.5741 	EXP 	topTxt: autoDraw = False
+240.5741 	EXP 	bottomTxt: autoDraw = False
+240.5741 	EXP 	fixation_jitter: autoDraw = True
+244.0909 	EXP 	fixation_jitter: autoDraw = False
+244.0909 	EXP 	fixation_jitter: autoDraw = False
+244.0909 	EXP 	topTxt: text = '紅'
+244.0909 	EXP 	bottomTxt: text = '紅'
+244.0909 	EXP 	topTxt: autoDraw = True
+244.0909 	EXP 	bottomTxt: autoDraw = True
+245.0088 	EXP 	New trial (rep=0, index=49): {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+245.0121 	DATA 	Keypress: j
+245.0216 	EXP 	topTxt: autoDraw = False
+245.0216 	EXP 	bottomTxt: autoDraw = False
+245.0216 	EXP 	fixation_jitter: autoDraw = True
+247.3249 	EXP 	fixation_jitter: autoDraw = False
+247.3249 	EXP 	fixation_jitter: autoDraw = False
+247.3249 	EXP 	topTxt: text = '黃'
+247.3249 	EXP 	bottomTxt: text = '黃'
+247.3249 	EXP 	topTxt: autoDraw = True
+247.3249 	EXP 	bottomTxt: autoDraw = True
+248.5450 	DATA 	Keypress: j
+248.5559 	EXP 	New trial (rep=0, index=50): {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+248.5695 	EXP 	topTxt: autoDraw = False
+248.5695 	EXP 	bottomTxt: autoDraw = False
+248.5695 	EXP 	fixation_jitter: autoDraw = True
+251.8843 	EXP 	fixation_jitter: autoDraw = False
+251.8843 	EXP 	fixation_jitter: autoDraw = False
+251.8843 	EXP 	topTxt: text = '紅'
+251.8843 	EXP 	bottomTxt: text = '黃'
+251.8843 	EXP 	topTxt: autoDraw = True
+251.8843 	EXP 	bottomTxt: autoDraw = True
+252.8579 	DATA 	Keypress: j
+252.8730 	EXP 	New trial (rep=0, index=51): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+252.8838 	EXP 	topTxt: autoDraw = False
+252.8838 	EXP 	bottomTxt: autoDraw = False
+252.8838 	EXP 	fixation_jitter: autoDraw = True
+255.8986 	EXP 	fixation_jitter: autoDraw = False
+255.8986 	EXP 	fixation_jitter: autoDraw = False
+255.8986 	EXP 	topTxt: text = '紅'
+255.8986 	EXP 	bottomTxt: text = '紅'
+255.8986 	EXP 	topTxt: autoDraw = True
+255.8986 	EXP 	bottomTxt: autoDraw = True
+256.5038 	EXP 	New trial (rep=0, index=52): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+256.5085 	DATA 	Keypress: f
+256.5152 	EXP 	topTxt: autoDraw = False
+256.5152 	EXP 	bottomTxt: autoDraw = False
+256.5152 	EXP 	fixation_jitter: autoDraw = True
+260.5379 	EXP 	fixation_jitter: autoDraw = False
+260.5379 	EXP 	fixation_jitter: autoDraw = False
+260.5379 	EXP 	topTxt: text = '綠'
+260.5379 	EXP 	bottomTxt: text = '藍'
+260.5379 	EXP 	topTxt: autoDraw = True
+260.5379 	EXP 	bottomTxt: autoDraw = True
+261.4846 	DATA 	Keypress: j
+261.5000 	EXP 	New trial (rep=0, index=53): {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+261.5116 	EXP 	topTxt: autoDraw = False
+261.5116 	EXP 	bottomTxt: autoDraw = False
+261.5116 	EXP 	fixation_jitter: autoDraw = True
+264.8268 	EXP 	fixation_jitter: autoDraw = False
+264.8268 	EXP 	fixation_jitter: autoDraw = False
+264.8268 	EXP 	topTxt: text = '黃'
+264.8268 	EXP 	bottomTxt: text = '綠'
+264.8268 	EXP 	topTxt: autoDraw = True
+264.8268 	EXP 	bottomTxt: autoDraw = True
+266.0986 	EXP 	New trial (rep=0, index=54): {'cond': 2, 'topText': '藍', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+266.1024 	DATA 	Keypress: j
+266.1094 	EXP 	topTxt: autoDraw = False
+266.1094 	EXP 	bottomTxt: autoDraw = False
+266.1094 	EXP 	fixation_jitter: autoDraw = True
+269.7289 	EXP 	fixation_jitter: autoDraw = False
+269.7289 	EXP 	fixation_jitter: autoDraw = False
+269.7289 	EXP 	topTxt: text = '藍'
+269.7289 	EXP 	bottomTxt: text = '黃'
+269.7289 	EXP 	topTxt: autoDraw = True
+269.7289 	EXP 	bottomTxt: autoDraw = True
+270.7138 	EXP 	New trial (rep=0, index=55): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+270.7184 	DATA 	Keypress: f
+270.7240 	EXP 	topTxt: autoDraw = False
+270.7240 	EXP 	bottomTxt: autoDraw = False
+270.7240 	EXP 	fixation_jitter: autoDraw = True
+273.6414 	EXP 	fixation_jitter: autoDraw = False
+273.6414 	EXP 	fixation_jitter: autoDraw = False
+273.6414 	EXP 	topTxt: text = '藍'
+273.6414 	EXP 	bottomTxt: text = '綠'
+273.6414 	EXP 	topTxt: autoDraw = True
+273.6414 	EXP 	bottomTxt: autoDraw = True
+274.7085 	EXP 	New trial (rep=0, index=56): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+274.7121 	DATA 	Keypress: j
+274.7216 	EXP 	topTxt: autoDraw = False
+274.7216 	EXP 	bottomTxt: autoDraw = False
+274.7216 	EXP 	fixation_jitter: autoDraw = True
+277.6414 	EXP 	fixation_jitter: autoDraw = False
+277.6414 	EXP 	fixation_jitter: autoDraw = False
+277.6414 	EXP 	topTxt: text = '綠'
+277.6414 	EXP 	bottomTxt: text = '紅'
+277.6414 	EXP 	topTxt: autoDraw = True
+277.6414 	EXP 	bottomTxt: autoDraw = True
+278.3912 	EXP 	New trial (rep=0, index=57): {'cond': 4, 'topText': '紅', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+278.3948 	DATA 	Keypress: j
+278.4028 	EXP 	topTxt: autoDraw = False
+278.4028 	EXP 	bottomTxt: autoDraw = False
+278.4028 	EXP 	fixation_jitter: autoDraw = True
+282.1232 	EXP 	fixation_jitter: autoDraw = False
+282.1232 	EXP 	fixation_jitter: autoDraw = False
+282.1232 	EXP 	topTxt: text = '紅'
+282.1232 	EXP 	bottomTxt: text = '黃'
+282.1232 	EXP 	topTxt: autoDraw = True
+282.1232 	EXP 	bottomTxt: autoDraw = True
+282.8073 	DATA 	Keypress: j
+282.8222 	EXP 	New trial (rep=0, index=58): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+282.8336 	EXP 	topTxt: autoDraw = False
+282.8336 	EXP 	bottomTxt: autoDraw = False
+282.8336 	EXP 	fixation_jitter: autoDraw = True
+284.9354 	EXP 	fixation_jitter: autoDraw = False
+284.9354 	EXP 	fixation_jitter: autoDraw = False
+284.9354 	EXP 	topTxt: text = '藍'
+284.9354 	EXP 	bottomTxt: text = '藍'
+284.9354 	EXP 	topTxt: autoDraw = True
+284.9354 	EXP 	bottomTxt: autoDraw = True
+285.6556 	DATA 	Keypress: f
+285.6703 	EXP 	New trial (rep=0, index=59): {'cond': 2, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+285.6825 	EXP 	topTxt: autoDraw = False
+285.6825 	EXP 	bottomTxt: autoDraw = False
+285.6825 	EXP 	fixation_jitter: autoDraw = True
+287.9001 	EXP 	fixation_jitter: autoDraw = False
+287.9001 	EXP 	fixation_jitter: autoDraw = False
+287.9001 	EXP 	topTxt: text = '紅'
+287.9001 	EXP 	bottomTxt: text = '黃'
+287.9001 	EXP 	topTxt: autoDraw = True
+287.9001 	EXP 	bottomTxt: autoDraw = True
+288.8542 	DATA 	Keypress: f
+288.8684 	EXP 	New trial (rep=0, index=60): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+288.8805 	EXP 	topTxt: autoDraw = False
+288.8805 	EXP 	bottomTxt: autoDraw = False
+288.8805 	EXP 	fixation_jitter: autoDraw = True
+291.1954 	EXP 	fixation_jitter: autoDraw = False
+291.1954 	EXP 	fixation_jitter: autoDraw = False
+291.1954 	EXP 	topTxt: text = '黃'
+291.1954 	EXP 	bottomTxt: text = '紅'
+291.1954 	EXP 	topTxt: autoDraw = True
+291.1954 	EXP 	bottomTxt: autoDraw = True
+292.1507 	DATA 	Keypress: j
+292.1662 	EXP 	New trial (rep=0, index=61): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+292.1783 	EXP 	topTxt: autoDraw = False
+292.1783 	EXP 	bottomTxt: autoDraw = False
+292.1783 	EXP 	fixation_jitter: autoDraw = True
+294.9831 	EXP 	fixation_jitter: autoDraw = False
+294.9831 	EXP 	fixation_jitter: autoDraw = False
+294.9831 	EXP 	topTxt: text = '藍'
+294.9831 	EXP 	bottomTxt: text = '黃'
+294.9831 	EXP 	topTxt: autoDraw = True
+294.9831 	EXP 	bottomTxt: autoDraw = True
+295.8470 	EXP 	New trial (rep=0, index=62): {'cond': 3, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '藍', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+295.8505 	DATA 	Keypress: j
+295.8598 	EXP 	topTxt: autoDraw = False
+295.8598 	EXP 	bottomTxt: autoDraw = False
+295.8598 	EXP 	fixation_jitter: autoDraw = True
+299.5740 	EXP 	fixation_jitter: autoDraw = False
+299.5740 	EXP 	fixation_jitter: autoDraw = False
+299.5740 	EXP 	topTxt: text = '黃'
+299.5740 	EXP 	bottomTxt: text = '藍'
+299.5740 	EXP 	topTxt: autoDraw = True
+299.5740 	EXP 	bottomTxt: autoDraw = True
+300.6952 	DATA 	Keypress: j
+300.7103 	EXP 	New trial (rep=0, index=63): {'cond': 4, 'topText': '綠', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+300.7236 	EXP 	topTxt: autoDraw = False
+300.7236 	EXP 	bottomTxt: autoDraw = False
+300.7236 	EXP 	fixation_jitter: autoDraw = True
+304.3400 	EXP 	fixation_jitter: autoDraw = False
+304.3400 	EXP 	fixation_jitter: autoDraw = False
+304.3400 	EXP 	topTxt: text = '綠'
+304.3400 	EXP 	bottomTxt: text = '紅'
+304.3400 	EXP 	topTxt: autoDraw = True
+304.3400 	EXP 	bottomTxt: autoDraw = True
+305.3747 	EXP 	New trial (rep=0, index=64): {'cond': 3, 'topText': '紅', 'topColour': 'red', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+305.3782 	DATA 	Keypress: j
+305.3877 	EXP 	topTxt: autoDraw = False
+305.3877 	EXP 	bottomTxt: autoDraw = False
+305.3877 	EXP 	fixation_jitter: autoDraw = True
+307.5029 	EXP 	fixation_jitter: autoDraw = False
+307.5029 	EXP 	fixation_jitter: autoDraw = False
+307.5029 	EXP 	topTxt: text = '紅'
+307.5029 	EXP 	bottomTxt: text = '黃'
+307.5029 	EXP 	topTxt: autoDraw = True
+307.5029 	EXP 	bottomTxt: autoDraw = True
+308.2911 	EXP 	New trial (rep=0, index=65): {'cond': 4, 'topText': '藍', 'topColour': 'green', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+308.2945 	DATA 	Keypress: j
+308.3025 	EXP 	topTxt: autoDraw = False
+308.3025 	EXP 	bottomTxt: autoDraw = False
+308.3025 	EXP 	fixation_jitter: autoDraw = True
+311.1171 	EXP 	fixation_jitter: autoDraw = False
+311.1171 	EXP 	fixation_jitter: autoDraw = False
+311.1171 	EXP 	topTxt: text = '藍'
+311.1171 	EXP 	bottomTxt: text = '藍'
+311.1171 	EXP 	topTxt: autoDraw = True
+311.1171 	EXP 	bottomTxt: autoDraw = True
+311.9883 	EXP 	New trial (rep=0, index=66): {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+311.9921 	DATA 	Keypress: j
+312.0005 	EXP 	topTxt: autoDraw = False
+312.0005 	EXP 	bottomTxt: autoDraw = False
+312.0005 	EXP 	fixation_jitter: autoDraw = True
+315.1005 	EXP 	fixation_jitter: autoDraw = False
+315.1005 	EXP 	fixation_jitter: autoDraw = False
+315.1005 	EXP 	topTxt: text = '黃'
+315.1005 	EXP 	bottomTxt: text = '黃'
+315.1005 	EXP 	topTxt: autoDraw = True
+315.1005 	EXP 	bottomTxt: autoDraw = True
+315.8859 	EXP 	New trial (rep=0, index=67): {'cond': 4, 'topText': '綠', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+315.8900 	DATA 	Keypress: f
+315.8984 	EXP 	topTxt: autoDraw = False
+315.8984 	EXP 	bottomTxt: autoDraw = False
+315.8984 	EXP 	fixation_jitter: autoDraw = True
+318.7138 	EXP 	fixation_jitter: autoDraw = False
+318.7138 	EXP 	fixation_jitter: autoDraw = False
+318.7138 	EXP 	topTxt: text = '綠'
+318.7138 	EXP 	bottomTxt: text = '黃'
+318.7138 	EXP 	topTxt: autoDraw = True
+318.7138 	EXP 	bottomTxt: autoDraw = True
+319.4334 	EXP 	New trial (rep=0, index=68): {'cond': 2, 'topText': '黃', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+319.4367 	DATA 	Keypress: j
+319.4461 	EXP 	topTxt: autoDraw = False
+319.4461 	EXP 	bottomTxt: autoDraw = False
+319.4461 	EXP 	fixation_jitter: autoDraw = True
+322.7674 	EXP 	fixation_jitter: autoDraw = False
+322.7674 	EXP 	fixation_jitter: autoDraw = False
+322.7674 	EXP 	topTxt: text = '黃'
+322.7674 	EXP 	bottomTxt: text = '紅'
+322.7674 	EXP 	topTxt: autoDraw = True
+322.7674 	EXP 	bottomTxt: autoDraw = True
+323.7157 	EXP 	New trial (rep=0, index=69): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+323.7191 	DATA 	Keypress: f
+323.7270 	EXP 	topTxt: autoDraw = False
+323.7270 	EXP 	bottomTxt: autoDraw = False
+323.7270 	EXP 	fixation_jitter: autoDraw = True
+327.0316 	EXP 	fixation_jitter: autoDraw = False
+327.0316 	EXP 	fixation_jitter: autoDraw = False
+327.0316 	EXP 	topTxt: text = '藍'
+327.0316 	EXP 	bottomTxt: text = '黃'
+327.0316 	EXP 	topTxt: autoDraw = True
+327.0316 	EXP 	bottomTxt: autoDraw = True
+327.8984 	DATA 	Keypress: j
+327.9119 	EXP 	New trial (rep=0, index=70): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+327.9248 	EXP 	topTxt: autoDraw = False
+327.9248 	EXP 	bottomTxt: autoDraw = False
+327.9248 	EXP 	fixation_jitter: autoDraw = True
+330.5251 	EXP 	fixation_jitter: autoDraw = False
+330.5251 	EXP 	fixation_jitter: autoDraw = False
+330.5251 	EXP 	topTxt: text = '紅'
+330.5251 	EXP 	bottomTxt: text = '紅'
+330.5251 	EXP 	topTxt: autoDraw = True
+330.5251 	EXP 	bottomTxt: autoDraw = True
+331.1949 	EXP 	New trial (rep=0, index=71): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+331.1982 	DATA 	Keypress: f
+331.2064 	EXP 	topTxt: autoDraw = False
+331.2064 	EXP 	bottomTxt: autoDraw = False
+331.2064 	EXP 	fixation_jitter: autoDraw = True
+334.1233 	EXP 	fixation_jitter: autoDraw = False
+334.1233 	EXP 	fixation_jitter: autoDraw = False
+334.1233 	EXP 	topTxt: text = '藍'
+334.1233 	EXP 	bottomTxt: text = '綠'
+334.1233 	EXP 	topTxt: autoDraw = True
+334.1233 	EXP 	bottomTxt: autoDraw = True
+334.8415 	EXP 	New trial (rep=0, index=72): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+334.8450 	DATA 	Keypress: j
+334.8541 	EXP 	topTxt: autoDraw = False
+334.8541 	EXP 	bottomTxt: autoDraw = False
+334.8541 	EXP 	fixation_jitter: autoDraw = True
+336.8654 	EXP 	fixation_jitter: autoDraw = False
+336.8654 	EXP 	fixation_jitter: autoDraw = False
+336.8654 	EXP 	topTxt: text = '紅'
+336.8654 	EXP 	bottomTxt: text = '紅'
+336.8654 	EXP 	topTxt: autoDraw = True
+336.8654 	EXP 	bottomTxt: autoDraw = True
+337.4744 	EXP 	New trial (rep=0, index=73): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+337.4784 	DATA 	Keypress: f
+337.4866 	EXP 	topTxt: autoDraw = False
+337.4866 	EXP 	bottomTxt: autoDraw = False
+337.4866 	EXP 	fixation_jitter: autoDraw = True
+341.4933 	EXP 	fixation_jitter: autoDraw = False
+341.4933 	EXP 	fixation_jitter: autoDraw = False
+341.4933 	EXP 	topTxt: text = '藍'
+341.4933 	EXP 	bottomTxt: text = '藍'
+341.4933 	EXP 	topTxt: autoDraw = True
+341.4933 	EXP 	bottomTxt: autoDraw = True
+342.4372 	EXP 	New trial (rep=0, index=74): {'cond': 2, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+342.4407 	DATA 	Keypress: j
+342.4501 	EXP 	topTxt: autoDraw = False
+342.4501 	EXP 	bottomTxt: autoDraw = False
+342.4501 	EXP 	fixation_jitter: autoDraw = True
+344.7524 	EXP 	fixation_jitter: autoDraw = False
+344.7524 	EXP 	fixation_jitter: autoDraw = False
+344.7524 	EXP 	topTxt: text = '紅'
+344.7524 	EXP 	bottomTxt: text = '黃'
+344.7524 	EXP 	topTxt: autoDraw = True
+344.7524 	EXP 	bottomTxt: autoDraw = True
+345.4719 	EXP 	New trial (rep=0, index=75): {'cond': 1, 'topText': '藍', 'topColour': 'blue', 'bottomText': '藍', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+345.4766 	DATA 	Keypress: j
+345.4829 	EXP 	topTxt: autoDraw = False
+345.4829 	EXP 	bottomTxt: autoDraw = False
+345.4829 	EXP 	fixation_jitter: autoDraw = True
+347.6973 	EXP 	fixation_jitter: autoDraw = False
+347.6973 	EXP 	fixation_jitter: autoDraw = False
+347.6973 	EXP 	topTxt: text = '藍'
+347.6973 	EXP 	bottomTxt: text = '藍'
+347.6973 	EXP 	topTxt: autoDraw = True
+347.6973 	EXP 	bottomTxt: autoDraw = True
+348.3850 	EXP 	New trial (rep=0, index=76): {'cond': 1, 'topText': '紅', 'topColour': 'red', 'bottomText': '紅', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+348.3885 	DATA 	Keypress: f
+348.3969 	EXP 	topTxt: autoDraw = False
+348.3969 	EXP 	bottomTxt: autoDraw = False
+348.3969 	EXP 	fixation_jitter: autoDraw = True
+351.0951 	EXP 	fixation_jitter: autoDraw = False
+351.0951 	EXP 	fixation_jitter: autoDraw = False
+351.0951 	EXP 	topTxt: text = '紅'
+351.0951 	EXP 	bottomTxt: text = '紅'
+351.0951 	EXP 	topTxt: autoDraw = True
+351.0951 	EXP 	bottomTxt: autoDraw = True
+352.1648 	EXP 	New trial (rep=0, index=77): {'cond': 4, 'topText': '紅', 'topColour': 'yellow', 'bottomText': '紅', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+352.1680 	DATA 	Keypress: f
+352.1777 	EXP 	topTxt: autoDraw = False
+352.1777 	EXP 	bottomTxt: autoDraw = False
+352.1777 	EXP 	fixation_jitter: autoDraw = True
+354.5937 	EXP 	fixation_jitter: autoDraw = False
+354.5937 	EXP 	fixation_jitter: autoDraw = False
+354.5937 	EXP 	topTxt: text = '紅'
+354.5937 	EXP 	bottomTxt: text = '紅'
+354.5937 	EXP 	topTxt: autoDraw = True
+354.5937 	EXP 	bottomTxt: autoDraw = True
+355.4502 	EXP 	New trial (rep=0, index=78): {'cond': 2, 'topText': '藍', 'topColour': 'red', 'bottomText': '紅', 'congruent': 0, 'match': 1, 'corrAns': 'f'}
+355.4537 	DATA 	Keypress: j
+355.4594 	EXP 	topTxt: autoDraw = False
+355.4594 	EXP 	bottomTxt: autoDraw = False
+355.4594 	EXP 	fixation_jitter: autoDraw = True
+358.4587 	EXP 	fixation_jitter: autoDraw = False
+358.4587 	EXP 	fixation_jitter: autoDraw = False
+358.4587 	EXP 	topTxt: text = '藍'
+358.4587 	EXP 	bottomTxt: text = '紅'
+358.4587 	EXP 	topTxt: autoDraw = True
+358.4587 	EXP 	bottomTxt: autoDraw = True
+359.5276 	EXP 	New trial (rep=0, index=79): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+359.5311 	DATA 	Keypress: f
+359.5405 	EXP 	topTxt: autoDraw = False
+359.5405 	EXP 	bottomTxt: autoDraw = False
+359.5405 	EXP 	fixation_jitter: autoDraw = True
+362.2429 	EXP 	fixation_jitter: autoDraw = False
+362.2429 	EXP 	fixation_jitter: autoDraw = False
+362.2429 	EXP 	topTxt: text = '綠'
+362.2429 	EXP 	bottomTxt: text = '紅'
+362.2429 	EXP 	topTxt: autoDraw = True
+362.2429 	EXP 	bottomTxt: autoDraw = True
+363.1792 	DATA 	Keypress: j
+363.1888 	EXP 	topTxt: autoDraw = False
+363.1888 	EXP 	bottomTxt: autoDraw = False
+363.1888 	EXP 	thanksText: autoDraw = True
+365.2044 	EXP 	thanksText: autoDraw = False
+365.2044 	EXP 	thanksText: autoDraw = False
+365.2562 	EXP 	window1: mouseVisible = True

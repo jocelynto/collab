@@ -1,0 +1,9 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+0,1193,-0.076530612,0.214795918,1,0,0,two_yellow_triangles,0,0,0,52,1,shape,images/4greenCrosses.jpg,three_green_crosses,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+0,2840,0.142857143,0.218877551,1,0,0,three_green_crosses,0,1,1,55,1,shape,images/4greenTriangles.jpg,two_yellow_triangles,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+1,2234,0.357142857,0.265816327,1,0,0,four_blue_stars,0,2,2,22,1,shape,images/2greenStars.jpg,four_blue_stars,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+1,1270,0.125510204,0.237244898,1,0,0,three_green_crosses,0,3,3,48,1,shape,images/4blueCrosses.jpg,three_green_crosses,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+1,2021,-0.362244898,0.222959184,1,0,0,one_red_dot,0,4,4,25,1,shape,images/2redDots.jpg,one_red_dot,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+1,2260,0.420408163,0.231122449,1,0,0,four_blue_stars,0,5,5,46,1,shape,images/3yellowStars.jpg,four_blue_stars,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+1,2004,-0.136734694,0.226020408,1,0,0,two_yellow_triangles,0,6,6,63,1,shape,images/4yellowTriangles.jpg,two_yellow_triangles,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,,,,,,
+,,,,,,,,,,,,,,,,,001,2022-07-18_15h22.11.885,Wisconsin Card Sorting Task,2022.1.2,iPhone,58.82352941,0,0,0,2,1,128:192

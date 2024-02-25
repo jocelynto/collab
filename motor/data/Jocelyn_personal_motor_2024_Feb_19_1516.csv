@@ -1,0 +1,5 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instr_txt.started,instr_txt.stopped,trigger_resp.keys,trigger_resp.rt,trigger_resp.started,trigger_resp.stopped,prep_instr.started,prep_instr.stopped,start_indicator.started,start_indicator.stopped,motor_instr.started,motor_instr.stopped,image.started,image.stopped,rest_txt.started,rest_txt.stopped,participant,session,date,expName,psychopyVersion,frameRate,(motor duration),(rest duration)
+,,,,15.2699742,None,s,1.9746066,15.2699742,None,,,,,,,,,,,Jocelyn_personal,1,2024_Feb_19_1516,motor,2021.1.4,60.01720093,,
+0,0,0,0,,,,,,,17.2666992,19.2639014,19.2639014,None,19.8483529,None,19.8483529,None,49.8634301,None,Jocelyn_personal,1,2024_Feb_19_1516,motor,2021.1.4,60.01720093,30.0150772,30.0163836
+1,0,1,0,,,,,,,79.8798137,81.8786498,81.8786498,None,82.3785238,None,82.3785238,None,112.3951133,None,Jocelyn_personal,1,2024_Feb_19_1516,motor,2021.1.4,60.01720093,30.0165895,30.0164158
+,,,,,,,,,,142.4115291,144.4104962,144.4104962,None,,,,,,,,,,,,,,

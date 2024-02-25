@@ -1,0 +1,9 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+0,2472,0.338098958,0.162326389,1,0,0,four_blue_stars,0,0,0,30,1,colour,images/2yellowStars.jpg,two_yellow_triangles,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+0,1982,-0.182521701,0.221215278,1,0,0,two_yellow_triangles,0,1,1,43,1,colour,images/3redTriangles.jpg,one_red_dot,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+0,2030,0.122617188,0.240724826,1,0,0,three_green_crosses,0,2,2,32,1,colour,images/3blueCrosses.jpg,four_blue_stars,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,1700,-0.199670139,0.185572917,1,0,0,two_yellow_triangles,0,3,3,12,1,colour,images/1yellowCross.jpg,two_yellow_triangles,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,2534,-0.141440972,0.270538194,1,0,0,two_yellow_triangles,0,4,4,61,1,colour,images/4yellowDots.jpg,two_yellow_triangles,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,1918,0.16421441,0.193650174,1,0,0,three_green_crosses,0,5,5,54,1,colour,images/4greenStars.jpg,three_green_crosses,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,1950,-0.067378472,0.234947917,1,0,0,two_yellow_triangles,0,6,6,60,1,colour,images/4yellowCrosses.jpg,two_yellow_triangles,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+,,,,,,,,,,,,,,,,8,001,2023-07-17_14h08.51.811,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,0,0,0,0,1,0:64

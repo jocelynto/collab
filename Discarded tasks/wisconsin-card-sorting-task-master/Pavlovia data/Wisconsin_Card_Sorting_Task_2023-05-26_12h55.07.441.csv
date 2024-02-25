@@ -1,0 +1,7 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate
+0,2982,0.440444499,0.236,1,0,0,four_blue_stars,0,0,0,19,1,shape,images/2blueTriangles.jpg,two_yellow_triangles,,001,2023-05-26_12h55.07.441,Wisconsin Card Sorting Task,2022.1.2,Win32,60.6391365
+0,2351,-0.1,0.214666667,1,0,0,two_yellow_triangles,0,1,1,28,1,shape,images/2yellowCrosses.jpg,three_green_crosses,,001,2023-05-26_12h55.07.441,Wisconsin Card Sorting Task,2022.1.2,Win32,60.6391365
+1,1749,0.127555664,0.278666667,1,0,0,three_green_crosses,0,2,2,20,1,shape,images/2greenCrosses.jpg,three_green_crosses,,001,2023-05-26_12h55.07.441,Wisconsin Card Sorting Task,2022.1.2,Win32,60.6391365
+0,1600,0.124,0.275111084,1,0,0,three_green_crosses,0,3,3,22,1,shape,images/2greenStars.jpg,four_blue_stars,,001,2023-05-26_12h55.07.441,Wisconsin Card Sorting Task,2022.1.2,Win32,60.6391365
+0,1833,-0.407555501,0.191555501,1,0,0,one_red_dot,0,4,4,43,1,shape,images/3redTriangles.jpg,two_yellow_triangles,,001,2023-05-26_12h55.07.441,Wisconsin Card Sorting Task,2022.1.2,Win32,60.6391365
+0,1900,0.374666667,0.227111084,1,0,0,four_blue_stars,0,5,5,3,1,shape,images/1blueTriangle.jpg,two_yellow_triangles,,001,2023-05-26_12h55.07.441,Wisconsin Card Sorting Task,2022.1.2,Win32,60.6391365

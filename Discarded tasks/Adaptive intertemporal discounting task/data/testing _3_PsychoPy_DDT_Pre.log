@@ -1,0 +1,1197 @@
+2.4866 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.3331 	WARNING 	User requested fullscreen with size [2560 1440], but screen is actually [1920, 1080]. Using actual size
+14.4864 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000225123FB9B0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022512410080>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='pix', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.4870 	EXP 	window1: mouseVisible = True
+14.4871 	EXP 	window1: recordFrameIntervals = False
+14.6517 	EXP 	window1: recordFrameIntervals = True
+14.8352 	EXP 	window1: recordFrameIntervals = False
+15.4528 	EXP 	Created InstructionStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='InstructionStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1500., 1125.]), texRes=128, units='pix', win=Window(...))
+16.2714 	EXP 	Created FixationStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli\\start.png', interpolate=True, mask=None, maskParams=None, name='FixationStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1500., 1125.]), texRes=128, units='pix', win=Window(...))
+16.2787 	EXP 	Created TrialStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='TrialStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1500., 1125.]), texRes=128, units='pix', win=Window(...))
+16.3026 	EXP 	Created LLStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=60, italic=False, languageStyle='LTR', name='LLStim', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+16.3035 	EXP 	Created SSStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=60, italic=False, languageStyle='LTR', name='SSStim', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+17.3125 	EXP 	Created EndStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli\\end.png', interpolate=True, mask=None, maskParams=None, name='EndStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1500., 1125.]), texRes=128, units='pix', win=Window(...))
+17.3243 	EXP 	Imported conditions_DDTinst.xlsx as conditions, 3 conditions, 2 params
+17.3247 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+17.3250 	EXP 	New trial (rep=0, index=0): {'inst': 1, 'stim': 'stimuli/DDT_Instructions1.png'}
+17.4965 	EXP 	InstructionStim: image = 'stimuli/DDT_Instructions1.png'
+17.4965 	EXP 	InstructionStim: autoDraw = True
+18.0226 	EXP 	New trial (rep=0, index=1): {'inst': 2, 'stim': 'stimuli/DDT_Instructions2.png'}
+18.1093 	DATA 	Keypress: space
+18.1169 	EXP 	InstructionStim: autoDraw = False
+18.1169 	EXP 	InstructionStim: image = 'stimuli/DDT_Instructions2.png'
+18.1169 	EXP 	InstructionStim: autoDraw = True
+18.4541 	EXP 	New trial (rep=0, index=2): {'inst': 3, 'stim': 'stimuli/DDT_Instructions3.png'}
+18.5296 	DATA 	Keypress: space
+18.5370 	EXP 	InstructionStim: autoDraw = False
+18.5370 	EXP 	InstructionStim: image = 'stimuli/DDT_Instructions3.png'
+18.5370 	EXP 	InstructionStim: autoDraw = True
+18.8741 	EXP 	Created sequence: sequential, trialTypes=1, nReps=100, seed=None
+18.8761 	EXP 	New trial (rep=0, index=0): None
+18.9079 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 4 conditions, 4 params
+18.9089 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+18.9098 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+18.9143 	DATA 	Keypress: space
+18.9224 	EXP 	InstructionStim: autoDraw = False
+18.9224 	EXP 	FixationStim: autoDraw = True
+20.5509 	EXP 	FixationStim: autoDraw = False
+20.5509 	EXP 	FixationStim: autoDraw = False
+20.5509 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+20.5509 	EXP 	LLStim: pos = array([270.,  37.])
+20.5509 	EXP 	LLStim: text = 100
+20.5509 	EXP 	SSStim: pos = array([-335.,   37.])
+20.5509 	EXP 	SSStim: text = 60
+20.5509 	EXP 	TrialStim: autoDraw = True
+20.5509 	EXP 	LLStim: autoDraw = True
+20.5509 	EXP 	SSStim: autoDraw = True
+22.2151 	DATA 	Keypress: b
+22.2440 	EXP 	TrialStim: autoDraw = False
+22.2440 	EXP 	LLStim: autoDraw = False
+22.2440 	EXP 	SSStim: autoDraw = False
+22.2440 	EXP 	EndStim: autoDraw = True
+22.6672 	EXP 	New trial (rep=0, index=1): {'delay': 4, 'r_background': 'stimuli/rd4.png', 'l_background': 'stimuli/ld4.png', 'rowtitle': -1}
+22.6807 	EXP 	EndStim: autoDraw = False
+22.6807 	EXP 	EndStim: autoDraw = False
+22.6807 	EXP 	FixationStim: autoDraw = True
+24.1974 	EXP 	FixationStim: autoDraw = False
+24.1974 	EXP 	FixationStim: autoDraw = False
+24.1974 	EXP 	TrialStim: image = 'stimuli/rd4.png'
+24.1974 	EXP 	LLStim: pos = array([270.,  37.])
+24.1974 	EXP 	LLStim: text = 100
+24.1974 	EXP 	SSStim: pos = array([-335.,   37.])
+24.1974 	EXP 	SSStim: text = 85
+24.1974 	EXP 	TrialStim: autoDraw = True
+24.1974 	EXP 	LLStim: autoDraw = True
+24.1974 	EXP 	SSStim: autoDraw = True
+25.7971 	DATA 	Keypress: b
+25.8241 	EXP 	TrialStim: autoDraw = False
+25.8241 	EXP 	LLStim: autoDraw = False
+25.8241 	EXP 	SSStim: autoDraw = False
+25.8241 	EXP 	EndStim: autoDraw = True
+26.2822 	EXP 	New trial (rep=0, index=2): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+26.2969 	EXP 	EndStim: autoDraw = False
+26.2969 	EXP 	EndStim: autoDraw = False
+26.2969 	EXP 	FixationStim: autoDraw = True
+27.8145 	EXP 	FixationStim: autoDraw = False
+27.8145 	EXP 	FixationStim: autoDraw = False
+27.8145 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+27.8145 	EXP 	LLStim: pos = array([270.,  37.])
+27.8145 	EXP 	LLStim: text = 100
+27.8145 	EXP 	SSStim: pos = array([-335.,   37.])
+27.8145 	EXP 	SSStim: text = 100
+27.8145 	EXP 	TrialStim: autoDraw = True
+27.8145 	EXP 	LLStim: autoDraw = True
+27.8145 	EXP 	SSStim: autoDraw = True
+29.2968 	DATA 	Keypress: v
+29.3200 	EXP 	TrialStim: autoDraw = False
+29.3200 	EXP 	LLStim: autoDraw = False
+29.3200 	EXP 	SSStim: autoDraw = False
+29.3200 	EXP 	EndStim: autoDraw = True
+29.7966 	EXP 	New trial (rep=0, index=3): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+29.8109 	EXP 	EndStim: autoDraw = False
+29.8109 	EXP 	EndStim: autoDraw = False
+29.8109 	EXP 	FixationStim: autoDraw = True
+31.3469 	EXP 	FixationStim: autoDraw = False
+31.3469 	EXP 	FixationStim: autoDraw = False
+31.3469 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+31.3469 	EXP 	LLStim: pos = array([-435.,   37.])
+31.3469 	EXP 	LLStim: text = 100
+31.3469 	EXP 	SSStim: pos = array([320.,  37.])
+31.3469 	EXP 	SSStim: text = 50
+31.3469 	EXP 	TrialStim: autoDraw = True
+31.3469 	EXP 	LLStim: autoDraw = True
+31.3469 	EXP 	SSStim: autoDraw = True
+32.4775 	DATA 	Keypress: v
+32.4838 	EXP 	TrialStim: autoDraw = False
+32.4838 	EXP 	LLStim: autoDraw = False
+32.4838 	EXP 	SSStim: autoDraw = False
+32.4838 	EXP 	EndStim: autoDraw = True
+32.8981 	EXP 	New trial (rep=1, index=0): None
+32.9286 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 4 conditions, 4 params
+32.9295 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+32.9304 	EXP 	New trial (rep=0, index=0): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+32.9401 	EXP 	EndStim: autoDraw = False
+32.9401 	EXP 	EndStim: autoDraw = False
+32.9401 	EXP 	FixationStim: autoDraw = True
+34.4816 	EXP 	FixationStim: autoDraw = False
+34.4816 	EXP 	FixationStim: autoDraw = False
+34.4816 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+34.4816 	EXP 	LLStim: pos = array([-435.,   37.])
+34.4816 	EXP 	LLStim: text = 100
+34.4816 	EXP 	SSStim: pos = array([320.,  37.])
+34.4816 	EXP 	SSStim: text = 75
+34.4816 	EXP 	TrialStim: autoDraw = True
+34.4816 	EXP 	LLStim: autoDraw = True
+34.4816 	EXP 	SSStim: autoDraw = True
+35.4761 	DATA 	Keypress: v
+35.5030 	EXP 	TrialStim: autoDraw = False
+35.5030 	EXP 	LLStim: autoDraw = False
+35.5030 	EXP 	SSStim: autoDraw = False
+35.5030 	EXP 	EndStim: autoDraw = True
+35.9282 	EXP 	New trial (rep=0, index=1): {'delay': 4, 'r_background': 'stimuli/rd4.png', 'l_background': 'stimuli/ld4.png', 'rowtitle': -1}
+35.9429 	EXP 	EndStim: autoDraw = False
+35.9429 	EXP 	EndStim: autoDraw = False
+35.9429 	EXP 	FixationStim: autoDraw = True
+37.4638 	EXP 	FixationStim: autoDraw = False
+37.4638 	EXP 	FixationStim: autoDraw = False
+37.4638 	EXP 	TrialStim: image = 'stimuli/ld4.png'
+37.4638 	EXP 	LLStim: pos = array([-435.,   37.])
+37.4638 	EXP 	LLStim: text = 100
+37.4638 	EXP 	SSStim: pos = array([320.,  37.])
+37.4638 	EXP 	SSStim: text = 25
+37.4638 	EXP 	TrialStim: autoDraw = True
+37.4638 	EXP 	LLStim: autoDraw = True
+37.4638 	EXP 	SSStim: autoDraw = True
+38.4190 	DATA 	Keypress: v
+38.4253 	EXP 	TrialStim: autoDraw = False
+38.4253 	EXP 	LLStim: autoDraw = False
+38.4253 	EXP 	SSStim: autoDraw = False
+38.4253 	EXP 	EndStim: autoDraw = True
+38.8905 	EXP 	New trial (rep=0, index=2): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+38.9048 	EXP 	EndStim: autoDraw = False
+38.9048 	EXP 	EndStim: autoDraw = False
+38.9048 	EXP 	FixationStim: autoDraw = True
+40.5000 	EXP 	FixationStim: autoDraw = False
+40.5000 	EXP 	FixationStim: autoDraw = False
+40.5000 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+40.5000 	EXP 	LLStim: pos = array([-435.,   37.])
+40.5000 	EXP 	LLStim: text = 100
+40.5000 	EXP 	SSStim: pos = array([320.,  37.])
+40.5000 	EXP 	SSStim: text = 0
+40.5000 	EXP 	TrialStim: autoDraw = True
+40.5000 	EXP 	LLStim: autoDraw = True
+40.5000 	EXP 	SSStim: autoDraw = True
+41.4362 	DATA 	Keypress: v
+41.4610 	EXP 	TrialStim: autoDraw = False
+41.4610 	EXP 	LLStim: autoDraw = False
+41.4610 	EXP 	SSStim: autoDraw = False
+41.4610 	EXP 	EndStim: autoDraw = True
+41.9064 	EXP 	New trial (rep=0, index=3): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+41.9205 	EXP 	EndStim: autoDraw = False
+41.9205 	EXP 	EndStim: autoDraw = False
+41.9205 	EXP 	FixationStim: autoDraw = True
+43.4421 	EXP 	FixationStim: autoDraw = False
+43.4421 	EXP 	FixationStim: autoDraw = False
+43.4421 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+43.4421 	EXP 	LLStim: pos = array([-435.,   37.])
+43.4421 	EXP 	LLStim: text = 100
+43.4421 	EXP 	SSStim: pos = array([320.,  37.])
+43.4421 	EXP 	SSStim: text = 10
+43.4421 	EXP 	TrialStim: autoDraw = True
+43.4421 	EXP 	LLStim: autoDraw = True
+43.4421 	EXP 	SSStim: autoDraw = True
+44.4246 	DATA 	Keypress: v
+44.4310 	EXP 	TrialStim: autoDraw = False
+44.4310 	EXP 	LLStim: autoDraw = False
+44.4310 	EXP 	SSStim: autoDraw = False
+44.4310 	EXP 	EndStim: autoDraw = True
+44.9019 	EXP 	New trial (rep=2, index=0): None
+44.9340 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 4 conditions, 4 params
+44.9349 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+44.9358 	EXP 	New trial (rep=0, index=0): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+44.9458 	EXP 	EndStim: autoDraw = False
+44.9458 	EXP 	EndStim: autoDraw = False
+44.9458 	EXP 	FixationStim: autoDraw = True
+46.5052 	EXP 	FixationStim: autoDraw = False
+46.5052 	EXP 	FixationStim: autoDraw = False
+46.5052 	EXP 	TrialStim: image = 'stimuli/rd3.png'
+46.5052 	EXP 	LLStim: pos = array([270.,  37.])
+46.5052 	EXP 	LLStim: text = 100
+46.5052 	EXP 	SSStim: pos = array([-335.,   37.])
+46.5052 	EXP 	SSStim: text = 55
+46.5052 	EXP 	TrialStim: autoDraw = True
+46.5052 	EXP 	LLStim: autoDraw = True
+46.5052 	EXP 	SSStim: autoDraw = True
+47.4018 	DATA 	Keypress: b
+47.4080 	EXP 	TrialStim: autoDraw = False
+47.4080 	EXP 	LLStim: autoDraw = False
+47.4080 	EXP 	SSStim: autoDraw = False
+47.4080 	EXP 	EndStim: autoDraw = True
+47.8208 	EXP 	New trial (rep=0, index=1): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+47.8347 	EXP 	EndStim: autoDraw = False
+47.8347 	EXP 	EndStim: autoDraw = False
+47.8347 	EXP 	FixationStim: autoDraw = True
+49.3830 	EXP 	FixationStim: autoDraw = False
+49.3830 	EXP 	FixationStim: autoDraw = False
+49.3830 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+49.3830 	EXP 	LLStim: pos = array([270.,  37.])
+49.3830 	EXP 	LLStim: text = 100
+49.3830 	EXP 	SSStim: pos = array([-335.,   37.])
+49.3830 	EXP 	SSStim: text = 75
+49.3830 	EXP 	TrialStim: autoDraw = True
+49.3830 	EXP 	LLStim: autoDraw = True
+49.3830 	EXP 	SSStim: autoDraw = True
+50.6329 	DATA 	Keypress: b
+50.6392 	EXP 	TrialStim: autoDraw = False
+50.6392 	EXP 	LLStim: autoDraw = False
+50.6392 	EXP 	SSStim: autoDraw = False
+50.6392 	EXP 	EndStim: autoDraw = True
+51.1515 	EXP 	New trial (rep=0, index=2): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+51.1652 	EXP 	EndStim: autoDraw = False
+51.1652 	EXP 	EndStim: autoDraw = False
+51.1652 	EXP 	FixationStim: autoDraw = True
+52.7193 	EXP 	FixationStim: autoDraw = False
+52.7193 	EXP 	FixationStim: autoDraw = False
+52.7193 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+52.7193 	EXP 	LLStim: pos = array([-435.,   37.])
+52.7193 	EXP 	LLStim: text = 100
+52.7193 	EXP 	SSStim: pos = array([320.,  37.])
+52.7193 	EXP 	SSStim: text = 55
+52.7193 	EXP 	TrialStim: autoDraw = True
+52.7193 	EXP 	LLStim: autoDraw = True
+52.7193 	EXP 	SSStim: autoDraw = True
+53.4319 	DATA 	Keypress: v
+53.4384 	EXP 	TrialStim: autoDraw = False
+53.4384 	EXP 	LLStim: autoDraw = False
+53.4384 	EXP 	SSStim: autoDraw = False
+53.4384 	EXP 	EndStim: autoDraw = True
+53.9170 	EXP 	New trial (rep=0, index=3): {'delay': 4, 'r_background': 'stimuli/rd4.png', 'l_background': 'stimuli/ld4.png', 'rowtitle': -1}
+53.9306 	EXP 	EndStim: autoDraw = False
+53.9306 	EXP 	EndStim: autoDraw = False
+53.9306 	EXP 	FixationStim: autoDraw = True
+55.4369 	EXP 	FixationStim: autoDraw = False
+55.4369 	EXP 	FixationStim: autoDraw = False
+55.4369 	EXP 	TrialStim: image = 'stimuli/ld4.png'
+55.4369 	EXP 	LLStim: pos = array([-435.,   37.])
+55.4369 	EXP 	LLStim: text = 100
+55.4369 	EXP 	SSStim: pos = array([320.,  37.])
+55.4369 	EXP 	SSStim: text = 35
+55.4369 	EXP 	TrialStim: autoDraw = True
+55.4369 	EXP 	LLStim: autoDraw = True
+55.4369 	EXP 	SSStim: autoDraw = True
+56.0780 	DATA 	Keypress: v
+56.1016 	EXP 	TrialStim: autoDraw = False
+56.1016 	EXP 	LLStim: autoDraw = False
+56.1016 	EXP 	SSStim: autoDraw = False
+56.1016 	EXP 	EndStim: autoDraw = True
+56.5515 	EXP 	New trial (rep=3, index=0): None
+56.5801 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 4 conditions, 4 params
+56.5809 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+56.5818 	EXP 	New trial (rep=0, index=0): {'delay': 4, 'r_background': 'stimuli/rd4.png', 'l_background': 'stimuli/ld4.png', 'rowtitle': -1}
+56.5916 	EXP 	EndStim: autoDraw = False
+56.5916 	EXP 	EndStim: autoDraw = False
+56.5916 	EXP 	FixationStim: autoDraw = True
+58.1377 	EXP 	FixationStim: autoDraw = False
+58.1377 	EXP 	FixationStim: autoDraw = False
+58.1377 	EXP 	TrialStim: image = 'stimuli/ld4.png'
+58.1377 	EXP 	LLStim: pos = array([-435.,   37.])
+58.1377 	EXP 	LLStim: text = 100
+58.1377 	EXP 	SSStim: pos = array([320.,  37.])
+58.1377 	EXP 	SSStim: text = 95
+58.1377 	EXP 	TrialStim: autoDraw = True
+58.1377 	EXP 	LLStim: autoDraw = True
+58.1377 	EXP 	SSStim: autoDraw = True
+58.6396 	DATA 	Keypress: v
+58.6667 	EXP 	TrialStim: autoDraw = False
+58.6667 	EXP 	LLStim: autoDraw = False
+58.6667 	EXP 	SSStim: autoDraw = False
+58.6667 	EXP 	EndStim: autoDraw = True
+59.1140 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+59.1273 	EXP 	EndStim: autoDraw = False
+59.1273 	EXP 	EndStim: autoDraw = False
+59.1273 	EXP 	FixationStim: autoDraw = True
+60.7278 	EXP 	FixationStim: autoDraw = False
+60.7278 	EXP 	FixationStim: autoDraw = False
+60.7278 	EXP 	TrialStim: image = 'stimuli/rd3.png'
+60.7278 	EXP 	LLStim: pos = array([270.,  37.])
+60.7278 	EXP 	LLStim: text = 100
+60.7278 	EXP 	SSStim: pos = array([-335.,   37.])
+60.7278 	EXP 	SSStim: text = 55
+60.7278 	EXP 	TrialStim: autoDraw = True
+60.7278 	EXP 	LLStim: autoDraw = True
+60.7278 	EXP 	SSStim: autoDraw = True
+61.3117 	DATA 	Keypress: b
+61.3352 	EXP 	TrialStim: autoDraw = False
+61.3352 	EXP 	LLStim: autoDraw = False
+61.3352 	EXP 	SSStim: autoDraw = False
+61.3352 	EXP 	EndStim: autoDraw = True
+61.7791 	EXP 	New trial (rep=0, index=2): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+61.7923 	EXP 	EndStim: autoDraw = False
+61.7923 	EXP 	EndStim: autoDraw = False
+61.7923 	EXP 	FixationStim: autoDraw = True
+63.3455 	EXP 	FixationStim: autoDraw = False
+63.3455 	EXP 	FixationStim: autoDraw = False
+63.3455 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+63.3455 	EXP 	LLStim: pos = array([270.,  37.])
+63.3455 	EXP 	LLStim: text = 100
+63.3455 	EXP 	SSStim: pos = array([-335.,   37.])
+63.3455 	EXP 	SSStim: text = 100
+63.3455 	EXP 	TrialStim: autoDraw = True
+63.3455 	EXP 	LLStim: autoDraw = True
+63.3455 	EXP 	SSStim: autoDraw = True
+64.4795 	DATA 	Keypress: v
+64.5052 	EXP 	TrialStim: autoDraw = False
+64.5052 	EXP 	LLStim: autoDraw = False
+64.5052 	EXP 	SSStim: autoDraw = False
+64.5052 	EXP 	EndStim: autoDraw = True
+64.9602 	EXP 	New trial (rep=0, index=3): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+64.9742 	EXP 	EndStim: autoDraw = False
+64.9742 	EXP 	EndStim: autoDraw = False
+64.9742 	EXP 	FixationStim: autoDraw = True
+66.5263 	EXP 	FixationStim: autoDraw = False
+66.5263 	EXP 	FixationStim: autoDraw = False
+66.5263 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+66.5263 	EXP 	LLStim: pos = array([270.,  37.])
+66.5263 	EXP 	LLStim: text = 100
+66.5263 	EXP 	SSStim: pos = array([-335.,   37.])
+66.5263 	EXP 	SSStim: text = 15
+66.5263 	EXP 	TrialStim: autoDraw = True
+66.5263 	EXP 	LLStim: autoDraw = True
+66.5263 	EXP 	SSStim: autoDraw = True
+67.2507 	DATA 	Keypress: b
+67.2769 	EXP 	TrialStim: autoDraw = False
+67.2769 	EXP 	LLStim: autoDraw = False
+67.2769 	EXP 	SSStim: autoDraw = False
+67.2769 	EXP 	EndStim: autoDraw = True
+67.7119 	EXP 	New trial (rep=4, index=0): None
+67.7403 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 4 conditions, 4 params
+67.7412 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+67.7421 	EXP 	New trial (rep=0, index=0): {'delay': 4, 'r_background': 'stimuli/rd4.png', 'l_background': 'stimuli/ld4.png', 'rowtitle': -1}
+67.7520 	EXP 	EndStim: autoDraw = False
+67.7520 	EXP 	EndStim: autoDraw = False
+67.7520 	EXP 	FixationStim: autoDraw = True
+69.3500 	EXP 	FixationStim: autoDraw = False
+69.3500 	EXP 	FixationStim: autoDraw = False
+69.3500 	EXP 	TrialStim: image = 'stimuli/ld4.png'
+69.3500 	EXP 	LLStim: pos = array([-435.,   37.])
+69.3500 	EXP 	LLStim: text = 100
+69.3500 	EXP 	SSStim: pos = array([320.,  37.])
+69.3500 	EXP 	SSStim: text = 85
+69.3500 	EXP 	TrialStim: autoDraw = True
+69.3500 	EXP 	LLStim: autoDraw = True
+69.3500 	EXP 	SSStim: autoDraw = True
+69.9570 	DATA 	Keypress: v
+69.9825 	EXP 	TrialStim: autoDraw = False
+69.9825 	EXP 	LLStim: autoDraw = False
+69.9825 	EXP 	SSStim: autoDraw = False
+69.9825 	EXP 	EndStim: autoDraw = True
+70.3902 	EXP 	New trial (rep=0, index=1): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+70.4038 	EXP 	EndStim: autoDraw = False
+70.4038 	EXP 	EndStim: autoDraw = False
+70.4038 	EXP 	FixationStim: autoDraw = True
+71.9830 	EXP 	FixationStim: autoDraw = False
+71.9830 	EXP 	FixationStim: autoDraw = False
+71.9830 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+71.9830 	EXP 	LLStim: pos = array([-435.,   37.])
+71.9830 	EXP 	LLStim: text = 100
+71.9830 	EXP 	SSStim: pos = array([320.,  37.])
+71.9830 	EXP 	SSStim: text = 40
+71.9830 	EXP 	TrialStim: autoDraw = True
+71.9830 	EXP 	LLStim: autoDraw = True
+71.9830 	EXP 	SSStim: autoDraw = True
+72.5859 	DATA 	Keypress: v
+72.6106 	EXP 	TrialStim: autoDraw = False
+72.6106 	EXP 	LLStim: autoDraw = False
+72.6106 	EXP 	SSStim: autoDraw = False
+72.6106 	EXP 	EndStim: autoDraw = True
+73.0559 	EXP 	New trial (rep=0, index=2): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+73.0696 	EXP 	EndStim: autoDraw = False
+73.0696 	EXP 	EndStim: autoDraw = False
+73.0696 	EXP 	FixationStim: autoDraw = True
+74.6197 	EXP 	FixationStim: autoDraw = False
+74.6197 	EXP 	FixationStim: autoDraw = False
+74.6197 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+74.6197 	EXP 	LLStim: pos = array([-435.,   37.])
+74.6197 	EXP 	LLStim: text = 100
+74.6197 	EXP 	SSStim: pos = array([320.,  37.])
+74.6197 	EXP 	SSStim: text = 55
+74.6197 	EXP 	TrialStim: autoDraw = True
+74.6197 	EXP 	LLStim: autoDraw = True
+74.6197 	EXP 	SSStim: autoDraw = True
+75.1306 	DATA 	Keypress: v
+75.1564 	EXP 	TrialStim: autoDraw = False
+75.1564 	EXP 	LLStim: autoDraw = False
+75.1564 	EXP 	SSStim: autoDraw = False
+75.1564 	EXP 	EndStim: autoDraw = True
+75.6541 	EXP 	New trial (rep=0, index=3): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+75.6682 	EXP 	EndStim: autoDraw = False
+75.6682 	EXP 	EndStim: autoDraw = False
+75.6682 	EXP 	FixationStim: autoDraw = True
+77.1884 	EXP 	FixationStim: autoDraw = False
+77.1884 	EXP 	FixationStim: autoDraw = False
+77.1884 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+77.1884 	EXP 	LLStim: pos = array([-435.,   37.])
+77.1884 	EXP 	LLStim: text = 100
+77.1884 	EXP 	SSStim: pos = array([320.,  37.])
+77.1884 	EXP 	SSStim: text = 65
+77.1884 	EXP 	TrialStim: autoDraw = True
+77.1884 	EXP 	LLStim: autoDraw = True
+77.1884 	EXP 	SSStim: autoDraw = True
+77.7386 	DATA 	Keypress: v
+77.7449 	EXP 	TrialStim: autoDraw = False
+77.7449 	EXP 	LLStim: autoDraw = False
+77.7449 	EXP 	SSStim: autoDraw = False
+77.7449 	EXP 	EndStim: autoDraw = True
+78.1573 	EXP 	New trial (rep=5, index=0): None
+78.1892 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 4 conditions, 4 params
+78.1901 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+78.1910 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+78.2006 	EXP 	EndStim: autoDraw = False
+78.2006 	EXP 	EndStim: autoDraw = False
+78.2006 	EXP 	FixationStim: autoDraw = True
+79.7686 	EXP 	FixationStim: autoDraw = False
+79.7686 	EXP 	FixationStim: autoDraw = False
+79.7686 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+79.7686 	EXP 	LLStim: pos = array([270.,  37.])
+79.7686 	EXP 	LLStim: text = 100
+79.7686 	EXP 	SSStim: pos = array([-335.,   37.])
+79.7686 	EXP 	SSStim: text = 55
+79.7686 	EXP 	TrialStim: autoDraw = True
+79.7686 	EXP 	LLStim: autoDraw = True
+79.7686 	EXP 	SSStim: autoDraw = True
+80.4351 	DATA 	Keypress: b
+80.4608 	EXP 	TrialStim: autoDraw = False
+80.4608 	EXP 	LLStim: autoDraw = False
+80.4608 	EXP 	SSStim: autoDraw = False
+80.4608 	EXP 	EndStim: autoDraw = True
+80.8689 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+80.8830 	EXP 	EndStim: autoDraw = False
+80.8830 	EXP 	EndStim: autoDraw = False
+80.8830 	EXP 	FixationStim: autoDraw = True
+82.4352 	EXP 	FixationStim: autoDraw = False
+82.4352 	EXP 	FixationStim: autoDraw = False
+82.4352 	EXP 	TrialStim: image = 'stimuli/rd3.png'
+82.4352 	EXP 	LLStim: pos = array([270.,  37.])
+82.4352 	EXP 	LLStim: text = 100
+82.4352 	EXP 	SSStim: pos = array([-335.,   37.])
+82.4352 	EXP 	SSStim: text = 80
+82.4352 	EXP 	TrialStim: autoDraw = True
+82.4352 	EXP 	LLStim: autoDraw = True
+82.4352 	EXP 	SSStim: autoDraw = True
+83.1863 	DATA 	Keypress: b
+83.2164 	EXP 	TrialStim: autoDraw = False
+83.2164 	EXP 	LLStim: autoDraw = False
+83.2164 	EXP 	SSStim: autoDraw = False
+83.2164 	EXP 	EndStim: autoDraw = True
+83.6845 	EXP 	New trial (rep=0, index=2): {'delay': 4, 'r_background': 'stimuli/rd4.png', 'l_background': 'stimuli/ld4.png', 'rowtitle': -1}
+83.6980 	EXP 	EndStim: autoDraw = False
+83.6980 	EXP 	EndStim: autoDraw = False
+83.6980 	EXP 	FixationStim: autoDraw = True
+85.2238 	EXP 	FixationStim: autoDraw = False
+85.2238 	EXP 	FixationStim: autoDraw = False
+85.2238 	EXP 	TrialStim: image = 'stimuli/ld4.png'
+85.2238 	EXP 	LLStim: pos = array([-435.,   37.])
+85.2238 	EXP 	LLStim: text = 100
+85.2238 	EXP 	SSStim: pos = array([320.,  37.])
+85.2238 	EXP 	SSStim: text = 95
+85.2238 	EXP 	TrialStim: autoDraw = True
+85.2238 	EXP 	LLStim: autoDraw = True
+85.2238 	EXP 	SSStim: autoDraw = True
+85.9002 	DATA 	Keypress: v
+85.9093 	EXP 	TrialStim: autoDraw = False
+85.9093 	EXP 	LLStim: autoDraw = False
+85.9093 	EXP 	SSStim: autoDraw = False
+85.9093 	EXP 	EndStim: autoDraw = True
+86.3955 	EXP 	New trial (rep=0, index=3): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+86.4096 	EXP 	EndStim: autoDraw = False
+86.4096 	EXP 	EndStim: autoDraw = False
+86.4096 	EXP 	FixationStim: autoDraw = True
+87.9697 	EXP 	FixationStim: autoDraw = False
+87.9697 	EXP 	FixationStim: autoDraw = False
+87.9697 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+87.9697 	EXP 	LLStim: pos = array([270.,  37.])
+87.9697 	EXP 	LLStim: text = 100
+87.9697 	EXP 	SSStim: pos = array([-335.,   37.])
+87.9697 	EXP 	SSStim: text = 65
+87.9697 	EXP 	TrialStim: autoDraw = True
+87.9697 	EXP 	LLStim: autoDraw = True
+87.9697 	EXP 	SSStim: autoDraw = True
+88.7279 	DATA 	Keypress: b
+88.7345 	EXP 	TrialStim: autoDraw = False
+88.7345 	EXP 	LLStim: autoDraw = False
+88.7345 	EXP 	SSStim: autoDraw = False
+88.7345 	EXP 	EndStim: autoDraw = True
+89.1500 	EXP 	New trial (rep=6, index=0): None
+89.1791 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+89.1800 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+89.1809 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+89.1902 	EXP 	EndStim: autoDraw = False
+89.1902 	EXP 	EndStim: autoDraw = False
+89.1902 	EXP 	FixationStim: autoDraw = True
+90.7127 	EXP 	FixationStim: autoDraw = False
+90.7127 	EXP 	FixationStim: autoDraw = False
+90.7127 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+90.7127 	EXP 	LLStim: pos = array([270.,  37.])
+90.7127 	EXP 	LLStim: text = 100
+90.7127 	EXP 	SSStim: pos = array([-335.,   37.])
+90.7127 	EXP 	SSStim: text = 80
+90.7127 	EXP 	TrialStim: autoDraw = True
+90.7127 	EXP 	LLStim: autoDraw = True
+90.7127 	EXP 	SSStim: autoDraw = True
+91.4581 	DATA 	Keypress: b
+91.4642 	EXP 	TrialStim: autoDraw = False
+91.4642 	EXP 	LLStim: autoDraw = False
+91.4642 	EXP 	SSStim: autoDraw = False
+91.4642 	EXP 	EndStim: autoDraw = True
+91.8788 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+91.8925 	EXP 	EndStim: autoDraw = False
+91.8925 	EXP 	EndStim: autoDraw = False
+91.8925 	EXP 	FixationStim: autoDraw = True
+93.4376 	EXP 	FixationStim: autoDraw = False
+93.4376 	EXP 	FixationStim: autoDraw = False
+93.4376 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+93.4376 	EXP 	LLStim: pos = array([-435.,   37.])
+93.4376 	EXP 	LLStim: text = 100
+93.4376 	EXP 	SSStim: pos = array([320.,  37.])
+93.4376 	EXP 	SSStim: text = 90
+93.4376 	EXP 	TrialStim: autoDraw = True
+93.4376 	EXP 	LLStim: autoDraw = True
+93.4376 	EXP 	SSStim: autoDraw = True
+93.9895 	DATA 	Keypress: v
+94.0130 	EXP 	TrialStim: autoDraw = False
+94.0130 	EXP 	LLStim: autoDraw = False
+94.0130 	EXP 	SSStim: autoDraw = False
+94.0130 	EXP 	EndStim: autoDraw = True
+94.4102 	EXP 	New trial (rep=0, index=2): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+94.4242 	EXP 	EndStim: autoDraw = False
+94.4242 	EXP 	EndStim: autoDraw = False
+94.4242 	EXP 	FixationStim: autoDraw = True
+95.9532 	EXP 	FixationStim: autoDraw = False
+95.9532 	EXP 	FixationStim: autoDraw = False
+95.9532 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+95.9532 	EXP 	LLStim: pos = array([270.,  37.])
+95.9532 	EXP 	LLStim: text = 100
+95.9532 	EXP 	SSStim: pos = array([-335.,   37.])
+95.9532 	EXP 	SSStim: text = 100
+95.9532 	EXP 	TrialStim: autoDraw = True
+95.9532 	EXP 	LLStim: autoDraw = True
+95.9532 	EXP 	SSStim: autoDraw = True
+97.0587 	DATA 	Keypress: v
+97.0830 	EXP 	TrialStim: autoDraw = False
+97.0830 	EXP 	LLStim: autoDraw = False
+97.0830 	EXP 	SSStim: autoDraw = False
+97.0830 	EXP 	EndStim: autoDraw = True
+97.4958 	EXP 	New trial (rep=7, index=0): None
+97.5249 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+97.5258 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+97.5268 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+97.5364 	EXP 	EndStim: autoDraw = False
+97.5364 	EXP 	EndStim: autoDraw = False
+97.5364 	EXP 	FixationStim: autoDraw = True
+99.1253 	EXP 	FixationStim: autoDraw = False
+99.1253 	EXP 	FixationStim: autoDraw = False
+99.1253 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+99.1253 	EXP 	LLStim: pos = array([-435.,   37.])
+99.1253 	EXP 	LLStim: text = 100
+99.1253 	EXP 	SSStim: pos = array([320.,  37.])
+99.1253 	EXP 	SSStim: text = 65
+99.1253 	EXP 	TrialStim: autoDraw = True
+99.1253 	EXP 	LLStim: autoDraw = True
+99.1253 	EXP 	SSStim: autoDraw = True
+99.6902 	DATA 	Keypress: v
+99.6965 	EXP 	TrialStim: autoDraw = False
+99.6965 	EXP 	LLStim: autoDraw = False
+99.6965 	EXP 	SSStim: autoDraw = False
+99.6965 	EXP 	EndStim: autoDraw = True
+100.1411 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+100.1544 	EXP 	EndStim: autoDraw = False
+100.1544 	EXP 	EndStim: autoDraw = False
+100.1544 	EXP 	FixationStim: autoDraw = True
+101.6587 	EXP 	FixationStim: autoDraw = False
+101.6587 	EXP 	FixationStim: autoDraw = False
+101.6587 	EXP 	TrialStim: image = 'stimuli/rd3.png'
+101.6587 	EXP 	LLStim: pos = array([270.,  37.])
+101.6587 	EXP 	LLStim: text = 100
+101.6587 	EXP 	SSStim: pos = array([-335.,   37.])
+101.6587 	EXP 	SSStim: text = 80
+101.6587 	EXP 	TrialStim: autoDraw = True
+101.6587 	EXP 	LLStim: autoDraw = True
+101.6587 	EXP 	SSStim: autoDraw = True
+102.2885 	DATA 	Keypress: b
+102.3131 	EXP 	TrialStim: autoDraw = False
+102.3131 	EXP 	LLStim: autoDraw = False
+102.3131 	EXP 	SSStim: autoDraw = False
+102.3131 	EXP 	EndStim: autoDraw = True
+102.7901 	EXP 	New trial (rep=0, index=2): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+102.8044 	EXP 	EndStim: autoDraw = False
+102.8044 	EXP 	EndStim: autoDraw = False
+102.8044 	EXP 	FixationStim: autoDraw = True
+104.3539 	EXP 	FixationStim: autoDraw = False
+104.3539 	EXP 	FixationStim: autoDraw = False
+104.3539 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+104.3539 	EXP 	LLStim: pos = array([270.,  37.])
+104.3539 	EXP 	LLStim: text = 100
+104.3539 	EXP 	SSStim: pos = array([-335.,   37.])
+104.3539 	EXP 	SSStim: text = 95
+104.3539 	EXP 	TrialStim: autoDraw = True
+104.3539 	EXP 	LLStim: autoDraw = True
+104.3539 	EXP 	SSStim: autoDraw = True
+104.9173 	DATA 	Keypress: b
+104.9405 	EXP 	TrialStim: autoDraw = False
+104.9405 	EXP 	LLStim: autoDraw = False
+104.9405 	EXP 	SSStim: autoDraw = False
+104.9405 	EXP 	EndStim: autoDraw = True
+105.3749 	EXP 	New trial (rep=8, index=0): None
+105.4042 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+105.4052 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+105.4061 	EXP 	New trial (rep=0, index=0): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+105.4156 	EXP 	EndStim: autoDraw = False
+105.4156 	EXP 	EndStim: autoDraw = False
+105.4156 	EXP 	FixationStim: autoDraw = True
+107.0144 	EXP 	FixationStim: autoDraw = False
+107.0144 	EXP 	FixationStim: autoDraw = False
+107.0144 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+107.0144 	EXP 	LLStim: pos = array([-435.,   37.])
+107.0144 	EXP 	LLStim: text = 100
+107.0144 	EXP 	SSStim: pos = array([320.,  37.])
+107.0144 	EXP 	SSStim: text = 80
+107.0144 	EXP 	TrialStim: autoDraw = True
+107.0144 	EXP 	LLStim: autoDraw = True
+107.0144 	EXP 	SSStim: autoDraw = True
+107.5159 	DATA 	Keypress: v
+107.5437 	EXP 	TrialStim: autoDraw = False
+107.5437 	EXP 	LLStim: autoDraw = False
+107.5437 	EXP 	SSStim: autoDraw = False
+107.5437 	EXP 	EndStim: autoDraw = True
+107.9886 	EXP 	New trial (rep=0, index=1): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+108.0007 	EXP 	EndStim: autoDraw = False
+108.0007 	EXP 	EndStim: autoDraw = False
+108.0007 	EXP 	FixationStim: autoDraw = True
+109.5847 	EXP 	FixationStim: autoDraw = False
+109.5847 	EXP 	FixationStim: autoDraw = False
+109.5847 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+109.5847 	EXP 	LLStim: pos = array([-435.,   37.])
+109.5847 	EXP 	LLStim: text = 100
+109.5847 	EXP 	SSStim: pos = array([320.,  37.])
+109.5847 	EXP 	SSStim: text = 80
+109.5847 	EXP 	TrialStim: autoDraw = True
+109.5847 	EXP 	LLStim: autoDraw = True
+109.5847 	EXP 	SSStim: autoDraw = True
+110.1222 	DATA 	Keypress: v
+110.1471 	EXP 	TrialStim: autoDraw = False
+110.1471 	EXP 	LLStim: autoDraw = False
+110.1471 	EXP 	SSStim: autoDraw = False
+110.1471 	EXP 	EndStim: autoDraw = True
+110.5675 	EXP 	New trial (rep=0, index=2): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+110.5814 	EXP 	EndStim: autoDraw = False
+110.5814 	EXP 	EndStim: autoDraw = False
+110.5814 	EXP 	FixationStim: autoDraw = True
+112.1552 	EXP 	FixationStim: autoDraw = False
+112.1552 	EXP 	FixationStim: autoDraw = False
+112.1552 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+112.1552 	EXP 	LLStim: pos = array([-435.,   37.])
+112.1552 	EXP 	LLStim: text = 100
+112.1552 	EXP 	SSStim: pos = array([320.,  37.])
+112.1552 	EXP 	SSStim: text = 85
+112.1552 	EXP 	TrialStim: autoDraw = True
+112.1552 	EXP 	LLStim: autoDraw = True
+112.1552 	EXP 	SSStim: autoDraw = True
+112.6823 	DATA 	Keypress: v
+112.7059 	EXP 	TrialStim: autoDraw = False
+112.7059 	EXP 	LLStim: autoDraw = False
+112.7059 	EXP 	SSStim: autoDraw = False
+112.7059 	EXP 	EndStim: autoDraw = True
+113.1036 	EXP 	New trial (rep=9, index=0): None
+113.1390 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+113.1401 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+113.1410 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+113.1506 	EXP 	EndStim: autoDraw = False
+113.1506 	EXP 	EndStim: autoDraw = False
+113.1506 	EXP 	FixationStim: autoDraw = True
+114.6826 	EXP 	FixationStim: autoDraw = False
+114.6826 	EXP 	FixationStim: autoDraw = False
+114.6826 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+114.6826 	EXP 	LLStim: pos = array([-435.,   37.])
+114.6826 	EXP 	LLStim: text = 100
+114.6826 	EXP 	SSStim: pos = array([320.,  37.])
+114.6826 	EXP 	SSStim: text = 85
+114.6826 	EXP 	TrialStim: autoDraw = True
+114.6826 	EXP 	LLStim: autoDraw = True
+114.6826 	EXP 	SSStim: autoDraw = True
+115.2115 	DATA 	Keypress: v
+115.2382 	EXP 	TrialStim: autoDraw = False
+115.2382 	EXP 	LLStim: autoDraw = False
+115.2382 	EXP 	SSStim: autoDraw = False
+115.2382 	EXP 	EndStim: autoDraw = True
+115.6657 	EXP 	New trial (rep=0, index=1): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+115.6788 	EXP 	EndStim: autoDraw = False
+115.6788 	EXP 	EndStim: autoDraw = False
+115.6788 	EXP 	FixationStim: autoDraw = True
+117.3024 	EXP 	FixationStim: autoDraw = False
+117.3024 	EXP 	FixationStim: autoDraw = False
+117.3024 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+117.3024 	EXP 	LLStim: pos = array([270.,  37.])
+117.3024 	EXP 	LLStim: text = 100
+117.3024 	EXP 	SSStim: pos = array([-335.,   37.])
+117.3024 	EXP 	SSStim: text = 80
+117.3024 	EXP 	TrialStim: autoDraw = True
+117.3024 	EXP 	LLStim: autoDraw = True
+117.3024 	EXP 	SSStim: autoDraw = True
+117.9175 	DATA 	Keypress: b
+117.9273 	EXP 	TrialStim: autoDraw = False
+117.9273 	EXP 	LLStim: autoDraw = False
+117.9273 	EXP 	SSStim: autoDraw = False
+117.9273 	EXP 	EndStim: autoDraw = True
+118.3470 	EXP 	New trial (rep=0, index=2): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+118.3604 	EXP 	EndStim: autoDraw = False
+118.3604 	EXP 	EndStim: autoDraw = False
+118.3604 	EXP 	FixationStim: autoDraw = True
+119.9141 	EXP 	FixationStim: autoDraw = False
+119.9141 	EXP 	FixationStim: autoDraw = False
+119.9141 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+119.9141 	EXP 	LLStim: pos = array([-435.,   37.])
+119.9141 	EXP 	LLStim: text = 100
+119.9141 	EXP 	SSStim: pos = array([320.,  37.])
+119.9141 	EXP 	SSStim: text = 80
+119.9141 	EXP 	TrialStim: autoDraw = True
+119.9141 	EXP 	LLStim: autoDraw = True
+119.9141 	EXP 	SSStim: autoDraw = True
+120.3415 	DATA 	Keypress: v
+120.3662 	EXP 	TrialStim: autoDraw = False
+120.3662 	EXP 	LLStim: autoDraw = False
+120.3662 	EXP 	SSStim: autoDraw = False
+120.3662 	EXP 	EndStim: autoDraw = True
+120.8333 	EXP 	New trial (rep=10, index=0): None
+120.8707 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+120.8717 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+120.8727 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+120.8826 	EXP 	EndStim: autoDraw = False
+120.8826 	EXP 	EndStim: autoDraw = False
+120.8826 	EXP 	FixationStim: autoDraw = True
+122.4666 	EXP 	FixationStim: autoDraw = False
+122.4666 	EXP 	FixationStim: autoDraw = False
+122.4666 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+122.4666 	EXP 	LLStim: pos = array([-435.,   37.])
+122.4666 	EXP 	LLStim: text = 100
+122.4666 	EXP 	SSStim: pos = array([320.,  37.])
+122.4666 	EXP 	SSStim: text = 90
+122.4666 	EXP 	TrialStim: autoDraw = True
+122.4666 	EXP 	LLStim: autoDraw = True
+122.4666 	EXP 	SSStim: autoDraw = True
+123.1015 	DATA 	Keypress: v
+123.1095 	EXP 	TrialStim: autoDraw = False
+123.1095 	EXP 	LLStim: autoDraw = False
+123.1095 	EXP 	SSStim: autoDraw = False
+123.1095 	EXP 	EndStim: autoDraw = True
+123.5105 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+123.5241 	EXP 	EndStim: autoDraw = False
+123.5241 	EXP 	EndStim: autoDraw = False
+123.5241 	EXP 	FixationStim: autoDraw = True
+125.0394 	EXP 	FixationStim: autoDraw = False
+125.0394 	EXP 	FixationStim: autoDraw = False
+125.0394 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+125.0394 	EXP 	LLStim: pos = array([-435.,   37.])
+125.0394 	EXP 	LLStim: text = 100
+125.0394 	EXP 	SSStim: pos = array([320.,  37.])
+125.0394 	EXP 	SSStim: text = 90
+125.0394 	EXP 	TrialStim: autoDraw = True
+125.0394 	EXP 	LLStim: autoDraw = True
+125.0394 	EXP 	SSStim: autoDraw = True
+125.5579 	DATA 	Keypress: v
+125.5641 	EXP 	TrialStim: autoDraw = False
+125.5641 	EXP 	LLStim: autoDraw = False
+125.5641 	EXP 	SSStim: autoDraw = False
+125.5641 	EXP 	EndStim: autoDraw = True
+125.9923 	EXP 	New trial (rep=0, index=2): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+126.0061 	EXP 	EndStim: autoDraw = False
+126.0061 	EXP 	EndStim: autoDraw = False
+126.0061 	EXP 	FixationStim: autoDraw = True
+127.5575 	EXP 	FixationStim: autoDraw = False
+127.5575 	EXP 	FixationStim: autoDraw = False
+127.5575 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+127.5575 	EXP 	LLStim: pos = array([-435.,   37.])
+127.5575 	EXP 	LLStim: text = 100
+127.5575 	EXP 	SSStim: pos = array([320.,  37.])
+127.5575 	EXP 	SSStim: text = 80
+127.5575 	EXP 	TrialStim: autoDraw = True
+127.5575 	EXP 	LLStim: autoDraw = True
+127.5575 	EXP 	SSStim: autoDraw = True
+128.1377 	DATA 	Keypress: v
+128.1439 	EXP 	TrialStim: autoDraw = False
+128.1439 	EXP 	LLStim: autoDraw = False
+128.1439 	EXP 	SSStim: autoDraw = False
+128.1439 	EXP 	EndStim: autoDraw = True
+128.5613 	EXP 	New trial (rep=11, index=0): None
+128.5899 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+128.5908 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+128.5917 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+128.6014 	EXP 	EndStim: autoDraw = False
+128.6014 	EXP 	EndStim: autoDraw = False
+128.6014 	EXP 	FixationStim: autoDraw = True
+130.0936 	EXP 	FixationStim: autoDraw = False
+130.0936 	EXP 	FixationStim: autoDraw = False
+130.0936 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+130.0936 	EXP 	LLStim: pos = array([-435.,   37.])
+130.0936 	EXP 	LLStim: text = 100
+130.0936 	EXP 	SSStim: pos = array([320.,  37.])
+130.0936 	EXP 	SSStim: text = 80
+130.0936 	EXP 	TrialStim: autoDraw = True
+130.0936 	EXP 	LLStim: autoDraw = True
+130.0936 	EXP 	SSStim: autoDraw = True
+130.5018 	DATA 	Keypress: v
+130.5281 	EXP 	TrialStim: autoDraw = False
+130.5281 	EXP 	LLStim: autoDraw = False
+130.5281 	EXP 	SSStim: autoDraw = False
+130.5281 	EXP 	EndStim: autoDraw = True
+130.9904 	EXP 	New trial (rep=0, index=1): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+131.0038 	EXP 	EndStim: autoDraw = False
+131.0038 	EXP 	EndStim: autoDraw = False
+131.0038 	EXP 	FixationStim: autoDraw = True
+132.5243 	EXP 	FixationStim: autoDraw = False
+132.5243 	EXP 	FixationStim: autoDraw = False
+132.5243 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+132.5243 	EXP 	LLStim: pos = array([270.,  37.])
+132.5243 	EXP 	LLStim: text = 100
+132.5243 	EXP 	SSStim: pos = array([-335.,   37.])
+132.5243 	EXP 	SSStim: text = 85
+132.5243 	EXP 	TrialStim: autoDraw = True
+132.5243 	EXP 	LLStim: autoDraw = True
+132.5243 	EXP 	SSStim: autoDraw = True
+133.2535 	DATA 	Keypress: b
+133.2597 	EXP 	TrialStim: autoDraw = False
+133.2597 	EXP 	LLStim: autoDraw = False
+133.2597 	EXP 	SSStim: autoDraw = False
+133.2597 	EXP 	EndStim: autoDraw = True
+133.6715 	EXP 	New trial (rep=0, index=2): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+133.6850 	EXP 	EndStim: autoDraw = False
+133.6850 	EXP 	EndStim: autoDraw = False
+133.6850 	EXP 	FixationStim: autoDraw = True
+135.2869 	EXP 	FixationStim: autoDraw = False
+135.2869 	EXP 	FixationStim: autoDraw = False
+135.2869 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+135.2869 	EXP 	LLStim: pos = array([-435.,   37.])
+135.2869 	EXP 	LLStim: text = 100
+135.2869 	EXP 	SSStim: pos = array([320.,  37.])
+135.2869 	EXP 	SSStim: text = 95
+135.2869 	EXP 	TrialStim: autoDraw = True
+135.2869 	EXP 	LLStim: autoDraw = True
+135.2869 	EXP 	SSStim: autoDraw = True
+135.8512 	DATA 	Keypress: v
+135.8758 	EXP 	TrialStim: autoDraw = False
+135.8758 	EXP 	LLStim: autoDraw = False
+135.8758 	EXP 	SSStim: autoDraw = False
+135.8758 	EXP 	EndStim: autoDraw = True
+136.3423 	EXP 	New trial (rep=12, index=0): None
+136.3753 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+136.3763 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+136.3774 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+136.3871 	EXP 	EndStim: autoDraw = False
+136.3871 	EXP 	EndStim: autoDraw = False
+136.3871 	EXP 	FixationStim: autoDraw = True
+137.8899 	EXP 	FixationStim: autoDraw = False
+137.8899 	EXP 	FixationStim: autoDraw = False
+137.8899 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+137.8899 	EXP 	LLStim: pos = array([270.,  37.])
+137.8899 	EXP 	LLStim: text = 100
+137.8899 	EXP 	SSStim: pos = array([-335.,   37.])
+137.8899 	EXP 	SSStim: text = 80
+137.8899 	EXP 	TrialStim: autoDraw = True
+137.8899 	EXP 	LLStim: autoDraw = True
+137.8899 	EXP 	SSStim: autoDraw = True
+138.5344 	DATA 	Keypress: b
+138.5407 	EXP 	TrialStim: autoDraw = False
+138.5407 	EXP 	LLStim: autoDraw = False
+138.5407 	EXP 	SSStim: autoDraw = False
+138.5407 	EXP 	EndStim: autoDraw = True
+138.9854 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+138.9992 	EXP 	EndStim: autoDraw = False
+138.9992 	EXP 	EndStim: autoDraw = False
+138.9992 	EXP 	FixationStim: autoDraw = True
+140.5536 	EXP 	FixationStim: autoDraw = False
+140.5536 	EXP 	FixationStim: autoDraw = False
+140.5536 	EXP 	TrialStim: image = 'stimuli/rd3.png'
+140.5536 	EXP 	LLStim: pos = array([270.,  37.])
+140.5536 	EXP 	LLStim: text = 100
+140.5536 	EXP 	SSStim: pos = array([-335.,   37.])
+140.5536 	EXP 	SSStim: text = 90
+140.5536 	EXP 	TrialStim: autoDraw = True
+140.5536 	EXP 	LLStim: autoDraw = True
+140.5536 	EXP 	SSStim: autoDraw = True
+141.1104 	DATA 	Keypress: b
+141.1375 	EXP 	TrialStim: autoDraw = False
+141.1375 	EXP 	LLStim: autoDraw = False
+141.1375 	EXP 	SSStim: autoDraw = False
+141.1375 	EXP 	EndStim: autoDraw = True
+141.5855 	EXP 	New trial (rep=0, index=2): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+141.5989 	EXP 	EndStim: autoDraw = False
+141.5989 	EXP 	EndStim: autoDraw = False
+141.5989 	EXP 	FixationStim: autoDraw = True
+143.1839 	EXP 	FixationStim: autoDraw = False
+143.1839 	EXP 	FixationStim: autoDraw = False
+143.1839 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+143.1839 	EXP 	LLStim: pos = array([-435.,   37.])
+143.1839 	EXP 	LLStim: text = 100
+143.1839 	EXP 	SSStim: pos = array([320.,  37.])
+143.1839 	EXP 	SSStim: text = 85
+143.1839 	EXP 	TrialStim: autoDraw = True
+143.1839 	EXP 	LLStim: autoDraw = True
+143.1839 	EXP 	SSStim: autoDraw = True
+143.7185 	DATA 	Keypress: v
+143.7484 	EXP 	TrialStim: autoDraw = False
+143.7484 	EXP 	LLStim: autoDraw = False
+143.7484 	EXP 	SSStim: autoDraw = False
+143.7484 	EXP 	EndStim: autoDraw = True
+144.1700 	EXP 	New trial (rep=13, index=0): None
+144.2276 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 3 conditions, 4 params
+144.2290 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+144.2304 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+144.2412 	EXP 	EndStim: autoDraw = False
+144.2412 	EXP 	EndStim: autoDraw = False
+144.2412 	EXP 	FixationStim: autoDraw = True
+145.7673 	EXP 	FixationStim: autoDraw = False
+145.7673 	EXP 	FixationStim: autoDraw = False
+145.7673 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+145.7673 	EXP 	LLStim: pos = array([-435.,   37.])
+145.7673 	EXP 	LLStim: text = 100
+145.7673 	EXP 	SSStim: pos = array([320.,  37.])
+145.7673 	EXP 	SSStim: text = 90
+145.7673 	EXP 	TrialStim: autoDraw = True
+145.7673 	EXP 	LLStim: autoDraw = True
+145.7673 	EXP 	SSStim: autoDraw = True
+146.4870 	DATA 	Keypress: v
+146.4949 	EXP 	TrialStim: autoDraw = False
+146.4949 	EXP 	LLStim: autoDraw = False
+146.4949 	EXP 	SSStim: autoDraw = False
+146.4949 	EXP 	EndStim: autoDraw = True
+146.9815 	EXP 	New trial (rep=0, index=1): {'delay': 3, 'r_background': 'stimuli/rd3.png', 'l_background': 'stimuli/ld3.png', 'rowtitle': 2}
+146.9949 	EXP 	EndStim: autoDraw = False
+146.9949 	EXP 	EndStim: autoDraw = False
+146.9949 	EXP 	FixationStim: autoDraw = True
+148.5501 	EXP 	FixationStim: autoDraw = False
+148.5501 	EXP 	FixationStim: autoDraw = False
+148.5501 	EXP 	TrialStim: image = 'stimuli/ld3.png'
+148.5501 	EXP 	LLStim: pos = array([-435.,   37.])
+148.5501 	EXP 	LLStim: text = 100
+148.5501 	EXP 	SSStim: pos = array([320.,  37.])
+148.5501 	EXP 	SSStim: text = 95
+148.5501 	EXP 	TrialStim: autoDraw = True
+148.5501 	EXP 	LLStim: autoDraw = True
+148.5501 	EXP 	SSStim: autoDraw = True
+148.9729 	DATA 	Keypress: v
+148.9985 	EXP 	TrialStim: autoDraw = False
+148.9985 	EXP 	LLStim: autoDraw = False
+148.9985 	EXP 	SSStim: autoDraw = False
+148.9985 	EXP 	EndStim: autoDraw = True
+149.4132 	EXP 	New trial (rep=0, index=2): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+149.4267 	EXP 	EndStim: autoDraw = False
+149.4267 	EXP 	EndStim: autoDraw = False
+149.4267 	EXP 	FixationStim: autoDraw = True
+150.9629 	EXP 	FixationStim: autoDraw = False
+150.9629 	EXP 	FixationStim: autoDraw = False
+150.9629 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+150.9629 	EXP 	LLStim: pos = array([-435.,   37.])
+150.9629 	EXP 	LLStim: text = 100
+150.9629 	EXP 	SSStim: pos = array([320.,  37.])
+150.9629 	EXP 	SSStim: text = 85
+150.9629 	EXP 	TrialStim: autoDraw = True
+150.9629 	EXP 	LLStim: autoDraw = True
+150.9629 	EXP 	SSStim: autoDraw = True
+151.4022 	DATA 	Keypress: v
+151.4286 	EXP 	TrialStim: autoDraw = False
+151.4286 	EXP 	LLStim: autoDraw = False
+151.4286 	EXP 	SSStim: autoDraw = False
+151.4286 	EXP 	EndStim: autoDraw = True
+151.9147 	EXP 	New trial (rep=14, index=0): None
+151.9442 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 2 conditions, 4 params
+151.9451 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+151.9460 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+151.9556 	EXP 	EndStim: autoDraw = False
+151.9556 	EXP 	EndStim: autoDraw = False
+151.9556 	EXP 	FixationStim: autoDraw = True
+153.5127 	EXP 	FixationStim: autoDraw = False
+153.5127 	EXP 	FixationStim: autoDraw = False
+153.5127 	EXP 	TrialStim: image = 'stimuli/rd1.png'
+153.5127 	EXP 	LLStim: pos = array([270.,  37.])
+153.5127 	EXP 	LLStim: text = 100
+153.5127 	EXP 	SSStim: pos = array([-335.,   37.])
+153.5127 	EXP 	SSStim: text = 90
+153.5127 	EXP 	TrialStim: autoDraw = True
+153.5127 	EXP 	LLStim: autoDraw = True
+153.5127 	EXP 	SSStim: autoDraw = True
+154.1740 	DATA 	Keypress: b
+154.1994 	EXP 	TrialStim: autoDraw = False
+154.1994 	EXP 	LLStim: autoDraw = False
+154.1994 	EXP 	SSStim: autoDraw = False
+154.1994 	EXP 	EndStim: autoDraw = True
+154.6771 	EXP 	New trial (rep=0, index=1): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+154.6905 	EXP 	EndStim: autoDraw = False
+154.6905 	EXP 	EndStim: autoDraw = False
+154.6905 	EXP 	FixationStim: autoDraw = True
+156.2266 	EXP 	FixationStim: autoDraw = False
+156.2266 	EXP 	FixationStim: autoDraw = False
+156.2266 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+156.2266 	EXP 	LLStim: pos = array([270.,  37.])
+156.2266 	EXP 	LLStim: text = 100
+156.2266 	EXP 	SSStim: pos = array([-335.,   37.])
+156.2266 	EXP 	SSStim: text = 85
+156.2266 	EXP 	TrialStim: autoDraw = True
+156.2266 	EXP 	LLStim: autoDraw = True
+156.2266 	EXP 	SSStim: autoDraw = True
+156.8077 	DATA 	Keypress: b
+156.8328 	EXP 	TrialStim: autoDraw = False
+156.8328 	EXP 	LLStim: autoDraw = False
+156.8328 	EXP 	SSStim: autoDraw = False
+156.8328 	EXP 	EndStim: autoDraw = True
+157.3290 	EXP 	New trial (rep=15, index=0): None
+157.3584 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 2 conditions, 4 params
+157.3592 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+157.3604 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+157.3701 	EXP 	EndStim: autoDraw = False
+157.3701 	EXP 	EndStim: autoDraw = False
+157.3701 	EXP 	FixationStim: autoDraw = True
+158.9360 	EXP 	FixationStim: autoDraw = False
+158.9360 	EXP 	FixationStim: autoDraw = False
+158.9360 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+158.9360 	EXP 	LLStim: pos = array([-435.,   37.])
+158.9360 	EXP 	LLStim: text = 100
+158.9360 	EXP 	SSStim: pos = array([320.,  37.])
+158.9360 	EXP 	SSStim: text = 90
+158.9360 	EXP 	TrialStim: autoDraw = True
+158.9360 	EXP 	LLStim: autoDraw = True
+158.9360 	EXP 	SSStim: autoDraw = True
+159.3559 	DATA 	Keypress: v
+159.3816 	EXP 	TrialStim: autoDraw = False
+159.3816 	EXP 	LLStim: autoDraw = False
+159.3816 	EXP 	SSStim: autoDraw = False
+159.3816 	EXP 	EndStim: autoDraw = True
+159.8405 	EXP 	New trial (rep=0, index=1): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+159.8540 	EXP 	EndStim: autoDraw = False
+159.8540 	EXP 	EndStim: autoDraw = False
+159.8540 	EXP 	FixationStim: autoDraw = True
+161.3900 	EXP 	FixationStim: autoDraw = False
+161.3900 	EXP 	FixationStim: autoDraw = False
+161.3900 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+161.3900 	EXP 	LLStim: pos = array([-435.,   37.])
+161.3900 	EXP 	LLStim: text = 100
+161.3900 	EXP 	SSStim: pos = array([320.,  37.])
+161.3900 	EXP 	SSStim: text = 95
+161.3900 	EXP 	TrialStim: autoDraw = True
+161.3900 	EXP 	LLStim: autoDraw = True
+161.3900 	EXP 	SSStim: autoDraw = True
+161.8149 	DATA 	Keypress: v
+161.8228 	EXP 	TrialStim: autoDraw = False
+161.8228 	EXP 	LLStim: autoDraw = False
+161.8228 	EXP 	SSStim: autoDraw = False
+161.8228 	EXP 	EndStim: autoDraw = True
+162.3096 	EXP 	New trial (rep=16, index=0): None
+162.3396 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 2 conditions, 4 params
+162.3405 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+162.3414 	EXP 	New trial (rep=0, index=0): {'delay': 1, 'r_background': 'stimuli/rd1.png', 'l_background': 'stimuli/ld1.png', 'rowtitle': 0}
+162.3504 	EXP 	EndStim: autoDraw = False
+162.3504 	EXP 	EndStim: autoDraw = False
+162.3504 	EXP 	FixationStim: autoDraw = True
+163.8587 	EXP 	FixationStim: autoDraw = False
+163.8587 	EXP 	FixationStim: autoDraw = False
+163.8587 	EXP 	TrialStim: image = 'stimuli/ld1.png'
+163.8587 	EXP 	LLStim: pos = array([-435.,   37.])
+163.8587 	EXP 	LLStim: text = 100
+163.8587 	EXP 	SSStim: pos = array([320.,  37.])
+163.8587 	EXP 	SSStim: text = 100
+163.8587 	EXP 	TrialStim: autoDraw = True
+163.8587 	EXP 	LLStim: autoDraw = True
+163.8587 	EXP 	SSStim: autoDraw = True
+164.2689 	DATA 	Keypress: v
+164.2946 	EXP 	TrialStim: autoDraw = False
+164.2946 	EXP 	LLStim: autoDraw = False
+164.2946 	EXP 	SSStim: autoDraw = False
+164.2946 	EXP 	EndStim: autoDraw = True
+164.7047 	EXP 	New trial (rep=0, index=1): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+164.7181 	EXP 	EndStim: autoDraw = False
+164.7181 	EXP 	EndStim: autoDraw = False
+164.7181 	EXP 	FixationStim: autoDraw = True
+166.2821 	EXP 	FixationStim: autoDraw = False
+166.2821 	EXP 	FixationStim: autoDraw = False
+166.2821 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+166.2821 	EXP 	LLStim: pos = array([-435.,   37.])
+166.2821 	EXP 	LLStim: text = 100
+166.2821 	EXP 	SSStim: pos = array([320.,  37.])
+166.2821 	EXP 	SSStim: text = 90
+166.2821 	EXP 	TrialStim: autoDraw = True
+166.2821 	EXP 	LLStim: autoDraw = True
+166.2821 	EXP 	SSStim: autoDraw = True
+166.8220 	DATA 	Keypress: v
+166.8473 	EXP 	TrialStim: autoDraw = False
+166.8473 	EXP 	LLStim: autoDraw = False
+166.8473 	EXP 	SSStim: autoDraw = False
+166.8473 	EXP 	EndStim: autoDraw = True
+167.3063 	EXP 	New trial (rep=17, index=0): None
+167.3352 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 1 conditions, 4 params
+167.3360 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+167.3374 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+167.3474 	EXP 	EndStim: autoDraw = False
+167.3474 	EXP 	EndStim: autoDraw = False
+167.3474 	EXP 	FixationStim: autoDraw = True
+168.9372 	EXP 	FixationStim: autoDraw = False
+168.9372 	EXP 	FixationStim: autoDraw = False
+168.9372 	EXP 	TrialStim: image = 'stimuli/ld2.png'
+168.9372 	EXP 	LLStim: pos = array([-435.,   37.])
+168.9372 	EXP 	LLStim: text = 100
+168.9372 	EXP 	SSStim: pos = array([320.,  37.])
+168.9372 	EXP 	SSStim: text = 90
+168.9372 	EXP 	TrialStim: autoDraw = True
+168.9372 	EXP 	LLStim: autoDraw = True
+168.9372 	EXP 	SSStim: autoDraw = True
+169.4823 	DATA 	Keypress: v
+169.4885 	EXP 	TrialStim: autoDraw = False
+169.4885 	EXP 	LLStim: autoDraw = False
+169.4885 	EXP 	SSStim: autoDraw = False
+169.4885 	EXP 	EndStim: autoDraw = True
+169.9563 	EXP 	New trial (rep=18, index=0): None
+169.9893 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 1 conditions, 4 params
+169.9902 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+169.9912 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+170.0011 	EXP 	EndStim: autoDraw = False
+170.0011 	EXP 	EndStim: autoDraw = False
+170.0011 	EXP 	FixationStim: autoDraw = True
+171.5515 	EXP 	FixationStim: autoDraw = False
+171.5515 	EXP 	FixationStim: autoDraw = False
+171.5515 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+171.5515 	EXP 	LLStim: pos = array([270.,  37.])
+171.5515 	EXP 	LLStim: text = 100
+171.5515 	EXP 	SSStim: pos = array([-335.,   37.])
+171.5515 	EXP 	SSStim: text = 100
+171.5515 	EXP 	TrialStim: autoDraw = True
+171.5515 	EXP 	LLStim: autoDraw = True
+171.5515 	EXP 	SSStim: autoDraw = True
+172.5125 	DATA 	Keypress: v
+172.5380 	EXP 	TrialStim: autoDraw = False
+172.5380 	EXP 	LLStim: autoDraw = False
+172.5380 	EXP 	SSStim: autoDraw = False
+172.5380 	EXP 	EndStim: autoDraw = True
+173.0198 	EXP 	New trial (rep=19, index=0): None
+173.0493 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 1 conditions, 4 params
+173.0501 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+173.0510 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+173.0610 	EXP 	EndStim: autoDraw = False
+173.0610 	EXP 	EndStim: autoDraw = False
+173.0610 	EXP 	FixationStim: autoDraw = True
+174.6212 	EXP 	FixationStim: autoDraw = False
+174.6212 	EXP 	FixationStim: autoDraw = False
+174.6212 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+174.6212 	EXP 	LLStim: pos = array([270.,  37.])
+174.6212 	EXP 	LLStim: text = 100
+174.6212 	EXP 	SSStim: pos = array([-335.,   37.])
+174.6212 	EXP 	SSStim: text = 90
+174.6212 	EXP 	TrialStim: autoDraw = True
+174.6212 	EXP 	LLStim: autoDraw = True
+174.6212 	EXP 	SSStim: autoDraw = True
+175.2282 	DATA 	Keypress: b
+175.2548 	EXP 	TrialStim: autoDraw = False
+175.2548 	EXP 	LLStim: autoDraw = False
+175.2548 	EXP 	SSStim: autoDraw = False
+175.2548 	EXP 	EndStim: autoDraw = True
+175.7014 	EXP 	New trial (rep=20, index=0): None
+175.7309 	EXP 	Imported conditions_DDTtask.xlsx as conditions, 1 conditions, 4 params
+175.7317 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+175.7326 	EXP 	New trial (rep=0, index=0): {'delay': 2, 'r_background': 'stimuli/rd2.png', 'l_background': 'stimuli/ld2.png', 'rowtitle': 1}
+175.7425 	EXP 	EndStim: autoDraw = False
+175.7425 	EXP 	EndStim: autoDraw = False
+175.7425 	EXP 	FixationStim: autoDraw = True
+177.2962 	EXP 	FixationStim: autoDraw = False
+177.2962 	EXP 	FixationStim: autoDraw = False
+177.2962 	EXP 	TrialStim: image = 'stimuli/rd2.png'
+177.2962 	EXP 	LLStim: pos = array([270.,  37.])
+177.2962 	EXP 	LLStim: text = 100
+177.2962 	EXP 	SSStim: pos = array([-335.,   37.])
+177.2962 	EXP 	SSStim: text = 95
+177.2962 	EXP 	TrialStim: autoDraw = True
+177.2962 	EXP 	LLStim: autoDraw = True
+177.2962 	EXP 	SSStim: autoDraw = True
+177.8795 	DATA 	Keypress: b
+177.8857 	EXP 	TrialStim: autoDraw = False
+177.8857 	EXP 	LLStim: autoDraw = False
+177.8857 	EXP 	SSStim: autoDraw = False
+177.8857 	EXP 	EndStim: autoDraw = True
+178.3267 	EXP 	EndStim: autoDraw = False
+178.3267 	EXP 	EndStim: autoDraw = False
+178.5095 	EXP 	window1: mouseVisible = True

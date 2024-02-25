@@ -1,0 +1,66 @@
+2.3836 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.3843 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+10.3543 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1680, 1050]. Using actual size
+10.9235 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D4CEAE18E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D4CEAE1880>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D4CEAE15B0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D4CFB24C10>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.9236 	EXP 	window1: mouseVisible = True
+10.9237 	EXP 	window1: backgroundImage = ''
+10.9237 	EXP 	window1: backgroundFit = 'none'
+10.9238 	EXP 	window1: mouseVisible = False
+10.9238 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.9238 	EXP 	window1: recordFrameIntervals = False
+11.0897 	EXP 	window1: recordFrameIntervals = True
+11.2733 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+11.2734 	EXP 	window1: recordFrameIntervals = False
+14.8351 	EXP 	Created trigger_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trigger_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗即將開始', units='height', win=Window(...), wrapWidth=1)
+14.8712 	EXP 	Created instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_txt', opacity=1.0, ori=0, pos=array([-0.05,  0.  ]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8778 	EXP 	Created prep_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prep_instr', opacity=1.0, ori=0.0, pos=array([-0.1,  0. ]), rgb=UNKNOWN, text='請判斷上方的字的顔色與下方的字的意思是否吻合', units='height', win=Window(...), wrapWidth=1)
+14.8831 	EXP 	Created instr_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8847 	EXP 	Created top_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='top_txt', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8859 	EXP 	Created bottom_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='bottom_txt', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8926 	EXP 	Created trial_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8968 	EXP 	Created rest_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='休息', units='height', win=Window(...), wrapWidth=1)
+14.9011 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完成', units='height', win=Window(...), wrapWidth=1)
+14.9102 	EXP 	trigger_txt: autoDraw = True
+20.6502 	EXP 	trigger_txt: autoDraw = False
+20.6502 	EXP 	instr_txt: autoDraw = True
+25.5906 	EXP 	Created sequence: random, trialTypes=1, nReps=9, seed=None
+25.5908 	EXP 	New trial (rep=0, index=0): None
+25.6059 	EXP 	instr_txt: autoDraw = False
+25.6059 	EXP 	prep_instr: autoDraw = True
+27.5918 	EXP 	instr_fixation: autoDraw = True
+27.6084 	EXP 	prep_instr: autoDraw = False
+28.1136 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 7 params
+28.1140 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+28.1143 	EXP 	New trial (rep=0, index=0): {'cond': 4, 'topText': '紅', 'topColour': 'blue', 'bottomText': '綠', 'congruent': 0, 'match': 0, 'corrAns': 2}
+28.1299 	EXP 	instr_fixation: autoDraw = False
+28.1299 	EXP 	prep_instr: autoDraw = False
+28.1299 	EXP 	instr_fixation: autoDraw = False
+28.1299 	EXP 	top_txt: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+28.1299 	EXP 	top_txt: height = 0.15
+28.1299 	EXP 	top_txt: height = 0.15
+28.1299 	EXP 	top_txt: height = 0.15
+28.1299 	EXP 	top_txt: text = '紅'
+28.1299 	EXP 	bottom_txt: height = 0.15
+28.1299 	EXP 	bottom_txt: height = 0.15
+28.1299 	EXP 	bottom_txt: height = 0.15
+28.1299 	EXP 	bottom_txt: text = '綠'
+28.1299 	EXP 	top_txt: autoDraw = True
+28.1924 	EXP 	bottom_txt: autoDraw = True
+30.0945 	EXP 	bottom_txt: autoDraw = False
+30.1112 	EXP 	top_txt: autoDraw = False
+30.1112 	EXP 	bottom_txt: autoDraw = False
+30.1112 	EXP 	trial_fixation: autoDraw = True
+30.5956 	EXP 	New trial (rep=0, index=1): {'cond': 4, 'topText': '藍', 'topColour': 'red', 'bottomText': '藍', 'congruent': 0, 'match': 0, 'corrAns': 2}
+30.6118 	EXP 	trial_fixation: autoDraw = False
+30.6118 	EXP 	top_txt: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+30.6118 	EXP 	top_txt: height = 0.15
+30.6118 	EXP 	top_txt: height = 0.15
+30.6118 	EXP 	top_txt: height = 0.15
+30.6118 	EXP 	top_txt: text = '藍'
+30.6118 	EXP 	bottom_txt: height = 0.15
+30.6118 	EXP 	bottom_txt: height = 0.15
+30.6118 	EXP 	bottom_txt: height = 0.15
+30.6118 	EXP 	bottom_txt: text = '藍'
+30.6118 	EXP 	top_txt: autoDraw = True
+30.6954 	EXP 	bottom_txt: autoDraw = True
+31.2803 	EXP 	window1: mouseVisible = True

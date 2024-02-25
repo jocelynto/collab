@@ -1,0 +1,3 @@
+﻿block.thisRepN,block.thisTrialN,block.thisN,block.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,Stimulus,CorrectResponse,StimType,BlockType,instr_txt.started,prepared_resp.started,prepared_resp.keys,prepared_resp.rt,prepared_resp.duration,target.started,prep_instr.started,image.started,key_resp.started,corr_var,key_resp.keys,key_resp.rt,key_resp.duration,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,16.631829199992353,16.631829199992353,left,0.6999036999914097,None,,,,,,,,,919420testing,001,2024-02-15_17h44.18.303,nback-practise,2023.1.3,59.96239159131738,
+,,,,,,,,,,,,,,,,,17.354538999992656,17.354538999992656,19.861229799993453,19.861229799993453,0,left,0.8797626000014134,None,,,,,,,

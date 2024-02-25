@@ -1,0 +1,11 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+1,1775,0.144444444,0.239814815,1,0,0,three_green_crosses,0,0,0,39,1,number,images/3greenTriangles.jpg,three_green_crosses,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+0,1714,0.148148148,0.222222222,1,0,0,three_green_crosses,0,1,1,20,1,number,images/2greenCrosses.jpg,two_yellow_triangles,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+0,1882,0.121296296,0.224074074,1,0,0,three_green_crosses,0,2,2,23,1,number,images/2greenTriangles.jpg,two_yellow_triangles,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+0,2015,-0.107407407,0.262962963,1,0,0,two_yellow_triangles,0,3,3,60,1,number,images/4yellowCrosses.jpg,four_blue_stars,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+1,2002,0.369444444,0.236111111,1,0,0,four_blue_stars,0,4,4,54,1,number,images/4greenStars.jpg,four_blue_stars,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+1,1881,-0.096296296,0.224074074,1,0,0,two_yellow_triangles,0,5,5,24,1,number,images/2redCrosses.jpg,two_yellow_triangles,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+1,2364,0.059259259,0.212962963,1,0,0,three_green_crosses,0,6,6,45,1,number,images/3yellowDots.jpg,three_green_crosses,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+,,,,,,,,,,,,,,,,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,0,0,0,1,1,64:128
+1,1572,-0.175,0.221296296,1,0,0,two_yellow_triangles,0,0,0,29,1,colour,images/2yellowDots.jpg,two_yellow_triangles,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,
+1,1565,-0.103703704,0.199074074,1,0,0,two_yellow_triangles,0,1,1,30,1,colour,images/2yellowStars.jpg,two_yellow_triangles,,001,2022-11-16_08h55.24.253,Wisconsin Card Sorting Task,2022.1.2,Win32,60.01680471,,,,,,

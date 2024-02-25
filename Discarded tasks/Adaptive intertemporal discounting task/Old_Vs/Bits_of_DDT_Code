@@ -1,0 +1,326 @@
+#Code for DDT program to be inserted in the "trial" routine for the DDT task
+#Jeremy Hogeveen, Fall, 2014
+
+#################BEGIN EXPERIMENT CODE#################
+
+import random
+###Setting up the variables for Trial #1####
+
+#setting initial experiment parameters (longer later and sooner smaller values)
+ll = 100
+ss = random.randrange(0,100,5)
+
+#setting initial double-limit choice algorithm values for each delay 
+#(1 = 1-day, 2 = 1-week, 3 = 1-month, 4 = 1-year)
+OLL1 = 0
+ILL1 = 0
+IUL1 = ll
+OUL1 = ll
+
+OLL2 = 0
+ILL2 = 0
+IUL2 = ll
+OUL2 = ll
+
+OLL3 = 0
+ILL3 = 0
+IUL3 = ll
+OUL3 = 100
+
+OLL4 = 0
+ILL4 = 0
+IUL4 = ll
+OUL4 = ll
+
+#setting initial dummy variable to indicate the status of the indifference point
+ip1 = 0
+ip2 = 0
+ip3 = 0
+ip4 = 0
+
+
+
+#################BEGIN ROUTINE CODE#################
+
+###Updating the SS value and indifference point dummy variable for each trial####
+
+#Setting indifference point Dummy variable as n-1 indifference point
+ip1 = ip1
+ip2 = ip2
+ip3 = ip3
+ip4 = ip4
+
+#Computing updated Sooner/Smaller (SS) values for trial
+if delay == 1 and ip1 == 0: #if 1-day indifference point has not been reached, update ss
+    ss = random.randrange(OLL1,OUL1,5)
+elif delay == 1 and ip1 == 1: #if 1-day indifference point has been reached, set ss at OLL
+    x1 = [OLL1,OUL1]
+    ss = random.choice(x1)
+elif delay == 2 and ip2 == 0: #if 1-week indifference point has not been reached, update ss
+    ss = random.randrange(OLL2,OUL2,5)
+elif delay == 2 and ip2 == 1: #if 1-week indifference point has been reached, set ss at OLL
+    x2 = [OLL2,OUL2]
+    ss = random.choice(x2)
+elif delay == 3 and ip3 == 0: #if 1-month indifference point has not been reached, update ss
+    ss = random.randrange(OLL3,OUL3,5)
+elif delay == 3 and ip3 == 1: #if 1-month indifference point has been reached, set ss at OLL
+    x3 = [OLL3,OUL3]
+    ss = random.choice(x3)
+elif delay == 4 and ip4 == 0: #if 1-year indifference point has not been reached, update ss
+    ss = random.randrange(OLL4,OUL4,5)
+elif delay == 4 and ip4 == 1: #if 1-year indifference point has been reached, set ss at OLL
+    x4 = [OLL4,OUL4]
+    ss = random.choice(x4)
+
+
+
+
+#################END ROUTINE CODE#################
+
+###Saving double-limit algorithm bands into the data file for each iteration####
+#Data to keep for 1-day delay
+    DDTtask.addData('OLL1',OLL1)
+    DDTtask.addData('ILL1',ILL1)
+    DDTtask.addData('IUL1',IUL1)
+    DDTtask.addData('OUL1',OUL1)
+    DDTtask.addData('ip1',ip1)
+
+#Data to keep for 1-week delay
+    DDTtask.addData('OLL2',OLL2)
+    DDTtask.addData('ILL2',ILL2)
+    DDTtask.addData('IUL2',IUL2)
+    DDTtask.addData('OUL2',OUL2)
+    DDTtask.addData('ip2',ip2)
+
+#Data to keep for 1-month delay
+    DDTtask.addData('OLL3',OLL3)
+    DDTtask.addData('ILL3',ILL3)
+    DDTtask.addData('IUL3',IUL3)
+    DDTtask.addData('OUL3',OUL3)
+    DDTtask.addData('ip3',ip3)
+
+#Data to keep for 1-year delay
+    DDTtask.addData('OLL4',OLL4)
+    DDTtask.addData('ILL4',ILL4)
+    DDTtask.addData('IUL4',IUL4)
+    DDTtask.addData('OUL4',OUL4)
+    DDTtask.addData('ip4',ip4)
+
+###Updating and saving 1-day specific variables####
+if delay == 1: #if 1-day
+    DDTtask.addData('ss1',ss) #save smaller-sooner value
+    DDTtask.addData('response.keys1',response.keys) #save response key
+    #RULE 1
+    if response.keys == 'v' and ss < IUL1: #if 1-day and participant selects smaller-sooner value < IUL
+        if ss >= ILL1: # If ss is between inside bands, lower the upper band
+            OLL1 = OLL1
+            ILL1 = ILL1
+            IUL1 = ss
+            OUL1 = IUL1
+        elif ss < ILL1: #If ss is lower than the inside lower band, decrease both bands
+            OLL1 = 0
+            ILL1 = ss
+            IUL1 = ss
+            OUL1 = IUL1
+    #RULE 2
+    elif response.keys == 'v' and ss >= IUL1: #if 1-day and participant selects smaller-sooner value >= IUL
+        OLL1 = OLL1
+        ILL1 = ILL1
+        IUL1 = IUL1
+        OUL1 = ss # Decrease the outer limit of the upper band
+    #RULE 3
+    elif response.keys == 'b' and ss <= ILL1: #if 1-day and participant selects larger-later value when ss <= ILL
+        OLL1 = ss # Increase the outer limit of the lower band
+        ILL1 = ILL1
+        IUL1 = IUL1
+        OUL1 = OUL1
+    #RULE 4
+    elif response.keys == 'b' and ss > ILL1: #if 1-day and participant selects larger-later value when ss > ILL1
+        if ss <= IUL1: # If ss is between inside bands, raise the lower band
+            OLL1 = ILL1
+            ILL1 = ss
+            IUL1 = IUL1
+            OUL1 = OUL1
+        elif ss > IUL1: #If ss is greater than the inside upper band, increase both bands
+            OLL1 = ILL1
+            ILL1 = ss
+            IUL1 = ss
+            OUL1 = 100     
+    else: #if participant does anything other than respond 'v' or 'b', keep the bands as they are
+        OLL1 = OLL1
+        ILL1 = ILL1
+        IUL1 = IUL1
+        OUL1 = OUL1
+
+###Updating and saving 1-week specific variables####
+if delay == 2: #if 1-week
+    DDTtask.addData('ss2',ss) #save smaller-sooner value
+    DDTtask.addData('response.keys2',response.keys) #save response key
+    #RULE 1
+    if response.keys == 'v' and ss < IUL2: #if 1-week and participant selects smaller-sooner value < IUL
+        if ss >= ILL2: # If ss is between inside bands, lower the upper band
+            OLL2 = OLL2
+            ILL2 = ILL2
+            IUL2 = ss
+            OUL2 = IUL2
+        elif ss < ILL2: #If ss is lower than the inside lower band, decrease both bands
+            OLL2 = 0
+            ILL2 = ss
+            IUL2 = ss
+            OUL2 = IUL2
+    #RULE 2
+    elif response.keys == 'v' and ss >= IUL2: #if 1-week and participant selects smaller-sooner value >= IUL
+        OLL2 = OLL2
+        ILL2 = ILL2
+        IUL2 = IUL2
+        OUL2 = ss # Decrease the outer limit of the upper band
+    #RULE 3
+    elif response.keys == 'b' and ss <= ILL2: #if 1-week and participant selects larger-later value when ss <= ILL
+        OLL2 = ss # Increase the outer limit of the lower band
+        ILL2 = ILL2
+        IUL2 = IUL2
+        OUL2 = OUL2
+    #RULE 4
+    elif response.keys == 'b' and ss > ILL2: #if 1-week and participant selects larger-later value when ss > ILL2
+        if ss <= IUL2: # If ss is between inside bands, raise the lower band
+            OLL2 = ILL2
+            ILL2 = ss
+            IUL2 = IUL2
+            OUL2 = OUL2
+        elif ss > IUL2: #If ss is greater than the inside upper band, increase both bands
+            OLL2 = ILL2
+            ILL2 = ss
+            IUL2 = ss
+            OUL2 = 100     
+    else: #if participant does anything other than respond 'v' or 'b', keep the bands as they are
+        OLL2 = OLL2
+        ILL2 = ILL2
+        IUL2 = IUL2
+        OUL2 = OUL2
+
+###Updating and saving 1-month specific variables####
+if delay == 3: #if 1-month
+    DDTtask.addData('ss3',ss) #save smaller-sooner value
+    DDTtask.addData('response.keys3',response.keys) #save response key
+    #RULE 1
+    if response.keys == 'v' and ss < IUL3: #if 1-month and participant selects smaller-sooner value < IUL
+        if ss >= ILL3: # If ss is between inside bands, lower the upper band
+            OLL3 = OLL3
+            ILL3 = ILL3
+            IUL3 = ss
+            OUL3 = IUL3
+        elif ss < ILL3: #If ss is lower than the inside lower band, decrease both bands
+            OLL3 = 0
+            ILL3 = ss
+            IUL3 = ss
+            OUL3 = IUL3
+    #RULE 2
+    elif response.keys == 'v' and ss >= IUL3: #if 1-month and participant selects smaller-sooner value >= IUL
+        OLL3 = OLL3
+        ILL3 = ILL3
+        IUL3 = IUL3
+        OUL3 = ss # Decrease the outer limit of the upper band
+    #RULE 3
+    elif response.keys == 'b' and ss <= ILL3: #if 1-month and participant selects larger-later value when ss <= ILL
+        OLL3 = ss # Increase the outer limit of the lower band
+        ILL3 = ILL3
+        IUL3 = IUL3
+        OUL3 = OUL3
+    #RULE 4
+    elif response.keys == 'b' and ss > ILL3: #if 1-month and participant selects larger-later value when ss > ILL3
+        if ss <= IUL3: # If ss is between inside bands, raise the lower band
+            OLL3 = ILL3
+            ILL3 = ss
+            IUL3 = IUL3
+            OUL3 = OUL3
+        elif ss > IUL3: #If ss is greater than the inside upper band, increase both bands
+            OLL3 = ILL3
+            ILL3 = ss
+            IUL3 = ss
+            OUL3 = 100     
+    else: #if participant does anything other than respond 'v' or 'b', keep the bands as they are
+        OLL3 = OLL3
+        ILL3 = ILL3
+        IUL3 = IUL3
+        OUL3 = OUL3
+
+###Updating and saving 1-year specific variables####
+if delay == 4: #if 1-year
+    DDTtask.addData('ss4',ss) #save smaller-sooner value
+    DDTtask.addData('response.keys4',response.keys) #save response key
+    #RULE 1
+    if response.keys == 'v' and ss < IUL4: #if 1-year and participant selects smaller-sooner value < IUL
+        if ss >= ILL4: # If ss is between inside bands, lower the upper band
+            OLL4 = OLL4
+            ILL4 = ILL4
+            IUL4 = ss
+            OUL4 = IUL4
+        elif ss < ILL4: #If ss is lower than the inside lower band, decrease both bands
+            OLL4 = 0
+            ILL4 = ss
+            IUL4 = ss
+            OUL4 = IUL4
+    #RULE 2
+    elif response.keys == 'v' and ss >= IUL4: #if 1-year and participant selects smaller-sooner value >= IUL
+        OLL4 = OLL4
+        ILL4 = ILL4
+        IUL4 = IUL4
+        OUL4 = ss # Decrease the outer limit of the upper band
+    #RULE 3
+    elif response.keys == 'b' and ss <= ILL4: #if 1-year and participant selects larger-later value when ss <= ILL
+        OLL4 = ss # Increase the outer limit of the lower band
+        ILL4 = ILL4
+        IUL4 = IUL4
+        OUL4 = OUL4
+    #RULE 4
+    elif response.keys == 'b' and ss > ILL4: #if 1-year and participant selects larger-later value when ss > ILL4
+        if ss <= IUL4: # If ss is between inside bands, raise the lower band
+            OLL4 = ILL4
+            ILL4 = ss
+            IUL4 = IUL4
+            OUL4 = OUL4
+        elif ss > IUL4: #If ss is greater than the inside upper band, increase both bands
+            OLL4 = ILL4
+            ILL4 = ss
+            IUL4 = ss
+            OUL4 = 100     
+    else: #if participant does anything other than respond 'v' or 'b', keep the bands as they are
+        OLL4 = OLL4
+        ILL4 = ILL4
+        IUL4 = IUL4
+        OUL4 = OUL4
+
+###Updating the indifference point dummy variables for each delay####
+#1-DAY INDIFFERENCE POINT
+if delay == 1 and ip1 == 0:
+    d1 = OUL1 - OLL1
+    if d1 <= 5:
+        ip1 = 1
+    else:
+        ip1 = 0
+#1-WEEK INDIFFERENCE POINT
+if delay == 2 and ip2 == 0:
+    d2 = OUL2 - OLL2
+    if d2 <= 5:
+        ip2 = 1
+    else:
+        ip2 = 0
+#1-MONTH INDIFFERENCE POINT
+if delay == 3 and ip3 == 0:
+    d3 = OUL3 - OLL3
+    if d3 <= 5:
+        ip3 = 1
+    else:
+        ip3 = 0
+#1-YEAR INDIFFERENCE POINT
+if delay == 4 and ip4 == 0:
+    d4 = OUL4 - OLL4
+    if d4 <= 5:
+        ip4 = 1
+    else:
+        ip4 = 0
+#END DDTtask WHEN ALL IP's HAVE BEEN REACHED
+if ip1 == 1 and ip2 == 1 and ip3 == 1 and ip4 == 1:
+    DDTtask.finished=1
+elif ip1 == 0 or ip2 == 0 or ip3 == 0 or ip4 == 0:
+    DDTtask.finished=0

@@ -1,0 +1,6 @@
+﻿cond,topText,topColour,bottomText,congruent,match,corrAns,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instrText.started,instrText.stopped,ITI,fixation_jitter.started,fixation_jitter.stopped,useRows,topTxt.started,topTxt.stopped,bottomTxt.started,bottomTxt.stopped,resp.keys,resp.corr,resp.started,resp.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+3,綠,green,紅,1,0,j,0,0,0,60,19.0667384999997,None,2.0,26.365195799999128,None,11,28.391346399999748,None,28.391346399999748,None,None,0,28.391346399999748,None,testing,001,2023_Dec_06_1325,stroop,2021.1.4,60.11349427712736,
+3,藍,blue,紅,1,0,j,0,1,1,13,,,3.8,30.381402099999832,None,44,34.21415209999941,None,34.21415209999941,None,None,0,34.21415209999941,None,testing,001,2023_Dec_06_1325,stroop,2021.1.4,60.11349427712736,
+1,黃,yellow,黃,1,1,f,0,2,2,6,,,3.9,36.2114502000004,None,0,40.14175609999984,None,40.14175609999984,None,None,0,40.14175609999984,None,testing,001,2023_Dec_06_1325,stroop,2021.1.4,60.11349427712736,
+3,綠,green,黃,1,0,j,0,3,3,29,,,3.6,42.14147969999976,None,27,45.761694999999236,None,45.761694999999236,None,None,0,45.761694999999236,None,testing,001,2023_Dec_06_1325,stroop,2021.1.4,60.11349427712736,
+,,,,,,,,,,,,,2.2,,,,,,,,,,,,,,,,,,

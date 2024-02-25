@@ -1,0 +1,282 @@
+2.4014 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.4021 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+13.7580 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021C45BDC310>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021C45BDC370>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021C45BDC760>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021C47BF62B0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.7581 	EXP 	window1: mouseVisible = True
+13.7582 	EXP 	window1: backgroundImage = ''
+13.7582 	EXP 	window1: backgroundFit = 'none'
+13.7583 	EXP 	window1: mouseVisible = False
+13.7583 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.7583 	EXP 	window1: recordFrameIntervals = False
+13.9251 	EXP 	window1: recordFrameIntervals = True
+14.1088 	EXP 	Screen (0) actual frame rate measured at 59.96Hz
+14.1089 	EXP 	window1: recordFrameIntervals = False
+17.6628 	EXP 	Created trigger_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trigger_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗即將開始', units='height', win=Window(...), wrapWidth=1)
+17.6871 	EXP 	Created instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.6943 	EXP 	Created prep_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prep_instr', opacity=1.0, ori=0.0, pos=array([-0.1,  0. ]), rgb=UNKNOWN, text='請判斷上方的時間與下方形容的分針方向是否匹配', units='height', win=Window(...), wrapWidth=1)
+17.6999 	EXP 	Created start_indicator = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='start_indicator', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='開始', units='height', win=Window(...), wrapWidth=1)
+17.7016 	EXP 	Created clock_digital = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='clock_digital', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.7028 	EXP 	Created direction_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='direction_txt', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.7098 	EXP 	Created trial_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+17.7174 	EXP 	Created rest_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rest_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='保持靜止', units='height', win=Window(...), wrapWidth=1)
+17.7225 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完成', units='height', win=Window(...), wrapWidth=1)
+17.7318 	EXP 	trigger_txt: autoDraw = True
+18.5959 	EXP 	trigger_txt: autoDraw = False
+18.5959 	EXP 	instr_txt: autoDraw = True
+22.7891 	EXP 	Created sequence: random, trialTypes=1, nReps=8, seed=None
+22.7893 	EXP 	New trial (rep=0, index=0): None
+22.8003 	EXP 	instr_txt: autoDraw = False
+22.8003 	EXP 	prep_instr: autoDraw = True
+24.8026 	EXP 	prep_instr: autoDraw = False
+24.8026 	EXP 	start_indicator: autoDraw = True
+25.3118 	EXP 	Imported clock_types.xlsx as conditions, 10 conditions, 6 params
+25.3122 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+25.3125 	EXP 	New trial (rep=0, index=0): {'cond': 1, 'Hour': 18, 'Minute': 44, 'bottomText': '左下', 'match': 1, 'corrAns': 1}
+25.3318 	EXP 	start_indicator: autoDraw = False
+25.3318 	EXP 	prep_instr: autoDraw = False
+25.3318 	EXP 	start_indicator: autoDraw = False
+25.3318 	EXP 	clock_digital: height = 0.15
+25.3318 	EXP 	clock_digital: height = 0.15
+25.3318 	EXP 	clock_digital: height = 0.15
+25.3318 	EXP 	clock_digital: text = '18:44'
+25.3318 	EXP 	direction_txt: height = 0.15
+25.3318 	EXP 	direction_txt: height = 0.15
+25.3318 	EXP 	direction_txt: height = 0.15
+25.3318 	EXP 	direction_txt: text = '左下'
+25.3318 	EXP 	clock_digital: autoDraw = True
+25.4368 	EXP 	direction_txt: autoDraw = True
+27.8562 	EXP 	clock_digital: autoDraw = False
+27.8562 	EXP 	direction_txt: autoDraw = False
+27.8562 	EXP 	clock_digital: autoDraw = False
+27.8562 	EXP 	direction_txt: autoDraw = False
+27.8562 	EXP 	trial_fixation: autoDraw = True
+28.3407 	EXP 	New trial (rep=0, index=1): {'cond': 1, 'Hour': 16, 'Minute': 35, 'bottomText': '左下', 'match': 1, 'corrAns': 1}
+28.3570 	EXP 	trial_fixation: autoDraw = False
+28.3570 	EXP 	trial_fixation: autoDraw = False
+28.3570 	EXP 	clock_digital: height = 0.15
+28.3570 	EXP 	clock_digital: height = 0.15
+28.3570 	EXP 	clock_digital: height = 0.15
+28.3570 	EXP 	clock_digital: text = '16:35'
+28.3570 	EXP 	direction_txt: text = '左下'
+28.3570 	EXP 	clock_digital: autoDraw = True
+28.4568 	EXP 	direction_txt: autoDraw = True
+30.8596 	EXP 	clock_digital: autoDraw = False
+30.8596 	EXP 	direction_txt: autoDraw = False
+30.8596 	EXP 	clock_digital: autoDraw = False
+30.8596 	EXP 	direction_txt: autoDraw = False
+30.8596 	EXP 	trial_fixation: autoDraw = True
+31.3442 	EXP 	New trial (rep=0, index=2): {'cond': 1, 'Hour': 8, 'Minute': 38, 'bottomText': '左下', 'match': 1, 'corrAns': 1}
+31.3602 	EXP 	trial_fixation: autoDraw = False
+31.3602 	EXP 	trial_fixation: autoDraw = False
+31.3602 	EXP 	clock_digital: height = 0.15
+31.3602 	EXP 	clock_digital: height = 0.15
+31.3602 	EXP 	clock_digital: height = 0.15
+31.3602 	EXP 	clock_digital: text = '8:38'
+31.3602 	EXP 	direction_txt: text = '左下'
+31.3602 	EXP 	clock_digital: autoDraw = True
+31.4603 	EXP 	direction_txt: autoDraw = True
+33.8632 	EXP 	clock_digital: autoDraw = False
+33.8632 	EXP 	direction_txt: autoDraw = False
+33.8632 	EXP 	clock_digital: autoDraw = False
+33.8632 	EXP 	direction_txt: autoDraw = False
+33.8632 	EXP 	trial_fixation: autoDraw = True
+34.3482 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'Hour': 17, 'Minute': 29, 'bottomText': '左下', 'match': 0, 'corrAns': 2}
+34.3641 	EXP 	trial_fixation: autoDraw = False
+34.3641 	EXP 	trial_fixation: autoDraw = False
+34.3641 	EXP 	clock_digital: height = 0.15
+34.3641 	EXP 	clock_digital: height = 0.15
+34.3641 	EXP 	clock_digital: height = 0.15
+34.3641 	EXP 	clock_digital: text = '17:29'
+34.3641 	EXP 	direction_txt: text = '左下'
+34.3641 	EXP 	clock_digital: autoDraw = True
+34.4638 	EXP 	direction_txt: autoDraw = True
+36.8666 	EXP 	clock_digital: autoDraw = False
+36.8666 	EXP 	direction_txt: autoDraw = False
+36.8666 	EXP 	clock_digital: autoDraw = False
+36.8666 	EXP 	direction_txt: autoDraw = False
+36.8666 	EXP 	trial_fixation: autoDraw = True
+37.3510 	EXP 	New trial (rep=0, index=4): {'cond': 1, 'Hour': 8, 'Minute': 26, 'bottomText': '右下', 'match': 1, 'corrAns': 1}
+37.3672 	EXP 	trial_fixation: autoDraw = False
+37.3672 	EXP 	trial_fixation: autoDraw = False
+37.3672 	EXP 	clock_digital: height = 0.15
+37.3672 	EXP 	clock_digital: height = 0.15
+37.3672 	EXP 	clock_digital: height = 0.15
+37.3672 	EXP 	clock_digital: text = '8:26'
+37.3672 	EXP 	direction_txt: height = 0.15
+37.3672 	EXP 	direction_txt: height = 0.15
+37.3672 	EXP 	direction_txt: height = 0.15
+37.3672 	EXP 	direction_txt: text = '右下'
+37.3672 	EXP 	clock_digital: autoDraw = True
+37.4670 	EXP 	direction_txt: autoDraw = True
+39.8700 	EXP 	clock_digital: autoDraw = False
+39.8700 	EXP 	direction_txt: autoDraw = False
+39.8700 	EXP 	clock_digital: autoDraw = False
+39.8700 	EXP 	direction_txt: autoDraw = False
+39.8700 	EXP 	trial_fixation: autoDraw = True
+40.3548 	EXP 	New trial (rep=0, index=5): {'cond': 2, 'Hour': 10, 'Minute': 29, 'bottomText': '左下', 'match': 0, 'corrAns': 2}
+40.3712 	EXP 	trial_fixation: autoDraw = False
+40.3712 	EXP 	trial_fixation: autoDraw = False
+40.3712 	EXP 	clock_digital: height = 0.15
+40.3712 	EXP 	clock_digital: height = 0.15
+40.3712 	EXP 	clock_digital: height = 0.15
+40.3712 	EXP 	clock_digital: text = '10:29'
+40.3712 	EXP 	direction_txt: height = 0.15
+40.3712 	EXP 	direction_txt: height = 0.15
+40.3712 	EXP 	direction_txt: height = 0.15
+40.3712 	EXP 	direction_txt: text = '左下'
+40.3712 	EXP 	clock_digital: autoDraw = True
+40.4707 	EXP 	direction_txt: autoDraw = True
+42.8733 	EXP 	clock_digital: autoDraw = False
+42.8733 	EXP 	direction_txt: autoDraw = False
+42.8733 	EXP 	clock_digital: autoDraw = False
+42.8733 	EXP 	direction_txt: autoDraw = False
+42.8733 	EXP 	trial_fixation: autoDraw = True
+43.3584 	EXP 	New trial (rep=0, index=6): {'cond': 2, 'Hour': 11, 'Minute': 40, 'bottomText': '右下', 'match': 0, 'corrAns': 2}
+43.3739 	EXP 	trial_fixation: autoDraw = False
+43.3739 	EXP 	trial_fixation: autoDraw = False
+43.3739 	EXP 	clock_digital: height = 0.15
+43.3739 	EXP 	clock_digital: height = 0.15
+43.3739 	EXP 	clock_digital: height = 0.15
+43.3739 	EXP 	clock_digital: text = '11:40'
+43.3739 	EXP 	direction_txt: height = 0.15
+43.3739 	EXP 	direction_txt: height = 0.15
+43.3739 	EXP 	direction_txt: height = 0.15
+43.3739 	EXP 	direction_txt: text = '右下'
+43.3739 	EXP 	clock_digital: autoDraw = True
+43.4742 	EXP 	direction_txt: autoDraw = True
+45.8770 	EXP 	clock_digital: autoDraw = False
+45.8770 	EXP 	direction_txt: autoDraw = False
+45.8770 	EXP 	clock_digital: autoDraw = False
+45.8770 	EXP 	direction_txt: autoDraw = False
+45.8770 	EXP 	trial_fixation: autoDraw = True
+46.3615 	EXP 	New trial (rep=0, index=7): {'cond': 1, 'Hour': 16, 'Minute': 6, 'bottomText': '右上', 'match': 1, 'corrAns': 1}
+46.3774 	EXP 	trial_fixation: autoDraw = False
+46.3774 	EXP 	trial_fixation: autoDraw = False
+46.3774 	EXP 	clock_digital: height = 0.15
+46.3774 	EXP 	clock_digital: height = 0.15
+46.3774 	EXP 	clock_digital: height = 0.15
+46.3774 	EXP 	clock_digital: text = '16:06'
+46.3774 	EXP 	direction_txt: height = 0.15
+46.3774 	EXP 	direction_txt: height = 0.15
+46.3774 	EXP 	direction_txt: height = 0.15
+46.3774 	EXP 	direction_txt: text = '右上'
+46.3774 	EXP 	clock_digital: autoDraw = True
+46.4775 	EXP 	direction_txt: autoDraw = True
+48.8803 	EXP 	clock_digital: autoDraw = False
+48.8803 	EXP 	direction_txt: autoDraw = False
+48.8803 	EXP 	clock_digital: autoDraw = False
+48.8803 	EXP 	direction_txt: autoDraw = False
+48.8803 	EXP 	trial_fixation: autoDraw = True
+49.3649 	EXP 	New trial (rep=0, index=8): {'cond': 2, 'Hour': 13, 'Minute': 56, 'bottomText': '右下', 'match': 0, 'corrAns': 2}
+49.3810 	EXP 	trial_fixation: autoDraw = False
+49.3810 	EXP 	trial_fixation: autoDraw = False
+49.3810 	EXP 	clock_digital: height = 0.15
+49.3810 	EXP 	clock_digital: height = 0.15
+49.3810 	EXP 	clock_digital: height = 0.15
+49.3810 	EXP 	clock_digital: text = '13:56'
+49.3810 	EXP 	direction_txt: height = 0.15
+49.3810 	EXP 	direction_txt: height = 0.15
+49.3810 	EXP 	direction_txt: height = 0.15
+49.3810 	EXP 	direction_txt: text = '右下'
+49.3810 	EXP 	clock_digital: autoDraw = True
+49.4810 	EXP 	direction_txt: autoDraw = True
+51.9008 	EXP 	clock_digital: autoDraw = False
+51.9008 	EXP 	direction_txt: autoDraw = False
+51.9008 	EXP 	clock_digital: autoDraw = False
+51.9008 	EXP 	direction_txt: autoDraw = False
+51.9008 	EXP 	trial_fixation: autoDraw = True
+52.3857 	EXP 	New trial (rep=0, index=9): {'cond': 2, 'Hour': 13, 'Minute': 21, 'bottomText': '右上', 'match': 0, 'corrAns': 2}
+52.4042 	EXP 	trial_fixation: autoDraw = False
+52.4042 	EXP 	trial_fixation: autoDraw = False
+52.4042 	EXP 	clock_digital: height = 0.15
+52.4042 	EXP 	clock_digital: height = 0.15
+52.4042 	EXP 	clock_digital: height = 0.15
+52.4042 	EXP 	clock_digital: text = '13:21'
+52.4042 	EXP 	direction_txt: height = 0.15
+52.4042 	EXP 	direction_txt: height = 0.15
+52.4042 	EXP 	direction_txt: height = 0.15
+52.4042 	EXP 	direction_txt: text = '右上'
+52.4042 	EXP 	clock_digital: autoDraw = True
+52.5015 	EXP 	direction_txt: autoDraw = True
+54.9874 	EXP 	clock_digital: autoDraw = False
+54.9874 	EXP 	direction_txt: autoDraw = False
+54.9874 	EXP 	clock_digital: autoDraw = False
+54.9874 	EXP 	direction_txt: autoDraw = False
+54.9874 	EXP 	trial_fixation: autoDraw = False
+54.9874 	EXP 	rest_txt: autoDraw = True
+85.0561 	EXP 	New trial (rep=1, index=0): None
+85.0721 	EXP 	rest_txt: autoDraw = False
+85.0721 	EXP 	rest_txt: autoDraw = False
+85.0721 	EXP 	prep_instr: autoDraw = True
+87.0744 	EXP 	prep_instr: autoDraw = False
+87.0744 	EXP 	start_indicator: autoDraw = True
+87.5773 	EXP 	Imported clock_types.xlsx as conditions, 10 conditions, 6 params
+87.5777 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+87.5779 	EXP 	New trial (rep=0, index=0): {'cond': 2, 'Hour': 15, 'Minute': 10, 'bottomText': '右下', 'match': 0, 'corrAns': 2}
+87.5898 	EXP 	start_indicator: autoDraw = False
+87.5898 	EXP 	prep_instr: autoDraw = False
+87.5898 	EXP 	start_indicator: autoDraw = False
+87.5898 	EXP 	clock_digital: height = 0.15
+87.5898 	EXP 	clock_digital: height = 0.15
+87.5898 	EXP 	clock_digital: height = 0.15
+87.5898 	EXP 	clock_digital: text = '15:10'
+87.5898 	EXP 	direction_txt: height = 0.15
+87.5898 	EXP 	direction_txt: height = 0.15
+87.5898 	EXP 	direction_txt: height = 0.15
+87.5898 	EXP 	direction_txt: text = '右下'
+87.5898 	EXP 	clock_digital: autoDraw = True
+87.6917 	EXP 	direction_txt: autoDraw = True
+90.0945 	EXP 	clock_digital: autoDraw = False
+90.0945 	EXP 	direction_txt: autoDraw = False
+90.0945 	EXP 	clock_digital: autoDraw = False
+90.0945 	EXP 	direction_txt: autoDraw = False
+90.0945 	EXP 	trial_fixation: autoDraw = True
+90.5790 	EXP 	New trial (rep=0, index=1): {'cond': 1, 'Hour': 14, 'Minute': 51, 'bottomText': '左上', 'match': 1, 'corrAns': 1}
+90.5951 	EXP 	trial_fixation: autoDraw = False
+90.5951 	EXP 	trial_fixation: autoDraw = False
+90.5951 	EXP 	clock_digital: height = 0.15
+90.5951 	EXP 	clock_digital: height = 0.15
+90.5951 	EXP 	clock_digital: height = 0.15
+90.5951 	EXP 	clock_digital: text = '14:51'
+90.5951 	EXP 	direction_txt: height = 0.15
+90.5951 	EXP 	direction_txt: height = 0.15
+90.5951 	EXP 	direction_txt: height = 0.15
+90.5951 	EXP 	direction_txt: text = '左上'
+90.5951 	EXP 	clock_digital: autoDraw = True
+90.6951 	EXP 	direction_txt: autoDraw = True
+93.0979 	EXP 	clock_digital: autoDraw = False
+93.0979 	EXP 	direction_txt: autoDraw = False
+93.0979 	EXP 	clock_digital: autoDraw = False
+93.0979 	EXP 	direction_txt: autoDraw = False
+93.0979 	EXP 	trial_fixation: autoDraw = True
+93.5825 	EXP 	New trial (rep=0, index=2): {'cond': 1, 'Hour': 16, 'Minute': 23, 'bottomText': '右下', 'match': 1, 'corrAns': 1}
+93.5985 	EXP 	trial_fixation: autoDraw = False
+93.5985 	EXP 	trial_fixation: autoDraw = False
+93.5985 	EXP 	clock_digital: height = 0.15
+93.5985 	EXP 	clock_digital: height = 0.15
+93.5985 	EXP 	clock_digital: height = 0.15
+93.5985 	EXP 	clock_digital: text = '16:23'
+93.5985 	EXP 	direction_txt: height = 0.15
+93.5985 	EXP 	direction_txt: height = 0.15
+93.5985 	EXP 	direction_txt: height = 0.15
+93.5985 	EXP 	direction_txt: text = '右下'
+93.5985 	EXP 	clock_digital: autoDraw = True
+93.6987 	EXP 	direction_txt: autoDraw = True
+96.1014 	EXP 	clock_digital: autoDraw = False
+96.1014 	EXP 	direction_txt: autoDraw = False
+96.1014 	EXP 	clock_digital: autoDraw = False
+96.1014 	EXP 	direction_txt: autoDraw = False
+96.1014 	EXP 	trial_fixation: autoDraw = True
+96.5860 	EXP 	New trial (rep=0, index=3): {'cond': 2, 'Hour': 13, 'Minute': 12, 'bottomText': '左下', 'match': 0, 'corrAns': 2}
+96.6019 	EXP 	trial_fixation: autoDraw = False
+96.6019 	EXP 	trial_fixation: autoDraw = False
+96.6019 	EXP 	clock_digital: height = 0.15
+96.6019 	EXP 	clock_digital: height = 0.15
+96.6019 	EXP 	clock_digital: height = 0.15
+96.6019 	EXP 	clock_digital: text = '13:12'
+96.6019 	EXP 	direction_txt: height = 0.15
+96.6019 	EXP 	direction_txt: height = 0.15
+96.6019 	EXP 	direction_txt: height = 0.15
+96.6019 	EXP 	direction_txt: text = '左下'
+96.6019 	EXP 	clock_digital: autoDraw = True
+96.7020 	EXP 	direction_txt: autoDraw = True
+98.1874 	EXP 	window1: mouseVisible = True

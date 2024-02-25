@@ -1,0 +1,4 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,trigger_txt.started,trigger_resp.started,trigger_resp.keys,trigger_resp.rt,trigger_resp.duration,instr_txt.started,prepared_resp.started,prepared_resp.keys,prepared_resp.rt,prepared_resp.duration,run_no,prep_instr_1.started,target_1.started,prep_instr_1.stopped,target_1.stopped,trial_fixation_1_1.started,trial_fixation_1_1.stopped,image_1_1.started,key_resp_1_1.started,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,35.52698340000643,35.52698340000643,s,0.5753364999982296,None,,,,,,,,,,,,,,,Jocelyn_BC512,001,2024-02-21_10h59.32.481,nback-master,2023.1.3,59.90003881938216,
+,,,,,,,,,36.123824800000875,36.123824800000875,1,0.45016180000675377,None,,,,,,,,,,Jocelyn_BC512,001,2024-02-21_10h59.32.481,nback-master,2023.1.3,59.90003881938216,
+,,,,,,,,,,,,,,0,36.64566409999679,36.64566409999679,39.14277900000161,39.14277900000161,39.14277900000161,39.6433595999988,39.6433595999988,39.6433595999988,,,,,,,

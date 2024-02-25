@@ -1,0 +1,60 @@
+13.2955 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+16.8604 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024646113BA8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000246460E62B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.8613 	EXP 	window1: mouseVisible = True
+16.8614 	EXP 	window1: recordFrameIntervals = False
+17.0224 	EXP 	window1: recordFrameIntervals = True
+17.2060 	EXP 	window1: recordFrameIntervals = False
+18.9503 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.9670 	EXP 	Created fixation_jitter = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation_jitter', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+18.9708 	EXP 	Created topTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='topTxt', opacity=1, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.9729 	EXP 	Created bottomTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='bottomTxt', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.0206 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanksText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完畢，感謝您的參與！', units='height', win=Window(...), wrapWidth=1)
+19.0667 	EXP 	instrText: autoDraw = True
+26.3454 	EXP 	Imported trialTypes.xlsx as conditions, 80 conditions, 7 params
+26.3513 	EXP 	Created sequence: random, trialTypes=80, nReps=1, seed=None
+26.3524 	EXP 	New trial (rep=0, index=0): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+26.3605 	DATA 	Keypress: f
+26.3652 	EXP 	instrText: autoDraw = False
+26.3652 	EXP 	fixation_jitter: autoDraw = True
+28.3913 	EXP 	fixation_jitter: autoDraw = False
+28.3913 	EXP 	fixation_jitter: autoDraw = False
+28.3913 	EXP 	topTxt: text = '綠'
+28.3913 	EXP 	bottomTxt: text = '紅'
+28.3913 	EXP 	topTxt: autoDraw = True
+28.3913 	EXP 	bottomTxt: autoDraw = True
+30.3690 	EXP 	New trial (rep=0, index=1): {'cond': 3, 'topText': '藍', 'topColour': 'blue', 'bottomText': '紅', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+30.3814 	EXP 	topTxt: autoDraw = False
+30.3814 	EXP 	bottomTxt: autoDraw = False
+30.3814 	EXP 	fixation_jitter: autoDraw = True
+34.2142 	EXP 	fixation_jitter: autoDraw = False
+34.2142 	EXP 	fixation_jitter: autoDraw = False
+34.2142 	EXP 	topTxt: text = '藍'
+34.2142 	EXP 	bottomTxt: text = '紅'
+34.2142 	EXP 	topTxt: autoDraw = True
+34.2142 	EXP 	bottomTxt: autoDraw = True
+36.1983 	EXP 	New trial (rep=0, index=2): {'cond': 1, 'topText': '黃', 'topColour': 'yellow', 'bottomText': '黃', 'congruent': 1, 'match': 1, 'corrAns': 'f'}
+36.2115 	EXP 	topTxt: autoDraw = False
+36.2115 	EXP 	bottomTxt: autoDraw = False
+36.2115 	EXP 	fixation_jitter: autoDraw = True
+40.1418 	EXP 	fixation_jitter: autoDraw = False
+40.1418 	EXP 	fixation_jitter: autoDraw = False
+40.1418 	EXP 	topTxt: text = '黃'
+40.1418 	EXP 	bottomTxt: text = '黃'
+40.1418 	EXP 	topTxt: autoDraw = True
+40.1418 	EXP 	bottomTxt: autoDraw = True
+42.1275 	EXP 	New trial (rep=0, index=3): {'cond': 3, 'topText': '綠', 'topColour': 'green', 'bottomText': '黃', 'congruent': 1, 'match': 0, 'corrAns': 'j'}
+42.1415 	EXP 	topTxt: autoDraw = False
+42.1415 	EXP 	bottomTxt: autoDraw = False
+42.1415 	EXP 	fixation_jitter: autoDraw = True
+45.7617 	EXP 	fixation_jitter: autoDraw = False
+45.7617 	EXP 	fixation_jitter: autoDraw = False
+45.7617 	EXP 	topTxt: text = '綠'
+45.7617 	EXP 	bottomTxt: text = '黃'
+45.7617 	EXP 	topTxt: autoDraw = True
+45.7617 	EXP 	bottomTxt: autoDraw = True
+47.7555 	EXP 	New trial (rep=0, index=4): {'cond': 4, 'topText': '黃', 'topColour': 'blue', 'bottomText': '黃', 'congruent': 0, 'match': 0, 'corrAns': 'j'}
+47.7714 	EXP 	topTxt: autoDraw = False
+47.7714 	EXP 	bottomTxt: autoDraw = False
+47.7714 	EXP 	fixation_jitter: autoDraw = True
+49.3268 	DATA 	Keypress: escape
+49.5369 	EXP 	window1: mouseVisible = True

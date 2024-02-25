@@ -1,0 +1,3 @@
+﻿participant,session,date,expName,psychopyVersion,OS,frameRate,resp.keys,resp.corr,resp.rt,resp.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,text,letterColor,corrAns,congruent
+,001,2023-11-22_14h00.59.723,stroop,2023.1.3,Win32,24.00960384,,,,,,,,,,,,,
+,001,2023-11-22_14h00.59.723,stroop,2023.1.3,Win32,24.00960384,left,1,0.5793,,0,0,0,5,1,blue,red,left,0

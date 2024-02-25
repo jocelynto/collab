@@ -1,0 +1,13 @@
+2.3670 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.3677 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+77.7137 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001284A7064F0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001284A706490>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001284A7061C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001284B748850>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+77.7139 	EXP 	window1: mouseVisible = True
+77.7139 	EXP 	window1: backgroundImage = ''
+77.7139 	EXP 	window1: backgroundFit = 'none'
+77.7140 	EXP 	window1: mouseVisible = False
+77.7140 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+77.7140 	EXP 	window1: recordFrameIntervals = False
+77.8804 	EXP 	window1: recordFrameIntervals = True
+78.0640 	EXP 	Screen (0) actual frame rate measured at 59.87Hz
+78.0641 	EXP 	window1: recordFrameIntervals = False
+81.6811 	EXP 	window1: mouseVisible = True

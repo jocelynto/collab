@@ -1,0 +1,168 @@
+13.0441 	WARNING 	User requested fullscreen with size [1280  800], but screen is actually [1920, 1080]. Using actual size
+15.2464 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA590EE550>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EA59085C18>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.2470 	EXP 	window1: mouseVisible = True
+15.2471 	EXP 	window1: recordFrameIntervals = False
+15.4117 	EXP 	window1: recordFrameIntervals = True
+15.5951 	EXP 	window1: recordFrameIntervals = False
+16.4020 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.4051 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='word', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.4234 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanksText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.4643 	EXP 	instrText: autoDraw = True
+18.2481 	EXP 	Imported trialTypes.xlsx as conditions, 6 conditions, 4 params
+18.2538 	EXP 	Created sequence: random, trialTypes=6, nReps=5, seed=None
+18.2549 	EXP 	New trial (rep=0, index=0): {'text': 'green', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 0}
+18.2856 	DATA 	Keypress: space
+18.2898 	EXP 	instrText: autoDraw = False
+18.2898 	EXP 	word: text = 'green'
+18.7761 	EXP 	word: autoDraw = True
+20.1994 	EXP 	New trial (rep=0, index=1): {'text': 'blue', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 1}
+20.2237 	DATA 	Keypress: down
+20.2275 	EXP 	word: autoDraw = False
+20.2275 	EXP 	word: text = 'blue'
+20.7250 	EXP 	word: autoDraw = True
+25.8459 	EXP 	New trial (rep=0, index=2): {'text': 'blue', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 0}
+25.8502 	DATA 	Keypress: right
+25.8573 	EXP 	word: autoDraw = False
+25.8573 	EXP 	word: text = 'blue'
+26.3386 	EXP 	word: autoDraw = True
+27.4637 	DATA 	Keypress: left
+27.4783 	EXP 	New trial (rep=0, index=3): {'text': 'green', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 1}
+27.4920 	EXP 	word: autoDraw = False
+27.4920 	EXP 	word: text = 'green'
+27.9878 	EXP 	word: autoDraw = True
+28.7277 	EXP 	New trial (rep=0, index=4): {'text': 'red', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 0}
+28.7426 	DATA 	Keypress: down
+28.7465 	EXP 	word: autoDraw = False
+28.7465 	EXP 	word: text = 'red'
+29.2369 	EXP 	word: autoDraw = True
+30.1601 	EXP 	New trial (rep=0, index=5): {'text': 'red', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 1}
+30.1644 	DATA 	Keypress: down
+30.1703 	EXP 	word: autoDraw = False
+30.1703 	EXP 	word: text = 'red'
+30.6695 	EXP 	word: autoDraw = True
+31.2261 	EXP 	New trial (rep=1, index=0): {'text': 'red', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 0}
+31.2305 	DATA 	Keypress: left
+31.2364 	EXP 	word: autoDraw = False
+31.2364 	EXP 	word: text = 'red'
+31.7188 	EXP 	word: autoDraw = True
+32.4091 	EXP 	New trial (rep=1, index=1): {'text': 'green', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 1}
+32.4203 	DATA 	Keypress: left
+32.4241 	EXP 	word: autoDraw = False
+32.4241 	EXP 	word: text = 'green'
+32.9184 	EXP 	word: autoDraw = True
+33.6769 	DATA 	Keypress: down
+33.6911 	EXP 	New trial (rep=1, index=2): {'text': 'blue', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 1}
+33.7067 	EXP 	word: autoDraw = False
+33.7067 	EXP 	word: text = 'blue'
+34.2008 	EXP 	word: autoDraw = True
+34.8239 	EXP 	New trial (rep=1, index=3): {'text': 'red', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 1}
+34.8343 	DATA 	Keypress: right
+34.8382 	EXP 	word: autoDraw = False
+34.8382 	EXP 	word: text = 'red'
+35.3336 	EXP 	word: autoDraw = True
+35.9085 	DATA 	Keypress: left
+35.9228 	EXP 	New trial (rep=1, index=4): {'text': 'green', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 0}
+35.9383 	EXP 	word: autoDraw = False
+35.9383 	EXP 	word: text = 'green'
+36.4328 	EXP 	word: autoDraw = True
+37.5400 	DATA 	Keypress: right
+37.5559 	EXP 	New trial (rep=1, index=5): {'text': 'blue', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 0}
+37.5714 	EXP 	word: autoDraw = False
+37.5714 	EXP 	word: text = 'blue'
+38.0653 	EXP 	word: autoDraw = True
+39.0383 	EXP 	New trial (rep=2, index=0): {'text': 'green', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 1}
+39.0504 	DATA 	Keypress: left
+39.0543 	EXP 	word: autoDraw = False
+39.0543 	EXP 	word: text = 'green'
+39.5477 	EXP 	word: autoDraw = True
+40.1050 	DATA 	Keypress: down
+40.1210 	EXP 	New trial (rep=2, index=1): {'text': 'red', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 0}
+40.1343 	EXP 	word: autoDraw = False
+40.1343 	EXP 	word: text = 'red'
+40.6304 	EXP 	word: autoDraw = True
+41.3219 	DATA 	Keypress: left
+41.3371 	EXP 	New trial (rep=2, index=2): {'text': 'blue', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 0}
+41.3525 	EXP 	word: autoDraw = False
+41.3525 	EXP 	word: text = 'blue'
+41.8467 	EXP 	word: autoDraw = True
+42.9875 	DATA 	Keypress: left
+43.0030 	EXP 	New trial (rep=2, index=3): {'text': 'red', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 1}
+43.0175 	EXP 	word: autoDraw = False
+43.0175 	EXP 	word: text = 'red'
+43.5122 	EXP 	word: autoDraw = True
+44.4189 	EXP 	New trial (rep=2, index=4): {'text': 'green', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 0}
+44.4306 	DATA 	Keypress: left
+44.4345 	EXP 	word: autoDraw = False
+44.4345 	EXP 	word: text = 'green'
+44.9281 	EXP 	word: autoDraw = True
+46.2345 	EXP 	New trial (rep=2, index=5): {'text': 'blue', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 1}
+46.2477 	DATA 	Keypress: right
+46.2515 	EXP 	word: autoDraw = False
+46.2515 	EXP 	word: text = 'blue'
+46.7274 	EXP 	word: autoDraw = True
+47.3030 	DATA 	Keypress: right
+48.6669 	EXP 	New trial (rep=3, index=0): {'text': 'green', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 1}
+48.6782 	DATA 	Keypress: right
+48.6821 	EXP 	word: autoDraw = False
+48.6821 	EXP 	word: text = 'green'
+49.1757 	EXP 	word: autoDraw = True
+49.7339 	DATA 	Keypress: down
+49.7484 	EXP 	New trial (rep=3, index=1): {'text': 'red', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 0}
+49.7618 	EXP 	word: autoDraw = False
+49.7618 	EXP 	word: text = 'red'
+50.2583 	EXP 	word: autoDraw = True
+51.1997 	DATA 	Keypress: down
+51.2148 	EXP 	New trial (rep=3, index=2): {'text': 'green', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 0}
+51.2294 	EXP 	word: autoDraw = False
+51.2294 	EXP 	word: text = 'green'
+51.7243 	EXP 	word: autoDraw = True
+53.4467 	EXP 	New trial (rep=3, index=3): {'text': 'blue', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 0}
+53.4591 	DATA 	Keypress: right
+53.4630 	EXP 	word: autoDraw = False
+53.4630 	EXP 	word: text = 'blue'
+53.9564 	EXP 	word: autoDraw = True
+54.4808 	DATA 	Keypress: left
+54.4961 	EXP 	New trial (rep=3, index=4): {'text': 'red', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 1}
+54.5094 	EXP 	word: autoDraw = False
+54.5094 	EXP 	word: text = 'red'
+55.0043 	EXP 	word: autoDraw = True
+55.4594 	EXP 	New trial (rep=3, index=5): {'text': 'blue', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 1}
+55.4672 	DATA 	Keypress: left
+55.4723 	EXP 	word: autoDraw = False
+55.4723 	EXP 	word: text = 'blue'
+55.9718 	EXP 	word: autoDraw = True
+56.7617 	EXP 	New trial (rep=4, index=0): {'text': 'blue', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 1}
+56.7658 	DATA 	Keypress: down
+56.7718 	EXP 	word: autoDraw = False
+56.7718 	EXP 	word: text = 'blue'
+57.2546 	EXP 	word: autoDraw = True
+57.7965 	DATA 	Keypress: right
+57.8102 	EXP 	New trial (rep=4, index=1): {'text': 'green', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 0}
+57.8250 	EXP 	word: autoDraw = False
+57.8250 	EXP 	word: text = 'green'
+58.3205 	EXP 	word: autoDraw = True
+59.0451 	DATA 	Keypress: right
+59.0601 	EXP 	New trial (rep=4, index=2): {'text': 'blue', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 0}
+59.0749 	EXP 	word: autoDraw = False
+59.0749 	EXP 	word: text = 'blue'
+59.5698 	EXP 	word: autoDraw = True
+60.1110 	DATA 	Keypress: left
+60.1265 	EXP 	New trial (rep=4, index=3): {'text': 'red', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 0}
+60.1398 	EXP 	word: autoDraw = False
+60.1398 	EXP 	word: text = 'red'
+60.6358 	EXP 	word: autoDraw = True
+61.5769 	EXP 	New trial (rep=4, index=4): {'text': 'red', 'letterColor': 'red', 'corrAns': 'left', 'congruent': 1}
+61.5818 	DATA 	Keypress: down
+61.5872 	EXP 	word: autoDraw = False
+61.5872 	EXP 	word: text = 'red'
+62.0851 	EXP 	word: autoDraw = True
+63.2246 	EXP 	New trial (rep=4, index=5): {'text': 'green', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 1}
+63.2361 	DATA 	Keypress: left
+63.2400 	EXP 	word: autoDraw = False
+63.2400 	EXP 	word: text = 'green'
+63.7341 	EXP 	word: autoDraw = True
+64.7803 	DATA 	Keypress: down
+64.7859 	EXP 	word: autoDraw = False
+64.7859 	EXP 	thanksText: autoDraw = True
+66.7994 	EXP 	thanksText: autoDraw = False
+66.8949 	EXP 	window1: mouseVisible = True

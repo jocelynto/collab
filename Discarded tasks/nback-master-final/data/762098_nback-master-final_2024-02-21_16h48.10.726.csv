@@ -1,0 +1,4 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,trigger_txt.started,trigger_resp.started,trigger_resp.keys,trigger_resp.rt,trigger_resp.duration,prepared_resp.started,prepared_resp.stopped,prepared_resp.keys,prepared_resp.rt,prepared_resp.duration,run_no,prep_instr_1.started,target_1.started,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,11.625850800002809,11.625850800002809,s,0.6786126999941189,None,,,,,,,,,762098,001,2024-02-21_16h48.10.726,nback-master-final,2023.1.3,59.911953394173544,
+,,,,,,,,,12.336403000008431,17.069908900011797,1,4.551800599991111,None,,,,762098,001,2024-02-21_16h48.10.726,nback-master-final,2023.1.3,59.911953394173544,
+,,,,,,,,,,,,,,0,17.069908900011797,17.069908900011797,,,,,,,

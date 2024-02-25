@@ -1,0 +1,14 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+0,1970,-0.384909498,0.263162893,1,0,0,one_red_dot,0,0,0,26,1,shape,images/2redStars.jpg,four_blue_stars,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+0,2616,-0.370945163,0.217673815,1,0,0,one_red_dot,0,1,1,2,1,shape,images/1blueStar.jpg,four_blue_stars,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+0,2651,0.341361902,0.222204477,1,0,0,four_blue_stars,0,2,2,61,1,shape,images/4yellowDots.jpg,one_red_dot,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+0,2450,0.147893827,0.23102588,1,0,0,three_green_crosses,0,3,3,34,1,shape,images/3blueStars.jpg,four_blue_stars,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+1,1972,0.369146529,0.230437147,1,0,0,four_blue_stars,0,4,4,38,1,shape,images/3greenStars.jpg,four_blue_stars,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+1,1800,-0.285924789,0.224958656,1,0,0,one_red_dot,0,5,5,5,1,shape,images/1greenDot.jpg,one_red_dot,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+1,1806,-0.158597466,0.208505687,1,0,0,two_yellow_triangles,0,6,6,11,1,shape,images/1redTriangle.jpg,two_yellow_triangles,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+,,,,,,,,,,,,,,,,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,0,0,0,2,1,128:192
+1,1884,0.11126353,0.202131334,1,0,0,three_green_crosses,0,0,0,38,1,number,images/3greenStars.jpg,three_green_crosses,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+0,1934,0.406618816,0.200613095,1,0,0,four_blue_stars,0,1,1,14,1,number,images/1yellowStar.jpg,one_red_dot,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+1,2184,0.179920788,0.274672876,1,0,0,three_green_crosses,0,2,2,34,1,number,images/3blueStars.jpg,three_green_crosses,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+0,1977,-0.043365435,0.190616613,1,0,0,two_yellow_triangles,0,3,3,35,1,number,images/3blueTriangles.jpg,three_green_crosses,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,
+0,1850,0.137383452,0.227556514,1,0,0,three_green_crosses,0,4,4,20,1,number,images/2greenCrosses.jpg,two_yellow_triangles,,001,03-01-2023_08h48.23.126,Wisconsin Card Sorting Task,2022.1.2,MacIntel,59.98080614,,,,,,

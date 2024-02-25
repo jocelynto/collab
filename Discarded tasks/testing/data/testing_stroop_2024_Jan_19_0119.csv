@@ -1,0 +1,4 @@
+﻿cond,topText,topColour,bottomText,congruent,match,corrAns,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instrText.started,instrText.stopped,ITI,fixation_jitter.started,fixation_jitter.stopped,useRows,topTxt.started,topTxt.stopped,bottomTxt.started,bottomTxt.stopped,resp.keys,resp.corr,resp.rt,resp.started,resp.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+3,藍,blue,黃,1,0,2,0,0,0,15,15.947135700000217,None,2.0,17.85837130001164,None,38,19.875278200022876,None,19.875278200022876,None,2,1,0.6270773000142071,19.875278200022876,None,testing,001,2024_Jan_19_0119,stroop,2021.1.4,59.9564955670954,
+2,紅,green,綠,0,1,1,0,1,1,58,,,3.8,20.527265600016108,None,16,24.350023100007093,None,24.350023100007093,None,1,1,0.4777232000196818,24.350023100007093,None,testing,001,2024_Jan_19_0119,stroop,2021.1.4,59.9564955670954,
+,,,,,,,,,,,,,3.9,,,,,,,,,,,,,,,,,,,

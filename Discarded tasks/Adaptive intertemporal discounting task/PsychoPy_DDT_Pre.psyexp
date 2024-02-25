@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.1.4">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="'data/%s_%s_%s' %(expInfo['P'], expInfo['sess'], expName)" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{u'P': u'', u'sess': u''}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="pix" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[2560, 1440]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="PsychoPy_DDT_Pre" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="ITI">
+      <ImageComponent name="EndStim">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="stimuli\end.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="EndStim" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[1500, 1125]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$random.uniform(0.4,0.6)" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <ImageComponent name="FixationStim">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="stimuli\start.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="FixationStim" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[1500, 1125]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$random.uniform(1.4,1.6)" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="RowUpdate">
+      <CodeComponent name="code_3">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="## Determining whether the indifference points have been reached for each delay&amp;#10;OLL = [OLL1,OLL2,OLL3,OLL4]&amp;#10;OUL = [OUL1,OUL2,OUL3,OUL4]&amp;#10;row = [0,1,2,3]&amp;#10;for i in range(len(row)):&amp;#10;    d = OUL[i] - OLL[i]&amp;#10;    if d &lt;= 5:&amp;#10;        ip = 1&amp;#10;    elif d &gt; 5:&amp;#10;        ip = 0&amp;#10;    ## ENDING LOOP FOR INDIFFERENCE POINTS THAT HAVE BEEN REACHED&amp;#10;    if ip == 1: # if the ip was just reached, remove it&amp;#10;        row.remove(i)&amp;#10;    if not row:&amp;#10;        DDTminiblocks.finished = True" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_3" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="trial">
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="## Updating the smaller-sooner reward value, determining side of presentation ##&amp;#10;&amp;#10;# Clearing the SS value because I have OCD&amp;#10;ss = None&amp;#10;&amp;#10;# Updating the SS value&amp;#10;if delay == 1 and ip1 == 0: # if 1-day indif. point has not been reached, update ss&amp;#10;    ss1 = random.randrange(OLL1,OUL1+0.05*ll,0.05*ll)&amp;#10;    DDTtrial.addData('ss1',ss1)&amp;#10;    ss = ss1&amp;#10;elif delay == 1 and ip1 == 1: #if indif. point has been reached...&amp;#10;    ss1 = ss1 # keep as last 1-day smaller-sooner value&amp;#10;    ss = ss1&amp;#10;elif delay == 2 and ip2 == 0: # if 1-week indif. point has not been reached, update ss&amp;#10;    ss2 = random.randrange(OLL2,OUL2+0.05*ll,0.05*ll)&amp;#10;    DDTtrial.addData('ss2',ss2)&amp;#10;    ss = ss2&amp;#10;elif delay == 2 and ip2 == 1: #if indif. point has been reached...&amp;#10;    ss2 = ss2 # keep as last 1-day smaller-sooner value&amp;#10;    ss = ss2&amp;#10;elif delay == 3 and ip3 == 0: # if 1-month indif. point has not been reached, update ss&amp;#10;    ss3 = random.randrange(OLL3,OUL3+0.05*ll,0.05*ll)&amp;#10;    DDTtrial.addData('ss3',ss3)&amp;#10;    ss = ss3&amp;#10;elif delay == 3 and ip3 == 1: #if indif. point has been reached...&amp;#10;    ss3 = ss3 # keep as last 1-month smaller-sooner value&amp;#10;    ss = ss3&amp;#10;elif delay == 4 and ip4 == 0: # if 1-year indif. point has not been reached, update ss&amp;#10;    ss4 = random.randrange(OLL4,OUL4+0.05*ll,0.05*ll)&amp;#10;    DDTtrial.addData('ss4',ss4)&amp;#10;    ss = ss4&amp;#10;elif delay == 4 and ip4 == 1: #if indif. point has been reached...&amp;#10;    ss4 = ss4 # keep as last 1-year smaller-sooner value&amp;#10;    ss = ss4&amp;#10;&amp;#10;#determining which background image to display (i.e. left or right)&amp;#10;side = random.choice(a)&amp;#10;if side == 0:&amp;#10;    background = r_background&amp;#10;    llloc = [270,37]&amp;#10;    ssloc = [-335, 37]&amp;#10;elif side == 1:&amp;#10;    background = l_background&amp;#10;    llloc = [-435, 37]&amp;#10;    ssloc = [320,37]" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="if (((side === 0) &amp;&amp; (TrialResp.keys === &quot;v&quot;))) {&amp;#10;    resp = &quot;immediate&quot;;&amp;#10;} else {&amp;#10;    if (((side === 0) &amp;&amp; (TrialResp.keys === &quot;b&quot;))) {&amp;#10;        resp = &quot;delayed&quot;;&amp;#10;    } else {&amp;#10;        if (((side === 1) &amp;&amp; (TrialResp.keys === &quot;b&quot;))) {&amp;#10;            resp = &quot;immediate&quot;;&amp;#10;        } else {&amp;#10;            if (((side === 1) &amp;&amp; (TrialResp.keys === &quot;v&quot;))) {&amp;#10;                resp = &quot;delayed&quot;;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if (((delay === 1) &amp;&amp; (ip1 === 0))) {&amp;#10;    DDTtrial.addData(&quot;OLL1&quot;, OLL1);&amp;#10;    DDTtrial.addData(&quot;ILL1&quot;, ILL1);&amp;#10;    DDTtrial.addData(&quot;IUL1&quot;, IUL1);&amp;#10;    DDTtrial.addData(&quot;OUL1&quot;, OUL1);&amp;#10;    DDTtrial.addData(&quot;resp&quot;, resp);&amp;#10;    if (((resp === &quot;immediate&quot;) &amp;&amp; (ss1 &lt; IUL1))) {&amp;#10;        OUL1 = IUL1;&amp;#10;        IUL1 = ss1;&amp;#10;        if ((ss1 &lt; ILL1)) {&amp;#10;            OLL1 = 0;&amp;#10;            ILL1 = ss1;&amp;#10;        }&amp;#10;    } else {&amp;#10;        if (((resp === &quot;delayed&quot;) &amp;&amp; (ss1 &gt; ILL1))) {&amp;#10;            OLL1 = ILL1;&amp;#10;            ILL1 = ss1;&amp;#10;            if ((ss1 &gt; IUL1)) {&amp;#10;                OUL1 = ll;&amp;#10;                IUL1 = ss1;&amp;#10;            }&amp;#10;        } else {&amp;#10;            if (((resp === &quot;immediate&quot;) &amp;&amp; (ss1 &gt;= IUL1))) {&amp;#10;                OUL1 = ss1;&amp;#10;            } else {&amp;#10;                if (((resp === &quot;delayed&quot;) &amp;&amp; (ss1 &lt;= ILL1))) {&amp;#10;                    OLL1 = ss1;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if (((delay === 2) &amp;&amp; (ip2 === 0))) {&amp;#10;    DDTtrial.addData(&quot;OLL2&quot;, OLL2);&amp;#10;    DDTtrial.addData(&quot;ILL2&quot;, ILL2);&amp;#10;    DDTtrial.addData(&quot;IUL2&quot;, IUL2);&amp;#10;    DDTtrial.addData(&quot;OUL2&quot;, OUL2);&amp;#10;    DDTtrial.addData(&quot;resp&quot;, resp);&amp;#10;    if (((resp === &quot;immediate&quot;) &amp;&amp; (ss2 &lt; IUL2))) {&amp;#10;        OUL2 = IUL2;&amp;#10;        IUL2 = ss2;&amp;#10;        if ((ss2 &lt; ILL2)) {&amp;#10;            OLL2 = 0;&amp;#10;            ILL2 = ss2;&amp;#10;        }&amp;#10;    } else {&amp;#10;        if (((resp === &quot;delayed&quot;) &amp;&amp; (ss2 &gt; ILL2))) {&amp;#10;            OLL2 = ILL2;&amp;#10;            ILL2 = ss2;&amp;#10;            if ((ss2 &gt; IUL2)) {&amp;#10;                OUL2 = ll;&amp;#10;                IUL2 = ss2;&amp;#10;            }&amp;#10;        } else {&amp;#10;            if (((resp === &quot;immediate&quot;) &amp;&amp; (ss2 &gt;= IUL2))) {&amp;#10;                OUL2 = ss2;&amp;#10;            } else {&amp;#10;                if (((resp === &quot;delayed&quot;) &amp;&amp; (ss2 &lt;= ILL2))) {&amp;#10;                    OLL2 = ss2;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if (((delay === 3) &amp;&amp; (ip3 === 0))) {&amp;#10;    DDTtrial.addData(&quot;OLL3&quot;, OLL3);&amp;#10;    DDTtrial.addData(&quot;ILL3&quot;, ILL3);&amp;#10;    DDTtrial.addData(&quot;IUL3&quot;, IUL3);&amp;#10;    DDTtrial.addData(&quot;OUL3&quot;, OUL3);&amp;#10;    DDTtrial.addData(&quot;resp&quot;, resp);&amp;#10;    if (((resp === &quot;immediate&quot;) &amp;&amp; (ss3 &lt; IUL3))) {&amp;#10;        OUL3 = IUL3;&amp;#10;        IUL3 = ss3;&amp;#10;        if ((ss3 &lt; ILL3)) {&amp;#10;            OLL3 = 0;&amp;#10;            ILL3 = ss3;&amp;#10;        }&amp;#10;    } else {&amp;#10;        if (((resp === &quot;delayed&quot;) &amp;&amp; (ss3 &gt; ILL3))) {&amp;#10;            OLL3 = ILL3;&amp;#10;            ILL3 = ss3;&amp;#10;            if ((ss3 &gt; IUL3)) {&amp;#10;                OUL3 = ll;&amp;#10;                IUL3 = ss3;&amp;#10;            }&amp;#10;        } else {&amp;#10;            if (((resp === &quot;immediate&quot;) &amp;&amp; (ss3 &gt;= IUL3))) {&amp;#10;                OUL3 = ss3;&amp;#10;            } else {&amp;#10;                if (((resp === &quot;delayed&quot;) &amp;&amp; (ss3 &lt;= ILL3))) {&amp;#10;                    OLL3 = ss3;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if (((delay === 4) &amp;&amp; (ip4 === 0))) {&amp;#10;    DDTtrial.addData(&quot;OLL4&quot;, OLL4);&amp;#10;    DDTtrial.addData(&quot;ILL4&quot;, ILL4);&amp;#10;    DDTtrial.addData(&quot;IUL4&quot;, IUL4);&amp;#10;    DDTtrial.addData(&quot;OUL4&quot;, OUL4);&amp;#10;    DDTtrial.addData(&quot;resp&quot;, resp);&amp;#10;    if (((resp === &quot;immediate&quot;) &amp;&amp; (ss4 &lt; IUL4))) {&amp;#10;        OUL4 = IUL4;&amp;#10;        IUL4 = ss4;&amp;#10;        if ((ss4 &lt; ILL4)) {&amp;#10;            OLL4 = 0;&amp;#10;            ILL4 = ss4;&amp;#10;        }&amp;#10;    } else {&amp;#10;        if (((resp === &quot;delayed&quot;) &amp;&amp; (ss4 &gt; ILL4))) {&amp;#10;            OLL4 = ILL4;&amp;#10;            ILL4 = ss4;&amp;#10;            if ((ss4 &gt; IUL4)) {&amp;#10;                OUL4 = ll;&amp;#10;                IUL4 = ss4;&amp;#10;            }&amp;#10;        } else {&amp;#10;            if (((resp === &quot;immediate&quot;) &amp;&amp; (ss4 &gt;= IUL4))) {&amp;#10;                OUL4 = ss4;&amp;#10;            } else {&amp;#10;                if (((resp === &quot;delayed&quot;) &amp;&amp; (ss4 &lt;= ILL4))) {&amp;#10;                    OLL4 = ss4;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="## Coding Responses as &quot;immediate&quot; or &quot;delayed&quot;, and updating double-limit algorithm ranges accordingly&amp;#10;&amp;#10;# Coding response types:&amp;#10;if side == 0 and TrialResp.keys == 'v':&amp;#10;    resp = 'immediate'&amp;#10;elif side == 0 and TrialResp.keys == 'b':&amp;#10;    resp = 'delayed'&amp;#10;elif side == 1 and TrialResp.keys == 'b':&amp;#10;    resp = 'immediate'&amp;#10;elif side == 1 and TrialResp.keys == 'v':&amp;#10;    resp = 'delayed'&amp;#10;&amp;#10;# Updating the double-limit algorithm values according to the participants' responses&amp;#10;if delay == 1 and ip1 == 0:&amp;#10;    #data to hold onto for each 1-day trial&amp;#10;    DDTtrial.addData('OLL1',OLL1)&amp;#10;    DDTtrial.addData('ILL1',ILL1)&amp;#10;    DDTtrial.addData('IUL1',IUL1)&amp;#10;    DDTtrial.addData('OUL1',OUL1)&amp;#10;    DDTtrial.addData('resp',resp)&amp;#10;    #Updating the algorithm for the 1-day delay&amp;#10;    if resp == 'immediate' and ss1 &lt; IUL1: #Lowers the entire upper band if the participant chooses the ss reward&amp;#10;        OUL1 = IUL1&amp;#10;        IUL1 = ss1&amp;#10;        if ss1 &lt; ILL1: # if the participant chooses the ss reward when it is low enough, the lower band is also decreased&amp;#10;            OLL1 = 0&amp;#10;            ILL1 = ss1&amp;#10;    elif resp == 'delayed' and ss1 &gt; ILL1: #Raises the entire lower band if the participant chooses the ll reward&amp;#10;        OLL1 = ILL1&amp;#10;        ILL1 = ss1&amp;#10;        if ss1 &gt; IUL1: # if the participant chooses the ll reward when the ss value is high enough, the upper band is also increased&amp;#10;            OUL1 = ll&amp;#10;            IUL1 = ss1&amp;#10;    elif resp == 'immediate' and ss1 &gt;= IUL1: #If the participant chooses the ss reward and it is within the upper band, the outer upper band decreases accordingly&amp;#10;        OUL1 = ss1&amp;#10;    elif resp == 'delayed' and ss1 &lt;= ILL1: #If the participant chooses the ll reward when the ss is within the lower band, the outer lower band increases accordingly&amp;#10;        OLL1 = ss1&amp;#10;&amp;#10;if delay == 2 and ip2 == 0:&amp;#10;    #data to hold onto for each 1-week trial&amp;#10;    DDTtrial.addData('OLL2',OLL2)&amp;#10;    DDTtrial.addData('ILL2',ILL2)&amp;#10;    DDTtrial.addData('IUL2',IUL2)&amp;#10;    DDTtrial.addData('OUL2',OUL2)&amp;#10;    DDTtrial.addData('resp',resp)&amp;#10;    #Updating the algorithm for the 1-week delay&amp;#10;    if resp == 'immediate' and ss2 &lt; IUL2: #Lowers the entire upper band if the participant chooses the ss reward&amp;#10;        OUL2 = IUL2&amp;#10;        IUL2 = ss2&amp;#10;        if ss2 &lt; ILL2: # if the participant chooses the ss reward when it is low enough, the lower band is also decreased&amp;#10;            OLL2 = 0&amp;#10;            ILL2 = ss2&amp;#10;    elif resp == 'delayed' and ss2 &gt; ILL2: #Raises the entire lower band if the participant chooses the ll reward&amp;#10;        OLL2 = ILL2&amp;#10;        ILL2 = ss2&amp;#10;        if ss2 &gt; IUL2: # if the participant chooses the ll reward when the ss value is high enough, the upper band is also increased&amp;#10;            OUL2 = ll&amp;#10;            IUL2 = ss2&amp;#10;    elif resp == 'immediate' and ss2 &gt;= IUL2: #If the participant chooses the ss reward and it is within the upper band, the outer upper band decreases accordingly&amp;#10;        OUL2 = ss2&amp;#10;    elif resp == 'delayed' and ss2 &lt;= ILL2: #If the participant chooses the ll reward when the ss is within the lower band, the outer lower band increases accordingly&amp;#10;        OLL2 = ss2&amp;#10;&amp;#10;if delay == 3 and ip3 == 0:&amp;#10;    #data to hold onto for each 1-month trial&amp;#10;    DDTtrial.addData('OLL3',OLL3)&amp;#10;    DDTtrial.addData('ILL3',ILL3)&amp;#10;    DDTtrial.addData('IUL3',IUL3)&amp;#10;    DDTtrial.addData('OUL3',OUL3)&amp;#10;    DDTtrial.addData('resp',resp)&amp;#10;    #Updating the algorithm for the 1-month delay&amp;#10;    if resp == 'immediate' and ss3 &lt; IUL3: #Lowers the entire upper band if the participant chooses the ss reward&amp;#10;        OUL3 = IUL3&amp;#10;        IUL3 = ss3&amp;#10;        if ss3 &lt; ILL3: # if the participant chooses the ss reward when it is low enough, the lower band is also decreased&amp;#10;            OLL3 = 0&amp;#10;            ILL3 = ss3&amp;#10;    elif resp == 'delayed' and ss3 &gt; ILL3: #Raises the entire lower band if the participant chooses the ll reward&amp;#10;        OLL3 = ILL3&amp;#10;        ILL3 = ss3&amp;#10;        if ss3 &gt; IUL3: # if the participant chooses the ll reward when the ss value is high enough, the upper band is also increased&amp;#10;            OUL3 = ll&amp;#10;            IUL3 = ss3&amp;#10;    elif resp == 'immediate' and ss3 &gt;= IUL3: #If the participant chooses the ss reward and it is within the upper band, the outer upper band decreases accordingly&amp;#10;        OUL3 = ss3&amp;#10;    elif resp == 'delayed' and ss3 &lt;= ILL3: #If the participant chooses the ll reward when the ss is within the lower band, the outer lower band increases accordingly&amp;#10;        OLL3 = ss3&amp;#10;&amp;#10;if delay == 4 and ip4 == 0:&amp;#10;    #data to hold onto for each 1-year trial&amp;#10;    DDTtrial.addData('OLL4',OLL4)&amp;#10;    DDTtrial.addData('ILL4',ILL4)&amp;#10;    DDTtrial.addData('IUL4',IUL4)&amp;#10;    DDTtrial.addData('OUL4',OUL4)&amp;#10;    DDTtrial.addData('resp',resp)&amp;#10;    #Updating the algorithm for the 1-year delay&amp;#10;    if resp == 'immediate' and ss4 &lt; IUL4: #Lowers the entire upper band if the participant chooses the ss reward&amp;#10;        OUL4 = IUL4&amp;#10;        IUL4 = ss4&amp;#10;        if ss4 &lt; ILL4: # if the participant chooses the ss reward when it is low enough, the lower band is also decreased&amp;#10;            OLL4 = 0&amp;#10;            ILL4 = ss4&amp;#10;    elif resp == 'delayed' and ss4 &gt; ILL4: #Raises the entire lower band if the participant chooses the ll reward&amp;#10;        OLL4 = ILL4&amp;#10;        ILL4 = ss4&amp;#10;        if ss4 &gt; IUL4: # if the participant chooses the ll reward when the ss value is high enough, the upper band is also increased&amp;#10;            OUL4 = ll&amp;#10;            IUL4 = ss4&amp;#10;    elif resp == 'immediate' and ss4 &gt;= IUL4: #If the participant chooses the ss reward and it is within the upper band, the outer upper band decreases accordingly&amp;#10;        OUL4 = ss4&amp;#10;    elif resp == 'delayed' and ss4 &lt;= ILL4: #If the participant chooses the ll reward when the ss is within the lower band, the outer lower band increases accordingly&amp;#10;        OLL4 = ss4&amp;#10;" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+      <ImageComponent name="TrialStim">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="TrialStim" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[1500, 1125]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="LLStim">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="60" valType="code"/>
+        <Param name="name" updates="None" val="LLStim" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="$llloc" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$ll" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="SSStim">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="60" valType="code"/>
+        <Param name="name" updates="None" val="SSStim" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="$ssloc" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$ss" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="TrialResp">
+        <Param name="allowedKeys" updates="constant" val="'v','b'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="TrialResp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Initating_vars">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;## Setting up the variables for trial 1##&amp;#10;#reward values&amp;#10;ll = 100 #larger-later reward is $100&amp;#10;&amp;#10;#double-limit algorithm values&amp;#10;OLL1 = 0 #outer-limit of lower band for 1-day delay&amp;#10;ILL1 = 0 #inner-limit of lower band for 1-day delay&amp;#10;IUL1 = ll #inner-limit of upper band for 1-day delay&amp;#10;OUL1 = ll #outer-limit of upper band for 1-day delay&amp;#10;OLL2 = 0 #outer-limit of lower band for 1-week delay&amp;#10;ILL2 = 0 #inner-limit of lower band for 1-week delay&amp;#10;IUL2 = ll #inner-limit of upper band for 1-week delay&amp;#10;OUL2 = ll #outer-limit of upper band for 1-week delay&amp;#10;OLL3 = 0 #outer-limit of lower band for 1-month delay&amp;#10;ILL3 = 0 #inner-limit of lower band for 1-month delay&amp;#10;IUL3 = ll #inner-limit of upper band for 1-month delay&amp;#10;OUL3 = ll #outer-limit of upper band for 1-month delay&amp;#10;OLL4 = 0 #outer-limit of lower band for 1-year delay&amp;#10;ILL4 = 0 #inner-limit of lower band for 1-year delay&amp;#10;IUL4 = ll #inner-limit of upper band for 1-year delay&amp;#10;OUL4 = ll #outer-limit of upper band for 1-year delay&amp;#10;&amp;#10;#initial dummy variables for the status of the indifference point at trial #1 (0 = not yet reached, 1 = reached)&amp;#10;ip1 = 0&amp;#10;ip2 = 0&amp;#10;ip3 = 0&amp;#10;ip4 = 0&amp;#10;&amp;#10;# setting a dummy variable to determine the side of screen to present stimuli on trial #1&amp;#10;a = [0,1]&amp;#10;&amp;#10;# setting a dummy variable to determine which rows to select from the conditions file&amp;#10;row = [0,1,2,3]" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <ImageComponent name="InstructionStim">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$stim" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="InstructionStim" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[1500, 1125]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="InstructionKey">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="InstructionKey" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="complete">
+      <TextComponent name="CompleteMsg">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="60" valType="num"/>
+        <Param name="name" updates="None" val="CompleteMsg" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This concludes the experiment. Thank you for participating!" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="testing">
+      <TextComponent name="testingtxt">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="60" valType="num"/>
+        <Param name="name" updates="None" val="testingtxt" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="testing before row update" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="testing2">
+      <TextComponent name="testingtxt2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="60" valType="num"/>
+        <Param name="name" updates="None" val="testingtxt2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="testing after row update" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="DDTInst">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'stim': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/DDT_Instructions1.png', 'inst': 1}, {'stim': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/DDT_Instructions2.png', 'inst': 2}, {'stim': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/DDT_Instructions3.png', 'inst': 3}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions_DDTinst.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="DDTInst" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Instructions"/>
+    <LoopTerminator name="DDTInst"/>
+    <Routine name="Initating_vars"/>
+    <LoopInitiator loopType="TrialHandler" name="DDTminiblocks">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="100" valType="code"/>
+      <Param name="name" updates="None" val="DDTminiblocks" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="DDTtrial">
+      <Param name="Selected rows" updates="None" val="$row" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'delay': 1, 'r_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/rd1.png', 'rowtitle': 0, 'l_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/ld1.png'}, {'delay': 2, 'r_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/rd2.png', 'rowtitle': 1, 'l_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/ld2.png'}, {'delay': 3, 'r_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/rd3.png', 'rowtitle': 2, 'l_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/ld3.png'}, {'delay': 4, 'r_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/rd4.png', 'rowtitle': -1, 'l_background': '/Users/jhogeveen/Documents/Dropbox/Fall_2014/tDCS/tDCS_Study_1/PsychoPy_DDT_Pre/stimuli/ld4.png'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions_DDTtask.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="DDTtrial" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="trial"/>
+    <Routine name="ITI"/>
+    <LoopTerminator name="DDTtrial"/>
+    <Routine name="RowUpdate"/>
+    <LoopTerminator name="DDTminiblocks"/>
+    <Routine name="complete"/>
+  </Flow>
+</PsychoPy2experiment>

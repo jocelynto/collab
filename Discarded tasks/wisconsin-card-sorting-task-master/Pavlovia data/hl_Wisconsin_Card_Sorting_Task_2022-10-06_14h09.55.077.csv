@@ -1,0 +1,3 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate
+1,7550,0.134237801,0.276166074,1,0,0,three_green_crosses,0,0,0,44,1,number,images/3yellowCrosses.jpg,three_green_crosses,hl,001,2022-10-06_14h09.55.077,Wisconsin Card Sorting Task,2022.1.2,Win32,59.80861244
+0,5855,-0.07146436,0.261785683,1,0,0,two_yellow_triangles,0,1,1,47,1,number,images/3yellowTriangles.jpg,three_green_crosses,hl,001,2022-10-06_14h09.55.077,Wisconsin Card Sorting Task,2022.1.2,Win32,59.80861244

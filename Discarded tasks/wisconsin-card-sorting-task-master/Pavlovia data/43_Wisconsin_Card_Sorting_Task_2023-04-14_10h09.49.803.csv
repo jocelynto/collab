@@ -1,0 +1,2 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate
+1,1750,-0.296296296,0.191666674,1,0,0,one_red_dot,0,0,0,2,1,number,images/1blueStar.jpg,one_red_dot,43,001,2023-04-14_10h09.49.803,Wisconsin Card Sorting Task,2022.1.2,Win32,58.68889019

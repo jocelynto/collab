@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.1.4">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="3" valType="str"/>
+    <Param name="Audio lib" updates="None" val="ptb" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="End Message" updates="None" val="" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1680, 1050]" valType="list"/>
+    <Param name="backgroundFit" updates="None" val="none" valType="str"/>
+    <Param name="backgroundImg" updates="None" val="" valType="str"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="black" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="nback-master" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="keyboardBackend" updates="None" val="ioHub" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="plConfidenceThreshold" updates="None" val="0.6" valType="num"/>
+    <Param name="plPupilCaptureRecordingEnabled" updates="None" val="True" valType="bool"/>
+    <Param name="plPupilCaptureRecordingLocation" updates="None" val="" valType="str"/>
+    <Param name="plPupilRemoteAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="plPupilRemotePort" updates="None" val="50020" valType="num"/>
+    <Param name="plPupilRemoteTimeoutMs" updates="None" val="1000" valType="num"/>
+    <Param name="plPupillometryOnly" updates="None" val="False" valType="bool"/>
+    <Param name="plSurfaceName" updates="None" val="psychopy_iohub_surface" valType="str"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+    <Param name="winBackend" updates="None" val="pyglet" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="stim">
+      <CodeComponent name="this_trial">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="#thisExp.addData('use_rows', use_rows[trials.thisN])&amp;#10;&amp;#10;trial_im = 'nback_stimuli/'+Stimulus" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="try:&amp;#10;    if int(key_resp.keys) == 1:&amp;#10;        if CorrectResponse == 'target':&amp;#10;            thisExp.addData('corr_var', 1)&amp;#10;        elif CorrectResponse == 'nontarget':&amp;#10;            thisExp.addData('corr_var', 0)&amp;#10;    elif int(key_resp.keys) == 2:&amp;#10;        if CorrectResponse == 'target':&amp;#10;            thisExp.addData('corr_var', 0)&amp;#10;        elif CorrectResponse == 'nontarget':&amp;#10;            thisExp.addData('corr_var', 1)&amp;#10;except TypeError:&amp;#10;    thisExp.addData('corr_var', 0)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="this_trial" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="stim_trial_fixation">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.15" valType="num"/>
+        <Param name="name" updates="None" val="stim_trial_fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="num"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="30" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="image">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$trial_im" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="30" valType="num"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="150" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'1','2'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="registerOn" updates="constant" val="press" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="30" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="150" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="iti">
+      <CodeComponent name="trial_fix_show">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if int(trials.thisN) == 9 or int(trials_2.thisN) == 9:&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="trial_fix_show" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="trial_fixation">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.15" valType="num"/>
+        <Param name="name" updates="None" val="trial_fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="30" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="rest">
+      <TextComponent name="rest_txt">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="rest_txt" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="901" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="休息" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="complete">
+      <TextComponent name="end_txt">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="end_txt" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="實驗完成" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="end_key_resp">
+        <Param name="allowedKeys" updates="constant" val="'q'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="end_key_resp" valType="code"/>
+        <Param name="registerOn" updates="constant" val="press" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <CodeComponent name="choose_trials">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="import numpy as np&amp;#10;import pandas as pd&amp;#10;&amp;#10;# Choosing random runs&amp;#10;run_idx = np.random.choice(8,2,replace=False)&amp;#10;print(&quot;run_idx&quot;, run_idx)&amp;#10;&amp;#10;run_block_idx_1 = list(range(80*run_idx[0],80*run_idx[0]+80))&amp;#10;run_block_idx_2 = list(range(80*run_idx[1],80*run_idx[1]+80))&amp;#10;run_rows = run_block_idx_1 + run_block_idx_2&amp;#10;&amp;#10;# Initializing target pics&amp;#10;dataframe = pd.read_excel(&quot;trialTypes.xlsx&quot;)&amp;#10;&amp;#10;rules_ls_1 = dataframe.loc[dataframe['Run'] == run_idx[0]+1, 'BlockType'].tolist() # if the code doesn't work try changing this to .to_list()&amp;#10;rules_ls_2 = dataframe.loc[dataframe['Run'] == run_idx[1]+1, 'BlockType'].tolist() # if the code doesn't work try changing this to .to_list()&amp;#10;rules_ls = rules_ls_1[0::10] + rules_ls_2[0::10]&amp;#10;&amp;#10;target_ls = []&amp;#10;for idx, rule in enumerate(rules_ls):&amp;#10;    if rule == '2-Back':&amp;#10;        target_stim_name = dataframe['Stimulus'][run_rows[10*idx]]&amp;#10;    elif rule == '0-Back':&amp;#10;        min_range = min(run_rows[10*idx:10*idx+10])&amp;#10;        max_range = max(run_rows[10*idx:10*idx+10])&amp;#10;        print(min_range,max_range)&amp;#10;        target_stim_name = dataframe[min_range:max_range].loc[dataframe['CorrectResponse'] == 'target','Stimulus'].iloc[0]        &amp;#10;    target_ls.append(target_stim_name)&amp;#10;&amp;#10;print(&quot;len(target_ls): &quot;, len(target_ls),&quot;len(rules_ls): &quot;, len(rules_ls))&amp;#10;&amp;#10;# to avoid trials_2 NameError&amp;#10;class trials_2:&amp;#10;    thisN = 0" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="choose_trials" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="instr_txt">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="instr_txt" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="PREP INSTRUCTIONS &amp;#10;&amp;#10;準備好請按 '1' " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="prepared_resp">
+        <Param name="allowedKeys" updates="constant" val="'1'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="prepared_resp" valType="code"/>
+        <Param name="registerOn" updates="constant" val="press" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trigger">
+      <TextComponent name="trigger_txt">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="trigger_txt" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="實驗即將開始" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="trigger_resp">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="trigger_resp" valType="code"/>
+        <Param name="registerOn" updates="constant" val="press" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="prepare_2">
+      <CodeComponent name="prep_trials_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="n = block.thisN&amp;#10;use_rows_2 = run_rows[20*n+10:20*n+20]&amp;#10;&amp;#10;target_im = 'nback_stimuli/'+target_ls[n*2+1]&amp;#10;block_rule = rules_ls[n*2+1]&amp;#10;&amp;#10;if block_rule == '0-Back':&amp;#10;    txt_loc = (0,0.2)&amp;#10;    im_loc = (0,-0.1)&amp;#10;elif block_rule == '2-Back':&amp;#10;    txt_loc = (0,0)&amp;#10;    im_loc = (1,1)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="prep_trials_2" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="prep_instr_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="prep_instr_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="txt_loc" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="150" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$block_rule" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="target_2">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$target_im" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="target_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="im_loc" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="150" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="prepare">
+      <CodeComponent name="prep_trials">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="n = block.thisN&amp;#10;use_rows = run_rows[20*n:20*n+10]&amp;#10;&amp;#10;target_im = 'nback_stimuli/'+target_ls[n*2]&amp;#10;block_rule = rules_ls[n*2]&amp;#10;&amp;#10;if block_rule == '0-Back':&amp;#10;    txt_loc = (0,0.2)&amp;#10;    im_loc = (0,-0.1)&amp;#10;elif block_rule == '2-Back':&amp;#10;    txt_loc = (0,0)&amp;#10;    im_loc = (1,1)&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="prep_trials" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="prep_instr">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Songti SC" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="prep_instr" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="txt_loc" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="150" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$block_rule" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="target">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$target_im" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="target" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="im_loc" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="150" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="trigger"/>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="8" valType="num"/>
+      <Param name="name" updates="None" val="block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="prepare"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="$use_rows" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_002_BP10_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_001_BP1_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_006_BP2_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_001_BP1_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_005_BP19_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_003_BP16_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_006_BP2_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_004_BP18_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_005_BP19_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_004_BP18_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_005_M3.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_001_M1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_003_M2.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_004_F2.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_004_F2.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_001_M1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_006_F3.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_006_F3.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_003_M2.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_002_F1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_001_TOOL1_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_002_TOOL2_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_004_TOOL4_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_002_TOOL2_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_001_TOOL1_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_004_TOOL4_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_006_TOOL6_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_005_TOOL5_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_006_TOOL6_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_003_TOOL3_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_007_BP20_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_011_BP4_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_010_BP3_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_008_BP21_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_011_BP4_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_009_BP22_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_009_BP22_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_008_BP21_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_007_BP20_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_012_BP5_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_003_92016.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_003_92016.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_006_92025.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_001_92012.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_004_92023.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_005_92024.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_001_92012.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_002_92014.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_004_92023.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_006_92025.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_010_F5.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_012_F6.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_010_F5.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_008_F4.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_012_F6.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_008_F4.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_007_M4.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_007_M4.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_009_M5.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_011_M6.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_010_TOOL10_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_009_TOOL9_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_009_TOOL9_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_008_TOOL8_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_011_TOOL11_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_012_TOOL12_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_010_TOOL10_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_007_TOOL7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_008_TOOL8_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_007_TOOL7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_007_92026.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_007_92026.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_010_92038.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_009_92037.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_010_92038.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_009_92037.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_008_92033.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_012_92047.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_012_92047.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_011_92044.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_014_TOOL14_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_013_TOOL13_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_016_TOOL16_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_014_TOOL14_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_016_TOOL16_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_018_TOOL18_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_017_TOOL17_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_018_TOOL18_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_015_TOOL15_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_017_TOOL17_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_015_H10-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_018_H13-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_014_BP9_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_018_H13-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_013_BP7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_015_H10-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_016_H11-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_013_BP7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_017_H12-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_014_BP9_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_015_M8.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_018_F9.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_018_F9.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_017_M9.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_017_M9.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_016_F8.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_013_M7.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_014_F7.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_013_M7.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_014_F7.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_019_TOOL19_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_024_TOOL24_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_019_TOOL19_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_023_TOOL23_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_020_TOOL20_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_020_TOOL20_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_022_TOOL22_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_022_TOOL22_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_021_TOOL21_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_021_TOOL21_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_020_H17-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_019_H14-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_020_H17-T_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_019_H14-T_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_024_H3-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_024_H3-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_025_H5-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_023_H25-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_022_H24-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_022_H24-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_019_SCENE_05.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_017_SCENE_03.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_017_SCENE_03.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_016_SCENE_02.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_015_SCENE_01.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_016_SCENE_02.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_015_SCENE_01.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_020_SCENE_06.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_020_SCENE_06.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_018_SCENE_04.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_024_F12.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_023_M12.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_020_F10.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_024_F12.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_020_F10.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_022_F11.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_023_M12.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_021_M11.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_021_M11.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_019_M10.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_025_SCENE_18.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_026_SCENE_24.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_025_SCENE_18.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_022_SCENE_08.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_026_SCENE_24.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_021_SCENE_07.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_021_SCENE_07.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_023_SCENE_09.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_024_SCENE_10.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_022_SCENE_08.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trialTypes.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="stim"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="prepare_2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="$use_rows_2" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_002_BP10_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_001_BP1_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_006_BP2_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_001_BP1_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_005_BP19_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_003_BP16_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_006_BP2_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_004_BP18_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_005_BP19_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 1, 'Weight': 1, 'Stimulus': 'BP_004_BP18_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_005_M3.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_001_M1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_003_M2.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_004_F2.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_004_F2.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_001_M1.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_006_F3.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_006_F3.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_003_M2.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 2, 'Weight': 1, 'Stimulus': 'FC_002_F1.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_001_TOOL1_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_002_TOOL2_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_004_TOOL4_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_002_TOOL2_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_001_TOOL1_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_004_TOOL4_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_006_TOOL6_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_005_TOOL5_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_006_TOOL6_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 3, 'Weight': 1, 'Stimulus': 'TO_003_TOOL3_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_007_BP20_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_011_BP4_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_010_BP3_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_008_BP21_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_011_BP4_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_009_BP22_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_009_BP22_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_008_BP21_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_007_BP20_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 4, 'Weight': 1, 'Stimulus': 'BP_012_BP5_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_003_92016.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_003_92016.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_006_92025.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_001_92012.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_004_92023.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_005_92024.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_001_92012.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_002_92014.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_004_92023.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 5, 'Weight': 1, 'Stimulus': 'PL_006_92025.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_010_F5.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_012_F6.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_010_F5.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_008_F4.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_012_F6.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_008_F4.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_007_M4.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_007_M4.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_009_M5.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 6, 'Weight': 1, 'Stimulus': 'FC_011_M6.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_010_TOOL10_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_009_TOOL9_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_009_TOOL9_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_008_TOOL8_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_011_TOOL11_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_012_TOOL12_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_010_TOOL10_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_007_TOOL7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_008_TOOL8_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 7, 'Weight': 1, 'Stimulus': 'TO_007_TOOL7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_007_92026.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_007_92026.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_010_92038.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_009_92037.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_010_92038.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_009_92037.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_008_92033.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_012_92047.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_012_92047.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 1, 'Block': 8, 'Weight': 1, 'Stimulus': 'PL_011_92044.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_014_TOOL14_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_013_TOOL13_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_016_TOOL16_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_014_TOOL14_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_016_TOOL16_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_018_TOOL18_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_017_TOOL17_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_018_TOOL18_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_015_TOOL15_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 1, 'Weight': None, 'Stimulus': 'TO_017_TOOL17_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_015_H10-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_018_H13-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_014_BP9_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_018_H13-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_013_BP7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_015_H10-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_016_H11-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_013_BP7_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_017_H12-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 2, 'Weight': None, 'Stimulus': 'BP_014_BP9_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_015_M8.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_018_F9.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_018_F9.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_017_M9.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_017_M9.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_016_F8.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_013_M7.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_014_F7.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_013_M7.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 3, 'Weight': None, 'Stimulus': 'FC_014_F7.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_019_TOOL19_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_024_TOOL24_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_019_TOOL19_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_023_TOOL23_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_020_TOOL20_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_020_TOOL20_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_022_TOOL22_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_022_TOOL22_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_021_TOOL21_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 4, 'Weight': None, 'Stimulus': 'TO_021_TOOL21_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Tools', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_020_H17-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_019_H14-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_020_H17-T_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_019_H14-T_BA.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_024_H3-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_024_H3-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_025_H5-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_023_H25-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_022_H24-T_BA.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 5, 'Weight': None, 'Stimulus': 'BP_022_H24-T_BA.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Body', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_019_SCENE_05.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_017_SCENE_03.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_017_SCENE_03.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_016_SCENE_02.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_015_SCENE_01.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_016_SCENE_02.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_015_SCENE_01.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_020_SCENE_06.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_020_SCENE_06.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 6, 'Weight': None, 'Stimulus': 'PL_018_SCENE_04.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '2-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_024_F12.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_023_M12.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_020_F10.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_024_F12.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_020_F10.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_022_F11.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_023_M12.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_021_M11.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_021_M11.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 7, 'Weight': None, 'Stimulus': 'FC_019_M10.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Face', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_025_SCENE_18.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_026_SCENE_24.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_025_SCENE_18.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_022_SCENE_08.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_026_SCENE_24.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_021_SCENE_07.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_021_SCENE_07.png', 'TargetType': 'target', 'CorrectResponse': 'target', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_023_SCENE_09.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_024_SCENE_10.png', 'TargetType': 'nonlure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}, {'Run': 2, 'Block': 8, 'Weight': None, 'Stimulus': 'PL_022_SCENE_08.png', 'TargetType': 'lure', 'CorrectResponse': 'nontarget', 'StimType': 'Place', 'BlockType': '0-Back'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trialTypes.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="stim"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="rest"/>
+    <LoopTerminator name="block"/>
+    <Routine name="complete"/>
+  </Flow>
+</PsychoPy2experiment>

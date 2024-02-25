@@ -1,0 +1,10 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+0,2392,0.10555557,0.240740741,1,0,0,three_green_crosses,0,0,0,45,1,shape,images/3yellowDots.jpg,one_red_dot,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+0,8471,0.173148191,0.240740741,1,0,0,three_green_crosses,0,1,1,39,1,shape,images/3greenTriangles.jpg,two_yellow_triangles,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+1,2500,0.09629631,0.247222212,1,0,0,three_green_crosses,0,2,2,16,1,shape,images/2blueCrosses.jpg,three_green_crosses,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+1,2581,-0.317592586,0.221296293,1,0,0,one_red_dot,0,3,3,53,1,shape,images/4greenDots.jpg,one_red_dot,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+1,7414,0.112037023,0.234259252,1,0,0,three_green_crosses,0,4,4,60,1,shape,images/4yellowCrosses.jpg,three_green_crosses,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+1,3550,-0.37037037,0.255555559,1,0,0,one_red_dot,0,5,5,41,1,shape,images/3redDots.jpg,one_red_dot,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+1,5749,0.310185185,0.200925933,1,0,0,four_blue_stars,0,6,6,50,1,shape,images/4blueStars.jpg,four_blue_stars,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,
+,,,,,,,,,,,,,,,,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,0,0,0,2,1,128:192
+0,2616,-0.351851852,0.274074078,1,0,0,one_red_dot,0,0,0,25,1,number,images/2redDots.jpg,two_yellow_triangles,1,001,2022-12-01_20h17.08.491,Wisconsin Card Sorting Task,2022.1.2,Win32,60.14314067,,,,,,

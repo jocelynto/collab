@@ -1,0 +1,11 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,useRows
+1,2457,0.044887153,0.327161458,1,0,0,three_green_crosses,0,0,0,44,1,shape,images/3yellowCrosses.jpg,three_green_crosses,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+0,2581,0.409340278,0.239344618,1,0,0,four_blue_stars,0,1,1,53,1,shape,images/4greenDots.jpg,one_red_dot,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,1980,0.342617187,0.174518229,1,0,0,four_blue_stars,0,2,2,2,1,shape,images/1blueStar.jpg,four_blue_stars,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,3103,-0.383732639,0.229986979,1,0,0,one_red_dot,0,3,3,45,1,shape,images/3yellowDots.jpg,one_red_dot,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,3326,-0.147278646,0.208806424,1,0,0,two_yellow_triangles,0,4,4,51,1,shape,images/4blueTriangles.jpg,two_yellow_triangles,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,2668,0.196571181,0.261015625,1,0,0,three_green_crosses,0,5,5,16,1,shape,images/2blueCrosses.jpg,three_green_crosses,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+1,2836,0.113133681,0.220447049,1,0,0,three_green_crosses,0,6,6,32,1,shape,images/3blueCrosses.jpg,three_green_crosses,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+,,,,,,,,,,,,,,,,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,0,0,0,2,1,128:192
+0,2961,-0.163854167,0.247434896,1,0,0,two_yellow_triangles,0,0,0,35,1,colour,images/3blueTriangles.jpg,four_blue_stars,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,
+0,2303,0.32312934,0.239097222,1,0,0,four_blue_stars,0,1,1,30,1,colour,images/2yellowStars.jpg,two_yellow_triangles,,001,2023-11-14_13h58.08.676,Wisconsin Card Sorting Task,2022.1.2,MacIntel,60.0024001,,,,,,

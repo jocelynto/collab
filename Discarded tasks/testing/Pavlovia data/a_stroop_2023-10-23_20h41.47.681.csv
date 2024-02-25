@@ -1,0 +1,16 @@
+﻿participant,session,date,expName,psychopyVersion,OS,frameRate,resp.keys,resp.corr,resp.rt,resp.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,text,letterColor,corrAns,congruent
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,,,,,,,,,,,,,
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,down,0,6.178,,0,0,0,0,1,red,red,left,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,left,0,1.049,,0,1,1,3,1,green,blue,right,0
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,right,0,0.593,,0,2,2,1,1,red,green,down,0
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,right,0,0.893,,0,3,3,2,1,green,green,down,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,down,0,0.764,,0,4,4,5,1,blue,red,left,0
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,left,0,0.587,,0,5,5,4,1,blue,blue,right,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,right,0,0.495,,1,0,6,1,1,red,green,down,0
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,down,0,0.49,,1,1,7,0,1,red,red,left,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,left,1,0.437,,1,2,8,5,1,blue,red,left,0
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,right,0,0.235,,1,3,9,2,1,green,green,down,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,left,0,0.137,,1,4,10,3,1,green,blue,right,0
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,down,0,0.074,,1,5,11,4,1,blue,blue,right,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,right,0,0.109,,2,0,12,0,1,red,red,left,1
+a,001,2023-10-23_20h41.47.681,stroop,2023.1.3,Linux x86_64,61.65228113,left,0,0.252,,2,1,13,2,1,green,green,down,1

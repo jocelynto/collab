@@ -1,0 +1,26 @@
+2.3990 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.3998 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+8.1795 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027A136FC310>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027A136FC370>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027A136FC760>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000027A5D592250>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.1798 	EXP 	window1: mouseVisible = True
+8.1798 	EXP 	window1: backgroundImage = ''
+8.1799 	EXP 	window1: backgroundFit = 'none'
+8.1801 	EXP 	window1: mouseVisible = False
+8.1801 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.1802 	EXP 	window1: recordFrameIntervals = False
+8.3445 	EXP 	window1: recordFrameIntervals = True
+8.5292 	EXP 	Screen (0) actual frame rate measured at 59.68Hz
+8.5294 	EXP 	window1: recordFrameIntervals = False
+12.0781 	EXP 	Created main_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='main_instr', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='請根據畫面指示踩踏板', units='height', win=Window(...), wrapWidth=1)
+12.0842 	EXP 	Created prep_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prep_instr', opacity=1.0, ori=0.0, pos=array([-0.05,  0.  ]), rgb=UNKNOWN, text='請準備踩踏板', units='height', win=Window(...), wrapWidth=1)
+12.0943 	EXP 	Created motor_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='motor_instr', opacity=1.0, ori=0.0, pos=array([-0.05, -0.2 ]), rgb=UNKNOWN, text='請好像走路一樣左右腳輪流踩踏板', units='height', win=Window(...), wrapWidth=1)
+12.1093 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Instructions_pic.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.1136 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([-0.1,  0. ]), rgb=UNKNOWN, text='休息', units='height', win=Window(...), wrapWidth=1)
+12.1226 	EXP 	main_instr: autoDraw = True
+13.8012 	EXP 	Created sequence: random, trialTypes=1, nReps=8, seed=None
+13.8014 	EXP 	New trial (rep=0, index=0): None
+13.8162 	EXP 	main_instr: autoDraw = False
+13.8162 	EXP 	prep_instr: autoDraw = True
+16.3193 	EXP 	prep_instr: autoDraw = False
+16.3193 	EXP 	motor_instr: autoDraw = True
+16.3193 	EXP 	image: autoDraw = True
+18.5641 	EXP 	window1: mouseVisible = True

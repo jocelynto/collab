@@ -1,0 +1,2 @@
+﻿Score,RT,response.x,response.y,response.leftButton,response.midButton,response.rightButton,response.clicked_name,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,rule,card,corrAns,participant,session,date,expName,psychopyVersion,OS,frameRate
+1,4709,0.359953704,0.243055556,1,0,0,four_blue_stars,0,0,0,49,1,number,images/4blueDots.jpg,four_blue_stars,,001,2022-07-26_10h21.31.369,Wisconsin Card Sorting Task,2022.1.2,Win32,60.0240096

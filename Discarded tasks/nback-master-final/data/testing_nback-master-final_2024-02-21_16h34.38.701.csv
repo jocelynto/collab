@@ -1,0 +1,2 @@
+﻿trigger_txt.started,trigger_resp.started,trigger_resp.keys,trigger_resp.rt,trigger_resp.duration,instr_txt.started,prepared_resp.started,participant,session,date,expName,psychopyVersion,frameRate,
+13.789234100011527,13.789234100011527,s,0.45322359999408945,None,,,testing,001,2024-02-21_16h34.38.701,nback-master-final,2023.1.3,59.90341173742319,
