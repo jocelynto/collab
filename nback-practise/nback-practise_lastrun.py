@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.1.3),
-    on February 22, 2024, at 19:06
+    on February 28, 2024, at 11:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -564,22 +564,6 @@ for thisBlock in block:
         key_resp.keys = []
         key_resp.rt = []
         _key_resp_allKeys = []
-        # Run 'Begin Routine' code from corr_counting
-        try:
-            if key_resp.keys == 'left':
-                if CorrectResponse == 'target':
-                    thisExp.addData('corr_var', 1)
-                    corr_counter += 1
-                elif CorrectResponse == 'nontarget':
-                    thisExp.addData('corr_var', 0)
-            elif key_resp.keys == 'right':
-                if CorrectResponse == 'target':
-                    thisExp.addData('corr_var', 0)
-                elif CorrectResponse == 'nontarget':
-                    thisExp.addData('corr_var', 1)
-                    corr_counter += 1
-        except TypeError:
-            thisExp.addData('corr_var', 0)
         # keep track of which components have finished
         stimComponents = [image, key_resp]
         for thisComponent in stimComponents:
@@ -707,6 +691,29 @@ for thisBlock in block:
         if key_resp.keys != None:  # we had a response
             trials.addData('key_resp.rt', key_resp.rt)
             trials.addData('key_resp.duration', key_resp.duration)
+        # Run 'End Routine' code from corr_counting
+        try:
+            if key_resp.keys == 'left':
+                print('detect keys working')
+                if CorrectResponse == 'target':
+                    print('detect CorrResponse working')
+                    thisExp.addData('corr_var', 1)
+                    corr_counter += 1
+                elif CorrectResponse == 'nontarget':
+                    print('detect CorrResponse working')
+                    thisExp.addData('corr_var', 0)
+            elif key_resp.keys == 'right':
+                print('detect keys working')
+                if CorrectResponse == 'target':
+                    print('detect CorrResponse working')
+                    thisExp.addData('corr_var', 0)
+                elif CorrectResponse == 'nontarget':
+                    print('detect CorrResponse working')
+                    thisExp.addData('corr_var', 1)
+                    corr_counter += 1
+        except TypeError:
+            print('everything type error')
+            thisExp.addData('corr_var', 0)
         # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
         if routineForceEnded:
             routineTimer.reset()

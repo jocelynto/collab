@@ -137,14 +137,14 @@
         <Param val="corr_counter = 0" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="try:&amp;#10;    if key_resp.keys == 'left':&amp;#10;        if CorrectResponse == 'target':&amp;#10;            thisExp.addData('corr_var', 1)&amp;#10;            corr_counter += 1&amp;#10;        elif CorrectResponse == 'nontarget':&amp;#10;            thisExp.addData('corr_var', 0)&amp;#10;    elif key_resp.keys == 'right':&amp;#10;        if CorrectResponse == 'target':&amp;#10;            thisExp.addData('corr_var', 0)&amp;#10;        elif CorrectResponse == 'nontarget':&amp;#10;            thisExp.addData('corr_var', 1)&amp;#10;            corr_counter += 1&amp;#10;except TypeError:&amp;#10;    thisExp.addData('corr_var', 0)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="print(&quot;counter = &quot;, corr_counter, &quot;/20&quot;)" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="try:&amp;#10;    if key_resp.keys == 'left':&amp;#10;        if CorrectResponse == 'target':&amp;#10;            thisExp.addData('corr_var', 1)&amp;#10;            corr_counter += 1&amp;#10;        elif CorrectResponse == 'nontarget':&amp;#10;            thisExp.addData('corr_var', 0)&amp;#10;    elif key_resp.keys == 'right':&amp;#10;        if CorrectResponse == 'target':&amp;#10;            thisExp.addData('corr_var', 0)&amp;#10;        elif CorrectResponse == 'nontarget':&amp;#10;            thisExp.addData('corr_var', 1)&amp;#10;            corr_counter += 1&amp;#10;except TypeError:&amp;#10;    thisExp.addData('corr_var', 0)" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="corr_counting" valType="code" updates="None" name="name"/>
       </CodeComponent>
