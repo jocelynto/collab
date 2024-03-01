@@ -128,10 +128,16 @@ try
     %======================================================================
     Screen('TextSize',myscreen,50);
     Screen('TextFont', myscreen, '-:lang=ja');
-    msg1 = [28310, 20633, 22909, 35531, 25353, 24038];
+%     msg1 = [28310, 20633, 22909, 35531, 25353, 24038];
 %     msg1 = double(transpose(msg1));
-    DrawFormattedText(myscreen,msg1,'center','center',[255,255,255]);
-   
+%     DrawFormattedText(myscreen,msg1,'center','center',[255,255,255]);
+    
+    prac_prep = imread('pic/prac_prep.png32');
+    Texture = Screen('MakeTexture', myscreen, prac_prep);
+    im_size = size(prac_prep);
+    im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+    Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+       
     Screen('Flip',myscreen);
     KbWait;
     Screen('Flip',myscreen);
@@ -144,11 +150,17 @@ try
         if ismember(trial_no,new_block_trialno)
             Screen('Flip',myscreen);                       
             
-            Screen('TextSize',myscreen,80);
-            Screen('TextFont', myscreen, '-:lang=ja');
-            msg2 = [38283, 22987];
-            DrawFormattedText(myscreen,msg2,'center',y_center,[255,255,255]);
+%             Screen('TextSize',myscreen,80);
+%             Screen('TextFont', myscreen, '-:lang=ja');
+%             msg2 = [38283, 22987];
+%             DrawFormattedText(myscreen,msg2,'center',y_center,[255,255,255]);
             %DrawFormattedText(myscreen,'begins','center',y_center+50,[255,255,255]);
+            
+            block_start = imread('pic/block_start.png32');
+            Texture = Screen('MakeTexture', myscreen, block_start);
+            im_size = size(block_start);
+            im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+            Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
 
             Screen('Flip',myscreen);
             timelog.new_block(trial_no,1)=GetSecs;
@@ -288,13 +300,20 @@ try
                 timelog.stim_onset(trial_no,2)=GetSecs-timelog.stim_onset(trial_no,1);
                 Screen('Flip',myscreen);
 
-                Screen('TextSize',myscreen,90);
-                Screen('TextStyle',myscreen,1);     % 1=bold
-                Screen('TextFont', myscreen, '-:lang=ja');
-                msg3 = [22826, 24930, 33];
-                DrawFormattedText(myscreen,msg3,'center','center',[255,255,255]);
-                Screen('TextFont', myscreen, 'Arial');
-                DrawFormattedText(myscreen,'-100!','center',y_center+200,red);
+%                 Screen('TextSize',myscreen,90);
+%                 Screen('TextStyle',myscreen,1);     % 1=bold
+%                 Screen('TextFont', myscreen, '-:lang=ja');
+%                 msg3 = [22826, 24930, 33];
+%                 DrawFormattedText(myscreen,msg3,'center','center',[255,255,255]);
+%                 Screen('TextFont', myscreen, 'Arial');
+%                 DrawFormattedText(myscreen,'-100!','center',y_center+200,red);
+                
+                too_slow = imread('pic/too_slow.png32');
+                Texture = Screen('MakeTexture', myscreen, too_slow);
+                im_size = size(too_slow);
+                im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+                Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+
                 total_earning=total_earning-100;
 
                 timedout=true;
@@ -363,11 +382,18 @@ try
         
         if trial_no==length(all_trial_code)/2
             
-            Screen('TextFont', myscreen, '-:lang=ja');            
-            msg4 = [20445, 25345, 38748, 27490];
-            msg5 = [28310, 20633, 22909, 35531, 25353, 24038];
-            DrawFormattedText(myscreen,msg4,'center','center',[255,255,255]);
-            DrawFormattedText(myscreen,msg5,'center',y_center+100,[255,255,255]);
+%             Screen('TextFont', myscreen, '-:lang=ja');            
+%             msg4 = [20445, 25345, 38748, 27490];
+%             msg5 = [28310, 20633, 22909, 35531, 25353, 24038];
+%             DrawFormattedText(myscreen,msg4,'center','center',[255,255,255]);
+%             DrawFormattedText(myscreen,msg5,'center',y_center+100,[255,255,255]);
+            
+            block_rest = imread('pic/prac_block_rest.png32');
+            Texture = Screen('MakeTexture', myscreen, block_rest);
+            im_size = size(block_rest);
+            im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+            Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+
             Screen('Flip',myscreen);
 
             KbWait;
@@ -408,11 +434,18 @@ try
 % Finish page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Screen('Flip',myscreen);
-    Screen('TextSize',myscreen,50);
-    Screen('TextFont', myscreen, '-:lang=ja');
-    msg6 = [23526, 39511, 23436, 25104];
-    DrawFormattedText(myscreen,msg6,'center','center',[255,255,255]);
+%     Screen('TextSize',myscreen,50);
+%     Screen('TextFont', myscreen, '-:lang=ja');
+%     msg6 = [23526, 39511, 23436, 25104];
+%     DrawFormattedText(myscreen,msg6,'center','center',[255,255,255]);
     %DrawFormattedText(myscreen,'Thank you!!!','center',y_center+100,[255,255,255]);
+    
+    task_complete = imread('pic/task_complete.png32');
+    Texture = Screen('MakeTexture', myscreen, task_complete);
+    im_size = size(task_complete);
+    im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+    Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+    
     Screen('Flip',myscreen);
     KbWait;
 
