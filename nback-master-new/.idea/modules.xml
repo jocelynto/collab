@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/collab_nback.iml" filepath="$PROJECT_DIR$/.idea/collab_nback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nback-master-new.iml" filepath="$PROJECT_DIR$/.idea/nback-master-new.iml" />
     </modules>
   </component>
 </project>

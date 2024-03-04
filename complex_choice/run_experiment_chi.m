@@ -601,8 +601,8 @@ function [env1_bg_coor, env2_bg_coor]=show_envs(env1_rew,env2_rew,env1_prob,env2
     env1_reward_text_digit=numel(num2str(env1_prob));  % check no. of digits
     env2_reward_text_digit=numel(num2str(env2_prob));  % check no. of digits
 
-    Screen('DrawText',myscreen, env1_reward_text, eval(['env1_text_xcoor_digit' int2str(env1_reward_text_digit)]), prob_text_y_coor, green);
-    Screen('DrawText',myscreen, env2_reward_text, eval(['env2_text_xcoor_digit' int2str(env2_reward_text_digit)]), prob_text_y_coor, green);
+    Screen('DrawText',myscreen, env1_reward_text, eval(['env1_text_xcoor_digit' int2str(env1_reward_text_digit)])-20, prob_text_y_coor, green);
+    Screen('DrawText',myscreen, env2_reward_text, eval(['env2_text_xcoor_digit' int2str(env2_reward_text_digit)])-20, prob_text_y_coor, green);
 end
 
 
@@ -745,5 +745,5 @@ function display_outcome_reward(env1_rew,env2_rew,resp,won_reward,within_functio
     outcome_text_coor=eval(['rew_outcome' int2str(resp) '_xcoor_digit' int2str(reward_text_digit)]);
 
     Screen('TextSize',myscreen,60);
-    Screen('DrawText',myscreen, outcome_text, outcome_text_coor, rew_outcome_y_coor, yellow);
+    Screen('DrawText',myscreen, outcome_text, outcome_text_coor-30, rew_outcome_y_coor, yellow);
 end

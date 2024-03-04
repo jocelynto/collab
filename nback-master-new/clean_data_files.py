@@ -4,27 +4,25 @@ import csv
 from os import listdir
 from os.path import isfile, join
 
-messypath = '../testing/' # change folder name when necessary
-cleanpath = '../testing/cleaned_logs'
+messypath = 'testing/' # change folder name when necessary
+cleanpath = 'testing/cleaned_logs'
 # in_folder = [f for f in listdir(mypath) if isfile(join(mypath, f)) and f.endswith('.csv')]
-in_folder = ['testing_nback-master-new_2024_Feb_29_1609']
-messy_in_folder = ['testing_nback-master-new_2024_Feb_29_1609.csv']
-clean_in_folder = ['testing_nback-master-new_2024_Feb_29_1609_cleaned.csv']
+# in_folder = ['testing_nback-master-new_2024_Feb_29_1609']
+messy_in_folder = ['2s_ZB216_nback-master-new_2024-03-04_15h29.25.634.csv']
+clean_in_folder = ['2s_ZB216_nback-master-new_2024-03-04_15h29.25.634_cleaned.csv']
 
-trial_types = pd.read_excel("../trialTypes_nback.xlsx")
+trial_types = pd.read_excel("``trialTypes_nback.xlsx")
 
 col_names = ['run', 'block', 'block_type', 'stim_type', 'stimulus', 'target', 'corr_ans', \
-             'stim_onset', 'stim_offset', 'stim_duration', 'iti_onset', 'iti_offset', 'iti_duration', \
+             'iti_onset', 'iti_offset', 'iti_duration', 'stim_onset', 'stim_offset', 'stim_duration', \
              'key_resp', 'key_resp_rt', 'corr_var', \
              'instr_onset', 'instr_offset', 'instr_duration', 'rest_onset', 'rest_offset', 'rest_duration']
 
 for file_no in range(len(messy_in_folder)):
-
     with open(messypath + messy_in_folder[file_no], "r") as file:
         df = pd.read_csv(file)
         total_runs = df['run_no'].dropna().unique().astype(int)
-
-    with open('../testing/cleaned_logs/testing_nback-master-new_2024_Feb_29_1609_cleaned.csv', 'w', newline='') as nf:
+    with open('testing/cleaned_logs/'+clean_in_folder[file_no], 'w', newline='') as nf:
         writer = csv.writer(nf, delimiter=',')
         writer.writerow(col_names)
 
@@ -90,7 +88,7 @@ for file_no in range(len(messy_in_folder)):
                         block_rest_duration = None
 
                     line = [run_no, block_no, block_type, stim_type, stimulus, target_type, corr_ans, \
-                            stim_onset, stim_offset, stim_duration, iti_onset, iti_offset, iti_duration, \
+                            iti_onset, iti_offset, iti_duration, stim_onset, stim_offset, stim_duration, \
                             resp_key, resp_rt, corr_var, \
                             block_instr_onset, block_instr_offset, block_instr_duration, \
                             block_rest_onset, block_rest_offset, block_rest_duration]
