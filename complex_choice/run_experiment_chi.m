@@ -128,11 +128,28 @@ try
 %     msg1 = [23526, 39511, 21363, 23559, 38283, 22987];
 %     DrawFormattedText(myscreen, msg1,'center','center',[255,255,255]);
 
-    wait_trigger = imread('pic/wait_trigger.png32');
-    Texture = Screen('MakeTexture', myscreen, wait_trigger);
-    im_size = size(wait_trigger);
+%     wait_trigger = imread('pic/wait_trigger.png32');
+%     Texture = Screen('MakeTexture', myscreen, wait_trigger);
+%     im_size = size(wait_trigger);
+%     im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+%     Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+    
+    % displaying instructions pic
+    run_prep = imread('pic/prac_prep.png32');
+    Texture = Screen('MakeTexture', myscreen, run_prep);
+    im_size = size(run_prep);
     im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
     Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+    
+    Screen('Flip',myscreen);
+    KbWait;
+    Screen('Flip',myscreen);
+
+    % wait for trigger
+
+    Screen('TextSize',myscreen,150);
+    Screen('TextFont', myscreen, 'Arial');
+    DrawFormattedText(myscreen,'+','center','center',[255,255,255]);
 
     Screen('Flip',myscreen);
     
@@ -157,15 +174,15 @@ try
 %     Screen('TextFont', myscreen, 'Arial');
 %     DrawFormattedText(myscreen,'1',x_center+135,'center',[255,255,255]);
    
-    run_prep = imread('pic/run_prep.png32');
-    Texture = Screen('MakeTexture', myscreen, run_prep);
-    im_size = size(run_prep);
-    im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
-    Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
-    
-    Screen('Flip',myscreen);
-    KbWait;
-    Screen('Flip',myscreen);
+%     run_prep = imread('pic/run_prep.png32');
+%     Texture = Screen('MakeTexture', myscreen, run_prep);
+%     im_size = size(run_prep);
+%     im_rect = [x_center-(im_size(2)/2), y_center-(im_size(1)/2), x_center+(im_size(2)/2), y_center+(im_size(1)/2)];
+%     Screen('DrawTexture', myscreen, Texture, [], im_rect, [], [0]);
+%     
+%     Screen('Flip',myscreen);
+%     KbWait;
+%     Screen('Flip',myscreen);
     
 
     for trial_no=1:length(all_trial_code)

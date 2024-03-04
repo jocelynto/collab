@@ -1,0 +1,204 @@
+2.3793 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.3800 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+10.3737 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000029D3DB7A4F0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000029D3DB7A490>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000029D3DB7A1C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000029DC7A9DF10>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3738 	EXP 	window1: mouseVisible = True
+10.3738 	EXP 	window1: backgroundImage = ''
+10.3738 	EXP 	window1: backgroundFit = 'none'
+10.3739 	EXP 	window1: mouseVisible = False
+10.3739 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.3739 	EXP 	window1: recordFrameIntervals = False
+10.5405 	EXP 	window1: recordFrameIntervals = True
+10.7247 	EXP 	Screen (0) actual frame rate measured at 59.82Hz
+10.7248 	EXP 	window1: recordFrameIntervals = False
+14.4722 	EXP 	Created trigger_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trigger_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗即將開始', units='height', win=Window(...), wrapWidth=1)
+14.5007 	EXP 	Created instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5023 	EXP 	Created prep_instr_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='prep_instr_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.5186 	EXP 	Created target_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='target_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5245 	EXP 	Created trial_fixation_1_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5357 	EXP 	Created image_1_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5390 	EXP 	Created trial_fixation_1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5503 	EXP 	Created image_1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5528 	EXP 	Created trial_fixation_1_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5660 	EXP 	Created image_1_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5685 	EXP 	Created trial_fixation_1_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5810 	EXP 	Created image_1_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5835 	EXP 	Created trial_fixation_1_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5970 	EXP 	Created image_1_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5994 	EXP 	Created trial_fixation_1_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6123 	EXP 	Created image_1_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.6146 	EXP 	Created trial_fixation_1_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-21.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6285 	EXP 	Created image_1_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-22.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.6309 	EXP 	Created trial_fixation_1_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-24.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6447 	EXP 	Created image_1_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-25.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.6471 	EXP 	Created trial_fixation_1_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-27.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6602 	EXP 	Created image_1_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-28.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.6626 	EXP 	Created trial_fixation_1_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-30.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_1_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6756 	EXP 	Created image_1_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-31.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_1_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.6768 	EXP 	Created prep_instr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='prep_instr_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.6901 	EXP 	Created target_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='target_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.6926 	EXP 	Created trial_fixation_2_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7056 	EXP 	Created image_2_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.7081 	EXP 	Created trial_fixation_2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7214 	EXP 	Created image_2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.7238 	EXP 	Created trial_fixation_2_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7369 	EXP 	Created image_2_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.7394 	EXP 	Created trial_fixation_2_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7521 	EXP 	Created image_2_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.7546 	EXP 	Created trial_fixation_2_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7679 	EXP 	Created image_2_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.7702 	EXP 	Created trial_fixation_2_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7835 	EXP 	Created image_2_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.7859 	EXP 	Created trial_fixation_2_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-21.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7987 	EXP 	Created image_2_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-22.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.8010 	EXP 	Created trial_fixation_2_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-24.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8147 	EXP 	Created image_2_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-25.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.8171 	EXP 	Created trial_fixation_2_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-27.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8302 	EXP 	Created image_2_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-28.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.8327 	EXP 	Created trial_fixation_2_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-30.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='trial_fixation_2_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8466 	EXP 	Created image_2_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-31.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.8543 	EXP 	Created rest_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rest_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='保持靜止', units='height', win=Window(...), wrapWidth=1)
+14.8614 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Songti SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='實驗完成', units='height', win=Window(...), wrapWidth=1)
+14.8708 	EXP 	trigger_txt: autoDraw = True
+19.8509 	EXP 	trigger_txt: autoDraw = False
+19.8509 	EXP 	instr_txt: autoDraw = True
+78.4198 	EXP 	Created sequence: sequential, trialTypes=1, nReps=8, seed=None
+78.4200 	EXP 	New trial (rep=0, index=0): None
+78.4666 	EXP 	instr_txt: autoDraw = False
+78.4666 	EXP 	prep_instr_1: height = 0.1
+78.4666 	EXP 	prep_instr_1: height = 0.1
+78.4666 	EXP 	prep_instr_1: height = 0.1
+78.4666 	EXP 	prep_instr_1: text = '兩項之前'
+78.4666 	EXP 	target_1: image = 'nback_stimuli/TO_014_TOOL14_BA.png'
+78.4666 	EXP 	image_1_1: image = 'nback_stimuli/TO_014_TOOL14_BA.png'
+78.4666 	EXP 	image_1_2: image = 'nback_stimuli/TO_013_TOOL13_BA.png'
+78.4666 	EXP 	image_1_3: image = 'nback_stimuli/TO_016_TOOL16_BA.png'
+78.4666 	EXP 	image_1_4: image = 'nback_stimuli/TO_014_TOOL14_BA.png'
+78.4666 	EXP 	image_1_5: image = 'nback_stimuli/TO_016_TOOL16_BA.png'
+78.4666 	EXP 	image_1_6: image = 'nback_stimuli/TO_018_TOOL18_BA.png'
+78.4666 	EXP 	image_1_7: image = 'nback_stimuli/TO_017_TOOL17_BA.png'
+78.4666 	EXP 	image_1_8: image = 'nback_stimuli/TO_018_TOOL18_BA.png'
+78.4666 	EXP 	image_1_9: image = 'nback_stimuli/TO_015_TOOL15_BA.png'
+78.4666 	EXP 	image_1_10: image = 'nback_stimuli/TO_017_TOOL17_BA.png'
+78.4666 	EXP 	prep_instr_1: autoDraw = True
+78.4666 	EXP 	target_1: autoDraw = True
+80.9714 	EXP 	prep_instr_1: autoDraw = False
+80.9714 	EXP 	target_1: autoDraw = False
+80.9714 	EXP 	trial_fixation_1_1: autoDraw = True
+81.4718 	EXP 	trial_fixation_1_1: autoDraw = False
+81.4718 	EXP 	image_1_1: autoDraw = True
+83.4742 	EXP 	image_1_1: autoDraw = False
+83.4742 	EXP 	trial_fixation_1_2: autoDraw = True
+83.9748 	EXP 	trial_fixation_1_2: autoDraw = False
+83.9748 	EXP 	image_1_2: autoDraw = True
+85.9771 	EXP 	image_1_2: autoDraw = False
+85.9771 	EXP 	trial_fixation_1_3: autoDraw = True
+86.4777 	EXP 	trial_fixation_1_3: autoDraw = False
+86.4777 	EXP 	image_1_3: autoDraw = True
+88.4799 	EXP 	image_1_3: autoDraw = False
+88.4799 	EXP 	trial_fixation_1_4: autoDraw = True
+88.9805 	EXP 	trial_fixation_1_4: autoDraw = False
+88.9805 	EXP 	image_1_4: autoDraw = True
+90.9828 	EXP 	image_1_4: autoDraw = False
+90.9828 	EXP 	trial_fixation_1_5: autoDraw = True
+91.4834 	EXP 	trial_fixation_1_5: autoDraw = False
+91.4834 	EXP 	image_1_5: autoDraw = True
+93.4857 	EXP 	image_1_5: autoDraw = False
+93.4857 	EXP 	trial_fixation_1_6: autoDraw = True
+93.9863 	EXP 	trial_fixation_1_6: autoDraw = False
+93.9863 	EXP 	image_1_6: autoDraw = True
+95.9885 	EXP 	image_1_6: autoDraw = False
+95.9885 	EXP 	trial_fixation_1_7: autoDraw = True
+96.4891 	EXP 	trial_fixation_1_7: autoDraw = False
+96.4891 	EXP 	image_1_7: autoDraw = True
+98.4918 	EXP 	image_1_7: autoDraw = False
+98.4918 	EXP 	trial_fixation_1_8: autoDraw = True
+98.9921 	EXP 	trial_fixation_1_8: autoDraw = False
+98.9921 	EXP 	image_1_8: autoDraw = True
+100.9943 	EXP 	image_1_8: autoDraw = False
+100.9943 	EXP 	trial_fixation_1_9: autoDraw = True
+101.4949 	EXP 	trial_fixation_1_9: autoDraw = False
+101.4949 	EXP 	image_1_9: autoDraw = True
+103.4972 	EXP 	image_1_9: autoDraw = False
+103.4972 	EXP 	trial_fixation_1_10: autoDraw = True
+103.9978 	EXP 	trial_fixation_1_10: autoDraw = False
+103.9978 	EXP 	image_1_10: autoDraw = True
+106.0581 	EXP 	image_1_10: autoDraw = False
+106.0581 	EXP 	prep_instr_1: autoDraw = False
+106.0581 	EXP 	target_1: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_1: autoDraw = False
+106.0581 	EXP 	image_1_1: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_2: autoDraw = False
+106.0581 	EXP 	image_1_2: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_3: autoDraw = False
+106.0581 	EXP 	image_1_3: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_4: autoDraw = False
+106.0581 	EXP 	image_1_4: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_5: autoDraw = False
+106.0581 	EXP 	image_1_5: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_6: autoDraw = False
+106.0581 	EXP 	image_1_6: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_7: autoDraw = False
+106.0581 	EXP 	image_1_7: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_8: autoDraw = False
+106.0581 	EXP 	image_1_8: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_9: autoDraw = False
+106.0581 	EXP 	image_1_9: autoDraw = False
+106.0581 	EXP 	trial_fixation_1_10: autoDraw = False
+106.0581 	EXP 	image_1_10: autoDraw = False
+106.0581 	EXP 	prep_instr_2: height = 0.1
+106.0581 	EXP 	prep_instr_2: height = 0.1
+106.0581 	EXP 	prep_instr_2: height = 0.1
+106.0581 	EXP 	prep_instr_2: text = '目標'
+106.0581 	EXP 	target_2: image = 'nback_stimuli/BP_013_BP7_BA.png'
+106.0581 	EXP 	image_2_1: image = 'nback_stimuli/BP_015_H10-T_BA.png'
+106.0581 	EXP 	image_2_2: image = 'nback_stimuli/BP_018_H13-T_BA.png'
+106.0581 	EXP 	image_2_3: image = 'nback_stimuli/BP_014_BP9_BA.png'
+106.0581 	EXP 	image_2_4: image = 'nback_stimuli/BP_018_H13-T_BA.png'
+106.0581 	EXP 	image_2_5: image = 'nback_stimuli/BP_013_BP7_BA.png'
+106.0581 	EXP 	image_2_6: image = 'nback_stimuli/BP_015_H10-T_BA.png'
+106.0581 	EXP 	image_2_7: image = 'nback_stimuli/BP_016_H11-T_BA.png'
+106.0581 	EXP 	image_2_8: image = 'nback_stimuli/BP_013_BP7_BA.png'
+106.0581 	EXP 	image_2_9: image = 'nback_stimuli/BP_017_H12-T_BA.png'
+106.0581 	EXP 	image_2_10: image = 'nback_stimuli/BP_014_BP9_BA.png'
+106.0581 	EXP 	prep_instr_2: autoDraw = True
+106.0581 	EXP 	target_2: autoDraw = True
+108.5531 	EXP 	prep_instr_2: autoDraw = False
+108.5531 	EXP 	target_2: autoDraw = False
+108.5531 	EXP 	trial_fixation_2_1: autoDraw = True
+109.0535 	EXP 	trial_fixation_2_1: autoDraw = False
+109.0535 	EXP 	image_2_1: autoDraw = True
+111.0561 	EXP 	image_2_1: autoDraw = False
+111.0561 	EXP 	trial_fixation_2_2: autoDraw = True
+111.5565 	EXP 	trial_fixation_2_2: autoDraw = False
+111.5565 	EXP 	image_2_2: autoDraw = True
+113.5590 	EXP 	image_2_2: autoDraw = False
+113.5590 	EXP 	trial_fixation_2_3: autoDraw = True
+114.0593 	EXP 	trial_fixation_2_3: autoDraw = False
+114.0593 	EXP 	image_2_3: autoDraw = True
+116.0620 	EXP 	image_2_3: autoDraw = False
+116.0620 	EXP 	trial_fixation_2_4: autoDraw = True
+116.5623 	EXP 	trial_fixation_2_4: autoDraw = False
+116.5623 	EXP 	image_2_4: autoDraw = True
+118.5645 	EXP 	image_2_4: autoDraw = False
+118.5645 	EXP 	trial_fixation_2_5: autoDraw = True
+119.0653 	EXP 	trial_fixation_2_5: autoDraw = False
+119.0653 	EXP 	image_2_5: autoDraw = True
+121.0687 	EXP 	image_2_5: autoDraw = False
+121.0687 	EXP 	trial_fixation_2_6: autoDraw = True
+121.5696 	EXP 	trial_fixation_2_6: autoDraw = False
+121.5696 	EXP 	image_2_6: autoDraw = True
+123.5715 	EXP 	image_2_6: autoDraw = False
+123.5715 	EXP 	trial_fixation_2_7: autoDraw = True
+124.0712 	EXP 	trial_fixation_2_7: autoDraw = False
+124.0712 	EXP 	image_2_7: autoDraw = True
+126.0733 	EXP 	image_2_7: autoDraw = False
+126.0733 	EXP 	trial_fixation_2_8: autoDraw = True
+126.5740 	EXP 	trial_fixation_2_8: autoDraw = False
+126.5740 	EXP 	image_2_8: autoDraw = True
+128.5761 	EXP 	image_2_8: autoDraw = False
+128.5761 	EXP 	trial_fixation_2_9: autoDraw = True
+129.0766 	EXP 	trial_fixation_2_9: autoDraw = False
+129.0766 	EXP 	image_2_9: autoDraw = True
+131.0790 	EXP 	image_2_9: autoDraw = False
+131.0790 	EXP 	trial_fixation_2_10: autoDraw = True
+131.5113 	EXP 	window1: mouseVisible = True
