@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.1.3),
-    on February 28, 2024, at 11:42
+    on March 06, 2024, at 11:13
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -59,7 +59,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\jocel\\Documents\\Collab project Marco Pang\\nback-practise\\nback-practise_lastrun.py',
+    originPath='C:\\Users\\jocel\\Documents\\collab_mri_tasks\\nback-practise\\nback-practise_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -694,26 +694,23 @@ for thisBlock in block:
         # Run 'End Routine' code from corr_counting
         try:
             if key_resp.keys == 'left':
-                print('detect keys working')
                 if CorrectResponse == 'target':
-                    print('detect CorrResponse working')
                     thisExp.addData('corr_var', 1)
                     corr_counter += 1
                 elif CorrectResponse == 'nontarget':
-                    print('detect CorrResponse working')
                     thisExp.addData('corr_var', 0)
             elif key_resp.keys == 'right':
-                print('detect keys working')
                 if CorrectResponse == 'target':
-                    print('detect CorrResponse working')
                     thisExp.addData('corr_var', 0)
                 elif CorrectResponse == 'nontarget':
-                    print('detect CorrResponse working')
                     thisExp.addData('corr_var', 1)
                     corr_counter += 1
         except TypeError:
-            print('everything type error')
             thisExp.addData('corr_var', 0)
+        
+        if int(trials.thisN) == 9:
+            print('counter', BlockType, '=', corr_counter)
+            corr_counter = 0
         # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
         if routineForceEnded:
             routineTimer.reset()
