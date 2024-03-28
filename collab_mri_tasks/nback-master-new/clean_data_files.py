@@ -22,7 +22,7 @@ for file_no in range(len(in_folder)):
     with open(messypath + in_folder[file_no], "r") as file:
         df = pd.read_csv(file)
         total_runs = df['run_no'].dropna().unique().astype(int)
-    with open(cleanpath + in_folder[file_no], 'w', newline='') as nf:
+    with open(cleanpath + 'cleaned' + in_folder[file_no], 'w', newline='') as nf:
         writer = csv.writer(nf, delimiter=',')
         writer.writerow(col_names)
 
