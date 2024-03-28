@@ -13,7 +13,8 @@ pygame.font.init()
 pygame.joystick.init()
 
 # Pygame Stuff
-FPS = 30  # frames per second setting
+FPS = 100
+# FPS = 30  # frames per second setting
 fpsClock = pygame.time.Clock()
 
 # set up the window
