@@ -90,7 +90,15 @@ axis0_0 = None
 
 isDataRecording = False
 
-f = open('pressi.csv', 'w')
+### COMMENT FOLLOWING LINES IF CODE DOESN'T WORK
+
+data_path = "pedal_data/"
+subj_code = str(input("Subject code: "))
+f = open(data_path + subj_code + '.csv', 'w')
+
+###
+
+# f = open('pressi.csv', 'w') ### UNCOMMENT IF ABOVE LINES DON'T WORK
 f.write('time')
 f.write(',')
 f.write('Left')
